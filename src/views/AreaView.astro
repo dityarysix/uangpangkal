@@ -43,10 +43,16 @@ const range = kinds.length >= 3
   ? (id ? `, mulai dari ${kinds[0]} hingga ${kinds[1]}` : `, from ${kinds[0]} to ${kinds[1]}`)
   : kinds.length === 1 ? (id ? `, termasuk ${kinds[0]}` : `, including ${kinds[0]}`) : '';
 const cityNames = join(byCity.map((g) => g.city));
-// SD figures: latest SD fee entry per school; zero (free-programme) amounts are excluded from ranges.
-const sdLatest = schools.map((s) => (s.data.fees ?? []).filter((f: any) => f.level === 'SD').sort((a: any, b: any) => b.academicYear.localeCompare(a.academicYear))[0]).filter(Boolean);
-const entries = sdLatest.map((f: any) => f.entryFee?.min).filter((v: any) => typeof v === 'number' && v > 0);
-const spps = sdLatest.map((f: any) => f.tuition).filter((t: any) => t && t.period === 'month' && t.amount > 0).map((t: any) => t.amount);
+// Per level (SD, SMP, SMA): latest fee entry per school; zero (free-programme) amounts are excluded from ranges.
+const levelStats = (lv: string) => {
+  const latest = schools.map((s) => (s.data.fees ?? []).filter((f: any) => f.level === lv).sort((a: any, b: any) => b.academicYear.localeCompare(a.academicYear))[0]).filter(Boolean);
+  return {
+    lv,
+    entries: latest.map((f: any) => f.entryFee?.min).filter((v: any) => typeof v === 'number' && v > 0),
+    spps: latest.map((f: any) => f.tuition).filter((t: any) => t && t.period === 'month' && t.amount > 0).map((t: any) => t.amount),
+  };
+};
+const levels = ['SD', 'SMP', 'SMA'].map(levelStats);
 const [y1] = CURRENT_YEAR.split('/').map(Number);
 const prevYear = `${y1 - 1}/${y1}`;
 const recent = schools.filter((s) => (s.data.fees ?? []).some((f: any) => f.academicYear >= prevYear)).length;
@@ -54,8 +60,19 @@ const p1 = id
   ? `${area.name.id} punya pilihan sekolah swasta yang ${kinds.length >= 3 ? 'sangat beragam dan berwarna' : 'beragam'}${range}. Di halaman ini kami merangkum uang pangkal, SPP, dan prosedur pendaftaran ${schools.length} sekolah swasta di ${cityNames}.`
   : `${area.name.en} offers a ${kinds.length >= 3 ? 'wide and colourful' : 'varied'} choice of private schools${range}. This page summarises entry fees, tuition and admission procedures for ${schools.length} private schools in ${cityNames}.`;
 const p2parts: string[] = [];
-if (entries.length >= 2) p2parts.push(id ? `Untuk jenjang SD, uang pangkal yang tercatat berkisar ${money(Math.min(...entries))} hingga ${money(Math.max(...entries))}.` : `For primary school (SD), recorded entry fees range from ${money(Math.min(...entries))} to ${money(Math.max(...entries))}.`);
-if (spps.length >= 2) p2parts.push(id ? `SPP bulanan umumnya ${money(Math.min(...spps))} sampai ${money(Math.max(...spps))}.` : `Monthly tuition is generally ${money(Math.min(...spps))} to ${money(Math.max(...spps))}.`);
+for (const { lv, entries, spps } of levels) {
+  const e = entries.length >= 2, m = spps.length >= 2;
+  if (!e && !m) continue;
+  if (id) {
+    const a = e ? `uang pangkal yang tercatat berkisar ${money(Math.min(...entries))} hingga ${money(Math.max(...entries))}` : '';
+    const b = m ? `SPP bulanan umumnya ${money(Math.min(...spps))} sampai ${money(Math.max(...spps))}` : '';
+    p2parts.push(e && m ? `Untuk jenjang ${lv}, ${a}. ${b}.` : `Untuk jenjang ${lv}, ${a || b}.`);
+  } else {
+    const a = e ? `recorded entry fees range from ${money(Math.min(...entries))} to ${money(Math.max(...entries))}` : '';
+    const b = m ? `monthly tuition is generally ${money(Math.min(...spps))} to ${money(Math.max(...spps))}` : '';
+    p2parts.push(e && m ? `For ${lv}, ${a}, and ${b}.` : `For ${lv}, ${a || b}.`);
+  }
+}
 if (recent > 0) p2parts.push(id ? `Sebanyak ${recent} sekolah sudah memiliki data tahun ajaran ${prevYear} atau lebih baru.` : `${recent} schools already have data for the ${prevYear} school year or later.`);
 const p3 = id
   ? 'Pendaftaran sekolah swasta biasanya dibuka sejak September–Oktober, jauh sebelum SPMB sekolah negeri, dan banyak sekolah memberi potongan uang pangkal untuk gelombang awal. Setiap angka di bawah mencantumkan tahun ajaran dan sumbernya. Selalu konfirmasi biaya terbaru langsung ke sekolah.'
