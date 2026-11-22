@@ -77,7 +77,8 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
 <style>
   .hero { padding: 1.5rem 0 0.5rem; max-width: 720px; }
   .lead { font-size: 1.1rem; color: var(--muted); margin: 0; }
-  .areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin-top: 1.6rem; }
+  .areas { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.7rem; margin-top: 1.6rem; }
+  @media (max-width: 980px) { .areas { grid-template-columns: 1fr 1fr; } }
   @media (max-width: 720px) { .areas { grid-template-columns: 1fr 1fr; gap: 0.5rem; } .area { padding: 0.7rem 0.8rem; } }
   .area { display: flex; flex-direction: column; padding: 0.9rem 1rem; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--teal); color: var(--navy); text-decoration: none; transition: border-color .15s, box-shadow .15s; }
   .area .muted { font-size: 0.85rem; }

@@ -31,12 +31,17 @@ export const AREAS = [
   {
     slug: 'semarang-raya',
     name: { id: 'Semarang Raya', en: 'Greater Semarang' },
-    cities: ['Kota Semarang', 'Kabupaten Semarang', 'Salatiga', 'Kabupaten Kendal', 'Kabupaten Demak'],
+    cities: ['Kota Semarang', 'Kabupaten Semarang', 'Salatiga', 'Kabupaten Kendal', 'Kabupaten Demak', 'Kabupaten Kudus'],
   },
   {
     slug: 'surabaya-raya',
     name: { id: 'Surabaya Raya', en: 'Greater Surabaya' },
     cities: ['Surabaya', 'Sidoarjo', 'Gresik', 'Kota Mojokerto', 'Kabupaten Mojokerto', 'Jombang'],
+  },
+  {
+    slug: 'malang-raya',
+    name: { id: 'Malang Raya', en: 'Greater Malang' },
+    cities: ['Kota Malang', 'Kabupaten Malang', 'Kota Blitar', 'Kabupaten Blitar', 'Kota Pasuruan', 'Kabupaten Pasuruan', 'Tulungagung'],
   },
   {
     slug: 'yogyakarta-raya',
