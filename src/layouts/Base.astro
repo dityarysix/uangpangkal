@@ -11,7 +11,7 @@ const { lang, title, description, altPath } = Astro.props;
 const other: Lang = lang === 'id' ? 'en' : 'id';
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const alt = new URL(altPath, Astro.site);
-const ADSENSE_CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT; // e.g. ca-pub-XXXXXXXX
+import { ADSENSE_CLIENT } from '../lib/config';
 ---
 <!doctype html>
 <html lang={lang}>
@@ -30,7 +30,7 @@ const ADSENSE_CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT; // e.g. ca-pub-XXX
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={lang === 'id' ? 'id_ID' : 'en_US'} />
     {ADSENSE_CLIENT && (
-      <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`} crossorigin="anonymous"></script>
+      <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`} crossorigin="anonymous"></script>
     )}
     <slot name="head" />
   </head>

@@ -1,17 +1,15 @@
 ---
-/** Ad placeholder. Shows a real AdSense unit once PUBLIC_ADSENSE_CLIENT and a slot id are set. */
+/** Ad unit. Renders an AdSense unit when a slot id is given; otherwise nothing. */
 interface Props { slot?: string; label?: string }
 const { slot, label = 'Iklan · Advertisement' } = Astro.props;
-const client = import.meta.env.PUBLIC_ADSENSE_CLIENT;
+import { ADSENSE_CLIENT as client } from '../lib/config';
 ---
 {client && slot ? (
   <div class="ad">
     <ins class="adsbygoogle" style="display:block" data-ad-client={client} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true"></ins>
     <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
-) : (
-  <div class="ad ad-placeholder" aria-hidden="true">{label}</div>
-)}
+) : null}
 <style>
   .ad { margin: 1.5rem 0; min-height: 90px; }
   .ad-placeholder { display: grid; place-items: center; border: 1px dashed var(--line); border-radius: var(--radius); color: #aab; font-size: 0.75rem; }
