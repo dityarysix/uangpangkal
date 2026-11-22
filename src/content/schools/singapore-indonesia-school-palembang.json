@@ -1,0 +1,106 @@
+{
+  "name": "Singapore Indonesia School (SIS) Palembang",
+  "city": "Kota Palembang",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "curriculum": [
+    "Cambridge",
+    "Internasional"
+  ],
+  "website": "https://sisschools.org",
+  "phone": "(0711) 562 6778 / +62 811-7133-331",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "registrationFee": 1500000,
+      "entryFee": {
+        "min": 6000000,
+        "max": 23600000
+      },
+      "tuition": {
+        "amount": 22560000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Kindergarten 1: development Rp12.000.000, tuition Rp22.560.000/tahun. Nursery 1 Rp23,6 jt + Rp19,2 jt; K2 Rp6 jt + Rp23,64 jt. Development fee dibayar sekali di awal masuk (lumpsum), besarnya tergantung kelas masuk. Tuition bisa dibayar bulanan, per semester, atau tahunan.",
+        "en": "Kindergarten 1: development Rp12,000,000, tuition Rp22,560,000/yr. Nursery 1 Rp23.6M + Rp19.2M; K2 Rp6M + Rp23.64M. Development fee is paid once on entry (lump sum) and depends on the entry grade. Tuition can be paid monthly, per semester or yearly."
+      },
+      "source": {
+        "title": "SIS Palembang School Fee Structure 2026–2027 (PDF resmi)",
+        "url": "https://sisschools.org/assets/tuition-fee/SIS-Palembang-School-Fee.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 2000000,
+      "entryFee": {
+        "min": 6600000,
+        "max": 39600000
+      },
+      "tuition": {
+        "amount": 28320000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Primary 1: development Rp39.600.000, tuition Rp28.320.000/tahun (total Rp67,92 jt). Primary 6: Rp6,6 jt + Rp34,98 jt. Development fee dibayar sekali di awal masuk (lumpsum), besarnya tergantung kelas masuk. Tuition bisa dibayar bulanan, per semester, atau tahunan.",
+        "en": "Primary 1: development Rp39,600,000, tuition Rp28,320,000/yr (total Rp67.92M). Primary 6: Rp6.6M + Rp34.98M. Development fee is paid once on entry (lump sum) and depends on the entry grade. Tuition can be paid monthly, per semester or yearly."
+      },
+      "source": {
+        "title": "SIS Palembang School Fee Structure 2026–2027 (PDF resmi)",
+        "url": "https://sisschools.org/assets/tuition-fee/SIS-Palembang-School-Fee.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 2500000,
+      "entryFee": {
+        "min": 18000000,
+        "max": 36000000
+      },
+      "tuition": {
+        "amount": 35700000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Secondary 1: development Rp36.000.000, tuition Rp35.700.000/tahun (total Rp71,7 jt). Secondary 3: Rp18 jt + Rp41,7 jt. Development fee dibayar sekali di awal masuk (lumpsum), besarnya tergantung kelas masuk. Tuition bisa dibayar bulanan, per semester, atau tahunan.",
+        "en": "Secondary 1: development Rp36,000,000, tuition Rp35,700,000/yr (total Rp71.7M). Secondary 3: Rp18M + Rp41.7M. Development fee is paid once on entry (lump sum) and depends on the entry grade. Tuition can be paid monthly, per semester or yearly."
+      },
+      "source": {
+        "title": "SIS Palembang School Fee Structure 2026–2027 (PDF resmi)",
+        "url": "https://sisschools.org/assets/tuition-fee/SIS-Palembang-School-Fee.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 2500000,
+      "entryFee": {
+        "min": 9000000,
+        "max": 20000000
+      },
+      "tuition": {
+        "amount": 47700000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Junior College 1: development Rp20.000.000, tuition Rp47.700.000/tahun. Secondary 4: Rp9 jt + Rp44,7 jt. Development fee dibayar sekali di awal masuk (lumpsum), besarnya tergantung kelas masuk. Tuition bisa dibayar bulanan, per semester, atau tahunan.",
+        "en": "Junior College 1: development Rp20,000,000, tuition Rp47,700,000/yr. Secondary 4: Rp9M + Rp44.7M. Development fee is paid once on entry (lump sum) and depends on the entry grade. Tuition can be paid monthly, per semester or yearly."
+      },
+      "source": {
+        "title": "SIS Palembang School Fee Structure 2026–2027 (PDF resmi)",
+        "url": "https://sisschools.org/assets/tuition-fee/SIS-Palembang-School-Fee.pdf"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

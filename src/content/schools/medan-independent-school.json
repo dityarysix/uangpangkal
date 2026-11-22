@@ -2,15 +2,45 @@
   "name": "Medan Independent School",
   "city": "Kota Medan",
   "district": "Medan Tuntungan",
-  "address": "Jl. Tali Air No.5, Mangga, Medan Tuntungan, Kota Medan",
+  "address": "Jl. Jamin Ginting Km 10 / Jl. Tali Air No.5, Mangga, Medan Tuntungan, Kota Medan",
   "levels": [
-    "SD"
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
   ],
   "curriculum": [
     "IB",
     "Internasional"
   ],
+  "website": "https://mismedan.org",
   "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 56606000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Capital fee per tahun",
+            "en": "Capital fee per year"
+          },
+          "amount": 25000000
+        }
+      ],
+      "notes": {
+        "id": "Tuition tahunan K1–K2 Rp56.606.000; K3 Rp108.723.000. Biaya pendaftaran Rp45.000.000 sekali untuk siswa baru (K3 ke atas). Capital fee Rp25.000.000 per tahun (wajib). Kurs dihitung Rp18.000/USD dan disesuaikan tiap term. Diskon sibling 5%.",
+        "en": "Annual tuition K1–K2 Rp56,606,000; K3 Rp108,723,000. One-time registration fee Rp45,000,000 for new students (K3 and above). Capital fee Rp25,000,000 per year (mandatory). Rate based on IDR 18,000/USD, adjusted each term. 5% sibling discount."
+      },
+      "source": {
+        "title": "Tuition Payment Policy 2026–2027 — Medan Independent School (PDF resmi)",
+        "url": "https://mismedan.org/wp-content/uploads/2026/05/2026-2027-Tuition-Fee-Policy.pdf"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2023/2024",
@@ -37,6 +67,87 @@
         "title": "20 SD Negeri dan Swasta Medan Akreditasi A, Lengkap dengan Alamat & Estimasi Biaya (HaiBunda)",
         "url": "https://www.haibunda.com/parenting/20231024093600-61-319347/20-sd-negeri-dan-swasta-medan-akreditasi-a-lengkap-dengan-alamat-estimasi-biaya",
         "published": "2023-10-25"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 45000000,
+      "tuition": {
+        "amount": 171668000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Capital fee per tahun",
+            "en": "Capital fee per year"
+          },
+          "amount": 25000000
+        }
+      ],
+      "notes": {
+        "id": "Tuition tahunan Grade 1–2 Rp171.668.000; Grade 3–4 Rp206.001.000; Grade 5–6 Rp240.335.000. Biaya pendaftaran Rp45.000.000 sekali untuk siswa baru (K3 ke atas). Capital fee Rp25.000.000 per tahun (wajib). Kurs dihitung Rp18.000/USD dan disesuaikan tiap term. Diskon sibling 5%.",
+        "en": "Annual tuition Grades 1–2 Rp171,668,000; 3–4 Rp206,001,000; 5–6 Rp240,335,000. One-time registration fee Rp45,000,000 for new students (K3 and above). Capital fee Rp25,000,000 per year (mandatory). Rate based on IDR 18,000/USD, adjusted each term. 5% sibling discount."
+      },
+      "source": {
+        "title": "Tuition Payment Policy 2026–2027 — Medan Independent School (PDF resmi)",
+        "url": "https://mismedan.org/wp-content/uploads/2026/05/2026-2027-Tuition-Fee-Policy.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 45000000,
+      "tuition": {
+        "amount": 257501000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Capital fee per tahun",
+            "en": "Capital fee per year"
+          },
+          "amount": 25000000
+        }
+      ],
+      "notes": {
+        "id": "Tuition tahunan Grade 7–8 Rp257.501.000; Grade 9 Rp274.668.000. Biaya pendaftaran Rp45.000.000 sekali untuk siswa baru (K3 ke atas). Capital fee Rp25.000.000 per tahun (wajib). Kurs dihitung Rp18.000/USD dan disesuaikan tiap term. Diskon sibling 5%.",
+        "en": "Annual tuition Grades 7–8 Rp257,501,000; Grade 9 Rp274,668,000. One-time registration fee Rp45,000,000 for new students (K3 and above). Capital fee Rp25,000,000 per year (mandatory). Rate based on IDR 18,000/USD, adjusted each term. 5% sibling discount."
+      },
+      "source": {
+        "title": "Tuition Payment Policy 2026–2027 — Medan Independent School (PDF resmi)",
+        "url": "https://mismedan.org/wp-content/uploads/2026/05/2026-2027-Tuition-Fee-Policy.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 45000000,
+      "tuition": {
+        "amount": 274668000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Capital fee per tahun",
+            "en": "Capital fee per year"
+          },
+          "amount": 25000000
+        }
+      ],
+      "notes": {
+        "id": "Tuition tahunan Grade 10 Rp274.668.000; Grade 11–12 (IB DP) Rp286.112.000. Biaya ujian IB DP sekitar Rp18.000.000. Biaya pendaftaran Rp45.000.000 sekali untuk siswa baru (K3 ke atas). Capital fee Rp25.000.000 per tahun (wajib). Kurs dihitung Rp18.000/USD dan disesuaikan tiap term. Diskon sibling 5%.",
+        "en": "Annual tuition Grade 10 Rp274,668,000; Grades 11–12 (IB DP) Rp286,112,000. IB DP exam fees about Rp18,000,000. One-time registration fee Rp45,000,000 for new students (K3 and above). Capital fee Rp25,000,000 per year (mandatory). Rate based on IDR 18,000/USD, adjusted each term. 5% sibling discount."
+      },
+      "source": {
+        "title": "Tuition Payment Policy 2026–2027 — Medan Independent School (PDF resmi)",
+        "url": "https://mismedan.org/wp-content/uploads/2026/05/2026-2027-Tuition-Fee-Policy.pdf"
       },
       "checked": "2026-11-22"
     }
