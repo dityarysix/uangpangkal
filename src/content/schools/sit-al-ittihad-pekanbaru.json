@@ -1,0 +1,251 @@
+{
+  "name": "Sekolah Islam Terpadu Al-Ittihad Pekanbaru",
+  "city": "Kota Pekanbaru",
+  "district": "Rumbai",
+  "address": "Komplek Damar No.608, Lembah Damai, Rumbai, Pekanbaru (sekretariat YKPI Al-Ittihad)",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://ykpialittihad.or.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 325000,
+      "entryFee": {
+        "min": 8600000,
+        "max": 8600000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 900000
+        }
+      ],
+      "notes": {
+        "id": "TKIT. Uang pangkal Rp8.600.000 (umum) / Rp8.600.000 (alumni). Uang komite sesuai kesepakatan orang tua. SPP termasuk snack.",
+        "en": "TKIT. Entry fee Rp8,600,000 (general) / Rp8,600,000 (alumni). Committee fee by parents' agreement. Tuition includes snacks."
+      },
+      "source": {
+        "title": "SPMB TKIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-tkit-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 325000,
+      "entryFee": {
+        "min": 14000000,
+        "max": 16000000
+      },
+      "tuition": {
+        "amount": 1400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 950000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1175000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 750000
+        }
+      ],
+      "notes": {
+        "id": "SDIT. Uang pangkal Rp16.000.000 (umum) / Rp14.000.000 (alumni). Uang komite sesuai kesepakatan orang tua.",
+        "en": "SDIT. Entry fee Rp16,000,000 (general) / Rp14,000,000 (alumni). Committee fee by parents' agreement."
+      },
+      "source": {
+        "title": "SPMB SDIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-sdit-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 325000,
+      "entryFee": {
+        "min": 13000000,
+        "max": 14000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1250000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1975000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 950000
+        }
+      ],
+      "notes": {
+        "id": "SMPIT. Uang pangkal Rp14.000.000 (umum) / Rp13.000.000 (alumni). Uang komite sesuai kesepakatan orang tua.",
+        "en": "SMPIT. Entry fee Rp14,000,000 (general) / Rp13,000,000 (alumni). Committee fee by parents' agreement."
+      },
+      "source": {
+        "title": "SPMB SMPIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-smpit-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 325000,
+      "entryFee": {
+        "min": 14000000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1650000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2200000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1600000
+        }
+      ],
+      "notes": {
+        "id": "SMAIT. Uang pangkal Rp15.000.000 (umum) / Rp14.000.000 (alumni). Uang komite sesuai kesepakatan orang tua.",
+        "en": "SMAIT. Entry fee Rp15,000,000 (general) / Rp14,000,000 (alumni). Committee fee by parents' agreement."
+      },
+      "source": {
+        "title": "SPMB SMAIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-smait-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Gelombang I: daftar 14 Okt 2026–5 Feb 2027, observasi 6 Feb 2027. Gelombang II: 1 Mar–14 Mei 2027, observasi 15 Mei 2027.",
+        "en": "Wave I: register 14 Oct 2026–5 Feb 2027, observation 6 Feb 2027. Wave II: 1 Mar–14 May 2027, observation 15 May 2027."
+      },
+      "steps": [],
+      "documents": [],
+      "source": {
+        "title": "SPMB TKIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-tkit-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Daftar 14 Okt 2026–25 Jan 2027 (internal s.d. 11 Jan); psikotes 16/30 Jan 2027; pengumuman 15/24 Feb 2027.",
+        "en": "Register 14 Oct 2026–25 Jan 2027 (internal until 11 Jan); psychological test 16/30 Jan 2027; results 15/24 Feb 2027."
+      },
+      "steps": [],
+      "documents": [],
+      "source": {
+        "title": "SPMB SDIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-sdit-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Daftar 14 Okt 2026–7 Jan 2027; tes akademik & interview 9 Jan 2027; psikotes 10 Jan 2027; pengumuman 28 Feb 2027.",
+        "en": "Register 14 Oct 2026–7 Jan 2027; academic test & interview 9 Jan 2027; psychological test 10 Jan 2027; results 28 Feb 2027."
+      },
+      "steps": [],
+      "documents": [],
+      "source": {
+        "title": "SPMB SMPIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-smpit-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Gelombang I: 14 Okt–28 Des 2026 (tes 9–10 Jan 2027). Gelombang II: 2 Feb–31 Mar 2027 (tes 3–4 Apr 2027).",
+        "en": "Wave I: 14 Oct–28 Dec 2026 (tests 9–10 Jan 2027). Wave II: 2 Feb–31 Mar 2027 (tests 3–4 Apr 2027)."
+      },
+      "steps": [],
+      "documents": [],
+      "source": {
+        "title": "SPMB SMAIT Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-smait-al-ittihad/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

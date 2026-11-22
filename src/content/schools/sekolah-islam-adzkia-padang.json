@@ -1,0 +1,178 @@
+{
+  "name": "Sekolah Islam Adzkia Padang",
+  "city": "Kota Padang",
+  "district": "Kuranji",
+  "address": "Jl. Taratak Paneh No.7, Kuranji, Kota Padang (kantor pusat)",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://spmb.adzkiasumbar.or.id",
+  "phone": "(0751) 498 901",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 1500000,
+        "max": 3000000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang alat",
+            "en": "Equipment"
+          },
+          "amount": 2200000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Qardh al-hasan (titipan, dikembalikan setelah tamat)",
+            "en": "Qardh al-hasan deposit (refunded on graduation)"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "TKIT Adzkia 1, Plus dan 5: pembangunan Rp2.000.000 (1 shift) / Rp2.500.000 (full day), SPP Rp750.000 / Rp1.200.000. TKIT Adzkia 2: pembangunan Rp1.500.000. TKIT Adzkia 3: Rp2.500.000 / Rp3.000.000, SPP Rp800.000 / Rp1.250.000. Biaya belum termasuk seragam (dipesan di Koperasi Adzkia).",
+        "en": "TKIT Adzkia 1, Plus and 5: building fee Rp2,000,000 (1 shift) / Rp2,500,000 (full day), tuition Rp750,000 / Rp1,200,000. TKIT Adzkia 2: building Rp1,500,000. TKIT Adzkia 3: Rp2,500,000 / Rp3,000,000, tuition Rp800,000 / Rp1,250,000. Fees exclude uniforms (ordered from the Adzkia cooperative)."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB Adzkia 2026-2027 — Yayasan Adzkia Sumatera Barat (situs resmi)",
+        "url": "https://spmb.adzkiasumbar.or.id/index.php?page=biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 9000000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang PBM 1 tahun",
+            "en": "Learning fee (1 year)"
+          },
+          "amount": 1750000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 300000
+        },
+        {
+          "label": {
+            "id": "Qardh al-hasan (titipan, dikembalikan)",
+            "en": "Qardh al-hasan deposit (refundable)"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "SDIT Adzkia Padang (kampus Kuranji dan Belanti). Pendaftaran Rp200.000 (internal) / Rp300.000 (eksternal). Uang bulanan minimal Rp1.300.000. Total Rp13.150.000 (di luar pendaftaran). Biaya belum termasuk seragam (dipesan di Koperasi Adzkia).",
+        "en": "SDIT Adzkia Padang (Kuranji and Belanti campuses). Registration Rp200,000 (internal) / Rp300,000 (external). Minimum monthly fee Rp1,300,000. Total Rp13,150,000 (excl. registration). Fees exclude uniforms (ordered from the Adzkia cooperative)."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB Adzkia 2026-2027 — Yayasan Adzkia Sumatera Barat (situs resmi)",
+        "url": "https://spmb.adzkiasumbar.or.id/index.php?page=biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 6500000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan 1 tahun",
+            "en": "Activities (1 year)"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 350000
+        },
+        {
+          "label": {
+            "id": "Qardh al-hasan (titipan, dikembalikan)",
+            "en": "Qardh al-hasan deposit (refundable)"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "SMPIT Adzkia Padang. Pendaftaran Rp200.000 (internal) / Rp300.000 (eksternal). Total Rp11.050.000 (di luar pendaftaran). Biaya belum termasuk seragam (dipesan di Koperasi Adzkia).",
+        "en": "SMPIT Adzkia Padang. Registration Rp200,000 (internal) / Rp300,000 (external). Total Rp11,050,000 (excl. registration). Fees exclude uniforms (ordered from the Adzkia cooperative)."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB Adzkia 2026-2027 — Yayasan Adzkia Sumatera Barat (situs resmi)",
+        "url": "https://spmb.adzkiasumbar.or.id/index.php?page=biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 2500000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "SMAIP Adzkia. Total Rp3.100.000 (di luar pendaftaran). Biaya belum termasuk seragam (dipesan di Koperasi Adzkia).",
+        "en": "SMAIP Adzkia. Total Rp3,100,000 (excl. registration). Fees exclude uniforms (ordered from the Adzkia cooperative)."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB Adzkia 2026-2027 — Yayasan Adzkia Sumatera Barat (situs resmi)",
+        "url": "https://spmb.adzkiasumbar.or.id/index.php?page=biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

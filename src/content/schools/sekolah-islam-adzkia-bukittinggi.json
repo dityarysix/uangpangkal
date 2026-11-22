@@ -1,0 +1,93 @@
+{
+  "name": "Sekolah Islam Adzkia Bukittinggi",
+  "city": "Bukittinggi",
+  "levels": [
+    "TK",
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://spmb.adzkiasumbar.or.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 1500000
+      },
+      "tuition": {
+        "amount": 525000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang alat",
+            "en": "Equipment"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 700000
+        }
+      ],
+      "notes": {
+        "id": "TKIT Adzkia Bukittinggi. Total Rp4.225.000 (di luar pendaftaran). Biaya belum termasuk seragam (dipesan di Koperasi Adzkia).",
+        "en": "TKIT Adzkia Bukittinggi. Total Rp4,225,000 (excl. registration). Fees exclude uniforms (ordered from the Adzkia cooperative)."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB Adzkia 2026-2027 — Yayasan Adzkia Sumatera Barat (situs resmi)",
+        "url": "https://spmb.adzkiasumbar.or.id/index.php?page=biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 5500000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang PBM 1 tahun",
+            "en": "Learning fee (1 year)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 300000
+        }
+      ],
+      "notes": {
+        "id": "SDIT Adzkia Bukittinggi. Pendaftaran Rp125.000 (internal) / Rp200.000 (eksternal). Uang bulanan minimal Rp900.000. Total Rp8.900.000. Biaya belum termasuk seragam (dipesan di Koperasi Adzkia).",
+        "en": "SDIT Adzkia Bukittinggi. Registration Rp125,000 (internal) / Rp200,000 (external). Minimum monthly Rp900,000. Total Rp8,900,000. Fees exclude uniforms (ordered from the Adzkia cooperative)."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB Adzkia 2026-2027 — Yayasan Adzkia Sumatera Barat (situs resmi)",
+        "url": "https://spmb.adzkiasumbar.or.id/index.php?page=biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

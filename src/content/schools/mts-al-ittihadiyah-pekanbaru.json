@@ -1,0 +1,56 @@
+{
+  "name": "MTs Al-Ittihadiyah Pekanbaru",
+  "city": "Kota Pekanbaru",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://ykpialittihad.or.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 325000,
+      "entryFee": {
+        "min": 5500000,
+        "max": 11600000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1250000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1675000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 800000
+        }
+      ],
+      "notes": {
+        "id": "Madrasah Tsanawiyah (setara SMP), YKPI Al-Ittihad. Biaya bertingkat menurut penghasilan orang tua: Grade A (> Rp10 jt/bulan) UP Rp11.600.000, SPP Rp1.200.000; Grade B (Rp6–10 jt) UP Rp9.100.000, SPP Rp850.000; Grade C (< Rp6 jt) UP Rp6.000.000, SPP Rp600.000. Alumni: UP lebih rendah Rp500.000–Rp1.000.000.",
+        "en": "Madrasah Tsanawiyah (SMP-equivalent), YKPI Al-Ittihad. Fees tiered by parents' income: Grade A (> Rp10M/month) entry Rp11,600,000, tuition Rp1,200,000; Grade B (Rp6–10M) Rp9,100,000, Rp850,000; Grade C (< Rp6M) Rp6,000,000, Rp600,000. Alumni pay Rp500,000–Rp1,000,000 less."
+      },
+      "source": {
+        "title": "SPMB MTs Al-Ittihad — YKPI Al-Ittihad Pekanbaru (situs resmi)",
+        "url": "https://ykpialittihad.or.id/spmb-mts-al-ittihadiyah/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
