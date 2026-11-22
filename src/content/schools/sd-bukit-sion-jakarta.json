@@ -1,0 +1,28 @@
+{
+  "name": "SD Swasta Bukit Sion",
+  "city": "Jakarta Barat",
+  "district": "Kembangan",
+  "address": "Jl. Meruya Ilir Raya No.114, Srengseng, Kembangan, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 500000,
+      "source": {
+        "title": "15 SD Kristen Akreditasi A di Jakarta Beserta Biaya & Alamat Lengkapnya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231005212714-61-317837/15-sd-kristen-akreditasi-a-di-jakarta-beserta-biaya-alamat-lengkapnya",
+        "published": "2023-10-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

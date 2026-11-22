@@ -1,0 +1,28 @@
+{
+  "name": "SDIT Al-Haraki Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Jl. Belimbing III No.1-2, Pancoran Mas, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Pendaftaran Rp600.000 (non-Haraki Preschool) / Rp400.000 (dari Haraki Preschool). Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Registration Rp600,000 (external) / Rp400,000 (from Haraki Preschool). Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 600000,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Depok Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241017112425-61-350999/20-sd-negeri-dan-swasta-depok-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

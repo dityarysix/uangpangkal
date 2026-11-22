@@ -1,0 +1,32 @@
+{
+  "name": "SDI Al Azhar Syuhada Jagakarsa",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. Jagakarsa Raya No.38, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp9.800.000 + uang pembangunan Rp10.000.000 (dari luar) / Rp7.000.000 (dari TK Al Azhar Syuhada). Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry fee Rp9,800,000 + building fee Rp10,000,000 (external) / Rp7,000,000 (from TK Al Azhar Syuhada). Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 16800000,
+        "max": 19800000
+      },
+      "source": {
+        "title": "10 SD Swasta Jagakarsa Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241018123131-61-350996/10-sd-swasta-jagakarsa-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -6,8 +6,62 @@
   "levels": [
     "SD"
   ],
+  "religion": "Islam",
   "website": "https://diandidaktika.sch.id",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 30750000
+      },
+      "tuition": {
+        "amount": 2450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1300000
+        },
+        {
+          "label": {
+            "id": "Kegiatan tahunan",
+            "en": "Annual activities"
+          },
+          "amount": 3500000
+        },
+        {
+          "label": {
+            "id": "Iuran bulanan",
+            "en": "Monthly levy"
+          },
+          "amount": 20000
+        }
+      ],
+      "source": {
+        "title": "20 SD Negeri dan Swasta Depok Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241017112425-61-350999/20-sd-negeri-dan-swasta-depok-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-17"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2026/2027",

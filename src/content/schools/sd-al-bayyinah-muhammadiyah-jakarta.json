@@ -1,0 +1,32 @@
+{
+  "name": "SD Al Bayyinah Muhammadiyah",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. RM. Kahfi II No.78, Cipedak, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya PPDB gelombang 1 Rp12.200.000, gelombang 2 Rp14.000.000. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Admission package wave 1 Rp12,200,000, wave 2 Rp14,000,000. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 12200000,
+        "max": 14000000
+      },
+      "source": {
+        "title": "19 Rekomendasi SD Muhammadiyah di Jakarta Lengkap dengan Alamat dan Estimasi Biayanya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241010182157-61-350742/19-rekomendasi-sd-muhammadiyah-di-jakarta-lengkap-dengan-alamat-dan-estimasi-biayanya",
+        "published": "2024-10-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

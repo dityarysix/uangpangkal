@@ -1,0 +1,72 @@
+{
+  "name": "Al Fauzien Islamic School Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Blok V Pesona Depok Estate, Jl. Margonda Raya No.12, Pancoran Mas, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 27100000
+      },
+      "tuition": {
+        "amount": 1385000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Jamiyyah",
+            "en": "Parents' association"
+          },
+          "amount": 100000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 1335000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan",
+            "en": "Supplies"
+          },
+          "amount": 993000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1800000
+        },
+        {
+          "label": {
+            "id": "Kesehatan",
+            "en": "Health"
+          },
+          "amount": 95000
+        }
+      ],
+      "source": {
+        "title": "20 SD Negeri dan Swasta Depok Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241017112425-61-350999/20-sd-negeri-dan-swasta-depok-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

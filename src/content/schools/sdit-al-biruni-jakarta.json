@@ -1,0 +1,28 @@
+{
+  "name": "SDIT Al Biruni Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Gg. Kancil I No.43, Lenteng Agung, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya biaya formulir yang disebut. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Only the form fee is given. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 300000,
+      "source": {
+        "title": "10 SD Swasta Jagakarsa Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241018123131-61-350996/10-sd-swasta-jagakarsa-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "SDI Muhammadiyah 28 Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. Panjang No.8, Cipulir, Kebayoran Lama, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 12000000
+      },
+      "notes": {
+        "id": "Biaya PPDB 2025/2026 Rp12.000.000 (paket masuk). Estimasi dari artikel.",
+        "en": "2025/2026 admission package Rp12,000,000. Estimate from an article."
+      },
+      "source": {
+        "title": "19 Rekomendasi SD Muhammadiyah di Jakarta Lengkap dengan Alamat dan Estimasi Biayanya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241010182157-61-350742/19-rekomendasi-sd-muhammadiyah-di-jakarta-lengkap-dengan-alamat-dan-estimasi-biayanya",
+        "published": "2024-10-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

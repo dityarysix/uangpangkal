@@ -1,0 +1,28 @@
+{
+  "name": "SD Muhammadiyah 2 Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Senen",
+  "address": "Jl. Kramat Raya No.49, Senen, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Pendaftaran Rp200.000 (dari luar) / Rp150.000 (dari dalam). Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Registration Rp200,000 (external) / Rp150,000 (internal). Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 200000,
+      "source": {
+        "title": "19 Rekomendasi SD Muhammadiyah di Jakarta Lengkap dengan Alamat dan Estimasi Biayanya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241010182157-61-350742/19-rekomendasi-sd-muhammadiyah-di-jakarta-lengkap-dengan-alamat-dan-estimasi-biayanya",
+        "published": "2024-10-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

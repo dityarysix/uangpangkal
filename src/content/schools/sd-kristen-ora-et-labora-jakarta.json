@@ -1,0 +1,36 @@
+{
+  "name": "SD Kristen Ora Et Labora",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Baru",
+  "address": "Jl. Panglima Polim I No.32a, Melawai, Kebayoran Baru, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel hanya menyebut \"estimasi biaya Rp25.500.000\" tanpa rincian. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "The article only gives an \"estimated cost of Rp25,500,000\" without a breakdown. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Estimasi biaya (tidak dirinci)",
+            "en": "Estimated cost (not itemised)"
+          },
+          "amount": 25500000
+        }
+      ],
+      "source": {
+        "title": "15 SD Kristen Akreditasi A di Jakarta Beserta Biaya & Alamat Lengkapnya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231005212714-61-317837/15-sd-kristen-akreditasi-a-di-jakarta-beserta-biaya-alamat-lengkapnya",
+        "published": "2023-10-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

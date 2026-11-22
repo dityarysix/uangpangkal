@@ -1,0 +1,51 @@
+{
+  "name": "SD Citra Alam",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. Damai No.54, Ciganjur, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = investasi pendidikan. Artikel menulis SPP \"Rp1.850.00\" (dibaca Rp1.850.000). Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry fee = education investment. The article writes tuition as \"Rp1.850.00\" (read as Rp1,850,000). Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 700000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "tuition": {
+        "amount": 1850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan sekolah",
+            "en": "School activities"
+          },
+          "amount": 4000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 550000
+        }
+      ],
+      "source": {
+        "title": "10 SD Swasta Jagakarsa Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241018123131-61-350996/10-sd-swasta-jagakarsa-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

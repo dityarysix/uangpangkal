@@ -1,0 +1,72 @@
+{
+  "name": "SDS Muhammadiyah 23 Jakarta",
+  "city": "Jakarta Timur",
+  "district": "Matraman",
+  "address": "Jl. Rambutan No.4, Utan Kayu Utara, Matraman, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 5000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan 1 tahun",
+            "en": "Activities (1 year)"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Infaq",
+            "en": "Donation"
+          },
+          "amount": 250000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 770000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 950000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 450000
+        }
+      ],
+      "source": {
+        "title": "19 Rekomendasi SD Muhammadiyah di Jakarta Lengkap dengan Alamat dan Estimasi Biayanya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241010182157-61-350742/19-rekomendasi-sd-muhammadiyah-di-jakarta-lengkap-dengan-alamat-dan-estimasi-biayanya",
+        "published": "2024-10-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

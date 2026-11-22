@@ -1,0 +1,35 @@
+{
+  "name": "SDS Smart School Jagakarsa",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. Kecapi No.49, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel hanya menyebut \"biaya sekolah Rp36.570.250\" tanpa rincian. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "The article only gives \"school fees Rp36,570,250\" without a breakdown. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya sekolah (tidak dirinci)",
+            "en": "School fees (not itemised)"
+          },
+          "amount": 36570250
+        }
+      ],
+      "source": {
+        "title": "10 SD Swasta Jagakarsa Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241018123131-61-350996/10-sd-swasta-jagakarsa-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

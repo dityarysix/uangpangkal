@@ -1,0 +1,28 @@
+{
+  "name": "Sekolah Mahabodhi Vidya Jakarta",
+  "city": "Jakarta Barat",
+  "district": "Kalideres",
+  "address": "Jl. Palem Anggur Kav. 8, Pegadungan, Kalideres, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Buddha",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya biaya pendaftaran yang disebut. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Only the registration fee is given. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 200000,
+      "source": {
+        "title": "15 SD Buddhis Akreditasi A di Jakarta Beserta Informasi Biaya & Alamat Lengkap (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231009163309-61-318317/15-sd-buddhis-akreditasi-a-di-jakarta-beserta-informasi-biaya-alamat-lengkap",
+        "published": "2023-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

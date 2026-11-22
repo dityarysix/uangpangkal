@@ -1,0 +1,28 @@
+{
+  "name": "SDS Muhammadiyah 6 Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Tebet",
+  "address": "Jl. Tebet Timur Raya No.565, Tebet Timur, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya formulir pendaftaran. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Registration form fee. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 500000,
+      "source": {
+        "title": "19 Rekomendasi SD Muhammadiyah di Jakarta Lengkap dengan Alamat dan Estimasi Biayanya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241010182157-61-350742/19-rekomendasi-sd-muhammadiyah-di-jakarta-lengkap-dengan-alamat-dan-estimasi-biayanya",
+        "published": "2024-10-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

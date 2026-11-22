@@ -1,0 +1,34 @@
+{
+  "name": "SDS Cakra Buana Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Jl. Raya Sawangan No.91, Pancoran Mas, Depok",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal normal Rp35.000.000; early bird Rp26.000.000. Estimasi biaya dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry fee Rp35,000,000 normal; Rp26,000,000 early bird. Estimated fees from an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 26000000,
+        "max": 35000000
+      },
+      "tuition": {
+        "amount": 2750000,
+        "period": "month"
+      },
+      "source": {
+        "title": "20 SD Negeri dan Swasta Depok Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20241017112425-61-350999/20-sd-negeri-dan-swasta-depok-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2024-10-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
