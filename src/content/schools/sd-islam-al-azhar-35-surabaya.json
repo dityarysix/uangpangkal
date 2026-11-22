@@ -1,0 +1,72 @@
+{
+  "name": "SD Islam Al Azhar 35 Surabaya",
+  "city": "Surabaya",
+  "district": "Mulyorejo",
+  "address": "Komp. Pakuwon City, Kaisari, Mulyorejo, Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 29000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 2800000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1390000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Dana syiar",
+            "en": "Syiar fund"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Uang jamiyah per tahun",
+            "en": "Parents' association per year"
+          },
+          "amount": 300000
+        }
+      ],
+      "notes": {
+        "id": "Situs tidak menyebut tahun ajaran; artikel bertanggal Oktober 2026 tetapi angkanya bisa berasal dari tahun sebelumnya (situs yang sama memakai data 2021/2022 untuk Yogyakarta). ",
+        "en": "The site does not state the academic year; the article is dated October 2026 but the figures may be from earlier years (the same site uses 2021/2022 data for Yogyakarta). "
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Surabaya (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-swasta-terbaik-surabaya/",
+        "published": "2026-10-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

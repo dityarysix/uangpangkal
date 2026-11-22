@@ -1,0 +1,31 @@
+{
+  "name": "SD Islam Bilingual Annisa Semarang",
+  "city": "Kota Semarang",
+  "district": "Semarang Tengah",
+  "address": "Jl. Abimanyu Raya No.17-19, Pindrikan Lor, Semarang Tengah, Kota Semarang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(024) 3511057",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 4900000
+      },
+      "notes": {
+        "id": "Biaya pendaftaran/masuk berkisar Rp4,9 juta (perkiraan).",
+        "en": "Registration/entry about Rp4.9 million (approximate)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Cek Biaya Masuk SD Swasta yang Ada di Semarang Tahun 2022 (theAsianparent)",
+        "url": "https://id.theasianparent.com/cek-biaya-masuk-sd-swasta-yang-ada-di-semarang-tahun-2022",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

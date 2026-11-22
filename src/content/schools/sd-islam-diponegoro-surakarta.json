@@ -1,0 +1,36 @@
+{
+  "name": "SD Islam Diponegoro Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Pasar Kliwon",
+  "address": "Jl. Kaliwidas No.2, Pasar Kliwon, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 10000000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kisaran biaya menurut sumber (perkiraan). SPP Rp800 ribu–1 juta.",
+        "en": "Fee ranges according to the source (approximate). Tuition Rp800k–1M."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD di Solo, Swasta dan Negeri, Lengkap dengan Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-di-solo",
+        "published": "2025-06-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

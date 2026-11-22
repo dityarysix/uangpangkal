@@ -1,0 +1,31 @@
+{
+  "name": "SMP BPK Penabur Yogyakarta",
+  "city": "Sleman",
+  "district": "Depok",
+  "address": "Jl. Ring Road Utara, Condongcatur, Sleman",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 9000000,
+        "period": "semester"
+      },
+      "notes": {
+        "id": "Kisaran biaya pendidikan per semester menurut sumber; ditambah biaya tahunan dan kegiatan. Rp9–14 juta per semester.",
+        "en": "Education fee range per semester according to the source; plus annual and activity fees. Rp9–14 million per semester."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SMP Swasta Terbaik di Yogyakarta dengan Kisaran Biaya (KalderaNews)",
+        "url": "https://www.kalderanews.com/2025/06/08/inilah-10-smp-swasta-terbaik-di-yogyakarta-lengkap-dengan-kisaran-biaya-sekolahnya/",
+        "published": "2025-06-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

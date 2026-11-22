@@ -1,0 +1,33 @@
+{
+  "name": "SD Semesta Bilingual School Semarang",
+  "city": "Kota Semarang",
+  "district": "Banyumanik",
+  "address": "Jl. Setiabudi No.116, Srondol Kulon, Banyumanik, Kota Semarang",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka perkiraan (\"sekitar\") tanpa tahun; artikel terbit Juli 2022.",
+        "en": "Approximate figures without a year; article published July 2022."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Cek Biaya Masuk SD Swasta yang Ada di Semarang Tahun 2022 (theAsianparent)",
+        "url": "https://id.theasianparent.com/cek-biaya-masuk-sd-swasta-yang-ada-di-semarang-tahun-2022",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

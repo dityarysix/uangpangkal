@@ -1,0 +1,35 @@
+{
+  "name": "SD Terpadu Krida Nusantara Bandung",
+  "city": "Kota Bandung",
+  "district": "Cibiru",
+  "address": "Jl. Desa Cipadung, Cibiru, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "phone": "(022) 7830509",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 12500000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya pendidikan Rp12.500.000 mencakup uang pangkal, seragam, buku, outdoor, dan SPP Juli. SPP termasuk makan siang/snack. Total masuk Rp13.400.000.",
+        "en": "Education fee Rp12,500,000 covers entry fee, uniforms, books, outdoor programme and July tuition. Tuition includes lunch/snacks. Total on entry Rp13,400,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Sekolah Bina Anak Sholeh (BIAS) Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Umbulharjo",
+  "address": "Jl. Mendung Warih, Giwangan, Umbulharjo, Yogyakarta",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "entryFee": {
+        "min": 14000000,
+        "max": 19000000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya masuk sekitar Rp14 juta; sekitar Rp19 juta termasuk seragam dan lainnya (perkiraan).",
+        "en": "Entry about Rp14 million; about Rp19 million including uniforms etc. (approximate)."
+      },
+      "source": {
+        "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "notes": {
+        "id": "Sumber tidak mencantumkan biaya SMP BIAS.",
+        "en": "The source does not list fees for BIAS junior high."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SMP Swasta Terbaik di Yogyakarta dengan Kisaran Biaya (KalderaNews)",
+        "url": "https://www.kalderanews.com/2025/06/08/inilah-10-smp-swasta-terbaik-di-yogyakarta-lengkap-dengan-kisaran-biaya-sekolahnya/",
+        "published": "2025-06-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

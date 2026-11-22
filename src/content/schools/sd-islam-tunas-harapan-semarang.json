@@ -1,0 +1,56 @@
+{
+  "name": "SD Islam Tunas Harapan Semarang",
+  "city": "Kota Semarang",
+  "district": "Tembalang",
+  "address": "Jl. Tulus Harapan No.1, Sendangmulyo, Tembalang, Kota Semarang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2018/2019",
+      "entryFee": {
+        "min": 5000000
+      },
+      "tuition": {
+        "amount": 300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 650000
+        },
+        {
+          "label": {
+            "id": "Kegiatan ekstra",
+            "en": "Extracurriculars"
+          },
+          "amount": 250000
+        },
+        {
+          "label": {
+            "id": "Kesiswaan",
+            "en": "Student affairs"
+          },
+          "amount": 200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = SPI. SPP Juli 2018. Total Rp6.400.000.",
+        "en": "Entry fee = SPI. Tuition as of July 2018. Total Rp6,400,000."
+      },
+      "source": {
+        "title": "Cek Biaya Masuk SD Swasta yang Ada di Semarang Tahun 2022 (theAsianparent)",
+        "url": "https://id.theasianparent.com/cek-biaya-masuk-sd-swasta-yang-ada-di-semarang-tahun-2022",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

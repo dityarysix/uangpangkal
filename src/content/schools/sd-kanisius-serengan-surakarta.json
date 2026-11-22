@@ -1,0 +1,36 @@
+{
+  "name": "SD Kanisius Serengan Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Serengan",
+  "address": "Jl. Veteran 229, Serengan, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 5000000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kisaran biaya menurut sumber (perkiraan). Pendaftaran Rp300 ribu–1,5 juta; uang pangkal Rp5–15 juta; SPP Rp500 ribu–1 juta; kegiatan Rp1–2 juta/tahun.",
+        "en": "Fee ranges according to the source (approximate). Registration Rp300k–1.5M; entry Rp5–15M; tuition Rp500k–1M; activities Rp1–2M/year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD di Solo, Swasta dan Negeri, Lengkap dengan Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-di-solo",
+        "published": "2025-06-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

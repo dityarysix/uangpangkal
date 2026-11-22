@@ -1,0 +1,35 @@
+{
+  "name": "SMP Stella Duce 1 Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Gondokusuman",
+  "address": "Jl. Jenderal Sudirman No.115, Gondokusuman, Yogyakarta",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 10000000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "SPP Rp600–900 ribu per bulan (kisaran).",
+        "en": "Tuition Rp600–900 thousand per month (range)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SMP Swasta Terbaik di Yogyakarta dengan Kisaran Biaya (KalderaNews)",
+        "url": "https://www.kalderanews.com/2025/06/08/inilah-10-smp-swasta-terbaik-di-yogyakarta-lengkap-dengan-kisaran-biaya-sekolahnya/",
+        "published": "2025-06-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

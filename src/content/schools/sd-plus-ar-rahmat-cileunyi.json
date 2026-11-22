@@ -1,0 +1,46 @@
+{
+  "name": "SD Plus Ar-Rahmat Cileunyi",
+  "city": "Kabupaten Bandung",
+  "district": "Cileunyi",
+  "address": "Jl. Villa Bandung Indah No.5, Cileunyi, Kabupaten Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku (per tahun)",
+            "en": "Books (per year)"
+          },
+          "amount": 400000
+        },
+        {
+          "label": {
+            "id": "Kegiatan (per semester)",
+            "en": "Activities (per semester)"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal tidak dicantumkan.",
+        "en": "Entry fee not listed."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

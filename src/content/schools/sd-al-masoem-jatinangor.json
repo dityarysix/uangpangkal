@@ -1,0 +1,35 @@
+{
+  "name": "SD Al Ma'soem Jatinangor",
+  "city": "Kabupaten Sumedang",
+  "district": "Jatinangor",
+  "address": "Jl. Raya Cipacing No.22, Jatinangor, Kabupaten Sumedang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "http://almasoem.sch.id",
+  "phone": "(022) 7798204",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 9400000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Program full day. Biaya masuk Rp9.400.000 belum termasuk seragam dan buku Rp1.500.000 (total Rp10.900.000). SPP belum termasuk katering.",
+        "en": "Full-day programme. Entry Rp9,400,000 excluding uniforms and books Rp1,500,000 (total Rp10,900,000). Tuition excludes catering."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

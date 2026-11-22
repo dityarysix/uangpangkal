@@ -1,0 +1,43 @@
+{
+  "name": "SDIT Luqman Al Hakim Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Umbulharjo",
+  "address": "Jl. Timoho II Gg. Delima No.2, Umbulharjo, Yogyakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0274) 542928",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 1400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya lainnya",
+            "en": "Other fees"
+          },
+          "amount": 2600000
+        }
+      ],
+      "notes": {
+        "id": "Total Rp29.200.000.",
+        "en": "Total Rp29,200,000."
+      },
+      "source": {
+        "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

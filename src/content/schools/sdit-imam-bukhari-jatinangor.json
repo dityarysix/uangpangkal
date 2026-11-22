@@ -1,0 +1,34 @@
+{
+  "name": "SDIT Imam Bukhari Jatinangor",
+  "city": "Kabupaten Sumedang",
+  "district": "Jatinangor",
+  "address": "Jl. Caringin Km 20,5, Sayang, Jatinangor, Kabupaten Sumedang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 13000000,
+        "max": 14000000
+      },
+      "tuition": {
+        "amount": 570000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Total biaya masuk sekitar Rp13–14 juta. Biaya bulanan Rp570.000 tanpa jemputan, Rp820.000 dengan jemputan.",
+        "en": "Total on entry about Rp13–14 million. Monthly Rp570,000 without transport, Rp820,000 with transport."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "SD Al-Azhar 31 Sinduadi Yogyakarta",
+  "city": "Sleman",
+  "district": "Mlati",
+  "address": "Jl. Padjajaran No.35A / Jl. Pogung Lor, Sinduadi, Mlati, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "entryFee": {
+        "min": 18500000
+      },
+      "tuition": {
+        "amount": 680000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka perkiraan (\"kisaran\").",
+        "en": "Approximate figures."
+      },
+      "source": {
+        "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

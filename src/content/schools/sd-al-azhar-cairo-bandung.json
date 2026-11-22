@@ -1,0 +1,30 @@
+{
+  "name": "SD Al Azhar Cairo Bandung",
+  "city": "Kabupaten Bandung",
+  "district": "Cileunyi",
+  "address": "Kp. Manjah Beureum, Cileunyi Wetan, Cileunyi, Kabupaten Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2019/2020",
+      "entryFee": {
+        "min": 18000000,
+        "max": 23000000
+      },
+      "notes": {
+        "id": "Sumber: biaya masuk 2019 sekitar Rp23 juta, atau sekitar Rp18 juta dengan diskon pendaftaran awal (perkiraan).",
+        "en": "Source: 2019 entry cost about Rp23 million, or about Rp18 million with an early-registration discount (approximate)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

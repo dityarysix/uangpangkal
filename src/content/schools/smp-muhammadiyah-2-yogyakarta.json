@@ -1,0 +1,50 @@
+{
+  "name": "SMP Muhammadiyah 2 Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Umbulharjo",
+  "address": "Jl. Kapas II No.7A, Semaki, Yogyakarta",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 2800000
+      },
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Infak",
+            "en": "Infaq"
+          },
+          "amount": 1750000
+        },
+        {
+          "label": {
+            "id": "Dana tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 3800000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = dana pengembangan.",
+        "en": "Entry fee = development fund."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SMP Swasta Terbaik di Yogyakarta dengan Kisaran Biaya (KalderaNews)",
+        "url": "https://www.kalderanews.com/2025/06/08/inilah-10-smp-swasta-terbaik-di-yogyakarta-lengkap-dengan-kisaran-biaya-sekolahnya/",
+        "published": "2025-06-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

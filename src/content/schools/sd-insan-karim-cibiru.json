@@ -1,0 +1,28 @@
+{
+  "name": "SD Insan Karim Cibiru",
+  "city": "Kota Bandung",
+  "district": "Cibiru",
+  "address": "Jl. Pandan Wangi 10, Cibiru Wetan, Bandung",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2019/2020",
+      "entryFee": {
+        "min": 7000000
+      },
+      "notes": {
+        "id": "Sumber: total biaya masuk tahun 2019 \"sekitar 7 juta rupiah kurang dikit\" (perkiraan).",
+        "en": "Source: total entry cost in 2019 \"just under Rp7 million\" (approximate)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

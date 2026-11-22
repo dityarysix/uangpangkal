@@ -1,0 +1,32 @@
+{
+  "name": "SD Afkaaruna Sleman",
+  "city": "Sleman",
+  "district": "Pakem",
+  "address": "Jl. Kaliurang Km 12,5, Pelem, Harjobinangun, Pakem, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "entryFee": {
+        "min": 17000000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka perkiraan (\"sekitar\").",
+        "en": "Approximate figures."
+      },
+      "source": {
+        "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

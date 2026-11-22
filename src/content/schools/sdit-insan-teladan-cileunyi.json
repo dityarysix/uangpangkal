@@ -1,0 +1,61 @@
+{
+  "name": "SDIT Insan Teladan Cileunyi",
+  "city": "Kabupaten Bandung",
+  "district": "Cileunyi",
+  "address": "Komplek DPR Blok F No.20, Cileunyi Kulon, Kabupaten Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 380000,
+      "entryFee": {
+        "min": 5897000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Pengembangan kurikulum",
+            "en": "Curriculum development"
+          },
+          "amount": 1035000
+        },
+        {
+          "label": {
+            "id": "Kesiswaan",
+            "en": "Student affairs"
+          },
+          "amount": 1272000
+        },
+        {
+          "label": {
+            "id": "Intrakurikuler",
+            "en": "Intracurricular"
+          },
+          "amount": 379000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1249000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = pengembangan dan pemeliharaan sarana prasarana. Total masuk Rp9.832.000.",
+        "en": "Entry fee = facilities development & maintenance. Total on entry Rp9,832,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

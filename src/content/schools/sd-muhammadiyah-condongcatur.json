@@ -1,0 +1,45 @@
+{
+  "name": "SD Muhammadiyah Condongcatur",
+  "city": "Sleman",
+  "district": "Depok",
+  "address": "Jl. Perumnas Ring Road Utara, Gorongan, Condongcatur, Depok, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 8000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam, buku dan lainnya (putra)",
+            "en": "Uniforms, books etc. (boys)"
+          },
+          "amount": 3600000
+        },
+        {
+          "label": {
+            "id": "Seragam, buku dan lainnya (putri)",
+            "en": "Uniforms, books etc. (girls)"
+          },
+          "amount": 4100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = biaya pembangunan. Amal jariyah tiga pilihan: Rp4,5 juta, Rp5 juta, Rp5,5 juta.",
+        "en": "Entry fee = building fee. Voluntary donation in three tiers: Rp4.5, 5 or 5.5 million."
+      },
+      "source": {
+        "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "SMP Islam Al Azhar 26 Yogyakarta",
+  "city": "Sleman",
+  "district": "Mlati",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 7000000,
+        "period": "semester"
+      },
+      "notes": {
+        "id": "Kisaran biaya pendidikan per semester menurut sumber; ditambah biaya tahunan dan kegiatan. Rp7–11 juta per semester. Lokasi menurut data sekolah: Mlati, Sleman.",
+        "en": "Education fee range per semester according to the source; plus annual and activity fees. Rp7–11 million per semester. Location per school registry: Mlati, Sleman."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SMP Swasta Terbaik di Yogyakarta dengan Kisaran Biaya (KalderaNews)",
+        "url": "https://www.kalderanews.com/2025/06/08/inilah-10-smp-swasta-terbaik-di-yogyakarta-lengkap-dengan-kisaran-biaya-sekolahnya/",
+        "published": "2025-06-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

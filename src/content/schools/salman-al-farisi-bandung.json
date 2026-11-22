@@ -1,0 +1,51 @@
+{
+  "name": "Sekolah Salman Al Farisi Bandung",
+  "city": "Kota Bandung",
+  "district": "Coblong",
+  "address": "Jl. Tubagus Ismail VIII Atas, Sekeloa, Coblong, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 700000,
+      "entryFee": {
+        "min": 26000000,
+        "max": 28000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1450000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2806000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal Rp28.000.000 (umum) / Rp26.000.000 (lulusan TK Salman Al Farisi). Total masuk Rp34.056.000 / Rp32.056.000. Diskon Rp2.000.000 jika membayar sampai 31 Januari; diskon saudara kandung Rp750.000 (SD/SMP).",
+        "en": "Entry fee Rp28,000,000 (general) / Rp26,000,000 (TK Salman Al Farisi graduates). Total on entry Rp34,056,000 / Rp32,056,000. Rp2,000,000 off if paid by 31 January; sibling discount Rp750,000 (SD/SMP)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

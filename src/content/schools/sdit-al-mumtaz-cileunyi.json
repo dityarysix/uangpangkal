@@ -1,0 +1,58 @@
+{
+  "name": "SDIT Al Mumtaz Cileunyi",
+  "city": "Kabupaten Bandung",
+  "district": "Cileunyi",
+  "address": "Jl. Pesantren No.1A, Cimekar, Cileunyi, Kabupaten Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 6000000,
+        "max": 9000000
+      },
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana program (per tahun)",
+            "en": "Programme fee (per year)"
+          },
+          "amount": 1300000
+        },
+        {
+          "label": {
+            "id": "Seragam laki-laki",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infak bangunan; sumber mencantumkan Rp6.000.000 dan juga Rp9.000.000. Alumni TK Sukahaji diskon Rp1.000.000. Total masuk sekitar Rp11.550.000 (laki-laki) / Rp11.750.000 (perempuan).",
+        "en": "Entry fee = building infaq; the source lists both Rp6,000,000 and Rp9,000,000. TK Sukahaji alumni get Rp1,000,000 off. Total on entry about Rp11,550,000 (boys) / Rp11,750,000 (girls)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

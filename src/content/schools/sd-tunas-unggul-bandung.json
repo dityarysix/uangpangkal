@@ -1,0 +1,33 @@
+{
+  "name": "SD Tunas Unggul Bandung",
+  "city": "Kota Bandung",
+  "district": "Mandalajati",
+  "address": "Jl. Pasir Impun No.94, Mandalajati, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "phone": "(022) 87788664",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 34775000
+      },
+      "tuition": {
+        "amount": 1375000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Rp34.775.000 adalah uang pangkal beserta biaya lain-lain.",
+        "en": "Rp34,775,000 is the entry fee plus other charges."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "SDIT Q-Ta Hamasah Cileunyi",
+  "city": "Kabupaten Bandung",
+  "district": "Cileunyi",
+  "address": "Jl. Villa Bandung Indah, Kp. Manjah Beureum, Cileunyi Kulon, Kabupaten Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 5000000
+      },
+      "tuition": {
+        "amount": 360000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Psikotes",
+            "en": "Psychological test"
+          },
+          "amount": 150000
+        },
+        {
+          "label": {
+            "id": "Seragam laki-laki",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 875000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 650000
+        }
+      ],
+      "notes": {
+        "id": "Total masuk Rp8.000.000 (laki-laki) / Rp8.075.000 (perempuan). Biaya tahunan buku dan kegiatan sekitar Rp1.850.000. Jemputan dan katering mingguan Rp50.000.",
+        "en": "Total on entry Rp8,000,000 (boys) / Rp8,075,000 (girls). Yearly books and activities about Rp1,850,000. Weekly transport and catering Rp50,000."
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

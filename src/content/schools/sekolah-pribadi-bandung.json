@@ -1,0 +1,41 @@
+{
+  "name": "Sekolah Pribadi Bandung",
+  "city": "Kota Bandung",
+  "district": "Cibeunying Kaler",
+  "address": "Jl. PHH. Mustofa No.41, Neglasari, Cibeunying Kaler, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 45000000
+      },
+      "tuition": {
+        "amount": 5000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 14000000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
+        "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Global Islamic School (GIS) Jogja",
+  "city": "Sleman",
+  "district": "Depok",
+  "address": "Jl. Selokan Mataram, Sanggrahan, Maguwoharjo, Depok, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 15500000
+      },
+      "tuition": {
+        "amount": 1250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan dan perlengkapan per tahun",
+            "en": "Activities and supplies per year"
+          },
+          "amount": 4375000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "BKOMG per tahun",
+            "en": "Parents' association per year"
+          },
+          "amount": 200000
+        }
+      ],
+      "notes": {
+        "id": "Total Rp22.025.000.",
+        "en": "Total Rp22,025,000."
+      },
+      "source": {
+        "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

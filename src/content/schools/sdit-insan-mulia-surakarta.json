@@ -1,0 +1,48 @@
+{
+  "name": "SDIT Insan Mulia Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Laweyan",
+  "address": "Jl. Duku VII, Jajar, Laweyan, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan per tahun (min.)",
+            "en": "Activities per year (min.)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam (min.)",
+            "en": "Uniforms (min.)"
+          },
+          "amount": 750000
+        }
+      ],
+      "notes": {
+        "id": "Kisaran biaya menurut sumber (perkiraan). SPP Rp600–700 ribu; kegiatan Rp1–1,2 juta/tahun; seragam Rp750–900 ribu. Uang pangkal tidak dicantumkan.",
+        "en": "Fee ranges according to the source (approximate). Tuition Rp600–700k; activities Rp1–1.2 million/year; uniforms Rp750–900k. Entry fee not listed."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD di Solo, Swasta dan Negeri, Lengkap dengan Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-di-solo",
+        "published": "2025-06-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
