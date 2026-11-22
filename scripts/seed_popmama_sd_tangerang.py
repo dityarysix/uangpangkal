@@ -8,18 +8,18 @@ SRC = {"title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popma
 C = dict(level="SD", year="2025/2026", source=SRC, checked="2026-11-22")
 TS = "Tangerang Selatan"
 
-upsert("sdi-cikal-harapan-bsd", name="SDI Cikal Harapan", city=TS, district="Serpong", religion="Islam",
+upsert("sdi-cikal-harapan-bsd", name="SDI Cikal Harapan BSD", city=TS, district="Serpong", religion="Islam",
        address="BSD City, Serpong, Tangerang Selatan",
        registrationFee=350_000, entryFee={"min": 18_000_000}, tuition={"amount": 1_200_000, "period": "month"},
        otherFees=[fee("Biaya kegiatan belajar mengajar (per tahun)", "Teaching & learning fee (per year)", 4_000_000), fee(*UNIFORM, 1_200_000)], **C)
-upsert("sekolah-auliya", name="Sekolah Auliya", city=TS, district="Pondok Aren", religion="Islam",
+upsert("sekolah-auliya", name="Sekolah Auliya Bintaro", city=TS, district="Pondok Aren", religion="Islam",
        address="Jl. Jombang Raya No.1, Parigi, Pondok Aren, Tangerang Selatan", website="https://sekolahauliya.sch.id",
        registrationFee=750_000, entryFee={"min": 47_900_000}, tuition={"amount": 2_300_000, "period": "month"},
        notes=L("Biaya pendaftaran = observasi & wawancara. Biaya masuk bisa dicicil dan ada diskon.", "Registration fee = observation & interview. Entry fee can be paid in instalments; discounts available."), **C)
 upsert("sd-islam-al-azhar-17-bintaro", name="SD Islam Al-Azhar 17 Bintaro", city=TS, district="Pondok Aren", religion="Islam",
        address="Jl. Bonjol No.9, Pondok Karya, Pondok Aren, Tangerang Selatan",
        registrationFee=550_000, entryFee={"min": 38_000_000}, tuition={"amount": 2_200_000, "period": "month"}, **C)
-upsert("sekolah-tunas-indonesia-bintaro", name="Sekolah Tunas Indonesia", city=TS, district="Pondok Aren", curriculum=["Nasional Plus"],
+upsert("sekolah-tunas-indonesia-bintaro", name="Sekolah Tunas Indonesia Bintaro", city=TS, district="Pondok Aren", curriculum=["Nasional Plus"],
        address="Jl. Jombang Raya Bintaro Jaya No.18, Parigi, Tangerang Selatan",
        registrationFee=400_000, entryFee={"min": 28_000_000}, tuition={"amount": 2_900_000, "period": "month"},
        notes=L("Seragam & buku ± Rp3.000.000/tahun.", "Uniforms & books ~Rp3,000,000/year."), **C)
@@ -28,7 +28,7 @@ upsert("insan-cendekia-madani", name="Insan Cendekia Madani (ICM)", city=TS, dis
        registrationFee=900_000, entryFee={"min": 39_000_000, "max": 65_000_000}, tuition={"amount": 5_650_000, "period": "month"},
        notes=L("Uang pangkal Rp39.000.000 dengan diskon sampai Desember 2025; harga normal Rp65.000.000. Sekolah berasrama.",
                "Entry fee Rp39,000,000 with discount until December 2025; normal price Rp65,000,000. Boarding school."), **C)
-upsert("stella-maris-school-bsd", name="Stella Maris School", city=TS, district="Serpong", religion="Katolik",
+upsert("stella-maris-school-bsd", name="Stella Maris School BSD", city=TS, district="Serpong", religion="Katolik",
        address="Jl. Artha Kencana Kav C1, Kencana Loka, Serpong, Tangerang Selatan",
        entryFee={"min": 27_048_000, "max": 30_000_000}, tuition={"amount": 2_700_000, "period": "month"},
        notes=L("Uang pangkal Rp30.000.000, diskon 2%+8% menjadi Rp27.048.000. SPP naik Rp130.000/tahun. Uang kegiatan, buku, dan seragam diinfokan kemudian.",
@@ -40,7 +40,7 @@ upsert("sdit-bait-adzkia-ciputat", name="SDIT Bait Adzkia Islamic School", city=
                   fee("Sampul rapor", "Report cover", 100_000), fee("Sarpras (pemeliharaan, lab komputer, server & aplikasi)", "Facilities (maintenance, computer lab, server & app)", 650_000),
                   fee("Uang kegiatan termasuk ekskul (per tahun)", "Activities incl. extracurriculars (per year)", 2_000_000)],
        notes=L("Uang pangkal = infaq gedung. SPP khusus kelas 1.", "Entry fee = building infaq. Tuition for grade 1."), **C)
-upsert("sd-islam-at-taqwa-pamulang", name="SD Islam At-Taqwa", city=TS, district="Pamulang", religion="Islam",
+upsert("sd-islam-at-taqwa-pamulang", name="SD Islam At-Taqwa Pamulang", city=TS, district="Pamulang", religion="Islam",
        address="Jl. Benda Timur 15, Benda Baru, Pamulang, Tangerang Selatan",
        registrationFee=200_000, entryFee={"min": 2_900_000}, tuition={"amount": 250_000, "period": "month"},
        otherFees=[fee("Seragam (6 stel)", "Uniforms (6 sets)", 1_650_000), fee("Buku paket", "Textbooks", 1_650_000)],

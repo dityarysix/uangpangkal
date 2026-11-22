@@ -4,6 +4,8 @@ Private school fees (uang pangkal, SPP) and admission procedures across Indonesi
 
 - Built with [Astro](https://astro.build) as a static site. The output in `dist/` can be hosted anywhere (Hostinger, Cloudflare Pages, Netlify, Vercel).
 - School data lives in `src/content/schools/*.json`, one file per school. The schema is in `src/content.config.ts`, and the build fails if a file doesn't match it.
+- A school's area (Jakarta, Tangerang Raya, …) is derived from its `city`; the list lives in `src/lib/areas.ts`.
+- School names must be unique. If several campuses share a name (Al-Azhar, BPK Penabur, BINUS…) or the name is common, add the location: "SD Islam Al-Azhar Bekasi".
 - Every fee entry must record its `source` (title, URL, publish date), its `academicYear`, and the date it was `checked`. Never estimate fees.
 
 ## Commands

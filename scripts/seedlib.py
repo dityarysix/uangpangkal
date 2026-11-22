@@ -1,5 +1,9 @@
 """Helpers for hand-transcribed seed scripts.
 
+Naming rule: if a school name is shared by several campuses (chains such as Al-Azhar,
+BPK Penabur, BINUS) or is a common name, add the location so the campus is clear,
+e.g. "SD Islam Al-Azhar Bekasi". The site build fails on duplicate names.
+
 Each seed script copies figures from ONE source, verbatim. upsert() merges a
 school's fee entry into src/content/schools/<slug>.json, so one school can hold
 several levels and sources. Re-running a seed script is safe: an entry with the

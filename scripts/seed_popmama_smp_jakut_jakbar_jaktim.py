@@ -7,7 +7,7 @@ SRC = {"title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027
        "published": "2025-12-22"}
 C = dict(level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
 
-upsert("smp-wijaya-kusuma-penjaringan", name="SMP Wijaya Kusuma", city="Jakarta Utara", district="Penjaringan",
+upsert("smp-wijaya-kusuma-penjaringan", name="SMP Wijaya Kusuma Jakarta", city="Jakarta Utara", district="Penjaringan",
        address="Jl. Bandengan 80, Penjaringan, Jakarta Utara",
        entryFee={"min": 6_140_000, "max": 8_170_000}, tuition={"amount": 850_000, "period": "month"},
        notes=L("Biaya masuk laki-laki Rp6.140.000–Rp7.940.000; perempuan Rp6.370.000–Rp8.170.000. SPP = iuran akademik.",
@@ -17,7 +17,7 @@ upsert("smpit-ash-shiddiq-jakarta", name="SMPIT Ash-Shiddiq Jakarta", city="Jaka
        entryFee={"min": 19_830_000, "max": 19_980_000}, tuition={"amount": 1_050_000, "period": "month"},
        notes=L("Biaya masuk ikhwan (putra) Rp19.830.000, akhwat (putri) Rp19.980.000, sudah termasuk SPP Juli 2026.",
                "Entry fee for boys Rp19,830,000, girls Rp19,980,000, including July 2026 tuition."), **C)
-upsert("westin-school", name="Westin School", city="Jakarta Utara", district="Penjaringan",
+upsert("westin-school", name="Westin School Jakarta", city="Jakarta Utara", district="Penjaringan",
        registrationFee=150_000, entryFee={"min": 12_500_000}, tuition={"amount": 1_700_000, "period": "month"}, **C)
 upsert("highscope-indonesia-kelapa-gading", name="Sekolah HighScope Indonesia Kelapa Gading", city="Jakarta Utara",
        address="Jl. Pegangsaan Dua No.22, Jakarta Utara",
@@ -26,7 +26,7 @@ upsert("highscope-indonesia-kelapa-gading", name="Sekolah HighScope Indonesia Ke
        notes=L("Biaya masuk untuk grade 7–9.", "Entry fee for grades 7–9."), **C)
 upsert("sekolah-citra-kasih-jakarta-kalideres", name="Sekolah Citra Kasih Jakarta", city="Jakarta Barat", district="Kalideres",
        registrationFee=350_000, entryFee={"min": 24_500_000}, tuition={"amount": 1_650_000, "period": "month"}, **C)
-upsert("bpk-penabur-smpk-7-kedoya", name="SMPK 7 BPK Penabur", city="Jakarta Barat", district="Kebon Jeruk", religion="Kristen",
+upsert("bpk-penabur-smpk-7-kedoya", name="SMPK 7 BPK Penabur Jakarta", city="Jakarta Barat", district="Kebon Jeruk", religion="Kristen",
        address="Komplek Sunrise Garden, Kedoya Utara, Jakarta Barat",
        registrationFee=400_000, entryFee={"min": 36_000_000}, tuition={"amount": 3_460_000, "period": "month"},
        notes=L("Kelas nasional Rp3.460.000/bulan; kelas bilingual Rp4.280.000/bulan.", "National class Rp3,460,000/month; bilingual class Rp4,280,000/month."), **C)

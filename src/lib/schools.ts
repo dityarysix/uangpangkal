@@ -4,6 +4,13 @@ export type School = CollectionEntry<'schools'>;
 
 export async function allSchools() {
   const list = await getCollection('schools');
+  // Schools sharing a name (chains, common names) must include their location, e.g. "SD Islam Al-Azhar Bekasi".
+  const seen = new Map<string, string>();
+  for (const s of list) {
+    const key = s.data.name.toLowerCase();
+    if (seen.has(key)) throw new Error(`Duplicate school name "${s.data.name}" in ${seen.get(key)} and ${s.id}: add the location to the name.`);
+    seen.set(key, s.id);
+  }
   return list.sort((a, b) => a.data.name.localeCompare(b.data.name, 'id'));
 }
 

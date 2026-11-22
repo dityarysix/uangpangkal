@@ -9,7 +9,7 @@ SRC = {"title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Pop
 C = dict(level="SMP", year="2026/2027", yearAssumed=True, source=SRC, checked="2026-11-22")
 TS = "Tangerang Selatan"
 
-upsert("smp-islam-al-azhar-25-setu", name="SMP Islam Al-Azhar 25", city=TS, district="Setu", religion="Islam",
+upsert("smp-islam-al-azhar-25-setu", name="SMP Islam Al-Azhar 25 Setu", city=TS, district="Setu", religion="Islam",
        address="Jl. Kelapa Dua No.50, Babakan, Setu, Tangerang Selatan",
        registrationFee=550_000, entryFee={"min": 27_000_000}, tuition={"amount": 1_825_000, "period": "month"},
        notes=L("Uang sekolah kelas prestasi Rp1.825.000; kelas bilingual Rp1.930.000.", "Tuition: achievement class Rp1,825,000; bilingual class Rp1,930,000."), **C)
@@ -26,9 +26,9 @@ upsert("technosa-school", name="Technosa School", city=TS, district="Serpong Uta
 upsert("global-jaya-school", name="Global Jaya School", city=TS, district="Pondok Aren", curriculum=["IB"], website="https://www.globaljaya.com",
        entryFee={"min": 25_000_000}, tuition={"amount": 138_000_000, "period": "year"},
        notes=L("Uang pangkal = SP development fee (1 tahun).", "Entry fee = development fee (1 year)."), **C)
-upsert("smp-islam-amalina", name="SMP Islam Amalina", city=TS, district="Pondok Aren", religion="Islam",
+upsert("smp-islam-amalina", name="SMP Islam Amalina Bintaro", city=TS, district="Pondok Aren", religion="Islam",
        registrationFee=950_000, entryFee={"min": 21_000_000, "max": 24_000_000}, tuition={"amount": 1_100_000, "period": "month"}, **C)
-upsert("smp-bhakti-prima-pamulang", name="SMP Bhakti Prima", city=TS, district="Pamulang", website="https://bhaktiprima.sch.id",
+upsert("smp-bhakti-prima-pamulang", name="SMP Bhakti Prima Pamulang", city=TS, district="Pamulang", website="https://bhaktiprima.sch.id",
        registrationFee=300_000, entryFee={"min": 8_514_300, "max": 10_000_000}, tuition={"amount": 1_014_300, "period": "month"},
        otherFees=[fee(*UNIFORM, 625_000)],
        notes=L("Uang pangkal = uang gedung. Tanpa uang kegiatan; uang buku menyusul.", "Entry fee = building fee. No activity fee; book fee to follow."), **C)
@@ -56,7 +56,7 @@ upsert("sekolah-an-nisaa-izada", name="Sekolah An-Nisaa' Izada", city=TS, distri
        registrationFee=850_000, entryFee={"min": 37_300_000}, tuition={"amount": 2_885_000, "period": "month"},
        otherFees=[fee("Iuran INSAANI", "INSAANI contribution", 255_000), fee("Perpustakaan", "Library", 300_000)],
        notes=L("Uang pangkal = biaya penerimaan.", "Entry fee = admission fee."), **C)
-upsert("sekolah-auliya", name="Sekolah Auliya", city=TS, district="Pondok Aren", religion="Islam", website="https://sekolahauliya.sch.id",
+upsert("sekolah-auliya", name="Sekolah Auliya Bintaro", city=TS, district="Pondok Aren", religion="Islam", website="https://sekolahauliya.sch.id",
        registrationFee=500_000, entryFee={"min": 40_900_000}, tuition={"amount": 2_400_000, "period": "month"},
        notes=L("Uang pangkal = biaya penerimaan.", "Entry fee = admission fee."), **C)
 upsert("millennia-world-school", name="Millennia World School", city=TS, district="Ciputat", curriculum=["Internasional"],

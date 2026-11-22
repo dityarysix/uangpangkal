@@ -84,7 +84,7 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
   .area:hover { border-color: var(--teal); box-shadow: 0 4px 14px rgba(30,58,95,.08); }
   .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 0.5rem; margin: 1rem 0 0.4rem; }
   .filters input, .filters select { font: inherit; color: var(--ink); padding: 0.6rem 0.7rem; border: 1px solid #cfd6df; border-radius: 8px; background: #fff; min-width: 0; }
-  @media (max-width: 720px) { .filters { grid-template-columns: 1fr 1fr; } .filters input { grid-column: 1 / -1; } }
+  @media (max-width: 720px) { .filters { grid-template-columns: 1fr 1fr; } .filters input, .filters #cap { grid-column: 1 / -1; } }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.8rem; }
   :global(.card[hidden]) { display: none; }
 </style>

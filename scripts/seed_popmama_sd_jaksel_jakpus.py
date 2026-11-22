@@ -14,7 +14,7 @@ CHECKED = "2026-11-22"
 BOOKS = ("Buku paket", "Textbooks")
 
 schools = [
- dict(slug="sd-pangudi-luhur-jakarta", name="SD Pangudi Luhur", city="Jakarta Selatan", district="Cilandak",
+ dict(slug="sd-pangudi-luhur-jakarta", name="SD Pangudi Luhur Jakarta", city="Jakarta Selatan", district="Cilandak",
       address="Jl. H. Nawi Raya No.21, Gandaria Selatan, Cilandak, Jakarta Selatan",
       fee=dict(registrationFee=175_000, entryFee={"min": 22_000_000, "max": 26_000_000},
                tuition={"amount": 1_300_000, "period": "month"},
@@ -30,7 +30,7 @@ schools = [
       address="Jl. M. Kahfi II Gg. Masjid An-Nur No.8, Srengseng Sawah, Jagakarsa, Jakarta Selatan",
       fee=dict(entryFee={"min": 23_000_000}, tuition={"amount": 1_500_000, "period": "month"},
                otherFees=[fee(*ACTIVITY, 2_645_000), fee(*UNIFORM, 1_400_000), fee(*BOOKS, 1_100_000), fee("Komite", "School committee", 400_000)])),
- dict(slug="sekolah-islam-harapan-ibu", name="Sekolah Islam Harapan Ibu", city="Jakarta Selatan", district="Kebayoran Lama", religion="Islam",
+ dict(slug="sekolah-islam-harapan-ibu", name="Sekolah Islam Harapan Ibu Jakarta", city="Jakarta Selatan", district="Kebayoran Lama", religion="Islam",
       address="Jl. H. Banan No.1, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
       fee=dict(entryFee={"min": 12_900_000}, tuition={"amount": 2_050_000, "period": "month"},
                otherFees=[fee("Biaya perawatan pengembangan", "Development & maintenance fee", 15_500_000), fee("POMG (persatuan orang tua murid & guru)", "Parent–teacher association", 300_000)])),
@@ -39,7 +39,7 @@ schools = [
       fee=dict(registrationFee=300_000, entryFee={"min": 12_000_000}, tuition={"amount": 1_500_000, "period": "month"},
                notes=L("Uang kegiatan ±Rp4.000.000/tahun; buku dan seragam ±Rp3.000.000.",
                        "Activity fee ~Rp4,000,000/year; books and uniforms ~Rp3,000,000."))),
- dict(slug="tunas-bangsa-christian-school-gunung-sahari", name="Tunas Bangsa Christian School", city="Jakarta Pusat", district="Sawah Besar", religion="Kristen",
+ dict(slug="tunas-bangsa-christian-school-gunung-sahari", name="Tunas Bangsa Christian School Gunung Sahari", city="Jakarta Pusat", district="Sawah Besar", religion="Kristen",
       address="Jl. Gunung Sahari XII No.11, Gunung Sahari Utara, Sawah Besar, Jakarta Pusat",
       fee=dict(registrationFee=200_000, entryFee={"min": 10_500_000}, tuition={"amount": 1_100_000, "period": "month"},
                otherFees=[fee("Dana operasional tahunan", "Annual operating fee", 1_750_000)],
@@ -63,7 +63,7 @@ schools = [
       fee=dict(registrationFee=500_000, entryFee={"min": 11_800_000}, tuition={"amount": 750_000, "period": "month"},
                otherFees=[fee("Kegiatan siswa", "Student activities", 3_950_000)],
                notes=L("Biaya pendaftaran = biaya observasi dan riset.", "Registration fee = observation & assessment fee."))),
- dict(slug="sdit-al-abrar-bendungan-hilir", name="SDIT Al-Abrar", city="Jakarta Pusat", district="Tanah Abang", religion="Islam",
+ dict(slug="sdit-al-abrar-bendungan-hilir", name="SDIT Al-Abrar Jakarta", city="Jakarta Pusat", district="Tanah Abang", religion="Islam",
       address="Jl. Bendungan Hilir No.148, Bendungan Hilir, Tanah Abang, Jakarta Pusat",
       fee=dict(registrationFee=270_000, entryFee={"min": 6_100_000}, tuition={"amount": 375_000, "period": "month"},
                otherFees=[fee("Foto dan rapor", "Photos & report book", 200_000), fee(*UNIFORM, 1_605_000), fee(*ACTIVITY, 865_000)])),

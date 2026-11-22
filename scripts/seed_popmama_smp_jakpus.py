@@ -16,7 +16,7 @@ upsert("smpi-al-ihsan-kebon-kacang", name="SMPI Al Ihsan Kebon Kacang", district
        address="Jl. Kebon Kacang 9 No.57, Kebon Kacang, Tanah Abang, Jakarta Pusat", phone="(021) 3103313 / 0812-8897-1305",
        entryFee={"min": 1_675_000}, tuition={"amount": 225_000, "period": "month"},
        notes=L("Uang pangkal = uang gedung dan lain-lain.", "Entry fee = building fee and other items."), **C)
-upsert("smpit-al-mubarak-cempaka-putih", name="SMPIT Al Mubarak", district="Cempaka Putih", religion="Islam",
+upsert("smpit-al-mubarak-cempaka-putih", name="SMPIT Al Mubarak Jakarta", district="Cempaka Putih", religion="Islam",
        address="Jl. Pramuka Sari III No.24, Rawasari, Cempaka Putih, Jakarta Pusat", phone="0895-1703-6100",
        entryFee={"min": 15_000_000}, tuition={"amount": 750_000, "period": "month"},
        notes=L("Sumber menyebut: registrasi Rp15.000.000 (setelah tes); SPP Rp750.000/bulan; sudah termasuk pangkal, buku, dan seragam.",
@@ -30,11 +30,11 @@ upsert("perguruan-cikini", name="Perguruan Cikini", district="Menteng",
        address="Jl. Cikini Raya No.74-76, Cikini, Menteng, Jakarta Pusat", phone="(021) 3144374 / 0815-1905-3664",
        entryFee={"min": 18_700_000}, tuition={"amount": 1_770_000, "period": "month"},
        otherFees=[fee("Uang buku", "Books", 1_800_000)], **C)
-upsert("smp-1-pskd", name="SMP 1 PSKD", district="Senen",
+upsert("smp-1-pskd", name="SMP 1 PSKD Jakarta", district="Senen",
        address="Jl. Diponegoro No.80, Senen, Jakarta Pusat", phone="(021) 3904418 / 0821-8888-7753",
        registrationFee=150_000, tuition={"amount": 746_000, "period": "month"},
        otherFees=[fee("Biaya pengembangan (per tahun)", "Development fee (per year)", 2_500_000)], **C)
-upsert("sekolah-kristen-saint-john-kemayoran", name="Sekolah Kristen Saint John", district="Kemayoran", religion="Kristen",
+upsert("sekolah-kristen-saint-john-kemayoran", name="Sekolah Kristen Saint John Jakarta", district="Kemayoran", religion="Kristen",
        address="Jl. Bungur Besar Raya No.82A, Gunung Sahari, Kemayoran, Jakarta Pusat", phone="(021) 4213645 / 0878-7818-7068",
        entryFee={"min": 6_000_000}, tuition={"amount": 1_100_000, "period": "month"},
        otherFees=[fee("Uang kegiatan", "Activity fee", 2_000_000)],

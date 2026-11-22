@@ -39,7 +39,7 @@ upsert("mentari-intercultural-school-jakarta", name="Mentari Intercultural Schoo
        address="Jl. H. Jian No.6, Cipete Utara, Kebayoran Baru, Jakarta Selatan", phone="(021) 72794870 / 0878-7773-7937", website="https://mentarischool.com",
        entryFee={"min": 98_000_000}, tuition={"amount": 9_850_000, "period": "month"},
        notes=L("Uang pangkal = uang pengembangan.", "Entry fee = development fee."), **C)
-upsert("sekolah-islam-harapan-ibu", name="Sekolah Islam Harapan Ibu", district="Kebayoran Lama", religion="Islam",
+upsert("sekolah-islam-harapan-ibu", name="Sekolah Islam Harapan Ibu Jakarta", district="Kebayoran Lama", religion="Islam",
        address="Jl. H. Banan No.1, Pondok Pinang, Kebayoran Lama, Jakarta Selatan", phone="(021) 7591122 / 0811-8992-413", website="https://harapanibu.sch.id",
        entryFee={"min": 8_300_000}, tuition={"amount": 1_750_000, "period": "month"},
        otherFees=[fee("Biaya perawatan pengembangan", "Development & maintenance fee", 14_000_000)], notes=WAVE, **C)
