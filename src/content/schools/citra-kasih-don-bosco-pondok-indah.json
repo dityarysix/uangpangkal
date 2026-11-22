@@ -1,0 +1,35 @@
+{
+  "name": "Sekolah Citra Kasih Don Bosco Pondok Indah",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. Duta Indah, Pondok Indah, Cilandak Barat, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 24000000,
+        "max": 32000000
+      },
+      "tuition": {
+        "amount": 2200000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp32.000.000, diskon 25% menjadi Rp24.000.000 (berlaku s/d 30 November 2025). Belum termasuk uang kegiatan ±Rp3–4 juta/tahun, seragam ±Rp300–350 ribu/stel, buku ±Rp1–1,2 juta/tahun.",
+        "en": "Entry fee Rp32,000,000, 25% discount to Rp24,000,000 (valid until 30 November 2025). Excludes activity fee ~Rp3–4M/year, uniforms ~Rp300–350k/set, books ~Rp1–1.2M/year."
+      },
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

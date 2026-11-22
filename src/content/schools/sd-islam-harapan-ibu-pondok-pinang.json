@@ -1,0 +1,46 @@
+{
+  "name": "SD Islam Harapan Ibu",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. H. Banan No.1, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 12900000
+      },
+      "tuition": {
+        "amount": 2050000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya perawatan pengembangan",
+            "en": "Development & maintenance fee"
+          },
+          "amount": 15500000
+        },
+        {
+          "label": {
+            "id": "POMG (persatuan orang tua murid & guru)",
+            "en": "Parent–teacher association"
+          },
+          "amount": 300000
+        }
+      ],
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { areaBySlug } from '../lib/areas';
+import { t, paths, rupiah, CURRENT_YEAR, type Lang } from '../lib/i18n';
+import { latestFees, type School } from '../lib/schools';
+interface Props { lang: Lang; school: School }
+const { lang, school } = Astro.props;
+const d = school.data;
+const area = areaBySlug(d.area)!;
+const fees = latestFees(school);
+const period = (p: 'month' | 'quarter' | 'semester' | 'year') => t(lang, `perPeriod_${p}`);
+const prevYearStart = Number(CURRENT_YEAR.slice(0, 4)) - 1;
+const isOld = (y: string) => Number(y.slice(0, 4)) < prevYearStart;
+const date = (s: string) => new Date(s + 'T00:00:00').toLocaleDateString(lang === 'id' ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+const title = lang === 'id'
+  ? `${d.name}: Uang Pangkal, SPP & Pendaftaran ${fees[0]?.academicYear ?? ''}`.trim()
+  : `${d.name}: Entry Fee, Tuition & Admissions ${fees[0]?.academicYear ?? ''}`.trim();
+const desc = lang === 'id'
+  ? `Rincian biaya masuk, SPP, dan prosedur pendaftaran ${d.name}, ${d.city}.`
+  : `Entry fee, tuition and admission procedure for ${d.name}, ${d.city}.`;
+const jsonld = {
+  '@context': 'https://schema.org', '@type': 'School', name: d.name,
+  address: d.address ? { '@type': 'PostalAddress', streetAddress: d.address, addressLocality: d.city, addressCountry: 'ID' } : undefined,
+  url: d.website, telephone: d.phone,
+};
+---
+<Base lang={lang} title={title} description={desc} altPath={paths.school(lang === 'id' ? 'en' : 'id', school.id)}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+  <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › <a href={paths.area(lang, d.area)}>{area.name[lang]}</a> › {d.name}</p>
+  <h1>{d.name}</h1>
+  <p class="muted">{d.address ?? `${d.district ? d.district + ', ' : ''}${d.city}`}</p>
+  <p>
+    {d.levels.map((l) => <span class="tag">{l}</span>)}
+    {d.religion && <span class="tag">{d.religion}</span>}
+    {d.curriculum.map((c) => <span class="tag">{c}</span>)}
+  </p>
+  {(d.website || d.phone) && (
+    <p class="contact">
+      {d.website && <a href={d.website} rel="nofollow noopener" target="_blank">{t(lang, 'website')} ↗</a>}
+      {d.phone && <span>☎ {d.phone}</span>}
+    </p>
+  )}
+
+  <h2>{t(lang, 'feesTitle')}</h2>
+  {fees.length === 0 && <p class="warn">{t(lang, 'noFees')}</p>}
+  {fees.map((f) => (
+    <article class="fee">
+      <header>
+        <strong>{f.level}</strong> · {t(lang, 'year')} {f.academicYear}
+      </header>
+      {isOld(f.academicYear) && <p class="warn">{t(lang, 'olderData')}</p>}
+      <table>
+        <tbody>
+          {f.registrationFee !== undefined && <tr><th>{t(lang, 'registrationFee')}</th><td>{rupiah(f.registrationFee)}</td></tr>}
+          {f.entryFee && <tr><th>{t(lang, 'entryFee')}</th><td>{rupiah(f.entryFee.min)}{f.entryFee.max && f.entryFee.max !== f.entryFee.min ? ` – ${rupiah(f.entryFee.max)}` : ''}</td></tr>}
+          {f.tuition && <tr><th>{t(lang, 'tuition')}</th><td>{rupiah(f.tuition.amount)}{period(f.tuition.period)}</td></tr>}
+          {f.otherFees.map((o) => <tr class="other"><th>{o.label[lang]}</th><td>{rupiah(o.amount)}</td></tr>)}
+        </tbody>
+      </table>
+      {f.notes && <p class="notes">{f.notes[lang]}</p>}
+      <p class="src muted">
+        {t(lang, 'source')}: <a href={f.source.url} rel="nofollow noopener" target="_blank">{f.source.title}</a>{f.source.published && ` (${date(f.source.published)})`} · {t(lang, 'checked')} {date(f.checked)}
+      </p>
+    </article>
+  ))}
+
+  <AdSlot />
+
+  <h2>{t(lang, 'admissionTitle')}</h2>
+  {!d.admission || (d.admission.steps.length === 0 && !d.admission.period) ? (
+    <p class="muted">{t(lang, 'noAdmission')}</p>
+  ) : (
+    <div>
+      {d.admission.period && <p><strong>{t(lang, 'period')}:</strong> {d.admission.period[lang]}</p>}
+      {d.admission.steps.length > 0 && <ol>{d.admission.steps.map((s) => <li>{s[lang]}</li>)}</ol>}
+      {d.admission.documents.length > 0 && (<><h3>{t(lang, 'documents')}</h3><ul>{d.admission.documents.map((s) => <li>{s[lang]}</li>)}</ul></>)}
+      {d.admission.test && <p><strong>{t(lang, 'test')}:</strong> {d.admission.test[lang]}</p>}
+      {d.admission.source && <p class="src muted">{t(lang, 'source')}: <a href={d.admission.source.url} rel="nofollow noopener" target="_blank">{d.admission.source.title}</a></p>}
+    </div>
+  )}
+
+  <p class="warn disclaimer">{t(lang, 'disclaimer')}</p>
+</Base>
+<style>
+  .contact { display: flex; gap: 1rem; }
+  .fee { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; margin-bottom: 1rem; }
+  .fee header { margin-bottom: 0.6rem; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 0.45rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 500; color: var(--muted); width: 55%; }
+  td { font-weight: 700; font-variant-numeric: tabular-nums; }
+  tr.other td { font-weight: 500; }
+  .notes { font-size: 0.92rem; margin: 0.8rem 0 0; }
+  .src { font-size: 0.8rem; margin: 0.7rem 0 0; }
+  .disclaimer { margin-top: 2rem; }
+</style>

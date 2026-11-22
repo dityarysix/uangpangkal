@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import { paths, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const id = lang === 'id';
+---
+<Base lang={lang} title={id ? 'Tentang uangpangkal.com' : 'About uangpangkal.com'}
+  description={id ? 'Cara kami mengumpulkan dan memverifikasi data biaya sekolah.' : 'How we collect and verify school fee data.'}
+  altPath={paths.about(id ? 'en' : 'id')}>
+  <h1>{id ? 'Tentang uangpangkal.com' : 'About uangpangkal.com'}</h1>
+  {id ? (
+    <div class="prose">
+      <p>uangpangkal.com mengumpulkan informasi biaya masuk (uang pangkal), SPP, dan prosedur pendaftaran sekolah swasta agar orang tua dapat membandingkan pilihan dengan mudah.</p>
+      <h2>Dari mana datanya?</h2>
+      <p>Data berasal dari situs resmi sekolah, brosur yang dipublikasikan, dan media daring. Setiap angka mencantumkan sumber, tahun ajaran, dan tanggal terakhir kami memeriksanya. Kami tidak memperkirakan biaya: jika sekolah belum mempublikasikan biaya, kami menuliskannya demikian.</p>
+      <h2>Penting</h2>
+      <p>Biaya berubah setiap tahun ajaran dan sering ada diskon gelombang awal. Selalu konfirmasi langsung ke sekolah sebelum mendaftar.</p>
+      <h2>Menemukan kesalahan?</h2>
+      <p>Jika Anda orang tua atau pihak sekolah dan menemukan data yang salah atau sudah usang, kirim koreksi beserta sumbernya. Formulir koreksi segera hadir.</p>
+    </div>
+  ) : (
+    <div class="prose">
+      <p>uangpangkal.com collects entry fees (uang pangkal), tuition (SPP) and admission procedures of private schools so parents can compare options easily.</p>
+      <h2>Where does the data come from?</h2>
+      <p>From official school websites, published brochures and online media. Every figure lists its source, academic year and the date we last checked it. We never estimate fees: if a school has not published them, we say so.</p>
+      <h2>Important</h2>
+      <p>Fees change every academic year and early-bird discounts are common. Always confirm directly with the school before applying.</p>
+      <h2>Found a mistake?</h2>
+      <p>If you are a parent or school representative and spot wrong or outdated data, send a correction with a source. A correction form is coming soon.</p>
+    </div>
+  )}
+</Base>
+<style>.prose { max-width: 680px; }</style>

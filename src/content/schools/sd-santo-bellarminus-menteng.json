@@ -1,0 +1,34 @@
+{
+  "name": "SD Santo Bellarminus",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Menteng",
+  "address": "Jl. Lombok No.58, Gondangdia, Menteng, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang kegiatan ±Rp4.000.000/tahun; buku dan seragam ±Rp3.000.000.",
+        "en": "Activity fee ~Rp4,000,000/year; books and uniforms ~Rp3,000,000."
+      },
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

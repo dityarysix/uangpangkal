@@ -1,0 +1,7 @@
+---
+import AreaView from '../../views/AreaView.astro';
+import { AREAS } from '../../lib/areas';
+export const getStaticPaths = () => AREAS.map((a) => ({ params: { area: a.slug } }));
+const { area } = Astro.params;
+---
+<AreaView lang="id" slug={area!} />

@@ -1,0 +1,9 @@
+---
+import SchoolView from '../../views/SchoolView.astro';
+import { allSchools } from '../../lib/schools';
+export async function getStaticPaths() {
+  return (await allSchools()).map((s) => ({ params: { slug: s.id }, props: { school: s } }));
+}
+const { school } = Astro.props;
+---
+<SchoolView lang="id" school={school} />

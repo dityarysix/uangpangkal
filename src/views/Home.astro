@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import SchoolCard from '../components/SchoolCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { AREAS } from '../lib/areas';
+import { t, paths, type Lang } from '../lib/i18n';
+import { allSchools } from '../lib/schools';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const schools = await allSchools();
+const count = (a: string) => schools.filter((s) => s.data.area === a).length;
+const LEVELS = ['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK'];
+const caps = [5_000_000, 10_000_000, 25_000_000, 50_000_000, 100_000_000];
+const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'million'}`;
+---
+<Base lang={lang} title={`uangpangkal.com — ${t(lang, 'siteTagline')}`} description={t(lang, 'heroLead')} altPath={paths.home(lang === 'id' ? 'en' : 'id')}>
+  <section class="hero">
+    <h1>{t(lang, 'heroTitle')}</h1>
+    <p class="lead">{t(lang, 'heroLead')}</p>
+  </section>
+
+  <section class="areas" aria-label={t(lang, 'areas')}>
+    {AREAS.map((a) => (
+      <a class="area" href={paths.area(lang, a.slug)}>
+        <strong>{a.name[lang]}</strong>
+        <span class="muted">{count(a.slug)} {t(lang, 'schools')}</span>
+      </a>
+    ))}
+  </section>
+
+  <AdSlot />
+
+  <form class="filters" id="filters" onsubmit="return false">
+    <input type="search" id="q" placeholder={t(lang, 'searchPlaceholder')} aria-label={t(lang, 'searchPlaceholder')} />
+    <select id="area" aria-label={t(lang, 'areas')}>
+      <option value="">{t(lang, 'allAreas')}</option>
+      {AREAS.map((a) => <option value={a.slug}>{a.name[lang]}</option>)}
+    </select>
+    <select id="level" aria-label={t(lang, 'level')}>
+      <option value="">{t(lang, 'allLevels')}</option>
+      {LEVELS.map((l) => <option value={l}>{l}</option>)}
+    </select>
+    <select id="cap" aria-label={t(lang, 'maxEntry')}>
+      <option value="">{t(lang, 'maxEntry')}: {t(lang, 'any')}</option>
+      {caps.map((c) => <option value={c}>{fmt(c)}</option>)}
+    </select>
+  </form>
+
+  <p class="muted" id="count" data-label={t(lang, 'schools')}>{schools.length} {t(lang, 'schools')}</p>
+  <div class="grid" id="results">
+    {schools.map((s) => <SchoolCard school={s} lang={lang} />)}
+  </div>
+  <p id="empty" class="muted" hidden>{t(lang, 'noResults')}</p>
+</Base>
+
+<script>
+  const $ = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const cards = [...document.querySelectorAll<HTMLElement>('#results .card')];
+  function apply() {
+    const q = $('q').value.trim().toLowerCase();
+    const area = $('area').value, level = $('level').value, cap = Number($('cap').value) || 0;
+    let n = 0;
+    for (const c of cards) {
+      const d = c.dataset;
+      const entry = d.entry ? Number(d.entry) : NaN;
+      const ok = (!q || d.name!.includes(q)) && (!area || d.area === area) &&
+        (!level || d.levels!.split(' ').includes(level)) && (!cap || (!isNaN(entry) && entry <= cap));
+      c.hidden = !ok; if (ok) n++;
+    }
+    const count = document.getElementById('count')!;
+    count.textContent = `${n} ${count.dataset.label}`;
+    document.getElementById('empty')!.hidden = n > 0;
+  }
+  document.getElementById('filters')!.addEventListener('input', apply);
+</script>
+
+<style>
+  .hero { padding: 1.5rem 0 0.5rem; max-width: 720px; }
+  .lead { font-size: 1.1rem; color: var(--muted); margin: 0; }
+  .areas { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.7rem; margin-top: 1.6rem; }
+  .area { display: flex; flex-direction: column; padding: 0.9rem 1rem; border-radius: var(--radius); background: var(--brand); color: #fff; text-decoration: none; }
+  .area .muted { color: #cfe6e1; font-size: 0.85rem; }
+  .area:hover { background: var(--brand-ink); }
+  .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 0.5rem; margin: 1rem 0 0.4rem; }
+  .filters input, .filters select { font: inherit; padding: 0.6rem 0.7rem; border: 1px solid var(--line); border-radius: 8px; background: #fff; min-width: 0; }
+  @media (max-width: 720px) { .filters { grid-template-columns: 1fr 1fr; } .filters input { grid-column: 1 / -1; } }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.8rem; }
+  :global(.card[hidden]) { display: none; }
+</style>

@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import SchoolCard from '../components/SchoolCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { areaBySlug } from '../lib/areas';
+import { t, paths, type Lang } from '../lib/i18n';
+import { allSchools } from '../lib/schools';
+interface Props { lang: Lang; slug: string }
+const { lang, slug } = Astro.props;
+const area = areaBySlug(slug)!;
+const schools = (await allSchools()).filter((s) => s.data.area === slug);
+const byCity = area.cities
+  .map((c) => ({ city: c, list: schools.filter((s) => s.data.city === c) }))
+  .filter((g) => g.list.length);
+const other = schools.filter((s) => !area.cities.includes(s.data.city));
+if (other.length) byCity.push({ city: lang === 'id' ? 'Lainnya' : 'Other', list: other });
+const title = lang === 'id'
+  ? `Biaya Sekolah Swasta di ${area.name.id} — Uang Pangkal & SPP`
+  : `Private School Fees in ${area.name.en} — Entry Fees & Tuition`;
+const desc = lang === 'id'
+  ? `Daftar uang pangkal, SPP, dan prosedur pendaftaran ${schools.length} sekolah swasta di ${area.name.id}.`
+  : `Entry fees, tuition and admission procedures for ${schools.length} private schools in ${area.name.en}.`;
+---
+<Base lang={lang} title={title} description={desc} altPath={paths.area(lang === 'id' ? 'en' : 'id', slug)}>
+  <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › {area.name[lang]}</p>
+  <h1>{title}</h1>
+  <p class="muted">{desc}</p>
+  <AdSlot />
+  {byCity.length === 0 && <p class="warn">{lang === 'id' ? 'Data untuk wilayah ini sedang dikumpulkan.' : 'Data for this area is being collected.'}</p>}
+  {byCity.map((g) => (
+    <section>
+      <h2>{g.city} <span class="muted">({g.list.length})</span></h2>
+      <div class="grid">{g.list.map((s) => <SchoolCard school={s} lang={lang} />)}</div>
+    </section>
+  ))}
+</Base>
+<style>
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.8rem; }
+</style>

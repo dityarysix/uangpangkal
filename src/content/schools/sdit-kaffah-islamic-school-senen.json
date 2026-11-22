@@ -1,0 +1,44 @@
+{
+  "name": "SDIT Kaffah Islamic School",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Senen",
+  "address": "Jl. Pramuka 16 No.549A, Paseban, Senen, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 11800000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan siswa",
+            "en": "Student activities"
+          },
+          "amount": 3950000
+        }
+      ],
+      "notes": {
+        "id": "Biaya pendaftaran = biaya observasi dan riset.",
+        "en": "Registration fee = observation & assessment fee."
+      },
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

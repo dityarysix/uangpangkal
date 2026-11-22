@@ -1,0 +1,57 @@
+{
+  "name": "SD Swasta Ratih",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Cempaka Putih",
+  "address": "Jl. Murdai No.1, Cempaka Putih Barat, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 1500000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Sarana dan prasarana",
+            "en": "Facilities fee"
+          },
+          "amount": 1350000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Menurut sumber, ini biaya tahun ajaran berjalan (2025/2026); biaya 2026/2027 diperkirakan tidak jauh berbeda. Uang pangkal = uang gedung.",
+        "en": "Per the source these are current-year (2025/2026) fees; 2026/2027 fees were expected to be similar. Entry fee = building fee."
+      },
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

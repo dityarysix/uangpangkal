@@ -1,0 +1,60 @@
+{
+  "name": "SD Islam Tunas Mandiri",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. M. Kahfi II Gg. Masjid An-Nur No.8, Srengseng Sawah, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 23000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2645000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1400000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 1100000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "School committee"
+          },
+          "amount": 400000
+        }
+      ],
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

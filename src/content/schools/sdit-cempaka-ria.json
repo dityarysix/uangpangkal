@@ -1,0 +1,93 @@
+{
+  "name": "SDIT Cempaka Ria",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Cempaka Putih",
+  "address": "Jl. Rawasari Timur 1, Cempaka Putih Timur, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 30000,
+      "entryFee": {
+        "min": 3200000
+      },
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Ujian PTS dan PAT",
+            "en": "Mid- and end-of-year exams"
+          },
+          "amount": 400000
+        },
+        {
+          "label": {
+            "id": "UKS",
+            "en": "School health unit"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 1150000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan (1 tahun)",
+            "en": "Activity fee (1 year)"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Coding (1 tahun)",
+            "en": "Coding (1 year)"
+          },
+          "amount": 780000
+        },
+        {
+          "label": {
+            "id": "Outing class",
+            "en": "Outing class"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Rapor",
+            "en": "Report book"
+          },
+          "amount": 150000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = uang gedung.",
+        "en": "Entry fee = building fee."
+      },
+      "source": {
+        "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
