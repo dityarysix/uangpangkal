@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import SchoolCard from '../components/SchoolCard.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { areaBySlug, areaOfCity } from '../lib/areas';
-import { t, paths, type Lang } from '../lib/i18n';
+import { t, paths, CURRENT_YEAR, type Lang } from '../lib/i18n';
 import { allSchools } from '../lib/schools';
 interface Props { lang: Lang; slug: string }
 const { lang, slug } = Astro.props;
@@ -18,11 +18,57 @@ const title = lang === 'id'
 const desc = lang === 'id'
   ? `Daftar uang pangkal, SPP, dan prosedur pendaftaran ${schools.length} sekolah swasta di ${area.name.id}.`
   : `Entry fees, tuition and admission procedures for ${schools.length} private schools in ${area.name.en}.`;
+const heading = lang === 'id' ? `Biaya Sekolah Swasta di ${area.name.id}` : `Private School Fees in ${area.name.en}`;
+
+// ---- Intro, computed from the data so it stays correct after every update.
+const id = lang === 'id';
+const join = (xs: string[]) => xs.length <= 1 ? (xs[0] ?? '') : xs.length === 2 ? `${xs[0]}${id ? ' dan ' : ' and '}${xs[1]}` : `${xs.slice(0, -1).join(', ')}${id ? ', dan ' : ', and '}${xs[xs.length - 1]}`;
+const money = (n: number) => {
+  const fmt = (v: number) => (Math.round(v * 100) / 100).toLocaleString(id ? 'id-ID' : 'en-US', { maximumFractionDigits: 2 });
+  if (n >= 1_000_000_000) return `Rp${fmt(n / 1_000_000_000)} ${id ? 'miliar' : 'billion'}`;
+  if (n >= 1_000_000) return `Rp${fmt(n / 1_000_000)} ${id ? 'juta' : 'million'}`;
+  return `Rp${fmt(n / 1_000)} ${id ? 'ribu' : 'thousand'}`;
+};
+const kinds: string[] = [];
+const has = (f: (s: any) => boolean) => schools.some(f);
+if (has((s) => s.data.religion === 'Islam')) kinds.push(has((s) => s.data.religion === 'Islam' && /\b(IT|SDIT|SMPIT|SMAIT|SIT|TKIT)\b|Terpadu/i.test(s.data.name)) ? (id ? 'sekolah Islam terpadu' : 'integrated Islamic schools') : (id ? 'sekolah Islam' : 'Islamic schools'));
+const kat = has((s) => s.data.religion === 'Katolik'), kri = has((s) => s.data.religion === 'Kristen');
+if (kat || kri) kinds.push(kat && kri ? (id ? 'sekolah Katolik dan Kristen' : 'Catholic and Christian schools') : kat ? (id ? 'sekolah Katolik' : 'Catholic schools') : (id ? 'sekolah Kristen' : 'Christian schools'));
+if (has((s) => s.data.religion === 'Buddha')) kinds.push(id ? 'sekolah Buddhis' : 'Buddhist schools');
+if (has((s) => s.data.religion === 'Hindu')) kinds.push(id ? 'sekolah Hindu' : 'Hindu schools');
+if (has((s) => (s.data.curriculum ?? []).some((c: string) => ['IB', 'Cambridge', 'Internasional'].includes(c)))) kinds.push(id ? 'sekolah internasional' : 'international schools');
+const range = kinds.length >= 3
+  ? (id ? `, mulai dari ${kinds.slice(0, -1).join(', ')}, hingga ${kinds[kinds.length - 1]}` : `, from ${kinds.slice(0, -1).join(', ')} to ${kinds[kinds.length - 1]}`)
+  : kinds.length === 2
+  ? (id ? `, mulai dari ${kinds[0]} hingga ${kinds[1]}` : `, from ${kinds[0]} to ${kinds[1]}`)
+  : kinds.length === 1 ? (id ? `, termasuk ${kinds[0]}` : `, including ${kinds[0]}`) : '';
+const cityNames = join(byCity.map((g) => g.city));
+// SD figures: latest SD fee entry per school; zero (free-programme) amounts are excluded from ranges.
+const sdLatest = schools.map((s) => (s.data.fees ?? []).filter((f: any) => f.level === 'SD').sort((a: any, b: any) => b.academicYear.localeCompare(a.academicYear))[0]).filter(Boolean);
+const entries = sdLatest.map((f: any) => f.entryFee?.min).filter((v: any) => typeof v === 'number' && v > 0);
+const spps = sdLatest.map((f: any) => f.tuition).filter((t: any) => t && t.period === 'month' && t.amount > 0).map((t: any) => t.amount);
+const [y1] = CURRENT_YEAR.split('/').map(Number);
+const prevYear = `${y1 - 1}/${y1}`;
+const recent = schools.filter((s) => (s.data.fees ?? []).some((f: any) => f.academicYear >= prevYear)).length;
+const p1 = id
+  ? `${area.name.id} punya pilihan sekolah swasta yang ${kinds.length >= 3 ? 'sangat beragam dan berwarna' : 'beragam'}${range}. Di halaman ini kami merangkum uang pangkal, SPP, dan prosedur pendaftaran ${schools.length} sekolah swasta di ${cityNames}.`
+  : `${area.name.en} offers a ${kinds.length >= 3 ? 'wide and colourful' : 'varied'} choice of private schools${range}. This page summarises entry fees, tuition and admission procedures for ${schools.length} private schools in ${cityNames}.`;
+const p2parts: string[] = [];
+if (entries.length >= 2) p2parts.push(id ? `Untuk jenjang SD, uang pangkal yang tercatat berkisar ${money(Math.min(...entries))} hingga ${money(Math.max(...entries))}.` : `For primary school (SD), recorded entry fees range from ${money(Math.min(...entries))} to ${money(Math.max(...entries))}.`);
+if (spps.length >= 2) p2parts.push(id ? `SPP bulanan umumnya ${money(Math.min(...spps))} sampai ${money(Math.max(...spps))}.` : `Monthly tuition is generally ${money(Math.min(...spps))} to ${money(Math.max(...spps))}.`);
+if (recent > 0) p2parts.push(id ? `Sebanyak ${recent} sekolah sudah memiliki data tahun ajaran ${prevYear} atau lebih baru.` : `${recent} schools already have data for the ${prevYear} school year or later.`);
+const p3 = id
+  ? 'Pendaftaran sekolah swasta biasanya dibuka sejak September–Oktober, jauh sebelum SPMB sekolah negeri, dan banyak sekolah memberi potongan uang pangkal untuk gelombang awal. Setiap angka di bawah mencantumkan tahun ajaran dan sumbernya. Selalu konfirmasi biaya terbaru langsung ke sekolah.'
+  : 'Private school admissions usually open in September–October, well before the public-school SPMB, and many schools discount the entry fee for early waves. Every figure below shows its school year and source. Always confirm the latest fees directly with the school.';
 ---
 <Base lang={lang} title={title} description={desc} altPath={paths.area(lang === 'id' ? 'en' : 'id', slug)}>
   <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › {area.name[lang]}</p>
-  <h1>{title}</h1>
-  <p class="muted">{desc}</p>
+  <h1>{heading}</h1>
+  <div class="intro">
+    <p>{p1}</p>
+    {p2parts.length > 0 && <p>{p2parts.join(' ')}</p>}
+    <p>{p3}</p>
+  </div>
   <AdSlot />
   {byCity.length === 0 && <p class="warn">{lang === 'id' ? 'Data untuk wilayah ini sedang dikumpulkan.' : 'Data for this area is being collected.'}</p>}
   {byCity.map((g) => (
@@ -33,5 +79,7 @@ const desc = lang === 'id'
   ))}
 </Base>
 <style>
+  .intro { max-width: 52rem; color: #3b4656; line-height: 1.65; }
+  .intro p { margin: 0 0 0.8rem; }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.8rem; }
 </style>
