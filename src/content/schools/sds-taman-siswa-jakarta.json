@@ -1,0 +1,28 @@
+{
+  "name": "SDS Taman Siswa Jakarta",
+  "city": "Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "SPP termasuk kaos olahraga dan seragam batik. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Tuition includes a sports shirt and batik uniform. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "tuition": {
+        "amount": 300000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Jakarta Pusat Terbaru (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-di-jakarta-pusat-terbaru/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

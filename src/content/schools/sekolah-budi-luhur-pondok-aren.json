@@ -2,13 +2,36 @@
   "name": "Sekolah Budi Luhur Pondok Aren",
   "city": "Tangerang Selatan",
   "district": "Pondok Aren",
-  "address": "Jl. Jombang Raya No.77, Pondok Kacang Timur, Pondok Aren, Tangerang Selatan",
+  "address": "Jl. Jombang Raya No.77, Pondok Aren, Tangerang Selatan",
   "levels": [
     "SD"
   ],
   "website": "https://sdpa.sekolahbudiluhur.sch.id",
   "phone": "Sekretariat 0856-9752-4293",
-  "fees": [],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "entryFee": {
+        "min": 23500000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk Sekolah Dasar di Tangerang & Tangerang Selatan (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sekolah-dasar-di-tangerang-tangerang-selatan/",
+        "published": "2026-09-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
   "admission": [
     {
       "level": "SD",

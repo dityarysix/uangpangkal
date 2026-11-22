@@ -4,10 +4,36 @@
   "district": "Gambir",
   "address": "Jl. A.M. Sangaji No.20, Petojo Utara, Gambir, Jakarta Pusat",
   "levels": [
+    "SD",
     "SMP"
   ],
+  "religion": "Katolik",
   "website": "https://sbm.sch.id",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp6.000.000 (reguler) / Rp13.000.000 (bilingual), termasuk seragam dan buku tahun pertama. SPP Rp950.000 (reguler) / Rp1.950.000 (bilingual). Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Entry Rp6,000,000 (regular) / Rp13,000,000 (bilingual), incl. first-year uniforms and books. Tuition Rp950,000 (regular) / Rp1,950,000 (bilingual). The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 6000000,
+        "max": 13000000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Jakarta Pusat Terbaru (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-di-jakarta-pusat-terbaru/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",

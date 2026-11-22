@@ -1,0 +1,30 @@
+{
+  "name": "SD Plus Hang Tuah 1 Jakarta",
+  "city": "Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2020/2021",
+      "notes": {
+        "id": "Total biaya masuk Rp7.250.000 termasuk SPP 1 bulan Rp400.000, buku, seragam, dana pendidikan. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Total entry Rp7,250,000 incl. 1 month's tuition Rp400,000, books, uniforms, education fund. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "entryFee": {
+        "min": 7250000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Jakarta Barat dan Utara (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-jakarta-barat-dan-utara/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

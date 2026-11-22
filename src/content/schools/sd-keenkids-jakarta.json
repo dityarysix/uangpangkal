@@ -1,0 +1,39 @@
+{
+  "name": "SD KeenKids Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. Ciputat Raya No.1, Kebayoran Lama Utara, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Tuition fee Rp7 juta per 6 bulan, ditambah SPP Rp2,8 juta per bulan (menurut artikel). Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Tuition Rp7M per 6 months, plus Rp2.8M monthly (per the article). The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "tuition": {
+        "amount": 2800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Tuition fee per semester",
+            "en": "Tuition fee per semester"
+          },
+          "amount": 7000000
+        }
+      ],
+      "source": {
+        "title": "Biaya Sekolah Dasar di Jakarta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sekolah-dasar-di-jakarta/",
+        "published": "2026-09-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

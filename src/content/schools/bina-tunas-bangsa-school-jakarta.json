@@ -1,0 +1,32 @@
+{
+  "name": "Bina Tunas Bangsa School",
+  "city": "Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Belum termasuk buku dan kegiatan. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Excludes books and activities. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 61000000
+      },
+      "tuition": {
+        "amount": 4950000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Jakarta Barat dan Utara (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-jakarta-barat-dan-utara/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

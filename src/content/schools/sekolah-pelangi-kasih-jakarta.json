@@ -1,0 +1,34 @@
+{
+  "name": "Sekolah Pelangi Kasih",
+  "city": "Jakarta Utara",
+  "address": "Taman Grisenda, Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya tes Rp200.000; uang pendaftaran Rp6.000.000. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Test Rp200,000; registration Rp6,000,000. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "registrationFee": 6000000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 12000000,
+        "period": "quarter"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Jakarta Barat dan Utara (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-jakarta-barat-dan-utara/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

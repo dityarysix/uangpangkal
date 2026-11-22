@@ -1,0 +1,28 @@
+{
+  "name": "SD Sumbangsih Grogol",
+  "city": "Jakarta Barat",
+  "district": "Grogol Petamburan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2020/2021",
+      "notes": {
+        "id": "Total biaya masuk gelombang I Rp11.450.000, gelombang II Rp13.200.000 (paket buku, seragam, dokumen, kegiatan 1 tahun, SPP 1 bulan). Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Total entry wave I Rp11,450,000, wave II Rp13,200,000 (books, uniforms, documents, 1 year of activities, 1 month's tuition). The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "entryFee": {
+        "min": 11450000,
+        "max": 13200000
+      },
+      "source": {
+        "title": "Biaya Masuk SD Jakarta Barat dan Utara (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-jakarta-barat-dan-utara/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

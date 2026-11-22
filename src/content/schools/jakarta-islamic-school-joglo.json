@@ -1,0 +1,58 @@
+{
+  "name": "Jakarta Islamic School (JISc) Joglo",
+  "city": "Jakarta Barat",
+  "district": "Kembangan",
+  "address": "Jl. Rudal V No.16, Joglo, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal termasuk 6 seragam dan SPP 1 bulan. Kenaikan SPP 10–20% per tingkat. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Entry fee includes 6 uniforms and 1 month's tuition. Tuition rises 10–20% per grade. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 26550000
+      },
+      "tuition": {
+        "amount": 2050000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang per tahun (±)",
+            "en": "Annual re-registration (approx.)"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Buku per tahun",
+            "en": "Books per year"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Native speaker per tahun",
+            "en": "Native speaker per year"
+          },
+          "amount": 1100000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SD Jakarta Barat dan Utara (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-jakarta-barat-dan-utara/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

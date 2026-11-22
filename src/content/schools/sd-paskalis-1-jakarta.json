@@ -1,0 +1,33 @@
+{
+  "name": "SD Paskalis 1 Jakarta",
+  "city": "Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "notes": {
+        "id": "Uang pangkal gelombang I (Okt–Des 2022) Rp2.200.000, II Rp2.500.000, III Rp2.700.000, IV (Jul 2023) Rp3.000.000. SPP belum termasuk ekskul. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Entry wave I (Oct–Dec 2022) Rp2,200,000, II Rp2,500,000, III Rp2,700,000, IV (Jul 2023) Rp3,000,000. Tuition excludes extracurriculars. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "registrationFee": 85000,
+      "entryFee": {
+        "min": 2200000,
+        "max": 3000000
+      },
+      "tuition": {
+        "amount": 280000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD di Jakarta Pusat Terbaru (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-di-jakarta-pusat-terbaru/",
+        "published": "2026-09-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

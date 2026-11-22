@@ -1,0 +1,36 @@
+{
+  "name": "SD Islam Al Azhar 1 Kebayoran Baru",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Baru",
+  "address": "Komplek Masjid Agung Al-Azhar, Jl. Sisingamangaraja, Gunung, Kebayoran Baru, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Disebut \"SD Al-Azhar Pusat\". Uang pangkal Rp38.825.000 (alumni TK Al-Azhar) / Rp43.000.000 (non-alumni). Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Called \"SD Al-Azhar Pusat\". Entry Rp38,825,000 (TK Al-Azhar alumni) / Rp43,000,000 (others). The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 38825000,
+        "max": 43000000
+      },
+      "tuition": {
+        "amount": 2200000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Sekolah Dasar di Jakarta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sekolah-dasar-di-jakarta/",
+        "published": "2026-09-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -2,10 +2,34 @@
   "name": "Sekolah Pahoa",
   "city": "Kabupaten Tangerang",
   "district": "Kelapa Dua",
+  "address": "Jl. Ki Hajar Dewantara No.6, Summarecon Serpong, Pakulonan Barat, Kelapa Dua, Kabupaten Tangerang",
   "levels": [
+    "SD",
     "SMA"
   ],
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya masuk dan lain-lain Rp28.800.000. Artikel blog menyebut tahun ajaran 2026, tetapi angkanya tampak lama (2020–2023). Konfirmasi ke sekolah.",
+        "en": "Entry and other fees Rp28,800,000. The blog post says academic year 2026, but the figures look old (2020–2023). Confirm with the school."
+      },
+      "entryFee": {
+        "min": 28800000
+      },
+      "tuition": {
+        "amount": 2700000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk Sekolah Dasar di Tangerang & Tangerang Selatan (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sekolah-dasar-di-tangerang-tangerang-selatan/",
+        "published": "2026-09-08"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMA",
       "academicYear": "2025/2026",
