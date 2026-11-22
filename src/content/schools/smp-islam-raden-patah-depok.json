@@ -1,0 +1,31 @@
+{
+  "name": "SMP Islam Raden Patah Depok",
+  "city": "Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://radenpatah.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 11000000,
+        "max": 13000000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

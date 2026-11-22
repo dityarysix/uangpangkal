@@ -1,0 +1,45 @@
+{
+  "name": "Sekolah Kesatuan Bogor",
+  "city": "Kota Bogor",
+  "levels": [
+    "SMP"
+  ],
+  "website": "https://sekolah-kesatuan.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 14000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Tes masuk",
+            "en": "Entrance test"
+          },
+          "amount": 100000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1200000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

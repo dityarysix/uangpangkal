@@ -1,0 +1,62 @@
+{
+  "name": "SMP Nasional Plus Tunas Global Depok",
+  "city": "Depok",
+  "levels": [
+    "SMP"
+  ],
+  "curriculum": [
+    "Nasional Plus"
+  ],
+  "website": "https://tunasglobaldepok.com",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang gedung",
+            "en": "Building fee"
+          },
+          "amount": 15000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 2385000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan (per tahun)",
+            "en": "Activity fee (per year)"
+          },
+          "amount": 3500000
+        },
+        {
+          "label": {
+            "id": "Uang perlengkapan (per tahun)",
+            "en": "Supplies (per year)"
+          },
+          "amount": 2000000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

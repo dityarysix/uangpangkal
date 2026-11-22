@@ -1,0 +1,326 @@
+{
+  "name": "SIT Birrul Waalidain Bogor",
+  "city": "Kabupaten Bogor",
+  "district": "Kemang",
+  "address": "Jl. Raya Salabenda–Semplak No.12, Parakan Jaya, Kemang, Kabupaten Bogor 16310",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://birrulwaalidain.sch.id",
+  "phone": "0251-7535-784 / 0838-0630-4182",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2024/2025",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 2650000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam 3 stel",
+            "en": "Uniforms (3 sets)"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Buku paket 1 semester",
+            "en": "Textbooks (1 semester)"
+          },
+          "amount": 410000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = Dana Sumbangan Pendidikan (DSP). Uang masuk minimal 50% dibayar paling lambat 10 hari setelah diterima; sisanya bisa dicicil. Biaya bersubsidi silang. SPP tidak dicantumkan.",
+        "en": "Entry fee = education contribution (DSP). At least 50% of the entry payment is due within 10 days of acceptance; the rest can be paid in instalments. Fees are cross-subsidised. Tuition not listed."
+      },
+      "source": {
+        "title": "Informasi PPDB 2024/2025 — SIT Birrul Waalidain Bogor (situs resmi)",
+        "url": "https://birrulwaalidain.sch.id/pages/ppdb"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 5000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Bimbingan orientasi & ta'aruf (Mei–Juni)",
+            "en": "Orientation (May–June)"
+          },
+          "amount": 300000
+        },
+        {
+          "label": {
+            "id": "Seragam 4 stel",
+            "en": "Uniforms (4 sets)"
+          },
+          "amount": 960000
+        },
+        {
+          "label": {
+            "id": "Buku paket 1 tahun",
+            "en": "Textbooks (1 year)"
+          },
+          "amount": 1200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = Dana Sumbangan Pendidikan (DSP). Uang masuk minimal 50% dibayar paling lambat 10 hari setelah diterima; sisanya bisa dicicil. Biaya bersubsidi silang. SPP tidak dicantumkan.",
+        "en": "Entry fee = education contribution (DSP). At least 50% of the entry payment is due within 10 days of acceptance; the rest can be paid in instalments. Fees are cross-subsidised. Tuition not listed."
+      },
+      "source": {
+        "title": "Informasi PPDB 2024/2025 — SIT Birrul Waalidain Bogor (situs resmi)",
+        "url": "https://birrulwaalidain.sch.id/pages/ppdb"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2024/2025",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 4000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Bimbingan orientasi & ta'aruf",
+            "en": "Orientation"
+          },
+          "amount": 300000
+        },
+        {
+          "label": {
+            "id": "Seragam 4 stel",
+            "en": "Uniforms (4 sets)"
+          },
+          "amount": 1100000
+        },
+        {
+          "label": {
+            "id": "Buku paket 1 tahun",
+            "en": "Textbooks (1 year)"
+          },
+          "amount": 1200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = Dana Sumbangan Pendidikan (DSP). Uang masuk minimal 50% dibayar paling lambat 10 hari setelah diterima; sisanya bisa dicicil. Biaya bersubsidi silang. SPP tidak dicantumkan. Santri mondok: sewa tempat tidur, lemari, kasur (3 tahun) Rp3.000.000.",
+        "en": "Entry fee = education contribution (DSP). At least 50% of the entry payment is due within 10 days of acceptance; the rest can be paid in instalments. Fees are cross-subsidised. Tuition not listed. Boarders: bed, wardrobe and mattress rental (3 years) Rp3,000,000."
+      },
+      "source": {
+        "title": "Informasi PPDB 2024/2025 — SIT Birrul Waalidain Bogor (situs resmi)",
+        "url": "https://birrulwaalidain.sch.id/pages/ppdb"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2024/2025",
+      "period": {
+        "id": "Dibuka mulai Desember 2023, offline (sekretariat Jl. Salabenda–Semplak No.12) dan online.",
+        "en": "Opened from December 2023, in person (secretariat at Jl. Salabenda–Semplak No.12) and online."
+      },
+      "steps": [
+        {
+          "id": "Isi buku tamu online.",
+          "en": "Fill in the online guest book."
+        },
+        {
+          "id": "Transfer biaya pendaftaran (Rp500.000 TK; Rp600.000 SD & SMP) dan konfirmasi via WhatsApp atau email.",
+          "en": "Transfer the registration fee (Rp500,000 TK; Rp600,000 SD & SMP) and confirm by WhatsApp or email."
+        },
+        {
+          "id": "Panitia mengirim undangan tes penjajakan dan wawancara orang tua.",
+          "en": "The committee sends an invitation to the placement test and parent interview."
+        },
+        {
+          "id": "Ikuti tes penjajakan di sekolah.",
+          "en": "Attend the placement test at the school."
+        },
+        {
+          "id": "Hasil seleksi dikirim; jika diterima, bayar minimal 50% uang masuk dalam 10 hari.",
+          "en": "Results are sent; if accepted, pay at least 50% of the entry fees within 10 days."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Formulir pendaftaran",
+          "en": "Registration form"
+        },
+        {
+          "id": "Surat keterangan kelahiran (2 lembar)",
+          "en": "Birth certificate (2 copies)"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga (2 lembar)",
+          "en": "Copy of family card (2 copies)"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter",
+          "en": "Doctor's health certificate"
+        }
+      ],
+      "test": {
+        "id": "Tes penjajakan dan wawancara orang tua.",
+        "en": "Placement test and parent interview."
+      },
+      "notes": {
+        "id": "Usia per Juni 2024: Play Group 3–4 tahun, TK A 4–5 tahun, TK B 5–6 tahun.",
+        "en": "Age as of June 2024: Playgroup 3–4, TK A 4–5, TK B 5–6."
+      },
+      "source": {
+        "title": "Informasi PPDB 2024/2025 — SIT Birrul Waalidain Bogor (situs resmi)",
+        "url": "https://birrulwaalidain.sch.id/pages/ppdb"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "period": {
+        "id": "Dibuka mulai Desember 2023, offline (sekretariat Jl. Salabenda–Semplak No.12) dan online.",
+        "en": "Opened from December 2023, in person (secretariat at Jl. Salabenda–Semplak No.12) and online."
+      },
+      "steps": [
+        {
+          "id": "Isi buku tamu online.",
+          "en": "Fill in the online guest book."
+        },
+        {
+          "id": "Transfer biaya pendaftaran (Rp500.000 TK; Rp600.000 SD & SMP) dan konfirmasi via WhatsApp atau email.",
+          "en": "Transfer the registration fee (Rp500,000 TK; Rp600,000 SD & SMP) and confirm by WhatsApp or email."
+        },
+        {
+          "id": "Panitia mengirim undangan tes penjajakan dan wawancara orang tua.",
+          "en": "The committee sends an invitation to the placement test and parent interview."
+        },
+        {
+          "id": "Ikuti tes penjajakan di sekolah.",
+          "en": "Attend the placement test at the school."
+        },
+        {
+          "id": "Hasil seleksi dikirim; jika diterima, bayar minimal 50% uang masuk dalam 10 hari.",
+          "en": "Results are sent; if accepted, pay at least 50% of the entry fees within 10 days."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Formulir pendaftaran",
+          "en": "Registration form"
+        },
+        {
+          "id": "Surat keterangan kelahiran (2 lembar)",
+          "en": "Birth certificate (2 copies)"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga (2 lembar)",
+          "en": "Copy of family card (2 copies)"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter",
+          "en": "Doctor's health certificate"
+        },
+        {
+          "id": "Pas foto 3x4 (4 lembar)",
+          "en": "Passport photos 3x4 (4)"
+        }
+      ],
+      "test": {
+        "id": "Tes penjajakan dan wawancara orang tua.",
+        "en": "Placement test and parent interview."
+      },
+      "notes": {
+        "id": "Usia 6–7 tahun pada Juli 2024.",
+        "en": "Age 6–7 in July 2024."
+      },
+      "source": {
+        "title": "Informasi PPDB 2024/2025 — SIT Birrul Waalidain Bogor (situs resmi)",
+        "url": "https://birrulwaalidain.sch.id/pages/ppdb"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2024/2025",
+      "period": {
+        "id": "Dibuka mulai Desember 2023, offline (sekretariat Jl. Salabenda–Semplak No.12) dan online.",
+        "en": "Opened from December 2023, in person (secretariat at Jl. Salabenda–Semplak No.12) and online."
+      },
+      "steps": [
+        {
+          "id": "Isi buku tamu online.",
+          "en": "Fill in the online guest book."
+        },
+        {
+          "id": "Transfer biaya pendaftaran (Rp500.000 TK; Rp600.000 SD & SMP) dan konfirmasi via WhatsApp atau email.",
+          "en": "Transfer the registration fee (Rp500,000 TK; Rp600,000 SD & SMP) and confirm by WhatsApp or email."
+        },
+        {
+          "id": "Panitia mengirim undangan tes penjajakan dan wawancara orang tua.",
+          "en": "The committee sends an invitation to the placement test and parent interview."
+        },
+        {
+          "id": "Ikuti tes penjajakan di sekolah.",
+          "en": "Attend the placement test at the school."
+        },
+        {
+          "id": "Hasil seleksi dikirim; jika diterima, bayar minimal 50% uang masuk dalam 10 hari.",
+          "en": "Results are sent; if accepted, pay at least 50% of the entry fees within 10 days."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Formulir pendaftaran",
+          "en": "Registration form"
+        },
+        {
+          "id": "Surat keterangan kelahiran (2 lembar)",
+          "en": "Birth certificate (2 copies)"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga (2 lembar)",
+          "en": "Copy of family card (2 copies)"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter",
+          "en": "Doctor's health certificate"
+        },
+        {
+          "id": "Surat kelakuan baik dari sekolah asal",
+          "en": "Good-conduct letter from previous school"
+        },
+        {
+          "id": "Fotokopi surat keterangan lulus",
+          "en": "Copy of graduation certificate"
+        }
+      ],
+      "test": {
+        "id": "Tes penjajakan dan wawancara orang tua.",
+        "en": "Placement test and parent interview."
+      },
+      "notes": {
+        "id": "Usia 12–13 tahun; harus lulus tes penjajakan.",
+        "en": "Age 12–13; must pass the placement test."
+      },
+      "source": {
+        "title": "Informasi PPDB 2024/2025 — SIT Birrul Waalidain Bogor (situs resmi)",
+        "url": "https://birrulwaalidain.sch.id/pages/ppdb"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

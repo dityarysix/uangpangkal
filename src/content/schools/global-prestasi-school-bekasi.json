@@ -1,0 +1,58 @@
+{
+  "name": "Global Prestasi School Bekasi",
+  "city": "Kota Bekasi",
+  "address": "Jl. K.H. Noer Alie No.10B, Bekasi",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 60000000
+      },
+      "tuition": {
+        "amount": 12900000,
+        "period": "quarter"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang aktivitas",
+            "en": "Activity fee"
+          },
+          "amount": 3870000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 2500000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1600000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal untuk 6 tahun. SPP Rp12.900.000 per 3 bulan atau Rp47.300.000 per tahun.",
+        "en": "Entry fee covers 6 years. Tuition Rp12,900,000 per quarter or Rp47,300,000 per year."
+      },
+      "source": {
+        "title": "5 SD Swasta Populer di Bekasi dan Biayanya (GoBekasi)",
+        "url": "https://gobekasi.id/2025/10/26/mau-daftarin-anak-sekolah-dasar-ini-5-sd-swasta-populer-di-bekasi-dan-biayanya/",
+        "published": "2025-10-26"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Charis Global School Lippo Cikarang",
+  "city": "Kabupaten Bekasi",
+  "district": "Cikarang Selatan",
+  "address": "Lippo Cikarang, Kabupaten Bekasi",
+  "levels": [
+    "SMP"
+  ],
+  "curriculum": [
+    "Nasional Plus"
+  ],
+  "website": "https://charisglobalschool.com",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 21800000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 2680000
+        }
+      ],
+      "notes": {
+        "id": "Sumber menyebut angka sebagai perkiraan (\"sekitar\"). Uang pangkal = DPP.",
+        "en": "The source gives these figures as approximate. Entry fee = DPP."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

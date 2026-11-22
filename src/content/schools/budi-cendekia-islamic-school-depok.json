@@ -1,0 +1,47 @@
+{
+  "name": "Budi Cendekia Islamic School Depok",
+  "city": "Depok",
+  "address": "Jl. Boulevard, Kalimulya, Grand Depok City, Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://bcischool.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 750000,
+      "entryFee": {
+        "min": 19750000
+      },
+      "tuition": {
+        "amount": 2100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1800000
+        },
+        {
+          "label": {
+            "id": "OSIS & Pramuka",
+            "en": "Student council & scouts"
+          },
+          "amount": 200000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
