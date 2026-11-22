@@ -1,0 +1,32 @@
+{
+  "name": "SD Katolik Cor Jesu Malang",
+  "city": "Kota Malang",
+  "district": "Klojen",
+  "address": "Jl. Jaksa Agung Suprapto, Samaan, Klojen, Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Pendaftaran Rp75.000–Rp150.000; SPP sekitar Rp500.000. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Registration Rp75,000–Rp150,000; tuition about Rp500,000. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 75000,
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD di Malang (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sd-di-malang",
+        "published": "2025-06-24"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

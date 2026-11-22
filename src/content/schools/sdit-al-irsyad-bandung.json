@@ -1,0 +1,31 @@
+{
+  "name": "SDIT Al Irsyad Bandung",
+  "city": "Kota Bandung",
+  "district": "Cibeunying Kaler",
+  "address": "Jl. Al-Irsyad Cikutra, Cibeunying Kaler, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate figures from an article; academic year not stated."
+      },
+      "tuition": {
+        "amount": 985000,
+        "period": "month"
+      },
+      "source": {
+        "title": "SD Islam Terbaik di Bandung (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-islam-terbaik-di-bandung",
+        "published": "2022-11-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

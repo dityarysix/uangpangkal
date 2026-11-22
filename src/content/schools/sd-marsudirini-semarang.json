@@ -1,0 +1,28 @@
+{
+  "name": "SD Marsudirini Semarang",
+  "city": "Kota Semarang",
+  "district": "Semarang Tengah",
+  "address": "Jl. Pemuda No.157, Sekayu, Semarang Tengah, Kota Semarang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya biaya pendaftaran yang disebut. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Only the registration fee is given. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 200000,
+      "source": {
+        "title": "15 SD Swasta Akreditasi Terbaik di Semarang Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231010112944-61-318153/15-sd-swasta-akreditasi-terbaik-di-semarang-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

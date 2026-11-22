@@ -1,0 +1,34 @@
+{
+  "name": "SD Bintang Madani Bandung",
+  "city": "Kota Bandung",
+  "district": "Arcamanik",
+  "address": "Jl. Terusan Pesantren No.102, Cisaranten Bina Harapan, Arcamanik, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang masuk = \"biaya pendidikan\" menurut artikel. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry cost = \"education fee\" in the article. Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 32000000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "source": {
+        "title": "SD Islam Terbaik di Bandung (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-islam-terbaik-di-bandung",
+        "published": "2022-11-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

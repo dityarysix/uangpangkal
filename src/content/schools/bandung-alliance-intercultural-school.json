@@ -1,0 +1,40 @@
+{
+  "name": "Bandung Alliance Intercultural School",
+  "city": "Kabupaten Bandung Barat",
+  "district": "Padalarang",
+  "address": "Jl. Bujanggamanik Kav., Jl. Parahyangan Raya No.2, Kertajaya, Padalarang, Kabupaten Bandung Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Total tahunan Rp191.000.000 = biaya sekolah Rp171.000.000 + retribusi modal Rp20.000.000. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Annual total Rp191,000,000 = tuition Rp171,000,000 + capital levy Rp20,000,000. Approximate figures from an article; academic year not stated."
+      },
+      "tuition": {
+        "amount": 171000000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Retribusi modal per tahun",
+            "en": "Capital levy per year"
+          },
+          "amount": 20000000
+        }
+      ],
+      "source": {
+        "title": "20 SD Negeri dan Swasta Bandung Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231023170407-61-319975/20-sd-negeri-dan-swasta-bandung-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

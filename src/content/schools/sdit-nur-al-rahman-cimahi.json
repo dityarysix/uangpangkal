@@ -1,0 +1,29 @@
+{
+  "name": "SDIT Nur Al Rahman Cimahi",
+  "city": "Cimahi",
+  "address": "Jl. Cihanjuang 77A, Cimahi",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menulis \"Rp20.275.0000\" (dibaca Rp20.275.000). Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "The article writes \"Rp20.275.0000\" (read as Rp20,275,000). Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 20275000
+      },
+      "source": {
+        "title": "SD Islam Terbaik di Bandung (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-islam-terbaik-di-bandung",
+        "published": "2022-11-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

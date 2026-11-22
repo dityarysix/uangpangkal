@@ -1,0 +1,39 @@
+{
+  "name": "Bina Bangsa School Malang",
+  "city": "Kota Malang",
+  "district": "Blimbing",
+  "address": "Jl. Jenderal A. Yani Utara, Polowijen, Blimbing, Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya tahunan Rp113–203 juta; SPP sekitar Rp8,5 juta/bulan. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Annual fees Rp113–203M; tuition about Rp8.5M/month. Approximate figures from an article; academic year not stated."
+      },
+      "tuition": {
+        "amount": 8500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya tahunan (min.)",
+            "en": "Annual fees (min.)"
+          },
+          "amount": 113000000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD di Malang (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sd-di-malang",
+        "published": "2025-06-24"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
