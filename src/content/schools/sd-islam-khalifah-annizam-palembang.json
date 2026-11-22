@@ -1,0 +1,34 @@
+{
+  "name": "SD Islam Khalifah Annizam Palembang",
+  "city": "Kota Palembang",
+  "district": "Alang-Alang Lebar",
+  "address": "Jl. Hasanudin No.6, Talang Kelapa, Alang-Alang Lebar, Kota Palembang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2021/2022",
+      "yearAssumed": true,
+      "entryFee": {
+        "min": 16360000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Dari artikel 2021; kemungkinan sudah berubah.",
+        "en": "From a 2021 article; likely outdated."
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Medan dan Palembang, Serta Informasi Biayanya (Kanya.ID)",
+        "url": "https://www.kanya.id/read/037476/rekomendasi-sd-swasta-di-medan-dan-palembang-serta-informasi-biayanya",
+        "published": "2021-10-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

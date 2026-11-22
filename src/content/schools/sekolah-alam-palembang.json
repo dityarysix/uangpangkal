@@ -1,10 +1,46 @@
 {
   "name": "Sekolah Alam Palembang (SAPA)",
   "city": "Kota Palembang",
+  "district": "Jakabaring",
+  "address": "Jl. Harapan No.101, Silaberanti, Jakabaring, Kota Palembang",
   "levels": [
-    "SD"
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
   ],
+  "website": "https://sekolahalampalembang.com",
   "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pembangunan dibayar sekali, tanpa daftar ulang. Tersedia beasiswa untuk anak dhuafa.",
+        "en": "Building fee paid once, no re-registration. Scholarships available for underprivileged children."
+      },
+      "source": {
+        "title": "Pendaftaran Sekolah Alam Palembang TP 2026-2027 (situs resmi)",
+        "url": "https://sekolahalampalembang.com/pendaftaran-sekolah-alam-palembang/"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2026/2027",
@@ -25,6 +61,110 @@
         "title": "Daftar Rekomendasi SD Swasta di Palembang Lengkap dengan Estimasi Rincian Biaya Masuknya (Akurat Sumsel)",
         "url": "https://sumsel.akurat.co/sumsel/850881/daftar-rekomendasi-sd-swasta-di-palembang-lengkap-dengan-estimasi-rincian-biaya-masuknya",
         "published": "2026-04-23"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 18000000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pembangunan dibayar sekali, tanpa daftar ulang. Tersedia beasiswa untuk anak dhuafa.",
+        "en": "Building fee paid once, no re-registration. Scholarships available for underprivileged children."
+      },
+      "source": {
+        "title": "Pendaftaran Sekolah Alam Palembang TP 2026-2027 (situs resmi)",
+        "url": "https://sekolahalampalembang.com/pendaftaran-sekolah-alam-palembang/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 19000000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 2500000
+        },
+        {
+          "label": {
+            "id": "Tes bakat minat",
+            "en": "Aptitude test"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pembangunan dibayar sekali, tanpa daftar ulang. Tersedia beasiswa untuk anak dhuafa.",
+        "en": "Building fee paid once, no re-registration. Scholarships available for underprivileged children."
+      },
+      "source": {
+        "title": "Pendaftaran Sekolah Alam Palembang TP 2026-2027 (situs resmi)",
+        "url": "https://sekolahalampalembang.com/pendaftaran-sekolah-alam-palembang/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1050000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 2500000
+        },
+        {
+          "label": {
+            "id": "Tes bakat minat",
+            "en": "Aptitude test"
+          },
+          "amount": 750000
+        }
+      ],
+      "notes": {
+        "id": "Uang pembangunan dibayar sekali, tanpa daftar ulang. Tersedia beasiswa untuk anak dhuafa.",
+        "en": "Building fee paid once, no re-registration. Scholarships available for underprivileged children."
+      },
+      "source": {
+        "title": "Pendaftaran Sekolah Alam Palembang TP 2026-2027 (situs resmi)",
+        "url": "https://sekolahalampalembang.com/pendaftaran-sekolah-alam-palembang/"
       },
       "checked": "2026-11-22"
     }
