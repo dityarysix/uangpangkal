@@ -1,0 +1,70 @@
+{
+  "name": "SMA Muhammadiyah 1 Taman Sidoarjo",
+  "city": "Sidoarjo",
+  "district": "Taman",
+  "address": "Jl. Raya Ketegan No.35, Taman, Sidoarjo",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.smam1ta.sch.id",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan (Excellent/Tahfidz)",
+            "en": "Activity fee (Excellent/Tahfidz)"
+          },
+          "amount": 4250000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan (M-ICO)",
+            "en": "Activity fee (M-ICO)"
+          },
+          "amount": 6750000
+        },
+        {
+          "label": {
+            "id": "Seragam laki-laki",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1800000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2100000
+        },
+        {
+          "label": {
+            "id": "Student exchange Singapura–Malaysia (opsional)",
+            "en": "Singapore–Malaysia student exchange (optional)"
+          },
+          "amount": 10000000
+        }
+      ],
+      "notes": {
+        "id": "SPP Juli 2027: Excellent Class Rp800.000; M-ICO Rp1.200.000; Tahfidz Rp1.000.000. Total laki-laki: Rp16.975.000 / Rp19.875.000 / Rp17.175.000; perempuan: Rp17.275.000 / Rp20.175.000 / Rp17.475.000.",
+        "en": "July 2027 tuition: Excellent Class Rp800,000; M-ICO Rp1,200,000; Tahfidz Rp1,000,000. Totals for boys: Rp16,975,000 / Rp19,875,000 / Rp17,175,000; girls: Rp17,275,000 / Rp20,175,000 / Rp17,475,000."
+      },
+      "source": {
+        "title": "Biaya Pendaftaran SPMB SMA Muhammadiyah 1 Taman TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.smam1ta.sch.id/biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
