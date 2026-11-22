@@ -1,0 +1,9 @@
+{
+  // Lets Cloudflare Workers serve the static site too (Pages ignores this file).
+  "name": "uangpangkal",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

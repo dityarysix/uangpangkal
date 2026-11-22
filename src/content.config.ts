@@ -18,6 +18,8 @@ const feeEntry = z.object({
   level: z.enum(['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK']),
   /** Academic year the fees apply to, e.g. "2026/2027". */
   academicYear: z.string().regex(/^\d{4}\/\d{4}$/),
+  /** True when the source does not state the academic year and we inferred it from the publish date. */
+  yearAssumed: z.boolean().optional(),
   registrationFee: rupiah.optional(),
   /** Uang pangkal (one-off entry / development fee). */
   entryFee: z.object({ min: rupiah, max: rupiah.optional() }).optional(),

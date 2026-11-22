@@ -47,7 +47,7 @@ const jsonld = {
   {fees.map((f) => (
     <article class="fee">
       <header>
-        <strong>{f.level}</strong> · {t(lang, 'year')} {f.academicYear} {f.academicYear === CURRENT_YEAR && <span class="badge-new">{t(lang, 'latestFees')}</span>}
+        <strong>{f.level}</strong> · {t(lang, 'year')} {f.academicYear}{f.yearAssumed && <span class="muted"> ({t(lang, 'yearAssumed')})</span>} {f.academicYear === CURRENT_YEAR && <span class="badge-new">{t(lang, 'latestFees')}</span>}
       </header>
       {isOld(f.academicYear) && <p class="warn">{t(lang, 'olderData')}</p>}
       <table>

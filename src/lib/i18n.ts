@@ -56,6 +56,7 @@ const dict = {
   perPeriod_semester: { id: '/semester', en: '/semester' },
   perPeriod_year: { id: '/tahun', en: '/year' },
   feeNotPublished: { id: 'Belum dipublikasikan', en: 'Not published' },
+  yearAssumed: { id: 'diasumsikan; sumber tidak menyebut tahun ajaran', en: 'assumed; the source does not state the year' },
   latestFees: { id: 'Biaya terbaru', en: 'Latest fees' },
   reportCorrection: { id: 'Laporkan koreksi', en: 'Report a correction' },
 } as const;

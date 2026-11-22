@@ -6,7 +6,8 @@ export const AREAS: { slug: Area; name: { id: string; en: string }; cities: stri
     name: { id: 'Jakarta Raya (Jabodetabek)', en: 'Greater Jakarta (Jabodetabek)' },
     cities: [
       'Jakarta Pusat', 'Jakarta Selatan', 'Jakarta Barat', 'Jakarta Timur', 'Jakarta Utara',
-      'Bogor', 'Depok', 'Tangerang', 'Tangerang Selatan', 'Bekasi',
+      'Kota Bogor', 'Kabupaten Bogor', 'Depok', 'Kota Tangerang', 'Kabupaten Tangerang', 'Tangerang Selatan',
+      'Kota Bekasi', 'Kabupaten Bekasi',
     ],
   },
   { slug: 'bandung', name: { id: 'Bandung Raya', en: 'Greater Bandung' }, cities: ['Kota Bandung', 'Kabupaten Bandung', 'Cimahi', 'Bandung Barat'] },
