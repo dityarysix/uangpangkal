@@ -71,3 +71,11 @@ upsert("sma-katolik-cor-jesu-malang", name="SMA Katolik Cor Jesu Malang", city=K
 upsert("sma-islam-sabilillah-malang", name="SMA Islam Sabilillah Malang", city=KM, level="SMA", registrationFee=500_000, entryFee={"min": 10_000_000}, tuition={"amount": 1_500_000, "period": "month"},
        notes=L("Angka 2024 ini jauh lebih rendah daripada perkiraan 2026 dari sumber lain.", "These 2024 figures are much lower than the 2026 estimate from another source."), **O)
 print("ok")
+
+# ---- Kota Batu ----
+IBS = {"title": "Penerimaan Murid Baru TK Islamic Brilliant School 2027/2028 (situs resmi)", "url": "https://islamicbrilliant.sch.id/"}
+upsert("islamic-brilliant-school-batu", name="Islamic Brilliant School (IBS) Batu", city="Kota Batu", religion="Islam", website="https://islamicbrilliant.sch.id",
+       level="TK", year="2027/2028", source=IBS, checked=CHK, tuition={"amount": 300_000, "period": "month"},
+       notes=L("Besaran uang pangkal tidak dicantumkan. Diskon uang pangkal 30% untuk pendaftaran s.d. Desember 2026 dan 20% s.d. Maret 2027; diskon khusus 10% (keluarga pengurus/staf) dan 7% (jamaah pengajian Nurul Qolby). Inden cukup uang pendaftaran + 20% uang pangkal; uang pangkal bisa diangsur. Katering dan antar-jemput opsional.",
+               "The entry fee amount is not published. 30% off the entry fee for registration by December 2026, 20% by March 2027; special 10% (foundation/staff families) and 7% (Nurul Qolby congregation) discounts. Reserve a place with the registration fee + 20% of the entry fee; the entry fee can be paid in instalments. Catering and transport optional."))
+print("ok batu")

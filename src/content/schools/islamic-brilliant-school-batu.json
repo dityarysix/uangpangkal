@@ -1,0 +1,28 @@
+{
+  "name": "Islamic Brilliant School (IBS) Batu",
+  "city": "Kota Batu",
+  "levels": [
+    "TK"
+  ],
+  "religion": "Islam",
+  "website": "https://islamicbrilliant.sch.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "tuition": {
+        "amount": 300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Besaran uang pangkal tidak dicantumkan. Diskon uang pangkal 30% untuk pendaftaran s.d. Desember 2026 dan 20% s.d. Maret 2027; diskon khusus 10% (keluarga pengurus/staf) dan 7% (jamaah pengajian Nurul Qolby). Inden cukup uang pendaftaran + 20% uang pangkal; uang pangkal bisa diangsur. Katering dan antar-jemput opsional.",
+        "en": "The entry fee amount is not published. 30% off the entry fee for registration by December 2026, 20% by March 2027; special 10% (foundation/staff families) and 7% (Nurul Qolby congregation) discounts. Reserve a place with the registration fee + 20% of the entry fee; the entry fee can be paid in instalments. Catering and transport optional."
+      },
+      "source": {
+        "title": "Penerimaan Murid Baru TK Islamic Brilliant School 2027/2028 (situs resmi)",
+        "url": "https://islamicbrilliant.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

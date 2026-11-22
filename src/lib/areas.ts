@@ -41,7 +41,7 @@ export const AREAS = [
   {
     slug: 'malang-raya',
     name: { id: 'Malang Raya', en: 'Greater Malang' },
-    cities: ['Kota Malang', 'Kabupaten Malang', 'Kota Blitar', 'Kabupaten Blitar', 'Kota Pasuruan', 'Kabupaten Pasuruan', 'Tulungagung'],
+    cities: ['Kota Malang', 'Kabupaten Malang', 'Kota Batu', 'Kota Blitar', 'Kabupaten Blitar', 'Kota Pasuruan', 'Kabupaten Pasuruan', 'Tulungagung'],
   },
   {
     slug: 'yogyakarta-raya',
