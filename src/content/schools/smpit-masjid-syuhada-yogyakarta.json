@@ -7,6 +7,7 @@
     "SMP"
   ],
   "religion": "Islam",
+  "website": "https://smpitmasjidsyuhada.sch.id",
   "fees": [
     {
       "level": "SMP",
@@ -21,6 +22,100 @@
         "title": "10 SMP Swasta Terbaik di Yogyakarta dengan Kisaran Biaya (KalderaNews)",
         "url": "https://www.kalderanews.com/2025/06/08/inilah-10-smp-swasta-terbaik-di-yogyakarta-lengkap-dengan-kisaran-biaya-sekolahnya/",
         "published": "2025-06-08"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 1500000,
+        "max": 5000000
+      },
+      "tuition": {
+        "amount": 570000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana kegiatan",
+            "en": "Activity fund"
+          },
+          "amount": 3500000
+        },
+        {
+          "label": {
+            "id": "Kain seragam & atribut (putra)",
+            "en": "Uniform fabric & badges (boys)"
+          },
+          "amount": 1096700
+        },
+        {
+          "label": {
+            "id": "Kain seragam & atribut (putri)",
+            "en": "Uniform fabric & badges (girls)"
+          },
+          "amount": 1406000
+        },
+        {
+          "label": {
+            "id": "Buku pelajaran",
+            "en": "Textbooks"
+          },
+          "amount": 750000
+        },
+        {
+          "label": {
+            "id": "Komite (per bulan)",
+            "en": "Committee (per month)"
+          },
+          "amount": 30000
+        }
+      ],
+      "notes": {
+        "id": "Dana pengembangan (sekali selama sekolah): gelombang inden Rp1.500.000; gelombang 1 Rp2.500.000 (potongan 50%); gelombang 2 Rp3.750.000 (potongan 25%); gelombang 3 Rp5.000.000. Biaya lain: Rp5.946.700 (putra) / Rp6.256.000 (putri).",
+        "en": "Development fund (once): early wave Rp1,500,000; wave 1 Rp2,500,000 (50% off); wave 2 Rp3,750,000 (25% off); wave 3 Rp5,000,000. Other costs: Rp5,946,700 (boys) / Rp6,256,000 (girls)."
+      },
+      "source": {
+        "title": "Pendaftaran Murid Baru SMP IT Masjid Syuhada TA 2027/2028 (situs resmi)",
+        "url": "https://smpitmasjidsyuhada.sch.id/2026/uncategorized/pendaftaran-murid-baru-smp-it-masjid-syuhada-tahun-ajaran-2027-2028/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Isi formulir pendaftaran SPMB 2027/2028 secara online.",
+          "en": "Fill in the SPMB 2027/2028 form online."
+        },
+        {
+          "id": "Ikuti wawancara sesuai jadwal gelombang pendaftaran.",
+          "en": "Attend the interview on your wave's schedule."
+        },
+        {
+          "id": "Bayar dana pengembangan dan biaya lain sesuai gelombang.",
+          "en": "Pay the development fund and other fees for your wave."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Gelombang 3: fotokopi ijazah dan Surat Keterangan Nilai TKA (khusus DIY) yang dilegalisir, 1 lembar",
+          "en": "Wave 3: certified copies of the primary certificate and TKA score letter (DIY only), 1 each"
+        }
+      ],
+      "test": {
+        "id": "Wawancara.",
+        "en": "Interview."
+      },
+      "source": {
+        "title": "Pendaftaran Murid Baru SMP IT Masjid Syuhada TA 2027/2028 (situs resmi)",
+        "url": "https://smpitmasjidsyuhada.sch.id/2026/uncategorized/pendaftaran-murid-baru-smp-it-masjid-syuhada-tahun-ajaran-2027-2028/"
       },
       "checked": "2026-11-22"
     }

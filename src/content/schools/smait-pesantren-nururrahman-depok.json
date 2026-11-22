@@ -1,0 +1,56 @@
+{
+  "name": "SMAIT Pesantren Nururrahman Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Jl. Raya Sawangan Km 2, Pancoran Mas, Depok",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 14000000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kesiswaan per tahun",
+            "en": "Student affairs per year"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Iuran air minum per tahun",
+            "en": "Drinking water per year"
+          },
+          "amount": 300000
+        },
+        {
+          "label": {
+            "id": "Asrama pesantren tahfidz",
+            "en": "Tahfidz boarding"
+          },
+          "amount": 1500000
+        }
+      ],
+      "notes": {
+        "id": "Total biaya siswa reguler Rp18.550.000. Gratis pendaftaran untuk calon santri berprestasi (S&K berlaku). Alamat menurut direktori sekolah.",
+        "en": "Total for regular students Rp18,550,000. Free registration for high achievers (T&Cs apply). Address from school directories."
+      },
+      "source": {
+        "title": "SPMB SMAIT Pesantren Nururrahman TP 2027/2028 (situs resmi)",
+        "url": "https://spmb.smaitpnr.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
