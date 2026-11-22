@@ -50,6 +50,37 @@
         "published": "2025-10-26"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya program pembelajaran",
+            "en": "Learning programme fee"
+          },
+          "amount": 3500000
+        }
+      ],
+      "notes": {
+        "id": "Sumber tidak menyebut tahun ajaran (artikel diperbarui Agustus 2026); angka bisa berasal dari tahun sebelumnya. Disebut juga SD Alam Bekasi (SASI).",
+        "en": "The source does not state the academic year (article updated August 2026); figures may be from earlier years. Also called SD Alam Bekasi (SASI)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "16 SD Swasta di Bekasi, Lengkap dengan Kisaran Biaya Sekolahnya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bekasi",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }

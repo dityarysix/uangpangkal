@@ -1,0 +1,35 @@
+{
+  "name": "Islamic Green School Bekasi",
+  "city": "Kota Bekasi",
+  "district": "Mustikajaya",
+  "address": "Jl. Cipete Raya No.113, Mustikasari, Mustikajaya, Kota Bekasi",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 10000000,
+        "max": 17000000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sumber tidak menyebut tahun ajaran (artikel diperbarui Agustus 2026); angka bisa berasal dari tahun sebelumnya. Reguler: uang pangkal Rp10 juta, SPP Rp1 juta. Siswa berkebutuhan khusus: Rp17 juta, SPP Rp2,5–3,5 juta.",
+        "en": "The source does not state the academic year (article updated August 2026); figures may be from earlier years. Regular: entry Rp10M, tuition Rp1M. Special-needs students: Rp17M, tuition Rp2.5–3.5M."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "16 SD Swasta di Bekasi, Lengkap dengan Kisaran Biaya Sekolahnya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bekasi",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

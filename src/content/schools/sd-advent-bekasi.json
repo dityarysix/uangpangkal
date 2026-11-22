@@ -1,0 +1,34 @@
+{
+  "name": "SD Advent Bekasi",
+  "city": "Kota Bekasi",
+  "address": "Jl. Sersan Aswan 3, Margahayu, Bekasi",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 175000,
+      "entryFee": {
+        "min": 4000000
+      },
+      "tuition": {
+        "amount": 550000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sumber tidak menyebut tahun ajaran (artikel diperbarui Agustus 2026); angka bisa berasal dari tahun sebelumnya. SPP termasuk biaya kegiatan.",
+        "en": "The source does not state the academic year (article updated August 2026); figures may be from earlier years. Tuition includes activities."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "16 SD Swasta di Bekasi, Lengkap dengan Kisaran Biaya Sekolahnya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bekasi",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

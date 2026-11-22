@@ -1,0 +1,33 @@
+{
+  "name": "SD Kinderfield Bekasi",
+  "city": "Kota Bekasi",
+  "district": "Rawalumbu",
+  "address": "Jl. Caringin Raya 88, Bojong Menteng, Rawalumbu, Kota Bekasi",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 38500000
+      },
+      "tuition": {
+        "amount": 2600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sumber tidak menyebut tahun ajaran (artikel diperbarui Agustus 2026); angka bisa berasal dari tahun sebelumnya. ",
+        "en": "The source does not state the academic year (article updated August 2026); figures may be from earlier years. "
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "16 SD Swasta di Bekasi, Lengkap dengan Kisaran Biaya Sekolahnya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bekasi",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

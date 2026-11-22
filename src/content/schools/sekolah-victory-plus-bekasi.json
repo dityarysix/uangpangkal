@@ -28,6 +28,29 @@
         "published": "2025-10-26"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 52500000
+      },
+      "tuition": {
+        "amount": 44700000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Sumber tidak menyebut tahun ajaran (artikel diperbarui Agustus 2026); angka bisa berasal dari tahun sebelumnya. SPP per tahun sudah termasuk biaya kegiatan dan lain-lain.",
+        "en": "The source does not state the academic year (article updated August 2026); figures may be from earlier years. Annual tuition includes activities etc."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "16 SD Swasta di Bekasi, Lengkap dengan Kisaran Biaya Sekolahnya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bekasi",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }
