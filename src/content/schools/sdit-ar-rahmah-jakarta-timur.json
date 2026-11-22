@@ -10,6 +10,51 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "From an article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 11500000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Buku dan modul",
+            "en": "Books and modules"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2800000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Timur dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-timur",
+        "published": "2026-10-11"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "entryFee": {
         "min": 12000000

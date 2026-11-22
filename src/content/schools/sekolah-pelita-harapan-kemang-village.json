@@ -10,6 +10,30 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya pendaftaran Rp1 juta (Rp500 ribu bila ada saudara). Tuition kelas 1–2 Rp169,2 juta, kelas 3–6 Rp179,9 juta per tahun; capital fee bertingkat Rp68 juta (1 tahun) s.d. Rp204 juta (6 tahun). Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Registration Rp1M (Rp500k with a sibling). Tuition grades 1–2 Rp169.2M, grades 3–6 Rp179.9M per year; capital fee from Rp68M (1 year) to Rp204M (6 years). From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 68000000,
+        "max": 204000000
+      },
+      "tuition": {
+        "amount": 169200000,
+        "period": "year"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Selatan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-selatan",
+        "published": "2022-07-06"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2023/2024",
       "yearAssumed": true,
       "notes": {

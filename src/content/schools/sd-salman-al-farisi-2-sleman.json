@@ -30,6 +30,28 @@
     },
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal sekitar Rp13 juta. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry fee about Rp13M. From an article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Yogyakarta dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-yogyakarta",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2025/2026",
       "entryFee": {
         "min": 13940000

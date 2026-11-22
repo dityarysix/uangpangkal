@@ -44,6 +44,29 @@
     },
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Amal jariyah pilihan Rp4,5/5/5,5 juta; seragam putra Rp3,8 juta / putri Rp4,1 juta. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Optional endowment Rp4.5/5/5.5M; uniforms boys Rp3.8M / girls Rp4.1M. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 8000000
+      },
+      "tuition": {
+        "amount": 675000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Yogyakarta dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-yogyakarta",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2025/2026",
       "entryFee": {
         "min": 16510000

@@ -9,6 +9,35 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya pengembangan Rp9 juta per tahun. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Development fee Rp9M per year. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 650000,
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya pengembangan per tahun",
+            "en": "Development fee per year"
+          },
+          "amount": 9000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Selatan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-selatan",
+        "published": "2022-07-06"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "entryFee": {
         "min": 0

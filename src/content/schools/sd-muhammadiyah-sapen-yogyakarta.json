@@ -11,6 +11,37 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = biaya pengembangan sekolah. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry = school development fee. From an article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 625000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2140000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Yogyakarta dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-yogyakarta",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2027/2028",
       "tuition": {
         "amount": 1240000,

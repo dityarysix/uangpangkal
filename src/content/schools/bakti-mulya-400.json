@@ -4,6 +4,7 @@
   "district": "Kebayoran Lama",
   "address": "Jl. R.A. Kartini, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
   "levels": [
+    "SD",
     "SMP"
   ],
   "curriculum": [
@@ -12,6 +13,30 @@
   "website": "https://baktimulya400.sch.id",
   "phone": "(021) 7653627 / 0813-9895-4600",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Bilingual: pangkal Rp35,2 juta, SPP Rp2 juta, tahunan Rp5 juta. Cambridge: pangkal Rp40 juta, SPP Rp2,5 juta, tahunan Rp7,5 juta. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Bilingual: entry Rp35.2M, tuition Rp2M, annual Rp5M. Cambridge: entry Rp40M, tuition Rp2.5M, annual Rp7.5M. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 35200000,
+        "max": 40000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Selatan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-selatan",
+        "published": "2022-07-06"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",

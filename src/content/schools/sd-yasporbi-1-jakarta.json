@@ -1,0 +1,42 @@
+{
+  "name": "SD Yasporbi I Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Pancoran",
+  "address": "Jl. Deposito I No.22, Kompleks Perumahan Bank Indonesia, Pancoran, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "From an article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 26700000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Annual fee",
+            "en": "Annual fee"
+          },
+          "amount": 4000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Selatan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-selatan",
+        "published": "2022-07-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "SD Santo Markus 2 Jakarta",
+  "city": "Jakarta Timur",
+  "district": "Cipayung",
+  "address": "Jl. Raya Pondok Gede, Lubang Buaya, Cipayung, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "SPP Rp750–800 ribu; seragam Rp750–800 ribu; kegiatan tahunan Rp500–600 ribu. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Tuition Rp750–800k; uniforms Rp750–800k; annual activities Rp500–600k. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 8500000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Timur dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-timur",
+        "published": "2026-10-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

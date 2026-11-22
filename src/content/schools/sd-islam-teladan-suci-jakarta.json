@@ -1,0 +1,58 @@
+{
+  "name": "SD Islam Teladan Suci Jakarta",
+  "city": "Jakarta Timur",
+  "district": "Ciracas",
+  "address": "Jl. Suci No.9, Susukan, Ciracas, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Foto dan rapor",
+            "en": "Photos and report book"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Fingerprint",
+            "en": "Fingerprint"
+          },
+          "amount": 350000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Timur dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-timur",
+        "published": "2026-10-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

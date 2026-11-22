@@ -53,6 +53,28 @@
         "published": "2026-09-07"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Disebut \"Jakarta International Islamic School Joglo\"; \"biaya pendaftaran Rp26 juta\" dicatat sebagai biaya masuk. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Listed as \"Jakarta International Islamic School Joglo\"; \"registration Rp26M\" recorded as the entry cost. From an article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 26000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Barat dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-barat",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }

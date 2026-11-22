@@ -10,6 +10,28 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal termasuk SPP bulan pertama, buku, seragam, kegiatan setahun, gedung. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry includes first month's tuition, books, uniforms, 1 year of activities, building. From an article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 18890000
+      },
+      "tuition": {
+        "amount": 985000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Timur dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-timur",
+        "published": "2026-10-11"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 200000,
       "entryFee": {

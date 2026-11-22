@@ -1,0 +1,44 @@
+{
+  "name": "SD Sang Timur Jakarta",
+  "city": "Jakarta Barat",
+  "district": "Kebon Jeruk",
+  "address": "Jl. Karmel Raya No.2, Kebon Jeruk, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal termasuk uang gedung dan SPP bulan pertama. SPP Rp900 ribu–Rp1 juta. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry includes building fee and first month's tuition. Tuition Rp900k–Rp1M. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 2000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Barat dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-barat",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -54,6 +54,45 @@
     },
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = uang gedung. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry = building fee. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 675000
+        },
+        {
+          "label": {
+            "id": "Daftar ulang",
+            "en": "Re-registration"
+          },
+          "amount": 3425000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Surabaya dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-surabaya",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2024/2025",
       "entryFee": {
         "min": 26000000

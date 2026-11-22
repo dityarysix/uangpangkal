@@ -10,6 +10,30 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp20–30 juta; SPP Rp1,8–2 juta. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry Rp20–30M; tuition Rp1.8–2M. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 700000,
+      "entryFee": {
+        "min": 20000000,
+        "max": 30000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Selatan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-selatan",
+        "published": "2022-07-06"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2024/2025",
       "yearAssumed": true,
       "notes": {

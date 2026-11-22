@@ -10,6 +10,29 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 59000000
+      },
+      "tuition": {
+        "amount": 4850000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Jakarta Utara dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-jakarta-utara",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2025/2026",
       "registrationFee": 300000,
       "entryFee": {

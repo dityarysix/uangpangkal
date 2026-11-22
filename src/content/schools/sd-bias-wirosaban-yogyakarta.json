@@ -1,0 +1,51 @@
+{
+  "name": "SD Bina Anak Sholeh (BIAS) Wirosaban Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Umbulharjo",
+  "address": "Jl. Wirosaban Barat No.6, Sorosutan, Umbulharjo, Kota Yogyakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dana penunjang pendidikan Rp3,1 juta per semester. Fasilitas putra Rp5.475.000 / putri Rp5.925.000. Dari artikel; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Education support fund Rp3.1M per semester. Facilities (boys) Rp5,475,000 / (girls) Rp5,925,000. From an article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 16000000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Tes & wawancara",
+            "en": "Test & interview"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Fasilitas (putra)",
+            "en": "Facilities (boys)"
+          },
+          "amount": 5475000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Yogyakarta dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-yogyakarta",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
