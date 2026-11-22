@@ -94,7 +94,7 @@ const T = {
       </label>
     </div>
     <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-    <p class="muted small">{T.privacy}</p>
+    <p class="muted small">{T.privacy} <a href={paths.privacy(lang)}>{t(lang, 'privacy')}</a>.</p>
     <button type="submit" disabled={!CORRECTION_ENDPOINT}>{T.send}</button>
     <p id="status" role="status" aria-live="polite"></p>
   </form>

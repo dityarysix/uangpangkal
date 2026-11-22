@@ -51,6 +51,7 @@ const dict = {
     en: 'Data from an earlier academic year — current fees are likely higher.',
   },
   about: { id: 'Tentang', en: 'About' },
+  privacy: { id: 'Kebijakan Privasi', en: 'Privacy Policy' },
   home: { id: 'Beranda', en: 'Home' },
   perPeriod_month: { id: '/bulan', en: '/month' },
   perPeriod_quarter: { id: '/3 bln', en: '/quarter' },
@@ -80,6 +81,7 @@ export const paths = {
   area: (l: Lang, slug: string) => (l === 'id' ? `/wilayah/${slug}/` : `/en/area/${slug}/`),
   school: (l: Lang, slug: string) => (l === 'id' ? `/sekolah/${slug}/` : `/en/school/${slug}/`),
   about: (l: Lang) => (l === 'id' ? '/tentang/' : '/en/about/'),
+  privacy: (l: Lang) => (l === 'id' ? '/kebijakan-privasi/' : '/en/privacy/'),
   correction: (l: Lang, school?: string) =>
     (l === 'id' ? '/koreksi/' : '/en/correction/') + (school ? `?sekolah=${encodeURIComponent(school)}` : ''),
 };
