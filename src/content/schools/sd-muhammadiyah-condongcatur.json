@@ -7,6 +7,7 @@
     "SD"
   ],
   "religion": "Islam",
+  "phone": "(0274) 486619 / WA +62 851-0082-6777",
   "fees": [
     {
       "level": "SD",
@@ -38,6 +39,28 @@
       "source": {
         "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
         "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 16510000
+      },
+      "tuition": {
+        "amount": 845000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal di sini = uang pangkal dll + annual fee (sesuai sumber). SPP termasuk katering dan snack. Ekskul Rp150–350 ribu.",
+        "en": "Entry fee here = entry fee etc. + annual fee (as given by the source). Tuition includes catering and snacks. Extracurriculars Rp150–350k."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
       },
       "checked": "2026-11-22"
     }

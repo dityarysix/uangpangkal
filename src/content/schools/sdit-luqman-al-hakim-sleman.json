@@ -1,0 +1,80 @@
+{
+  "name": "SDIT Luqman Al Hakim Sleman",
+  "city": "Sleman",
+  "district": "Ngaglik",
+  "address": "Jl. Palagan Tentara Pelajar No.52, Sedan, Sariharjo, Ngaglik, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0274) 866744 / WA +62 857-4725-5761",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Antar jemput (per bulan)",
+            "en": "Transport (per month)"
+          },
+          "amount": 900000
+        },
+        {
+          "label": {
+            "id": "SIMPATI subsidi yatim & dhuafa (per bulan)",
+            "en": "SIMPATI orphan subsidy (per month)"
+          },
+          "amount": 100000
+        },
+        {
+          "label": {
+            "id": "Komite per tahun",
+            "en": "Committee per year"
+          },
+          "amount": 125000
+        },
+        {
+          "label": {
+            "id": "Iuran JSIT, Pramuka, dll. per tahun",
+            "en": "JSIT, scouts etc. per year"
+          },
+          "amount": 150000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1650000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1800000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = IPP (Infaq Pengembangan Pendidikan). SPP termasuk makan dan snack.",
+        "en": "Entry fee = IPP (education development infaq). Tuition includes meals and snacks."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

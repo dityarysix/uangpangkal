@@ -1,0 +1,35 @@
+{
+  "name": "SMAIT Fithrah Insani Bandung Barat",
+  "city": "Kabupaten Bandung Barat",
+  "district": "Ngamprah",
+  "address": "Jl. H. Gofur No.10, Tanimulya, Ngamprah, Kabupaten Bandung Barat",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 9500000,
+        "period": "semester"
+      },
+      "notes": {
+        "id": "Uang pangkal = IPP (infaq pembangunan).",
+        "en": "Entry fee = IPP (building infaq)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

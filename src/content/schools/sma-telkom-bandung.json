@@ -1,0 +1,35 @@
+{
+  "name": "SMA Telkom Bandung",
+  "city": "Kabupaten Bandung",
+  "district": "Dayeuhkolot",
+  "address": "Jl. Radio Palasari Road, Citeureup, Dayeuhkolot, Kabupaten Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 300000,
+      "tuition": {
+        "amount": 480000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total biaya masuk tahun 2024",
+            "en": "Total entry cost (2024)"
+          },
+          "amount": 12970000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

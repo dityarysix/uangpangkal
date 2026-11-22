@@ -1,0 +1,35 @@
+{
+  "name": "SMA Daarut Tauhiid Putra Bandung",
+  "city": "Kabupaten Bandung Barat",
+  "district": "Parongpong",
+  "address": "Jl. Cigugur Girang Pangsor, Cigugur Girang, Parongpong, Kabupaten Bandung Barat",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 35500000,
+        "max": 40000000
+      },
+      "tuition": {
+        "amount": 3700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Program SMA 4 tahun: biaya pengembangan Rp40 juta; program 3 tahun: Rp35,5 juta. SPP Rp3,7 juta/bulan.",
+        "en": "4-year programme: development fee Rp40M; 3-year programme: Rp35.5M. Tuition Rp3.7M/month."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

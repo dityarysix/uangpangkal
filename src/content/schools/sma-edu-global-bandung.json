@@ -1,0 +1,60 @@
+{
+  "name": "SMA Edu Global Bandung",
+  "city": "Kota Bandung",
+  "district": "Coblong",
+  "address": "Jl. Ir. H. Juanda No.82, Lebakgede, Coblong, Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 31000000
+      },
+      "tuition": {
+        "amount": 2100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan tahun pertama",
+            "en": "First-year activity fee"
+          },
+          "amount": 4200000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1102000
+        }
+      ],
+      "notes": {
+        "id": "Kelas bilingual. Uang pangkal = DSP (bisa dicicil 4x). Kelas nasional plus: pendaftaran Rp750.000 (rincian lain tidak terbaca).",
+        "en": "Bilingual class. Entry fee = DSP (payable in 4 instalments). National-plus class: registration Rp750,000 (other figures not readable)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

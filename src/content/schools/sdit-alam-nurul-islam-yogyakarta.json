@@ -1,0 +1,65 @@
+{
+  "name": "SDIT Alam Nurul Islam Yogyakarta",
+  "city": "Sleman",
+  "district": "Gamping",
+  "address": "Jl. Ringroad Barat, Cambahan, Nogotirto, Gamping, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 16000000
+      },
+      "tuition": {
+        "amount": 930000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Wakaf",
+            "en": "Endowment (wakaf)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1290000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Herregistrasi kenaikan kelas",
+            "en": "Annual re-registration"
+          },
+          "amount": 3000000
+        }
+      ],
+      "notes": {
+        "id": "Biaya masuk bisa berbeda tergantung gelombang dan asal TK. SPP termasuk konsumsi.",
+        "en": "Entry fee varies by wave and kindergarten of origin. Tuition includes meals."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

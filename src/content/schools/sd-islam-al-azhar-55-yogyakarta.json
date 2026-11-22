@@ -1,0 +1,45 @@
+{
+  "name": "SD Islam Al Azhar 55 Yogyakarta",
+  "city": "Sleman",
+  "district": "Mlati",
+  "address": "Jl. Padjajaran, Sinduadi, Mlati, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "WA +62 813-5510-1155",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 34220000
+      },
+      "tuition": {
+        "amount": 1740000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Herregistrasi kenaikan kelas",
+            "en": "Annual re-registration"
+          },
+          "amount": 7180000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal dll. SPP belum termasuk antar jemput dan ekskul.",
+        "en": "Entry fee etc. Tuition excludes transport and extracurriculars."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

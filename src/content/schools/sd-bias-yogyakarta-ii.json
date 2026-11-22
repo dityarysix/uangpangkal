@@ -1,0 +1,45 @@
+{
+  "name": "SD BIAS Yogyakarta II",
+  "city": "Sleman",
+  "district": "Ngaglik",
+  "address": "Jl. Kaliurang Km 10,9, Ngaglik, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://sekolahbias.sch.id/sd",
+  "phone": "(0274) 4538094 / WA +62 821-3872-4737",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 27925000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya semesteran",
+            "en": "Semester fee"
+          },
+          "amount": 3100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal awal. Termasuk ekskul, family day, PKL, dll.",
+        "en": "Initial entry fee. Includes extracurriculars, family day, field study, etc."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

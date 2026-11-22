@@ -1,0 +1,30 @@
+{
+  "name": "SMA Daarut Tauhiid Putri Bandung",
+  "city": "Kota Bandung",
+  "district": "Sukasari",
+  "address": "Jl. Gegerkalong Girang Isola, Sukasari, Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 35500000
+      },
+      "tuition": {
+        "amount": 3500000,
+        "period": "month"
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

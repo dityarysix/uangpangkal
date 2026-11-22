@@ -1,10 +1,11 @@
 {
-  "name": "SDIT Insan Teladan Cileunyi",
+  "name": "Sekolah Islam Terpadu Insan Teladan Cileunyi",
   "city": "Kabupaten Bandung",
   "district": "Cileunyi",
   "address": "Komplek DPR Blok F No.20, Cileunyi Kulon, Kabupaten Bandung",
   "levels": [
-    "SD"
+    "SD",
+    "SMA"
   ],
   "religion": "Islam",
   "fees": [
@@ -54,6 +55,28 @@
         "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
         "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
         "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 16000000
+      },
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "SMAIT khusus putra (program takhosus/tahfidz). Biaya masuk sekitar Rp16 juta. SPP sudah termasuk makan 3x sehari dan asrama.",
+        "en": "Boys-only SMAIT (tahfidz programme). Entry about Rp16M. Tuition includes 3 meals a day and boarding."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
       },
       "checked": "2026-11-22"
     }

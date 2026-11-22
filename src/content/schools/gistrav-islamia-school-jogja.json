@@ -1,0 +1,45 @@
+{
+  "name": "GISTRAV Islamia School Jogja",
+  "city": "Sleman",
+  "district": "Ngaglik",
+  "address": "GISTRAV Edu Land, Jl. Gito Gati, Rejodani 2, Sariharjo, Ngaglik, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "WA +62 811-2505-053",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 16669000
+      },
+      "tuition": {
+        "amount": 1400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Herregistrasi",
+            "en": "Re-registration"
+          },
+          "amount": 2780000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal di sini = uang pangkal dll + annual fee (sesuai sumber).",
+        "en": "Entry fee here = entry fee etc. + annual fee (as given by the source)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

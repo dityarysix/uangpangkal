@@ -25,7 +25,7 @@ upsert("sdit-q-ta-hamasah-cileunyi", name="SDIT Q-Ta Hamasah Cileunyi", city="Ka
        otherFees=[fee("Psikotes", "Psychological test", 150_000), fee("Seragam laki-laki", "Uniforms (boys)", 800_000), fee("Seragam perempuan", "Uniforms (girls)", 875_000), fee("Buku paket", "Textbooks", 650_000)],
        notes=L("Total masuk Rp8.000.000 (laki-laki) / Rp8.075.000 (perempuan). Biaya tahunan buku dan kegiatan sekitar Rp1.850.000. Jemputan dan katering mingguan Rp50.000.",
                "Total on entry Rp8,000,000 (boys) / Rp8,075,000 (girls). Yearly books and activities about Rp1,850,000. Weekly transport and catering Rp50,000."), **C("2021/2022"))
-upsert("sdit-insan-teladan-cileunyi", name="SDIT Insan Teladan Cileunyi", city="Kabupaten Bandung", district="Cileunyi", religion="Islam",
+upsert("sdit-insan-teladan-cileunyi", name="Sekolah Islam Terpadu Insan Teladan Cileunyi", city="Kabupaten Bandung", district="Cileunyi", religion="Islam",
        address="Komplek DPR Blok F No.20, Cileunyi Kulon, Kabupaten Bandung",
        registrationFee=380_000, entryFee={"min": 5_897_000},
        otherFees=[fee("Pengembangan kurikulum", "Curriculum development", 1_035_000), fee("Kesiswaan", "Student affairs", 1_272_000), fee("Intrakurikuler", "Intracurricular", 379_000), fee(*UNIFORM, 1_249_000)],
@@ -35,7 +35,7 @@ upsert("sd-al-masoem-jatinangor", name="SD Al Ma'soem Jatinangor", city="Kabupat
        entryFee={"min": 9_400_000}, tuition={"amount": 900_000, "period": "month"},
        notes=L("Program full day. Biaya masuk Rp9.400.000 belum termasuk seragam dan buku Rp1.500.000 (total Rp10.900.000). SPP belum termasuk katering.",
                "Full-day programme. Entry Rp9,400,000 excluding uniforms and books Rp1,500,000 (total Rp10,900,000). Tuition excludes catering."), **C("2023/2024"))
-upsert("sd-tunas-unggul-bandung", name="SD Tunas Unggul Bandung", city="Kota Bandung", district="Mandalajati",
+upsert("sd-tunas-unggul-bandung", name="Sekolah Tunas Unggul Bandung", city="Kota Bandung", district="Mandalajati",
        address="Jl. Pasir Impun No.94, Mandalajati, Kota Bandung", phone="(022) 87788664",
        entryFee={"min": 34_775_000}, tuition={"amount": 1_375_000, "period": "month"},
        notes=L("Rp34.775.000 adalah uang pangkal beserta biaya lain-lain.", "Rp34,775,000 is the entry fee plus other charges."), **C("2022/2023"))

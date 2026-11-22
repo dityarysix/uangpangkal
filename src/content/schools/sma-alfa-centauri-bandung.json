@@ -1,0 +1,34 @@
+{
+  "name": "SMA Alfa Centauri Bandung",
+  "city": "Kota Bandung",
+  "district": "Bandung Wetan",
+  "address": "Jl. Diponegoro No.48, Citarum, Bandung Wetan, Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2023/2024",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 28000000,
+        "max": 37500000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "DSP program A Rp39 juta diskon Rp1,5 juta = Rp37,5 juta; program B Rp29 juta diskon Rp1 juta = Rp28 juta.",
+        "en": "Development fee programme A Rp39M less Rp1.5M = Rp37.5M; programme B Rp29M less Rp1M = Rp28M."
+      },
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SDII Al Abidin Yogyakarta",
+  "city": "Sleman",
+  "district": "Ngemplak",
+  "address": "Jetis, Wedomartani, Ngemplak, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 10000000,
+        "max": 13000000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal di sini = uang pangkal dll + annual fee (sesuai sumber).",
+        "en": "Entry fee here = entry fee etc. + annual fee (as given by the source)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

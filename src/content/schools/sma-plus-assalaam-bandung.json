@@ -1,0 +1,61 @@
+{
+  "name": "SMA Plus Assalaam Bandung",
+  "city": "Kabupaten Bandung",
+  "district": "Dayeuhkolot",
+  "address": "Jl. Terusan Cibaduyut, Cangkuang Kulon, Dayeuhkolot, Kabupaten Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 3250000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana kreativitas",
+            "en": "Creativity fund"
+          },
+          "amount": 2800000
+        },
+        {
+          "label": {
+            "id": "Seragam 4 macam",
+            "en": "Uniforms (4 types)"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Pengembangan kurikulum 1 tahun",
+            "en": "Curriculum development (1 year)"
+          },
+          "amount": 1950000
+        },
+        {
+          "label": {
+            "id": "Kegiatan ujian 1 tahun",
+            "en": "Exams (1 year)"
+          },
+          "amount": 1050000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = biaya pembangunan sekolah (bisa dicicil 10 bulan selama kelas X). Total Rp9.850.000; Rp6.600.000 dibayar di awal (Juli).",
+        "en": "Entry fee = school building fee (can be paid over 10 months in grade 10). Total Rp9,850,000; Rp6,600,000 due upfront (July)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SD Budi Mulia Dua Pandeansari",
+  "city": "Sleman",
+  "district": "Depok",
+  "address": "Komp. Pandean Sari Blok IV, Condongcatur, Depok, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0274) 889939 / WA +62 822-2522-5512",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 28150000
+      },
+      "tuition": {
+        "amount": 1375000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal di sini = uang pangkal dll + annual fee (sesuai sumber).",
+        "en": "Entry fee here = entry fee etc. + annual fee (as given by the source)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,10 +1,11 @@
 {
-  "name": "SD Tunas Unggul Bandung",
+  "name": "Sekolah Tunas Unggul Bandung",
   "city": "Kota Bandung",
   "district": "Mandalajati",
   "address": "Jl. Pasir Impun No.94, Mandalajati, Kota Bandung",
   "levels": [
-    "SD"
+    "SD",
+    "SMA"
   ],
   "phone": "(022) 87788664",
   "fees": [
@@ -26,6 +27,25 @@
         "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
         "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
         "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 25000000,
+        "max": 28000000
+      },
+      "notes": {
+        "id": "SMA (Jl. Abah Sastro No.20, Pasir Impun): total biaya masuk sekitar Rp25–28 juta; diskon Rp2 juta untuk alumni dan saudara kandung.",
+        "en": "SMA (Jl. Abah Sastro No.20, Pasir Impun): total entry cost about Rp25–28M; Rp2M off for alumni and siblings."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
       },
       "checked": "2026-11-22"
     }

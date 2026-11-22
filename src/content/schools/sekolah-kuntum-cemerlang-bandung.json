@@ -1,0 +1,35 @@
+{
+  "name": "Sekolah Kuntum Cemerlang Bandung",
+  "city": "Kota Bandung",
+  "district": "Cidadap",
+  "address": "Jl. Cipaku Indah XI No.2, Ledeng, Cidadap, Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total biaya masuk (perkiraan)",
+            "en": "Total entry cost (approx.)"
+          },
+          "amount": 29350000
+        }
+      ],
+      "notes": {
+        "id": "Total kira-kira Rp29.350.000, belum termasuk ekskul (Rp150–225 ribu) dan katering (tidak wajib).",
+        "en": "About Rp29,350,000 in total, excluding extracurriculars (Rp150–225k) and catering (optional)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

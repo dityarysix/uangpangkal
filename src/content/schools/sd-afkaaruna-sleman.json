@@ -1,5 +1,5 @@
 {
-  "name": "SD Afkaaruna Sleman",
+  "name": "Afkaaruna Islamic School Sleman",
   "city": "Sleman",
   "district": "Pakem",
   "address": "Jl. Kaliurang Km 12,5, Pelem, Harjobinangun, Pakem, Sleman",
@@ -7,6 +7,7 @@
     "SD"
   ],
   "religion": "Islam",
+  "phone": "WA +62 813-9377-7227",
   "fees": [
     {
       "level": "SD",
@@ -25,6 +26,28 @@
       "source": {
         "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
         "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 21050000
+      },
+      "tuition": {
+        "amount": 1100000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Jenjang dasar berbentuk Madrasah Ibtidaiyah (setara SD). Uang pangkal di sini = uang pangkal dll + annual fee (sesuai sumber). SPP termasuk katering dan snack.",
+        "en": "Primary level is a Madrasah Ibtidaiyah (equivalent to SD). Entry fee here = entry fee etc. + annual fee (as given by the source). Tuition includes catering and snacks."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
       },
       "checked": "2026-11-22"
     }

@@ -1,0 +1,35 @@
+{
+  "name": "SDIT Taruna Al Qur'an Yogyakarta",
+  "city": "Sleman",
+  "district": "Ngaglik",
+  "address": "Jl. Lempongsari Gg. Bawal, Jongkang, Sariharjo, Ngaglik, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://taruna-alquran.com/sd-islam-terpadu-taruna-al-quran",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 13825000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal di sini = uang pangkal dll + annual fee (sesuai sumber).",
+        "en": "Entry fee here = entry fee etc. + annual fee (as given by the source)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

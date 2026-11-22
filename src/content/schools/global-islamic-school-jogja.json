@@ -7,6 +7,7 @@
     "SD"
   ],
   "religion": "Islam",
+  "phone": "(0274) 2809609 / WA +62 811-2632-208",
   "fees": [
     {
       "level": "SD",
@@ -49,6 +50,38 @@
       "source": {
         "title": "Harga SD Swasta Terbaik di Yogyakarta (Data Pendidikan)",
         "url": "https://www.datapendidikan.com/blog/harga-sd-swasta-terbaik-di-yogyakarta/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 27350000
+      },
+      "tuition": {
+        "amount": 1425000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Herregistrasi kenaikan kelas",
+            "en": "Annual re-registration"
+          },
+          "amount": 6045000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal awal. SPP belum termasuk katering, antar jemput, ekskul.",
+        "en": "Initial entry fee. Tuition excludes catering, transport and extracurriculars."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
       },
       "checked": "2026-11-22"
     }

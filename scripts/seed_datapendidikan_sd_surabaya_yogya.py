@@ -62,7 +62,7 @@ upsert("sekolah-bina-anak-sholeh-yogyakarta", name="Sekolah Bina Anak Sholeh (BI
 upsert("sd-al-azhar-31-sinduadi", name="SD Al-Azhar 31 Sinduadi Yogyakarta", city="Sleman", district="Mlati", religion="Islam",
        address="Jl. Padjajaran No.35A / Jl. Pogung Lor, Sinduadi, Mlati, Sleman",
        entryFee={"min": 18_500_000}, tuition={"amount": 680_000, "period": "month"}, notes=L("Angka perkiraan (\"kisaran\").", "Approximate figures."), **Y)
-upsert("sd-afkaaruna-sleman", name="SD Afkaaruna Sleman", city="Sleman", district="Pakem", religion="Islam",
+upsert("sd-afkaaruna-sleman", name="Afkaaruna Islamic School Sleman", city="Sleman", district="Pakem", religion="Islam",
        address="Jl. Kaliurang Km 12,5, Pelem, Harjobinangun, Pakem, Sleman",
        entryFee={"min": 17_000_000}, tuition={"amount": 1_000_000, "period": "month"}, notes=L("Angka perkiraan (\"sekitar\").", "Approximate figures."), **Y)
 upsert("sd-salman-al-farisi-2-sleman", name="SD Salman Al Farisi 2 Sleman", city="Sleman", district="Ngemplak", religion="Islam",

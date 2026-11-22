@@ -1,0 +1,45 @@
+{
+  "name": "SD Budi Mulia Dua Panjen",
+  "city": "Sleman",
+  "district": "Ngemplak",
+  "address": "Dusun Kergan, Kenayan, Wedomartani, Ngemplak, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0274) 485551 / WA +62 812-1575-909",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 285000,
+      "entryFee": {
+        "min": 26500000
+      },
+      "tuition": {
+        "amount": 1675000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Learning activities per tahun",
+            "en": "Learning activities per year"
+          },
+          "amount": 11500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = joining fee. SPP siswa reguler Rp1.675.000; siswa inklusi Rp3.175.000. Sumber menyebut ini biaya tahun 2025/2026.",
+        "en": "Entry fee = joining fee. Tuition: regular Rp1,675,000; inclusive programme Rp3,175,000. The source states these are 2025/2026 fees."
+      },
+      "yearAssumed": false,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

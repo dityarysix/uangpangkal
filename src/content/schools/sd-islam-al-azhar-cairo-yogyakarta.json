@@ -1,0 +1,39 @@
+{
+  "name": "SD Islam Al Azhar Cairo Yogyakarta",
+  "city": "Sleman",
+  "district": "Ngaglik",
+  "address": "Jl. Bimo No.1, Ngangkruk, Sardonoharjo, Ngaglik, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 25700000
+      },
+      "tuition": {
+        "amount": 1130000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Katering dan snack (per bulan)",
+            "en": "Catering and snacks (per month)"
+          },
+          "amount": 440000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

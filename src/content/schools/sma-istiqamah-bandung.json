@@ -1,0 +1,65 @@
+{
+  "name": "SMA Istiqamah Bandung",
+  "city": "Kota Bandung",
+  "district": "Buahbatu",
+  "address": "Komplek Puragabaya No.14, Jl. Cijaura Girang, Sekejati, Buahbatu, Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 7000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Kegiatan kurikulum",
+            "en": "Curriculum activities"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Kegiatan kesiswaan",
+            "en": "Student activities"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Pengembangan",
+            "en": "Development"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = dana partisipasi orang tua. Total biaya administrasi Rp10.950.000. Info dari humas sekolah menurut sumber.",
+        "en": "Entry fee = parents' participation fund. Total administration cost Rp10,950,000. The source says the info came from the school's PR office."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SMA Bandung [Update 2026] (blog Armita Fibri)",
+        "url": "https://armitafibri.com/biaya-masuk-sma-bandung/",
+        "published": "2026-05-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "SD Teladan Yogyakarta",
+  "city": "Sleman",
+  "district": "Gamping",
+  "address": "Jl. Kabupaten No.99 Km 0,5, Nogotirto, Gamping, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0274) 2923001 / WA +62 856-0217-2302",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 17000000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang",
+            "en": "Re-registration"
+          },
+          "amount": 6500000
+        }
+      ],
+      "notes": {
+        "id": "SPP termasuk katering dan snack.",
+        "en": "Tuition includes catering and snacks."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan 18 SD Islam Favorit di Yogyakarta (blog Pratiwanggini)",
+        "url": "https://pratiwanggini.net/2024/06/biaya-pendidikan-sd-islam/",
+        "published": "2024-06-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
