@@ -3,11 +3,176 @@
   "city": "Tangerang Selatan",
   "district": "Ciputat Timur",
   "levels": [
-    "SMP"
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
   ],
   "religion": "Islam",
   "website": "https://alfathschoolindonesia.sch.id",
   "fees": [
+    {
+      "level": "KB",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 11000000
+      },
+      "tuition": {
+        "amount": 1435000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang media (per bulan)",
+            "en": "Media fee (per month)"
+          },
+          "amount": 160000
+        },
+        {
+          "label": {
+            "id": "Iuran PTA (per tahun)",
+            "en": "PTA (per year)"
+          },
+          "amount": 175000
+        },
+        {
+          "label": {
+            "id": "Seragam (per tahun)",
+            "en": "Uniforms (per year)"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Daftar ulang KB kecil ke KB besar",
+            "en": "Re-registration (KB small to big)"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Sumbangan tahunan min. Rp500.000–maks. Rp2.000.000. ",
+        "en": "Annual donation min. Rp500,000–max. Rp2,000,000. "
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "Tuition Fee 2027/2028 — Al-Fath School Indonesia (situs resmi)",
+        "url": "https://alfathschoolindonesia.sch.id/tuition-fee/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 13000000,
+        "max": 14000000
+      },
+      "tuition": {
+        "amount": 1633800,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang media (per bulan)",
+            "en": "Media fee (per month)"
+          },
+          "amount": 170000
+        },
+        {
+          "label": {
+            "id": "Seragam (per tahun)",
+            "en": "Uniforms (per year)"
+          },
+          "amount": 675000
+        },
+        {
+          "label": {
+            "id": "Komputer (per tahun)",
+            "en": "Computer (per year)"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Daftar ulang TK A ke TK B",
+            "en": "Re-registration (TK A to TK B)"
+          },
+          "amount": 1250000
+        }
+      ],
+      "notes": {
+        "id": "Sumbangan tahunan min. Rp500.000–maks. Rp2.000.000. Uang pangkal TK A Rp14.000.000; TK B Rp13.000.000.",
+        "en": "Annual donation min. Rp500,000–max. Rp2,000,000. Entry fee TK A Rp14,000,000; TK B Rp13,000,000."
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "Tuition Fee 2027/2028 — Al-Fath School Indonesia (situs resmi)",
+        "url": "https://alfathschoolindonesia.sch.id/tuition-fee/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 2563300,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang media (per bulan)",
+            "en": "Media fee (per month)"
+          },
+          "amount": 170000
+        },
+        {
+          "label": {
+            "id": "Seragam (per tahun)",
+            "en": "Uniforms (per year)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Komputer (per tahun)",
+            "en": "Computer (per year)"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Buku (per tahun)",
+            "en": "Books (per year)"
+          },
+          "amount": 550000
+        },
+        {
+          "label": {
+            "id": "Cambridge Test English (per tahun)",
+            "en": "Cambridge English test (per year)"
+          },
+          "amount": 1400000
+        }
+      ],
+      "notes": {
+        "id": "Sumbangan tahunan min. Rp500.000–maks. Rp2.000.000. ",
+        "en": "Annual donation min. Rp500,000–max. Rp2,000,000. "
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "Tuition Fee 2027/2028 — Al-Fath School Indonesia (situs resmi)",
+        "url": "https://alfathschoolindonesia.sch.id/tuition-fee/"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",
@@ -72,6 +237,136 @@
         "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
         "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 26000000
+      },
+      "tuition": {
+        "amount": 2590150,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang media (per bulan)",
+            "en": "Media fee (per month)"
+          },
+          "amount": 250000
+        },
+        {
+          "label": {
+            "id": "Iuran PTA (per tahun)",
+            "en": "PTA (per year)"
+          },
+          "amount": 225000
+        },
+        {
+          "label": {
+            "id": "Seragam (per tahun)",
+            "en": "Uniforms (per year)"
+          },
+          "amount": 1650000
+        },
+        {
+          "label": {
+            "id": "Komputer (per tahun)",
+            "en": "Computer (per year)"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Buku (per tahun)",
+            "en": "Books (per year)"
+          },
+          "amount": 925000
+        },
+        {
+          "label": {
+            "id": "Cambridge Test English (per tahun)",
+            "en": "Cambridge English test (per year)"
+          },
+          "amount": 1700000
+        }
+      ],
+      "notes": {
+        "id": "Sumbangan tahunan min. Rp500.000–maks. Rp2.000.000. ",
+        "en": "Annual donation min. Rp500,000–max. Rp2,000,000. "
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "Tuition Fee 2027/2028 — Al-Fath School Indonesia (situs resmi)",
+        "url": "https://alfathschoolindonesia.sch.id/tuition-fee/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 26000000
+      },
+      "tuition": {
+        "amount": 2590150,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang media (per bulan)",
+            "en": "Media fee (per month)"
+          },
+          "amount": 250000
+        },
+        {
+          "label": {
+            "id": "Iuran PTA (per tahun)",
+            "en": "PTA (per year)"
+          },
+          "amount": 225000
+        },
+        {
+          "label": {
+            "id": "Seragam (per tahun)",
+            "en": "Uniforms (per year)"
+          },
+          "amount": 1450000
+        },
+        {
+          "label": {
+            "id": "Komputer (per tahun)",
+            "en": "Computer (per year)"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Buku (per tahun)",
+            "en": "Books (per year)"
+          },
+          "amount": 925000
+        },
+        {
+          "label": {
+            "id": "Cambridge Test English (per tahun)",
+            "en": "Cambridge English test (per year)"
+          },
+          "amount": 1800000
+        }
+      ],
+      "notes": {
+        "id": "Sumbangan tahunan min. Rp500.000–maks. Rp2.000.000. ",
+        "en": "Annual donation min. Rp500,000–max. Rp2,000,000. "
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "Tuition Fee 2027/2028 — Al-Fath School Indonesia (situs resmi)",
+        "url": "https://alfathschoolindonesia.sch.id/tuition-fee/"
       },
       "checked": "2026-11-22"
     }

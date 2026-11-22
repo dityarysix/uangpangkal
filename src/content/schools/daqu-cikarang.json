@@ -1,0 +1,53 @@
+{
+  "name": "Sekolah Daarul Qur'an Cikarang",
+  "city": "Kabupaten Bekasi",
+  "levels": [
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 7480000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Fullday non-asrama (biaya reguler). Pesantren (asrama) Daqu Cikarang: formulir Rp500.000, uang pangkal Rp30.000.000 (promo indent Rp15.000.000), SPP Rp2.700.000/bulan.",
+        "en": "Day school, non-boarding (regular fees). Daqu Cikarang boarding: form Rp500,000, entry Rp30,000,000 (indent promo Rp15,000,000), tuition Rp2,700,000/month."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 7480000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Fullday non-asrama (biaya reguler). Pesantren (asrama) Daqu Cikarang: formulir Rp500.000, uang pangkal Rp30.000.000 (promo indent Rp15.000.000), SPP Rp2.700.000/bulan.",
+        "en": "Day school, non-boarding (regular fees). Daqu Cikarang boarding: form Rp500,000, entry Rp30,000,000 (indent promo Rp15,000,000), tuition Rp2,700,000/month."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

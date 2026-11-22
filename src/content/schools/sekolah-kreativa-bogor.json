@@ -1,0 +1,33 @@
+{
+  "name": "Sekolah Kreativa Bogor",
+  "city": "Kota Bogor",
+  "address": "KB-TK: Jl. Johar Raya No.38, Taman Yasmin; SD: Jl. Kranji Ujung No.71, Sukaresmi; SMP: Jl. Raya Munjul, Kayu Manis — Kota Bogor",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://sekolahkreativa.sch.id",
+  "phone": "KB-TK 0819-9994-4038 · SD 0815-7474-3744",
+  "fees": [],
+  "admission": [
+    {
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "SPMB 28 September–7 November 2026; early bird (28 September–3 Oktober 2026) potongan uang pangkal Rp500.000; diskon jalur prestasi SMP 50%; tarif khusus alumni.",
+        "en": "Admissions 28 September–7 November 2026; early bird (28 September–3 October 2026) Rp500,000 off the entry fee; 50% off for the SMP achievement track; special alumni rates."
+      },
+      "notes": {
+        "id": "Sekolah inklusi dengan kuota khusus anak berkebutuhan khusus di setiap jenjang. Besaran biaya tidak dicantumkan.",
+        "en": "Inclusive school with places reserved for children with special needs at every level. Fee amounts are not published."
+      },
+      "source": {
+        "title": "Penerimaan Murid Baru 2027/2028 — Sekolah Kreativa Bogor (situs resmi)",
+        "url": "https://sekolahkreativa.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Sekolah Daarul Qur'an Semarang",
+  "city": "Kota Semarang",
+  "district": "Banyumanik",
+  "levels": [
+    "TK",
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.daqu.sch.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 5250000,
+        "max": 10500000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal normal Rp10.500.000; promo periode indent Rp5.250.000 (selama kuota tersedia; gelombang berikutnya disesuaikan). KB-TK.",
+        "en": "Normal entry fee Rp10,500,000; early (indent) promotion Rp5,250,000 (while places last; later waves are priced differently). Playgroup/kindergarten."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 8750000,
+        "max": 17500000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal normal Rp17.500.000; promo periode indent Rp8.750.000 (selama kuota tersedia; gelombang berikutnya disesuaikan).",
+        "en": "Normal entry fee Rp17,500,000; early (indent) promotion Rp8,750,000 (while places last; later waves are priced differently)."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "SMP Muhammadiyah 3 Waru (Mugaru) Sidoarjo",
+  "city": "Sidoarjo",
+  "district": "Waru",
+  "address": "Jl. Kol. Sugiono 105, Kureksari, Waru, Sidoarjo",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://smpmugaru.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 3000000,
+        "max": 7000000
+      },
+      "tuition": {
+        "amount": 425000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kegiatan (Excellence)",
+            "en": "Activities (Excellence)"
+          },
+          "amount": 4600000
+        },
+        {
+          "label": {
+            "id": "Biaya kegiatan (M-ICO)",
+            "en": "Activities (M-ICO)"
+          },
+          "amount": 5450000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2285000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2685000
+        },
+        {
+          "label": {
+            "id": "EPP (M-ICO)",
+            "en": "EPP (M-ICO)"
+          },
+          "amount": 2500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = DPP Rp7.000.000; periode inden potongan DPP Rp4.000.000 (+ potongan khusus lulusan sekolah Islam). Program Excellence SPP Rp425.000; M-ICO Rp525.000. Total normal: M-ICO Rp17.760.000 (putra) / Rp18.160.000 (putri); Excellence Rp14.310.000 / Rp14.710.000. Total inden: M-ICO putra Rp13.760.000; Excellence Rp10.310.000 / Rp10.710.000.",
+        "en": "Entry fee = DPP Rp7,000,000; early (indent) period gets Rp4,000,000 off (plus an extra discount for Islamic-school graduates). Excellence tuition Rp425,000; M-ICO Rp525,000. Normal totals: M-ICO Rp17,760,000 (boys) / Rp18,160,000 (girls); Excellence Rp14,310,000 / Rp14,710,000. Indent totals: M-ICO boys Rp13,760,000; Excellence Rp10,310,000 / Rp10,710,000."
+      },
+      "source": {
+        "title": "Biaya SPMB SMP Muhammadiyah 3 Waru (SMP Mugaru) TA 2027/2028 (situs resmi)",
+        "url": "https://spmb.smpmugaru.sch.id/en/biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

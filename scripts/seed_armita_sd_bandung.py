@@ -30,7 +30,7 @@ upsert("sdit-insan-teladan-cileunyi", name="Sekolah Islam Terpadu Insan Teladan 
        registrationFee=380_000, entryFee={"min": 5_897_000},
        otherFees=[fee("Pengembangan kurikulum", "Curriculum development", 1_035_000), fee("Kesiswaan", "Student affairs", 1_272_000), fee("Intrakurikuler", "Intracurricular", 379_000), fee(*UNIFORM, 1_249_000)],
        notes=L("Uang pangkal = pengembangan dan pemeliharaan sarana prasarana. Total masuk Rp9.832.000.", "Entry fee = facilities development & maintenance. Total on entry Rp9,832,000."), **C("2024/2025", True))
-upsert("sd-al-masoem-jatinangor", name="SD Al Ma'soem Jatinangor", city="Kabupaten Sumedang", district="Jatinangor", religion="Islam",
+upsert("sd-al-masoem-jatinangor", name="Sekolah Al Ma'soem Jatinangor", city="Kabupaten Sumedang", district="Jatinangor", religion="Islam",
        address="Jl. Raya Cipacing No.22, Jatinangor, Kabupaten Sumedang", phone="(022) 7798204", website="http://almasoem.sch.id",
        entryFee={"min": 9_400_000}, tuition={"amount": 900_000, "period": "month"},
        notes=L("Program full day. Biaya masuk Rp9.400.000 belum termasuk seragam dan buku Rp1.500.000 (total Rp10.900.000). SPP belum termasuk katering.",

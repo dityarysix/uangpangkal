@@ -1,0 +1,34 @@
+{
+  "name": "KB-TK Daarul Qur'an Bassura",
+  "city": "Jakarta Timur",
+  "district": "Jatinegara",
+  "levels": [
+    "TK"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.daqu.sch.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 8050000,
+        "max": 11500000
+      },
+      "tuition": {
+        "amount": 1700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal normal Rp11.500.000; promo periode indent Rp8.050.000 (selama kuota tersedia; gelombang berikutnya disesuaikan). KB-TK; diskon 30%.",
+        "en": "Normal entry fee Rp11,500,000; early (indent) promotion Rp8,050,000 (while places last; later waves are priced differently). Playgroup/kindergarten; 30% off."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

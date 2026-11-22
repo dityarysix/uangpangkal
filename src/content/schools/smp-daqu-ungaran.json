@@ -1,0 +1,33 @@
+{
+  "name": "SMP Daarul Qur'an Ungaran",
+  "city": "Kabupaten Semarang",
+  "district": "Ungaran",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.daqu.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 3500000
+      },
+      "tuition": {
+        "amount": 250000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Fullday non-asrama.",
+        "en": "Day school, non-boarding."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

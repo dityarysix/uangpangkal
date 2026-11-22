@@ -1,0 +1,101 @@
+{
+  "name": "Sekolah Daarul Qur'an Ketapang Tangerang",
+  "city": "Kota Tangerang",
+  "district": "Cipondoh",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.daqu.sch.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 8015000,
+        "max": 11450000
+      },
+      "tuition": {
+        "amount": 1150000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal normal Rp11.450.000; promo periode indent Rp8.015.000 (selama kuota tersedia; gelombang berikutnya disesuaikan). KB-TK Daqu Tangerang; diskon 30%.",
+        "en": "Normal entry fee Rp11,450,000; early (indent) promotion Rp8,015,000 (while places last; later waves are priced differently). Daqu Tangerang playgroup/kindergarten; 30% off."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 14650000,
+        "max": 29300000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal normal Rp29.300.000; promo periode indent Rp14.650.000 (selama kuota tersedia; gelombang berikutnya disesuaikan). Hemat 50% (Juli–Oktober 2026).",
+        "en": "Normal entry fee Rp29,300,000; early (indent) promotion Rp14,650,000 (while places last; later waves are priced differently). 50% saving (July–October 2026)."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 7480000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Fullday non-asrama (biaya reguler). Pesantren (asrama) Daqu Tangerang: formulir Rp500.000, uang pangkal Rp30.000.000 (promo indent Rp15.000.000), SPP Rp2.700.000/bulan.",
+        "en": "Day school, non-boarding (regular fees). Daqu Tangerang boarding: form Rp500,000, entry Rp30,000,000 (indent promo Rp15,000,000), tuition Rp2,700,000/month."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 7480000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Fullday non-asrama (biaya reguler). Pesantren (asrama) Daqu Tangerang: formulir Rp500.000, uang pangkal Rp30.000.000 (promo indent Rp15.000.000), SPP Rp2.700.000/bulan.",
+        "en": "Day school, non-boarding (regular fees). Daqu Tangerang boarding: form Rp500,000, entry Rp30,000,000 (indent promo Rp15,000,000), tuition Rp2,700,000/month."
+      },
+      "source": {
+        "title": "SPMB Daarul Qur'an TA 2027/2028 — biaya per unit (situs resmi)",
+        "url": "https://ppdb.daqu.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

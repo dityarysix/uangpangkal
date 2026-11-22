@@ -1,13 +1,14 @@
 {
-  "name": "SD Al Ma'soem Jatinangor",
+  "name": "Sekolah Al Ma'soem Jatinangor",
   "city": "Kabupaten Sumedang",
   "district": "Jatinangor",
   "address": "Jl. Raya Cipacing No.22, Jatinangor, Kabupaten Sumedang",
   "levels": [
-    "SD"
+    "SD",
+    "SMA"
   ],
   "religion": "Islam",
-  "website": "http://almasoem.sch.id",
+  "website": "https://almasoem.sch.id",
   "phone": "(022) 7798204",
   "fees": [
     {
@@ -28,6 +29,95 @@
         "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
         "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
         "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total biaya masuk gelombang 1",
+            "en": "Total entry cost, wave 1"
+          },
+          "amount": 12985000
+        },
+        {
+          "label": {
+            "id": "Kelengkapan siswa",
+            "en": "Student supplies"
+          },
+          "amount": 1110000
+        },
+        {
+          "label": {
+            "id": "KPAM",
+            "en": "KPAM"
+          },
+          "amount": 150000
+        }
+      ],
+      "tuition": {
+        "amount": 1245000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Total biaya masuk per gelombang (termasuk registrasi Rp730.000 dan DPP dengan keringanan berbeda): gelombang 1 Rp12.985.000; gelombang 2 Rp13.640.000; gelombang 3 Rp14.295.000; gelombang 4 Rp14.950.000; extra gelombang Rp15.605.000 (keringanan DPP 0%). Seragam dan buku dapat dihitung terpisah.",
+        "en": "Total entry cost by wave (incl. Rp730,000 registration and the DPP with different discounts): wave 1 Rp12,985,000; wave 2 Rp13,640,000; wave 3 Rp14,295,000; wave 4 Rp14,950,000; extra wave Rp15,605,000 (no DPP discount). Uniforms and books may be extra."
+      },
+      "registrationFee": 730000,
+      "source": {
+        "title": "Berapa Biaya Masuk SD Al Ma'soem Bandung TA 2027–2028 (situs resmi Yayasan Al Ma'soem)",
+        "url": "https://almasoem.sch.id/berapa-biaya-masuk-sd-al-masoem-bandung-tahun-ajaran-2027-2028-dan-apa-saja-komponennya/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 750000,
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total biaya masuk gelombang 1",
+            "en": "Total entry cost, wave 1"
+          },
+          "amount": 19500000
+        },
+        {
+          "label": {
+            "id": "KPAM",
+            "en": "KPAM"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Kelengkapan siswa",
+            "en": "Student supplies"
+          },
+          "amount": 1300000
+        },
+        {
+          "label": {
+            "id": "Tambahan boarding",
+            "en": "Boarding supplement"
+          },
+          "amount": 11400000
+        }
+      ],
+      "notes": {
+        "id": "Total biaya masuk SMA reguler: gelombang 1 Rp19.500.000 (DPP -20%, mulai 1 Agustus 2026); gelombang 2 Rp20.525.000 (Oktober 2026); gelombang 3 Rp21.550.000 (Januari 2027); gelombang 4 Rp22.575.000 (April 2027); extra gelombang Rp23.600.000. Kelas internasional mulai sekitar Rp23.885.000.",
+        "en": "Total SMA entry cost (regular): wave 1 Rp19,500,000 (DPP −20%, from 1 August 2026); wave 2 Rp20,525,000 (October 2026); wave 3 Rp21,550,000 (January 2027); wave 4 Rp22,575,000 (April 2027); extra wave Rp23,600,000. International class from about Rp23,885,000."
+      },
+      "source": {
+        "title": "Berapa Biaya Masuk SMA Al Ma'soem Bandung TA 2027–2028 (situs resmi Yayasan Al Ma'soem)",
+        "url": "https://almasoem.sch.id/berapa-biaya-masuk-sma-al-masoem-bandung-tahun-ajaran-2027-2028-2/"
       },
       "checked": "2026-11-22"
     }

@@ -1,0 +1,47 @@
+{
+  "name": "Sekolah Islam Al Azhar Kembangan",
+  "city": "Jakarta Barat",
+  "district": "Kembangan",
+  "address": "Jl. H. Saaba Raya, Komp. Unilever, Meruya Selatan, Kembangan, Jakarta Barat",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://pmb.alazhar-kembangan.sch.id",
+  "fees": [],
+  "admission": [
+    {
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran murid baru 7 September 2026–29 Juni 2027 untuk TKI Al Azhar 9, SDI Al Azhar 8, SMPI Al Azhar 10 (termasuk jalur prestasi non-tes), dan SMA Islam Al Azhar 20 Kembangan.",
+        "en": "Registration 7 September 2026–29 June 2027 for TKI Al Azhar 9, SDI Al Azhar 8, SMPI Al Azhar 10 (incl. a no-test achievement track) and SMA Islam Al Azhar 20 Kembangan."
+      },
+      "steps": [
+        {
+          "id": "Daftar online dan bayar uang pendaftaran Rp500.000 via Bank Syariah Indonesia.",
+          "en": "Register online and pay the Rp500,000 registration fee via Bank Syariah Indonesia."
+        },
+        {
+          "id": "Tunggu jadwal observasi.",
+          "en": "Wait for the observation schedule."
+        }
+      ],
+      "test": {
+        "id": "Observasi.",
+        "en": "Observation."
+      },
+      "notes": {
+        "id": "SD: usia minimal 6 tahun pada Juli 2027. Besaran uang pangkal dan SPP tidak terbaca di halaman.",
+        "en": "SD: minimum age 6 by July 2027. Entry fee and tuition amounts are not shown on the page."
+      },
+      "source": {
+        "title": "PMB Al Azhar Kembangan TP 2027/2028 (situs resmi)",
+        "url": "https://pmb.alazhar-kembangan.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
