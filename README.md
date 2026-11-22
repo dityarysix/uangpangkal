@@ -26,3 +26,12 @@ Set `PUBLIC_ADSENSE_CLIENT=ca-pub-XXXXXXXX` at build time and pass a `slot` to `
 | Area   | `/wilayah/<area>/`   | `/en/area/<area>/`   |
 | School | `/sekolah/<slug>/`   | `/en/school/<slug>/` |
 | About  | `/tentang/`          | `/en/about/`         |
+
+## Deployment (Cloudflare Pages)
+
+Cloudflare Pages is connected to this repository, so every push to `main` rebuilds the site and publishes it.
+
+- Build command: `npm run build`
+- Build output directory: `dist`
+- Node version: set by `.node-version` (22)
+- Optional environment variable: `PUBLIC_ADSENSE_CLIENT`
