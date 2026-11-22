@@ -54,7 +54,7 @@ const jsonld = {
         <tbody>
           {f.registrationFee !== undefined && <tr><th>{t(lang, 'registrationFee')}</th><td>{f.registrationFee === 0 ? t(lang, 'free') : rupiah(f.registrationFee)}</td></tr>}
           {f.entryFee && <tr><th>{t(lang, 'entryFee')}</th><td>{f.entryFee.min === 0 && !f.entryFee.max ? t(lang, 'free') : rupiah(f.entryFee.min)}{f.entryFee.max && f.entryFee.max !== f.entryFee.min ? ` – ${rupiah(f.entryFee.max)}` : ''}</td></tr>}
-          {f.tuition && <tr><th>{t(lang, 'tuition')}</th><td>{rupiah(f.tuition.amount)}{period(f.tuition.period)}</td></tr>}
+          {f.tuition && <tr><th>{t(lang, 'tuition')}</th><td>{f.tuition.amount === 0 ? t(lang, 'free') : <>{rupiah(f.tuition.amount)}{period(f.tuition.period)}</>}</td></tr>}
           {f.otherFees.map((o) => <tr class="other"><th>{o.label[lang]}</th><td>{rupiah(o.amount)}</td></tr>)}
         </tbody>
       </table>

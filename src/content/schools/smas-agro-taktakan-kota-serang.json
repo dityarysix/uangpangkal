@@ -1,0 +1,30 @@
+{
+  "name": "SMAS Agro Taktakan Kota Serang",
+  "city": "Kota Serang",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "notes": {
+        "id": "Sekolah peserta program Sekolah Gratis Pemprov Banten (SPMB 2026/2027): biaya pendaftaran, SPP, biaya bangunan, dan LKS ditanggung provinsi bagi siswa yang diterima lewat program ini. Biaya untuk siswa di luar program bisa berbeda; tanyakan ke sekolah.",
+        "en": "Part of Banten province's free private-school programme (SPMB 2026/2027): registration, tuition, building fee and worksheets are paid by the province for students admitted through the programme. Fees outside the programme may differ; ask the school."
+      },
+      "registrationFee": 0,
+      "entryFee": {
+        "min": 0
+      },
+      "tuition": {
+        "amount": 0,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar 783 Sekolah Gratis di Banten 2026, SPP hingga Biaya LKS Ditanggung (Sindonews)",
+        "url": "https://edukasi.sindonews.com/read/1701797/212/daftar-783-sekolah-gratis-di-banten-2026-spp-hingga-biaya-lks-ditanggung-1777518261"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

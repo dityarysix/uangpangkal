@@ -1,0 +1,33 @@
+{
+  "name": "SMPIT Badrul Islam Pekanbaru",
+  "city": "Kota Pekanbaru",
+  "district": "Bina Widya",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "notes": {
+        "id": "SMP swasta mitra SPMB Pemkot Pekanbaru 2025/2026: gratis (dibiayai BOS daerah) bagi siswa yang tidak lolos SMP negeri dan diterima lewat program ini. Pada 2026 program diperluas menjadi 23 sekolah. Biaya untuk siswa di luar program bisa berbeda; tanyakan ke sekolah.",
+        "en": "Pekanbaru city SPMB partner SMP 2025/2026: free (funded by regional BOS) for students not placed in public SMPs and admitted through the programme. Expanded to 23 schools in 2026. Fees outside the programme may differ; ask the school."
+      },
+      "registrationFee": 0,
+      "entryFee": {
+        "min": 0
+      },
+      "tuition": {
+        "amount": 0,
+        "period": "month"
+      },
+      "source": {
+        "title": "Pekanbaru Sediakan 16 SMP Swasta Gratis bagi yang Tidak Lulus SPMB (Koran Jakarta)",
+        "url": "https://koran-jakarta.com/2025-07-02/pekanbaru-sediakan-16-smp-swasta-gratis-bagi-yang-tidak-lulus-spmb",
+        "published": "2025-07-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

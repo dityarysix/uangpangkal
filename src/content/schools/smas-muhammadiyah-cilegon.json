@@ -1,0 +1,31 @@
+{
+  "name": "SMAS Muhammadiyah Cilegon",
+  "city": "Cilegon",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "notes": {
+        "id": "Sekolah peserta program Sekolah Gratis Pemprov Banten (SPMB 2026/2027): biaya pendaftaran, SPP, biaya bangunan, dan LKS ditanggung provinsi bagi siswa yang diterima lewat program ini. Biaya untuk siswa di luar program bisa berbeda; tanyakan ke sekolah.",
+        "en": "Part of Banten province's free private-school programme (SPMB 2026/2027): registration, tuition, building fee and worksheets are paid by the province for students admitted through the programme. Fees outside the programme may differ; ask the school."
+      },
+      "registrationFee": 0,
+      "entryFee": {
+        "min": 0
+      },
+      "tuition": {
+        "amount": 0,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar Sekolah SMA/SMK/SKh Swasta Gratis di Kota Cilegon untuk SPMB Banten 2026/2027 (Tribun Banten)",
+        "url": "https://banten.tribunnews.com/cilegon/154863/daftar-sekolah-smasmkskh-swasta-gratis-di-kota-cilegon-untuk-spmb-banten-20262027"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

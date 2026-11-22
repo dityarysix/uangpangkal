@@ -18,7 +18,7 @@ const years = [...new Set(d.fees.map((f) => f.academicYear))].sort().reverse();
   </div>
   <dl>
     <div><dt>{t(lang, 'entryFee')}</dt><dd>{entry === 0 ? t(lang, 'free') : entry !== undefined ? rupiahShort(entry, lang) : '—'}</dd></div>
-    <div><dt>{t(lang, 'tuition')}</dt><dd>{tuition ? `${rupiahShort(tuition.amount, lang)}${t(lang, `perPeriod_${tuition.period}`)}` : '—'}</dd></div>
+    <div><dt>{t(lang, 'tuition')}</dt><dd>{tuition ? (tuition.amount === 0 ? t(lang, 'free') : `${rupiahShort(tuition.amount, lang)}${t(lang, `perPeriod_${tuition.period}`)}`) : '—'}</dd></div>
   </dl>
   {years.length > 0 && (
     <p class="yr muted">{t(lang, 'year')} {years[0]} {years[0] === CURRENT_YEAR && <span class="badge-new">{t(lang, 'latestFees')}</span>}</p>
