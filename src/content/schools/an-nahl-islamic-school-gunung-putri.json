@@ -1,0 +1,64 @@
+{
+  "name": "An-Nahl Islamic School",
+  "city": "Kabupaten Bogor",
+  "district": "Gunung Putri",
+  "address": "Jl. Raya Ciangsana KM 7, Gunung Putri, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Buku Rp700 ribu–Rp1 juta. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Books Rp700k–Rp1M. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 30000000
+      },
+      "tuition": {
+        "amount": 1900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1400000
+        },
+        {
+          "label": {
+            "id": "Kegiatan tahunan",
+            "en": "Annual activities"
+          },
+          "amount": 2300000
+        },
+        {
+          "label": {
+            "id": "Program parenting",
+            "en": "Parenting programme"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Kegiatan orang tua",
+            "en": "Parent activities"
+          },
+          "amount": 150000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Bogor dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bogor",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "SD Sutomo 1 Medan",
+  "city": "Kota Medan",
+  "district": "Medan Perjuangan",
+  "address": "Jl. Jambi No.40B / Jl. M.H. Thamrin No.55, Medan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = biaya pembangunan. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry = building fee. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 3000000
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Medan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-medan",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

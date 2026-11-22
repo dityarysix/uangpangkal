@@ -1,0 +1,44 @@
+{
+  "name": "SD Labs School Kaizen",
+  "city": "Kabupaten Bogor",
+  "district": "Gunung Putri",
+  "address": "Perumahan Bumi Mutiara, Bojong Kulur, Gunung Putri, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal termasuk seragam, infaq gedung, buku paket 1 tahun, psikotes. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry includes uniforms, building donation, 1 year of textbooks, psychological test. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang",
+            "en": "Re-registration"
+          },
+          "amount": 3000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Bogor dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bogor",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

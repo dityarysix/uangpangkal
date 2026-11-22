@@ -1,0 +1,30 @@
+{
+  "name": "Sekolah Bina Insan Mandiri Medan",
+  "city": "Kota Medan",
+  "district": "Medan Timur",
+  "address": "Jl. Bambu II No.62, Durian, Medan Timur, Kota Medan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya uang sekolah bulanan yang disebut. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Only the monthly fee is given. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "tuition": {
+        "amount": 1250000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Medan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-medan",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

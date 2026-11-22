@@ -1,0 +1,41 @@
+{
+  "name": "SD Salman Al Farisi Cibinong",
+  "city": "Kabupaten Bogor",
+  "district": "Cibinong",
+  "address": "Jl. Raya Setu Cikaret, Cibinong, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Total biaya awal sekitar Rp18 jutaan; rincian uang pangkal tidak disebut. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Initial total around Rp18M; entry fee not itemised. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 250000,
+      "tuition": {
+        "amount": 740000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan tahunan",
+            "en": "Annual activities"
+          },
+          "amount": 1500000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Bogor dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bogor",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

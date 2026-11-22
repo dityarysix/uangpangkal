@@ -1,0 +1,31 @@
+{
+  "name": "Sekolah Mondial Batam",
+  "city": "Kota Batam",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 49470000,
+        "max": 49870000
+      },
+      "tuition": {
+        "amount": 2980000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp49.470.000 (putra) / Rp49.870.000 (putri). Data TA 2024/2025 dari survei pribadi orang tua (unggahan Instagram) yang dikutip media; uang pangkal umumnya sudah termasuk seragam, buku, dan fasilitas. Konfirmasi ke sekolah.",
+        "en": "Entry fee Rp49,470,000 (boys) / Rp49,870,000 (girls). 2024/2025 figures from a parent's own survey (Instagram post) quoted by the outlet; entry fees usually include uniforms, books and facilities. Confirm with the school."
+      },
+      "source": {
+        "title": "Viral! Biaya Sekolah SD Swasta di Batam Tembus Rp 50 Juta, Warganet Heboh (Gudangberita)",
+        "url": "https://gudangberita.co.id/viral-biaya-sekolah-sd-swasta-di-batam-tembus-rp-50-juta-warganet-heboh/",
+        "published": "2025-08-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

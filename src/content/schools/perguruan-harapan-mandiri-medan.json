@@ -1,0 +1,54 @@
+{
+  "name": "Perguruan Harapan Mandiri Medan",
+  "city": "Kota Medan",
+  "district": "Medan Johor",
+  "address": "Jl. Brigjend Zein Hamid No.40, Titi Kuning, Medan Johor, Kota Medan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "From a 2022 article; academic year not stated, likely outdated."
+      },
+      "registrationFee": 1600000,
+      "tuition": {
+        "amount": 465000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "ADM I",
+            "en": "Admin I"
+          },
+          "amount": 465000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 630000
+        },
+        {
+          "label": {
+            "id": "Pramuka",
+            "en": "Scouts"
+          },
+          "amount": 180000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Medan dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-medan",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

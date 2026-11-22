@@ -1,0 +1,48 @@
+{
+  "name": "Kinderfield Highfield Bogor",
+  "city": "Kota Bogor",
+  "address": "Jl. Lawang Gintung, Kota Bogor",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Buku dan kegiatan Rp4–5 juta per tahun; uang penerimaan termasuk seragam. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Books and activities Rp4–5M per year; acceptance fee includes uniforms. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 32500000
+      },
+      "tuition": {
+        "amount": 7800000,
+        "period": "quarter"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Tes pendaftaran",
+            "en": "Entrance test"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Uang penerimaan",
+            "en": "Acceptance fee"
+          },
+          "amount": 2000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Bogor dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bogor",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

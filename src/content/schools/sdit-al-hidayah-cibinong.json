@@ -1,0 +1,64 @@
+{
+  "name": "SDIT Al Hidayah Cibinong",
+  "city": "Kabupaten Bogor",
+  "district": "Cibinong",
+  "address": "Jl. KSR Dadi Kusmayadi, Cibinong, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = biaya bangunan Rp7,5 juta + sarpras Rp2,7 juta. Total sekitar Rp13 jutaan. Dari artikel 2022; tahun ajaran tidak disebut, kemungkinan sudah berubah.",
+        "en": "Entry = building Rp7.5M + facilities Rp2.7M. Total about Rp13M. From a 2022 article; academic year not stated, likely outdated."
+      },
+      "entryFee": {
+        "min": 10200000
+      },
+      "tuition": {
+        "amount": 625000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Pengembangan pendidikan 1 tahun",
+            "en": "Education development (1 year)"
+          },
+          "amount": 1800000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 420000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 785000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 900000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Bogor dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-bogor",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
