@@ -4,7 +4,8 @@
   "district": "Serpong Utara",
   "address": "Jl. Lengkong Karya–Jelupang No.58, Jelupang, Serpong Utara, Tangerang Selatan",
   "levels": [
-    "SD"
+    "SD",
+    "SMA"
   ],
   "curriculum": [
     "Cambridge"
@@ -29,6 +30,29 @@
         "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
         "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
         "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 96000000
+      },
+      "tuition": {
+        "amount": 6700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = enrollment fee.",
+        "en": "Entry fee = enrolment fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
       },
       "checked": "2026-11-22"
     }

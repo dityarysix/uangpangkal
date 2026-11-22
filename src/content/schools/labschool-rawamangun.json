@@ -4,7 +4,8 @@
   "district": "Pulo Gadung",
   "address": "Jl. Pemuda No.248, Rawamangun, Jakarta Timur",
   "levels": [
-    "SMP"
+    "SMP",
+    "SMA"
   ],
   "fees": [
     {
@@ -23,6 +24,29 @@
         "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
         "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 16000000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan menurut sumber. Angka SMA ini jauh di bawah angka SMP dari sumber lain; konfirmasi ke sekolah.",
+        "en": "Estimate according to the source. These SMA figures are far below the SMP figures from another source; confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan Anak SMA di Jakarta dan Sekitarnya (Hartaku)",
+        "url": "https://hartaku.co.id/edukasi/artikel/biaya-pendidikan-anak-sma-di-jakarta-dan-sekitarny-DwPdkna5XO",
+        "published": "2026-01-09"
       },
       "checked": "2026-11-22"
     }

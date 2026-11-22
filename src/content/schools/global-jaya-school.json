@@ -5,7 +5,8 @@
   "address": "Jl. Emerald Boulevard, Bintaro Jaya, Pondok Aren, Tangerang Selatan",
   "levels": [
     "SD",
-    "SMP"
+    "SMP",
+    "SMA"
   ],
   "curriculum": [
     "IB"
@@ -62,6 +63,25 @@
         "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
         "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 12077083,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sekitar Rp12.077.083 per bulan (setara biaya tahunan dibagi 12).",
+        "en": "About Rp12,077,083 per month (annual fee divided by 12)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
       },
       "checked": "2026-11-22"
     }

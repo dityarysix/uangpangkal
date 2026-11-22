@@ -1,0 +1,30 @@
+{
+  "name": "SMA Muhammadiyah 25 Pamulang",
+  "city": "Tangerang Selatan",
+  "district": "Pamulang",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Program tahfidz tersedia. Uang pangkal tidak dicantumkan.",
+        "en": "Tahfidz programme available. Entry fee not listed."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

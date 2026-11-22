@@ -1,0 +1,62 @@
+{
+  "name": "Sekolah Cikal Lebak Bulus",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 104300000
+      },
+      "tuition": {
+        "amount": 6000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Joining fee",
+            "en": "Joining fee"
+          },
+          "amount": 12000000
+        },
+        {
+          "label": {
+            "id": "Development fee (min.)",
+            "en": "Development fee (min.)"
+          },
+          "amount": 25000000
+        },
+        {
+          "label": {
+            "id": "Seragam (min.)",
+            "en": "Uniforms (min.)"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Buku & materi per tahun (min.)",
+            "en": "Books & materials per year (min.)"
+          },
+          "amount": 3000000
+        }
+      ],
+      "notes": {
+        "id": "Perkiraan menurut sumber. Development fee Rp25–50 juta; seragam Rp2–4 juta; buku Rp3–6 juta per tahun.",
+        "en": "Estimate according to the source. Development fee Rp25–50M; uniforms Rp2–4M; books Rp3–6M per year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan Anak SMA di Jakarta dan Sekitarnya (Hartaku)",
+        "url": "https://hartaku.co.id/edukasi/artikel/biaya-pendidikan-anak-sma-di-jakarta-dan-sekitarny-DwPdkna5XO",
+        "published": "2026-01-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

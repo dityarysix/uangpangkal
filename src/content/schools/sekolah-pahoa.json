@@ -1,0 +1,32 @@
+{
+  "name": "Sekolah Pahoa",
+  "city": "Kabupaten Tangerang",
+  "district": "Kelapa Dua",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 36000000
+      },
+      "tuition": {
+        "amount": 3410000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kelas adaptif bahasa Mandarin. Uang pangkal sekitar Rp36 juta.",
+        "en": "Adaptive Mandarin classes. Entry fee about Rp36M."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

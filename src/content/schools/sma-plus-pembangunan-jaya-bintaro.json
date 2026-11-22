@@ -1,0 +1,32 @@
+{
+  "name": "SMA Plus Pembangunan Jaya Bintaro",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 34000000
+      },
+      "tuition": {
+        "amount": 2585000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal mencakup seragam, kegiatan, dan ekstrakurikuler.",
+        "en": "Entry fee covers uniforms, activities and extracurriculars."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

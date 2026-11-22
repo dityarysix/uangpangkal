@@ -1,0 +1,32 @@
+{
+  "name": "SMA Ekayana Ehipassiko School",
+  "city": "Tangerang Selatan",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Buddha",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1980000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Promo uang pangkal \"Rp20 jutaan\" (perkiraan).",
+        "en": "Promotional entry fee \"around Rp20 million\" (approximate)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

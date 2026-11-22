@@ -1,0 +1,46 @@
+{
+  "name": "SMA Internasional Budi Mulia Dua Yogyakarta",
+  "city": "Sleman",
+  "district": "Ngemplak",
+  "address": "Jl. Raya Tajem, Kenayan, Wedomartani, Ngemplak, Sleman",
+  "levels": [
+    "SMA"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Aktivitas tahunan (perkiraan)",
+            "en": "Annual activities (approx.)"
+          },
+          "amount": 10000000
+        }
+      ],
+      "notes": {
+        "id": "Perkiraan menurut sumber. Total biaya awal sekitar Rp36,5 juta.",
+        "en": "Estimate according to the source. Total initial cost about Rp36.5M."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "8 Sekolah Internasional di Jogja, Lengkap dengan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-jogja",
+        "published": "2025-06-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

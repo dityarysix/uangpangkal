@@ -1,0 +1,36 @@
+{
+  "name": "Jogjakarta Montessori School",
+  "city": "Sleman",
+  "district": "Ngaglik",
+  "address": "Jl. Lempongsari No.136B, Jongkang, Sariharjo, Ngaglik, Sleman",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Montessori"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 29500000
+      },
+      "tuition": {
+        "amount": 1700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = biaya komplementer. Total tahun pertama diperkirakan sekitar Rp54.900.000.",
+        "en": "Entry fee = complementary fee. First-year total estimated at about Rp54,900,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "8 Sekolah Internasional di Jogja, Lengkap dengan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-jogja",
+        "published": "2025-06-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

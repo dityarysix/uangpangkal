@@ -1,0 +1,38 @@
+{
+  "name": "Syafana Islamic School",
+  "city": "Tangerang Selatan",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 3050000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya tahunan (perkiraan)",
+            "en": "Annual fee (approx.)"
+          },
+          "amount": 5000000
+        }
+      ],
+      "notes": {
+        "id": "Perkiraan menurut sumber.",
+        "en": "Estimate according to the source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Sekolah Cikal Serpong",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 40000000
+      },
+      "tuition": {
+        "amount": 6100000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "SPP mulai Rp6,1 juta tergantung program; uang pangkal sekitar Rp40 juta.",
+        "en": "Tuition from Rp6.1M depending on programme; entry about Rp40M."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

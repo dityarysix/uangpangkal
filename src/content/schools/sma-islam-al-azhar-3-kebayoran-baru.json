@@ -1,0 +1,34 @@
+{
+  "name": "SMA Islam Al Azhar 3 Kebayoran Baru",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Baru",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 550000,
+      "entryFee": {
+        "min": 60000000
+      },
+      "tuition": {
+        "amount": 6600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan menurut sumber.",
+        "en": "Estimate according to the source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan Anak SMA di Jakarta dan Sekitarnya (Hartaku)",
+        "url": "https://hartaku.co.id/edukasi/artikel/biaya-pendidikan-anak-sma-di-jakarta-dan-sekitarny-DwPdkna5XO",
+        "published": "2026-01-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Fawwaz Global Islamic School Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Umbulharjo",
+  "address": "Jl. Ipda Tut Harsono No.45, Muja Muju, Umbulharjo, Yogyakarta",
+  "levels": [
+    "TK"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2025/2026",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 14500000,
+        "max": 17500000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 5000000
+        },
+        {
+          "label": {
+            "id": "Kegiatan & ekskul per tahun (perkiraan)",
+            "en": "Activities & extracurriculars per year (approx.)"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Seragam & bahan ajar per tahun (perkiraan)",
+            "en": "Uniforms & materials per year (approx.)"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Pra-TK/TK. Biaya pengembangan dan SPP (Rp1,8–2,3 juta) tergantung gelombang. Sumber menyebut tahun ajaran 2025–2026.",
+        "en": "Pre-K/K. Development fee and tuition (Rp1.8–2.3M) depend on the wave. The source states academic year 2025–2026."
+      },
+      "yearAssumed": false,
+      "source": {
+        "title": "8 Sekolah Internasional di Jogja, Lengkap dengan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-jogja",
+        "published": "2025-06-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Jakarta Intercultural School (JIS)",
+  "city": "Jakarta Selatan",
+  "levels": [
+    "SMA"
+  ],
+  "curriculum": [
+    "IB"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 5000000,
+      "entryFee": {
+        "min": 495000000,
+        "max": 500000000
+      },
+      "tuition": {
+        "amount": 212000000,
+        "period": "semester"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Technology fee",
+            "en": "Technology fee"
+          },
+          "amount": 6300000
+        },
+        {
+          "label": {
+            "id": "EAL program fee",
+            "en": "EAL programme fee"
+          },
+          "amount": 67600000
+        }
+      ],
+      "notes": {
+        "id": "Perkiraan menurut sumber. Uang pangkal = capital fee.",
+        "en": "Estimate according to the source. Entry fee = capital fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Pendidikan Anak SMA di Jakarta dan Sekitarnya (Hartaku)",
+        "url": "https://hartaku.co.id/edukasi/artikel/biaya-pendidikan-anak-sma-di-jakarta-dan-sekitarny-DwPdkna5XO",
+        "published": "2026-01-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

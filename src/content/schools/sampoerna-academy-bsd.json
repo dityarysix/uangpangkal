@@ -3,7 +3,8 @@
   "city": "Tangerang Selatan",
   "district": "Serpong",
   "levels": [
-    "SMP"
+    "SMP",
+    "SMA"
   ],
   "curriculum": [
     "Internasional"
@@ -27,6 +28,25 @@
         "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
         "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 8650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sekitar Rp8,65 juta per bulan; ada opsi pembayaran triwulanan.",
+        "en": "About Rp8.65M per month; quarterly payment option."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "11 SMA Swasta Terbaik di Tangerang Selatan, dari yang Termurah hingga Premium (News TNG)",
+        "url": "https://newstangerang.com/11-sma-swasta-terbaik-di-tangerang-selatan-dari-yang-termurah-hingga-premium/",
+        "published": "2025-03-21"
       },
       "checked": "2026-11-22"
     }
