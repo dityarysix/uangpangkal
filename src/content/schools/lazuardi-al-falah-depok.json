@@ -1,0 +1,41 @@
+{
+  "name": "Lazuardi Al-Falah Depok",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "address": "Kompleks LIA, Jl. Margonda Raya No.200, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://depok.lazuardialfalah.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 725000,
+      "tuition": {
+        "amount": 2100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1100000
+        }
+      ],
+      "notes": {
+        "id": "Biaya semester: gelombang 2 Rp5.500.000, gelombang 3 Rp5.800.000, gelombang 4 Rp6.100.000. Seragam Rp1.400.000–Rp1.600.000. Belum termasuk pendampingan ABK, ekstrakurikuler, jemputan, katering, dan pentas akhir tahun. Sekolah inklusi.",
+        "en": "Semester fee: wave 2 Rp5,500,000, wave 3 Rp5,800,000, wave 4 Rp6,100,000. Uniforms Rp1,400,000–Rp1,600,000. Excludes special-needs support, extracurriculars, transport, catering and end-of-year show. Inclusive school."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

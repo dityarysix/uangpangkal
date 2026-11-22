@@ -1,0 +1,36 @@
+{
+  "name": "SMP Islam PB Soedirman Cijantung",
+  "area": "jabodetabek",
+  "city": "Jakarta Timur",
+  "district": "Pasar Rebo",
+  "address": "Jl. Raya Bogor Km. 24, Cijantung, Jakarta Timur",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 14000000,
+        "max": 18500000
+      },
+      "tuition": {
+        "amount": 1260000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kelas reguler: biaya masuk Rp14.000.000, SPP Rp1.260.000/bulan. Kelas FLC (bilingual): Rp18.500.000 dan Rp1.610.000/bulan.",
+        "en": "Regular class: entry Rp14,000,000, tuition Rp1,260,000/month. FLC (bilingual) class: Rp18,500,000 and Rp1,610,000/month."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

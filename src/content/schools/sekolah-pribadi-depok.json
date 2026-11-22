@@ -1,0 +1,53 @@
+{
+  "name": "Sekolah Pribadi Depok (Pribadi Bilingual School)",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "address": "Jl. Margonda Raya No.229, Depok",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "website": "https://pribadidepok.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 1500000,
+      "entryFee": {
+        "min": 53000000
+      },
+      "tuition": {
+        "amount": 69850000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Perlengkapan (tahun pertama)",
+            "en": "Supplies package (first year)"
+          },
+          "amount": 13350000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan (tahun selanjutnya)",
+            "en": "Supplies package (following years)"
+          },
+          "amount": 8850000
+        }
+      ],
+      "notes": {
+        "id": "Perlengkapan termasuk seragam, Cambridge Checkpoint Test, buku, platform pendidikan, outing class, kegiatan, dan kompetisi.",
+        "en": "Supplies package includes uniforms, Cambridge Checkpoint Test, books, learning platform, outings, activities and competitions."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "SMP Islam Al Azhar 10 Kembangan",
+  "area": "jabodetabek",
+  "city": "Jakarta Barat",
+  "district": "Kembangan",
+  "address": "Jl. H. Saaba, Meruya Selatan, Kembangan, Jakarta Barat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 550000,
+      "entryFee": {
+        "min": 31721000,
+        "max": 33721000
+      },
+      "tuition": {
+        "amount": 2025000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku paket kelas VII",
+            "en": "Grade 7 textbooks"
+          },
+          "amount": 1800000
+        },
+        {
+          "label": {
+            "id": "Seragam + ASBD",
+            "en": "Uniforms + ASBD"
+          },
+          "amount": 1754000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal Rp31.721.000 untuk lulusan SDI Al Azhar; Rp33.721.000 untuk siswa dari luar.",
+        "en": "Entry fee Rp31,721,000 for SDI Al Azhar graduates; Rp33,721,000 for external students."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,12 +1,14 @@
 {
-  "name": "SD Perguruan Cikini",
+  "name": "Perguruan Cikini",
   "area": "jabodetabek",
   "city": "Jakarta Pusat",
   "district": "Menteng",
   "address": "Jl. Cikini Raya No.74-76, Cikini, Menteng, Jakarta Pusat",
   "levels": [
-    "SD"
+    "SD",
+    "SMP"
   ],
+  "phone": "(021) 3144374 / 0815-1905-3664",
   "fees": [
     {
       "level": "SD",
@@ -39,6 +41,32 @@
         "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
         "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
         "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 18700000
+      },
+      "tuition": {
+        "amount": 1770000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang buku",
+            "en": "Books"
+          },
+          "amount": 1800000
+        }
+      ],
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
       },
       "checked": "2026-11-22"
     }

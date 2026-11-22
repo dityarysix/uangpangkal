@@ -1,0 +1,35 @@
+{
+  "name": "SMPK 7 BPK Penabur",
+  "area": "jabodetabek",
+  "city": "Jakarta Barat",
+  "district": "Kebon Jeruk",
+  "address": "Komplek Sunrise Garden, Kedoya Utara, Jakarta Barat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 36000000
+      },
+      "tuition": {
+        "amount": 3460000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kelas nasional Rp3.460.000/bulan; kelas bilingual Rp4.280.000/bulan.",
+        "en": "National class Rp3,460,000/month; bilingual class Rp4,280,000/month."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

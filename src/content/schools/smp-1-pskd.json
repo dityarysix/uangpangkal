@@ -1,0 +1,37 @@
+{
+  "name": "SMP 1 PSKD",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Senen",
+  "address": "Jl. Diponegoro No.80, Senen, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "phone": "(021) 3904418 / 0821-8888-7753",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 150000,
+      "tuition": {
+        "amount": 746000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya pengembangan (per tahun)",
+            "en": "Development fee (per year)"
+          },
+          "amount": 2500000
+        }
+      ],
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Perguruan Advent Menteng",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Menteng",
+  "address": "Jl. Sawo No.27, Menteng, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "website": "https://adventmenteng.sch.id",
+  "phone": "0813-7060-6868",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang tahunan (tahun pertama)",
+            "en": "Annual fee (first year)"
+          },
+          "amount": 22350000
+        },
+        {
+          "label": {
+            "id": "Makan siang per bulan",
+            "en": "Lunch per month"
+          },
+          "amount": 275000
+        }
+      ],
+      "notes": {
+        "id": "Tidak ada uang pangkal terpisah; sekolah memungut uang tahunan.",
+        "en": "No separate entry fee; the school charges an annual fee."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

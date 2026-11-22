@@ -1,0 +1,35 @@
+{
+  "name": "SMP Van Lith Jakarta",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Kemayoran",
+  "address": "Jl. Gunung Sahari No.91, Gunung Sahari Selatan, Kemayoran, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Katolik",
+  "phone": "(021) 42877726 / 0821-1211-0074",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 7600000
+      },
+      "tuition": {
+        "amount": 835000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = Uang Perawatan Gedung (UPG). Tersedia diskon gelombang pertama.",
+        "en": "Entry fee = building maintenance fee (UPG). First-wave discount available."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

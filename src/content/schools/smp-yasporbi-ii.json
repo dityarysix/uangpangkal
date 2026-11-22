@@ -1,0 +1,44 @@
+{
+  "name": "SMP Yasporbi II",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Pasar Minggu",
+  "address": "Jl. AUP, Komplek Perumahan Bank Indonesia, Pasar Minggu, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "website": "https://yasporbi.sch.id",
+  "phone": "(021) 7801835 / 0813-7892-4422",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 15500000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan setahun",
+            "en": "Activity fee (yearly)"
+          },
+          "amount": 4800000
+        }
+      ],
+      "notes": {
+        "id": "Terdapat diskon gelombang.",
+        "en": "Early-wave discounts available."
+      },
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

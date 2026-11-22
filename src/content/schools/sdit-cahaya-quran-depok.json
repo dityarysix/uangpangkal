@@ -1,0 +1,35 @@
+{
+  "name": "SDIT Cahaya Quran Depok",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Cilodong",
+  "address": "Jl. Merah Delima No.11, Sukamaju, Cilodong, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://cahayaquran.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 18250000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya masuk gelombang sudah termasuk uang pangkal, seragam 6 setel, uang kegiatan dan buku 1 tahun. SPP kelas 1–3 Rp750.000; kelas 4–6 Rp850.000.",
+        "en": "Entry fee includes uang pangkal, 6 uniform sets, and one year of activities and books. Tuition grades 1–3 Rp750,000; grades 4–6 Rp850,000."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

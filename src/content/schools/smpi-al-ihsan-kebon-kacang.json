@@ -1,0 +1,35 @@
+{
+  "name": "SMPI Al Ihsan Kebon Kacang",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Tanah Abang",
+  "address": "Jl. Kebon Kacang 9 No.57, Kebon Kacang, Tanah Abang, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "phone": "(021) 3103313 / 0812-8897-1305",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 1675000
+      },
+      "tuition": {
+        "amount": 225000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = uang gedung dan lain-lain.",
+        "en": "Entry fee = building fee and other items."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

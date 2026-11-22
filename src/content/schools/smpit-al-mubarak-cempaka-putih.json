@@ -1,0 +1,35 @@
+{
+  "name": "SMPIT Al Mubarak",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Cempaka Putih",
+  "address": "Jl. Pramuka Sari III No.24, Rawasari, Cempaka Putih, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "phone": "0895-1703-6100",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sumber menyebut: registrasi Rp15.000.000 (setelah tes); SPP Rp750.000/bulan; sudah termasuk pangkal, buku, dan seragam.",
+        "en": "Source states: registration Rp15,000,000 (after the test); tuition Rp750,000/month; includes entry fee, books and uniforms."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

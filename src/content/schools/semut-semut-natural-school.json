@@ -1,0 +1,47 @@
+{
+  "name": "Semut-Semut The Natural School",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Cimanggis",
+  "address": "Jl. Industri Kapal Dalam No.25A, Kelapa Dua, Cimanggis, Depok",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Sekolah Alam"
+  ],
+  "website": "https://semut-semut.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 29500000
+      },
+      "tuition": {
+        "amount": 1875000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 875000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = uang pendaftaran dan DPPOS. Belum termasuk katering, jemputan, ekstrakurikuler. DPPOS biasanya naik di kelas 3 dan 5.",
+        "en": "Entry fee = enrolment & DPPOS fee. Excludes catering, transport, extracurriculars. DPPOS usually increases in grades 3 and 5."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

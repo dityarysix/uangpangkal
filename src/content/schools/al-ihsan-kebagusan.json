@@ -1,0 +1,29 @@
+{
+  "name": "Sekolah Al-Ihsan Kebagusan",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Pasar Minggu",
+  "address": "Jl. Baung IV No.43, Kebagusan, Pasar Minggu, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://al-ihsankebagusan.sch.id",
+  "phone": "(021) 7813033 / 0857-1826-7914",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 20000000
+      },
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

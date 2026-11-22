@@ -1,0 +1,59 @@
+{
+  "name": "Ar-Rahman Islamic School Cinere",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Cinere",
+  "address": "Jl. Bukit Cinere Raya No.15C, Gandul, Cinere, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://arrahman-islamic.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 23500000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 3450000
+        },
+        {
+          "label": {
+            "id": "Peralatan",
+            "en": "Supplies"
+          },
+          "amount": 2457000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1356000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = uang gedung. SPP Juli 2026.",
+        "en": "Entry fee = building fee. Tuition as of July 2026."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

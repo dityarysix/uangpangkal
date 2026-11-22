@@ -1,0 +1,40 @@
+{
+  "name": "Madina Islamic School Tebet",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Tebet",
+  "address": "Jl. Tebet Dalam IV No.1, Tebet Barat, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "phone": "(021) 8312311 / 0821-2308-0368",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 36500000
+      },
+      "tuition": {
+        "amount": 4000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 11350000
+        }
+      ],
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

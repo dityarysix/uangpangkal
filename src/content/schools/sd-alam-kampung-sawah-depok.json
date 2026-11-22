@@ -1,0 +1,54 @@
+{
+  "name": "SD Alam Kampung Sawah",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Cilodong",
+  "address": "Jl. SMPN 6 Kalibaru, Kav BNI D6 No.7, Kalibaru, Cilodong, Depok",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Sekolah Alam"
+  ],
+  "website": "https://sekolahalamkampungsawah.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 14900000
+      },
+      "tuition": {
+        "amount": 9600000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan tahunan",
+            "en": "Annual activity fee"
+          },
+          "amount": 3600000
+        },
+        {
+          "label": {
+            "id": "T-shirt dan buku Sahabat Quran",
+            "en": "T-shirt and Sahabat Quran book"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pendidikan (sekali saat masuk). SPP bisa dibayar Rp800.000/bulan. Biaya pendaftaran termasuk sit-in.",
+        "en": "Entry fee = education infaq (one-off). Tuition can be paid at Rp800,000/month. Registration includes a sit-in."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

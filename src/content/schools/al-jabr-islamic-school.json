@@ -1,0 +1,44 @@
+{
+  "name": "Al Jabr Islamic School",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. Bango II No.38, Pondok Labu, Cilandak, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "curriculum": [
+    "Nasional Plus"
+  ],
+  "religion": "Islam",
+  "website": "https://aljabrislamicschool.sch.id",
+  "phone": "(021) 75913675",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 40000000
+      },
+      "tuition": {
+        "amount": 10950000,
+        "period": "quarter"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya akademik per tahun",
+            "en": "Academic fee per year"
+          },
+          "amount": 5000000
+        }
+      ],
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

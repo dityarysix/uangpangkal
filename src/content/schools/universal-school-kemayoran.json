@@ -1,0 +1,44 @@
+{
+  "name": "Universal School Kemayoran",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Kemayoran",
+  "address": "Jl. Ruas D7, Blok D6 No.2, Kota Baru Kemayoran, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "curriculum": [
+    "Nasional Plus"
+  ],
+  "website": "https://universalschool.id",
+  "phone": "(021) 6542654 / 0857-8888-6488",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang paket tahunan (National Plus)",
+            "en": "Annual package (National Plus)"
+          },
+          "amount": 28000000
+        }
+      ],
+      "notes": {
+        "id": "National Plus: uang paket tahunan Rp28.000.000, SPP Rp2.500.000/bulan. Intensive English: Rp31.000.000 dan Rp3.000.000/bulan.",
+        "en": "National Plus: annual package Rp28,000,000, tuition Rp2,500,000/month. Intensive English: Rp31,000,000 and Rp3,000,000/month."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

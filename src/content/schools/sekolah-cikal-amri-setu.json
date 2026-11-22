@@ -1,0 +1,30 @@
+{
+  "name": "Sekolah Cikal Amri Setu",
+  "area": "jabodetabek",
+  "city": "Jakarta Timur",
+  "district": "Cipayung",
+  "address": "Jl. Raya Setu No.3, Jakarta Timur",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 23067000,
+        "max": 59500000
+      },
+      "notes": {
+        "id": "Biaya masuk Year 7 Rp59.500.000; Year 8 Rp46.134.000; Year 9 Rp23.067.000; pendidikan inklusi (3 tahun) Rp55.000.000.",
+        "en": "Entry fee Year 7 Rp59,500,000; Year 8 Rp46,134,000; Year 9 Rp23,067,000; inclusive education (3 years) Rp55,000,000."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

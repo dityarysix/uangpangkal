@@ -1,0 +1,51 @@
+{
+  "name": "Sekolah Karakter Cimanggis",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Cimanggis",
+  "address": "Jl. Raya Jakarta–Bogor Km. 31 No.46, Cimanggis, Depok",
+  "levels": [
+    "SD"
+  ],
+  "website": "https://sekolahkarakter.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan tahunan",
+            "en": "Annual activity fee"
+          },
+          "amount": 6500000
+        },
+        {
+          "label": {
+            "id": "Seragam dan literatur",
+            "en": "Uniforms & books"
+          },
+          "amount": 800000
+        }
+      ],
+      "notes": {
+        "id": "Biaya pendaftaran termasuk TKS dan orientasi.",
+        "en": "Registration includes readiness test and orientation."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "SDIT Darul Abidin",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Beji",
+  "address": "Jl. Karet Hijau No.52, Beji Timur, Beji, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 475000,
+      "entryFee": {
+        "min": 25200000,
+        "max": 28700000
+      },
+      "tuition": {
+        "amount": 2080000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya masuk tahap II",
+            "en": "Entry fee stage II"
+          },
+          "amount": 2500000
+        }
+      ],
+      "notes": {
+        "id": "Formulir Rp475.000–Rp525.000. Uang pangkal = biaya masuk tahap I. Tahap III: Rp300.000/bulan selama 36 bulan.",
+        "en": "Form Rp475,000–Rp525,000. Entry fee = stage I. Stage III: Rp300,000/month for 36 months."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

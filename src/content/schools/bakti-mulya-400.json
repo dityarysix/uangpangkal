@@ -1,0 +1,39 @@
+{
+  "name": "Sekolah Bakti Mulya 400",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. R.A. Kartini, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "website": "https://baktimulya400.sch.id",
+  "phone": "(021) 7653627 / 0813-9895-4600",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 47500000,
+        "max": 53500000
+      },
+      "tuition": {
+        "amount": 9750000,
+        "period": "quarter"
+      },
+      "notes": {
+        "id": "Program Cambridge/SKS: uang pangkal Rp47.500.000, SPP Rp9.750.000 per 3 bulan. Program boarding: uang pangkal Rp53.500.000, SPP Rp28.500.000 per 3 bulan.",
+        "en": "Cambridge/accelerated programme: entry Rp47,500,000, tuition Rp9,750,000 per quarter. Boarding: entry Rp53,500,000, tuition Rp28,500,000 per quarter."
+      },
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

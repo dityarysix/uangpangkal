@@ -1,0 +1,31 @@
+{
+  "name": "Labschool Rawamangun",
+  "area": "jabodetabek",
+  "city": "Jakarta Timur",
+  "district": "Pulo Gadung",
+  "address": "Jl. Pemuda No.248, Rawamangun, Jakarta Timur",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 33000000,
+        "max": 35000000
+      },
+      "notes": {
+        "id": "Uang pangkal jalur prestasi Rp33.000.000; jalur tes Rp35.000.000. Biaya pendaftaran termasuk seleksi.",
+        "en": "Entry fee via achievement track Rp33,000,000; via test track Rp35,000,000. Registration fee includes selection."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

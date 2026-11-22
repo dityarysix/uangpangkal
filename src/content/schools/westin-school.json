@@ -1,0 +1,29 @@
+{
+  "name": "Westin School",
+  "area": "jabodetabek",
+  "city": "Jakarta Utara",
+  "district": "Penjaringan",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 12500000
+      },
+      "tuition": {
+        "amount": 1700000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

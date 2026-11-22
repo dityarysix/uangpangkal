@@ -1,0 +1,31 @@
+{
+  "name": "Sekolah Tirtamarta BPK Penabur Pondok Indah",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "address": "Jl. Sekolah Kencana IV, Pondok Indah, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "phone": "(021) 7656615 / 0851-7533-8161",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 28000000,
+        "max": 30000000
+      },
+      "tuition": {
+        "amount": 3650000,
+        "period": "month"
+      },
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

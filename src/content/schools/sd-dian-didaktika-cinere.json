@@ -1,0 +1,66 @@
+{
+  "name": "SD Dian Didaktika",
+  "area": "jabodetabek",
+  "city": "Depok",
+  "district": "Cinere",
+  "address": "Jl. Rajawali Blok F No.10 & 16, Cinere, Depok",
+  "levels": [
+    "SD"
+  ],
+  "website": "https://diandidaktika.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 550000,
+      "entryFee": {
+        "min": 28000000,
+        "max": 32000000
+      },
+      "tuition": {
+        "amount": 2750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 2750000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "POMG",
+            "en": "Parent–teacher association"
+          },
+          "amount": 20000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 4000000
+        }
+      ],
+      "notes": {
+        "id": "Dari TK Dian Didaktika: pendaftaran Rp550.000, uang pangkal Rp28.000.000. Dari luar: Rp600.000 dan Rp32.000.000.",
+        "en": "From TK Dian Didaktika: registration Rp550,000, entry Rp28,000,000. External: Rp600,000 and Rp32,000,000."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

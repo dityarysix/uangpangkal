@@ -3,9 +3,7 @@ Popmama, "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027" (10 Nov
 Every figure below is copied from the article; nothing is estimated.
 Run: python3 scripts/seed_popmama_sd_jaksel_jakpus.py
 """
-import json, pathlib
-
-OUT = pathlib.Path(__file__).resolve().parent.parent / "src/content/schools"
+from seedlib import L, fee, upsert, UNIFORM, ACTIVITY
 SRC = {
     "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
     "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
@@ -13,12 +11,7 @@ SRC = {
 }
 CHECKED = "2026-11-22"
 
-def L(i, e): return {"id": i, "en": e}
-def fee(label_id, label_en, amount): return {"label": L(label_id, label_en), "amount": amount}
-
-UNIFORM = ("Seragam", "Uniforms")
 BOOKS = ("Buku paket", "Textbooks")
-ACTIVITY = ("Uang kegiatan", "Activity fee")
 
 schools = [
  dict(slug="sd-pangudi-luhur-jakarta", name="SD Pangudi Luhur", city="Jakarta Selatan", district="Cilandak",
@@ -37,7 +30,7 @@ schools = [
       address="Jl. M. Kahfi II Gg. Masjid An-Nur No.8, Srengseng Sawah, Jagakarsa, Jakarta Selatan",
       fee=dict(entryFee={"min": 23_000_000}, tuition={"amount": 1_500_000, "period": "month"},
                otherFees=[fee(*ACTIVITY, 2_645_000), fee(*UNIFORM, 1_400_000), fee(*BOOKS, 1_100_000), fee("Komite", "School committee", 400_000)])),
- dict(slug="sd-islam-harapan-ibu-pondok-pinang", name="SD Islam Harapan Ibu", city="Jakarta Selatan", district="Kebayoran Lama", religion="Islam",
+ dict(slug="sekolah-islam-harapan-ibu", name="Sekolah Islam Harapan Ibu", city="Jakarta Selatan", district="Kebayoran Lama", religion="Islam",
       address="Jl. H. Banan No.1, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
       fee=dict(entryFee={"min": 12_900_000}, tuition={"amount": 2_050_000, "period": "month"},
                otherFees=[fee("Biaya perawatan pengembangan", "Development & maintenance fee", 15_500_000), fee("POMG (persatuan orang tua murid & guru)", "Parent–teacher association", 300_000)])),
@@ -55,7 +48,7 @@ schools = [
       address="Jl. Hati Suci No.2, Kampung Bali, Tanah Abang, Jakarta Pusat",
       fee=dict(registrationFee=100_000, entryFee={"min": 8_800_000}, tuition={"amount": 1_000_000, "period": "month"},
                otherFees=[fee(*ACTIVITY, 800_000), fee("Seragam kotak", "Checked uniform", 129_000), fee("Baju olahraga", "Sports uniform", 190_000)])),
- dict(slug="sd-perguruan-cikini", name="SD Perguruan Cikini", city="Jakarta Pusat", district="Menteng",
+ dict(slug="perguruan-cikini", name="Perguruan Cikini", city="Jakarta Pusat", district="Menteng",
       address="Jl. Cikini Raya No.74-76, Cikini, Menteng, Jakarta Pusat",
       fee=dict(registrationFee=365_000, entryFee={"min": 15_500_000}, tuition={"amount": 1_200_000, "period": "month"},
                otherFees=[fee(*ACTIVITY, 4_000_000), fee("Uang perlengkapan", "Supplies", 4_000_000)])),
@@ -88,12 +81,8 @@ schools = [
                notes=L("Uang pangkal = uang gedung.", "Entry fee = building fee."))),
 ]
 
-OUT.mkdir(parents=True, exist_ok=True)
 for s in schools:
     f = s.pop("fee")
-    entry = {"level": "SD", "academicYear": f.pop("year", "2026/2027"), **f, "source": SRC, "checked": CHECKED}
-    doc = {"name": s["name"], "area": "jabodetabek", "city": s["city"], "district": s.get("district"),
-           "address": s.get("address"), "levels": ["SD"], "religion": s.get("religion"), "fees": [entry]}
-    doc = {k: v for k, v in doc.items() if v is not None}
-    (OUT / f"{s['slug']}.json").write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
-    print("wrote", s["slug"])
+    slug = s.pop("slug")
+    upsert(slug, area="jabodetabek", level="SD", year=f.pop("year", "2026/2027"), source=SRC, checked=CHECKED, **s, **f)
+    print("wrote", slug)

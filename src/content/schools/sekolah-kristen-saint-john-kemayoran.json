@@ -1,0 +1,44 @@
+{
+  "name": "Sekolah Kristen Saint John",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Kemayoran",
+  "address": "Jl. Bungur Besar Raya No.82A, Gunung Sahari, Kemayoran, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "phone": "(021) 4213645 / 0878-7818-7068",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 1100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal sebelum diskon; ada diskon untuk pendaftaran dan pelunasan lebih awal.",
+        "en": "Entry fee before discount; discounts for early registration and payment."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

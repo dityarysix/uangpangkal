@@ -1,0 +1,35 @@
+{
+  "name": "Sekolah Bunda Mulia Petojo",
+  "area": "jabodetabek",
+  "city": "Jakarta Pusat",
+  "district": "Gambir",
+  "address": "Jl. A.M. Sangaji No.20, Petojo Utara, Gambir, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "website": "https://sbm.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 7500000,
+        "max": 8500000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kelas reguler: uang sekolah Rp1.300.000/bulan. Kelas bilingual: Rp2.500.000/bulan. Uang pangkal sama untuk keduanya.",
+        "en": "Regular class: tuition Rp1,300,000/month. Bilingual class: Rp2,500,000/month. Same entry fee for both."
+      },
+      "source": {
+        "title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
+        "published": "2025-12-11"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

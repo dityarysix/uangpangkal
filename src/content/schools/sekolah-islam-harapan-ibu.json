@@ -1,13 +1,16 @@
 {
-  "name": "SD Islam Harapan Ibu",
+  "name": "Sekolah Islam Harapan Ibu",
   "area": "jabodetabek",
   "city": "Jakarta Selatan",
   "district": "Kebayoran Lama",
   "address": "Jl. H. Banan No.1, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
   "levels": [
-    "SD"
+    "SD",
+    "SMP"
   ],
   "religion": "Islam",
+  "website": "https://harapanibu.sch.id",
+  "phone": "(021) 7591122 / 0811-8992-413",
   "fees": [
     {
       "level": "SD",
@@ -39,6 +42,36 @@
         "title": "13 Daftar Biaya Masuk SD di Jakarta Selatan & Pusat 2026/2027 (Popmama)",
         "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-biaya-masuk-sd-di-jakarta-selatan-pusat-2026-2027-00-8zdst-pntnk3",
         "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 8300000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya perawatan pengembangan",
+            "en": "Development & maintenance fee"
+          },
+          "amount": 14000000
+        }
+      ],
+      "notes": {
+        "id": "Terdapat diskon gelombang.",
+        "en": "Early-wave discounts available."
+      },
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
       },
       "checked": "2026-11-22"
     }

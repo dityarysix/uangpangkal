@@ -1,0 +1,35 @@
+{
+  "name": "SMPIT Ash-Shiddiq Jakarta",
+  "area": "jabodetabek",
+  "city": "Jakarta Utara",
+  "district": "Koja",
+  "address": "Jl. Bendungan Melayu Utara, Koja, Jakarta Utara",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 19830000,
+        "max": 19980000
+      },
+      "tuition": {
+        "amount": 1050000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya masuk ikhwan (putra) Rp19.830.000, akhwat (putri) Rp19.980.000, sudah termasuk SPP Juli 2026.",
+        "en": "Entry fee for boys Rp19,830,000, girls Rp19,980,000, including July 2026 tuition."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

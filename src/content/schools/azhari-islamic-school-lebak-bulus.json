@@ -1,0 +1,44 @@
+{
+  "name": "Azhari Islamic School Lebak Bulus",
+  "area": "jabodetabek",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. Pertanian Raya No.43, Lebak Bulus, Jakarta Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "phone": "(021) 7699289 / 0812-9580-1894",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 32000000
+      },
+      "tuition": {
+        "amount": 2100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku & kegiatan (tahunan)",
+            "en": "Books & activities (yearly)"
+          },
+          "amount": 8000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = admission fee. SPP Juli 2026.",
+        "en": "Entry fee = admission fee. Tuition as of July 2026."
+      },
+      "source": {
+        "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
+        "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

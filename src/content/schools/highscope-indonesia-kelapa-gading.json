@@ -1,0 +1,42 @@
+{
+  "name": "Sekolah HighScope Indonesia Kelapa Gading",
+  "area": "jabodetabek",
+  "city": "Jakarta Utara",
+  "address": "Jl. Pegangsaan Dua No.22, Jakarta Utara",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 62000000
+      },
+      "tuition": {
+        "amount": 5900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Observasi & tes kelas",
+            "en": "Observation & placement test"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Biaya masuk untuk grade 7–9.",
+        "en": "Entry fee for grades 7–9."
+      },
+      "source": {
+        "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
+        "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
