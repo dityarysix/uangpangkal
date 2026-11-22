@@ -27,11 +27,20 @@ Set `PUBLIC_ADSENSE_CLIENT=ca-pub-XXXXXXXX` at build time and pass a `slot` to `
 | School | `/sekolah/<slug>/`   | `/en/school/<slug>/` |
 | About  | `/tentang/`          | `/en/about/`         |
 
-## Deployment (Cloudflare Pages)
+## Deployment (GitHub Pages)
 
-Cloudflare Pages is connected to this repository, so every push to `main` rebuilds the site and publishes it.
+`.github/workflows/deploy.yml` builds the site and publishes it to GitHub Pages on every push to `main`. The custom domain is set in `public/CNAME`.
 
-- Build command: `npm run build`
-- Build output directory: `dist`
-- Node version: set by `.node-version` (22)
-- Optional environment variable: `PUBLIC_ADSENSE_CLIENT`
+DNS at Hostinger for `uangpangkal.com`:
+
+| Type  | Name  | Value                   |
+|-------|-------|-------------------------|
+| A     | @     | 185.199.108.153         |
+| A     | @     | 185.199.109.153         |
+| A     | @     | 185.199.110.153         |
+| A     | @     | 185.199.111.153         |
+| CNAME | www   | dityarysix.github.io    |
+
+To show ads, set the repository variable `PUBLIC_ADSENSE_CLIENT` (Settings → Secrets and variables → Actions → Variables).
+
+`wrangler.jsonc` is kept so the site can also be deployed to Cloudflare if needed.
