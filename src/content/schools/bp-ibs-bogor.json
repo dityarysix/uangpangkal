@@ -1,0 +1,110 @@
+{
+  "name": "BP IBS Bogor",
+  "city": "Kota Bogor",
+  "district": "Tanah Sareal",
+  "address": "Jl. Cimanggu Permai No.16, Kedung Jaya, Tanah Sareal, Kota Bogor",
+  "levels": [
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://www.bpibs.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 750000,
+      "entryFee": {
+        "min": 55000000
+      },
+      "tuition": {
+        "amount": 4900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang (tahun kedua dst.)",
+            "en": "Re-registration (second year onward)"
+          },
+          "amount": 8500000
+        }
+      ],
+      "notes": {
+        "id": "Sekolah berasrama. Uang pangkal dibayar setelah lulus tes; mencakup fasilitas asrama, ekskul, kokurikuler, field trip, outing class, seragam, dan buku paket. SPP mencakup operasional, makan 3x sehari, dan laundry. Biaya pendaftaran mencakup tes dan konsumsi untuk 3 orang.",
+        "en": "Boarding school. Entry fee is paid after passing the test; covers boarding, extracurriculars, co-curriculars, field trips, outings, uniforms and textbooks. Tuition covers operations, 3 meals a day and laundry. Registration covers the tests and meals for 3 people."
+      },
+      "source": {
+        "title": "Rincian Pembiayaan SMP dan SMA BP IBS 2027/2028 (situs resmi)",
+        "url": "https://www.bpibs.sch.id/pendaftaran/biaya-sekolah-bp-ibs"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 750000,
+      "entryFee": {
+        "min": 27500000,
+        "max": 55000000
+      },
+      "tuition": {
+        "amount": 5500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang kelas 10 ke 11",
+            "en": "Re-registration grade 10 to 11"
+          },
+          "amount": 10000000
+        },
+        {
+          "label": {
+            "id": "Daftar ulang kelas 11 ke 12",
+            "en": "Re-registration grade 11 to 12"
+          },
+          "amount": 12500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal Rp27.500.000 dari SMP BP IBS; Rp55.000.000 dari luar. SMA Diniyyah daftar ulang Rp7.500.000. SPP mencakup makan 3x sehari dan laundry.",
+        "en": "Entry fee Rp27,500,000 from BP IBS junior high; Rp55,000,000 from outside. SMA Diniyyah re-registration Rp7,500,000. Tuition includes 3 meals a day and laundry."
+      },
+      "source": {
+        "title": "Rincian Pembiayaan SMP dan SMA BP IBS 2027/2028 (situs resmi)",
+        "url": "https://www.bpibs.sch.id/pendaftaran/biaya-sekolah-bp-ibs"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "test": {
+        "id": "Psikotes; tes mata pelajaran umum (Bahasa Indonesia, Bahasa Inggris, Matematika, IPA, Diniyyah); tes baca Al-Qur'an; wawancara calon santri dan orang tua; tes kesehatan.",
+        "en": "Psychological test; general subjects test (Indonesian, English, maths, science, Islamic studies); Quran reading test; student and parent interviews; health check."
+      },
+      "source": {
+        "title": "Rincian Pembiayaan SMP dan SMA BP IBS 2027/2028 (situs resmi)",
+        "url": "https://www.bpibs.sch.id/pendaftaran/biaya-sekolah-bp-ibs"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "test": {
+        "id": "Psikotes; wawancara santri (Bahasa Arab, baca kitab, hafalan, kepribadian); wawancara orang tua (manhaj); tes literasi Bahasa Indonesia, Bahasa Inggris, dan numerasi.",
+        "en": "Psychological test; student interview (Arabic, text reading, memorisation, personality); parent interview; Indonesian and English literacy and numeracy tests."
+      },
+      "source": {
+        "title": "Rincian Pembiayaan SMP dan SMA BP IBS 2027/2028 (situs resmi)",
+        "url": "https://www.bpibs.sch.id/pendaftaran/biaya-sekolah-bp-ibs"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

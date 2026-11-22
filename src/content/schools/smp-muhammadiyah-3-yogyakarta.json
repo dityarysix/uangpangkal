@@ -1,0 +1,134 @@
+{
+  "name": "SMP Muhammadiyah 3 Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Wirobrajan",
+  "address": "Jl. Kapten Pierre Tendean 19, Wirobrajan, Yogyakarta",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://smpmugayogya.sch.id",
+  "phone": "(0274) 375158",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "yearAssumed": true,
+      "registrationFee": 50000,
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana operasional pendidikan (kegiatan 1 tahun)",
+            "en": "Education operating fund (1 year of activities)"
+          },
+          "amount": 4000000
+        },
+        {
+          "label": {
+            "id": "Seragam laki-laki (opsional)",
+            "en": "Uniforms, boys (optional)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan (opsional)",
+            "en": "Uniforms, girls (optional)"
+          },
+          "amount": 1750000
+        },
+        {
+          "label": {
+            "id": "Buku pelajaran (opsional)",
+            "en": "Textbooks (optional)"
+          },
+          "amount": 1250000
+        }
+      ],
+      "notes": {
+        "id": "Fullday: dana pengembangan dan infaq amal jariyah ditentukan saat wawancara sesuai kemampuan. SPP kelas reguler Rp450.000, kelas peminatan (IT, bilingual, KKO, riset, tahfidz) Rp600.000. Boarding: total masuk Rp18.650.000 (putra) / Rp18.900.000 (putri), termasuk infaq min. Rp4.000.000 dan dana pengembangan min. Rp5.000.000; biaya bulanan Rp1.650.000–Rp1.800.000 (makan, asrama, kegiatan asrama, SPP). Halaman berjudul 2027/2028 tetapi teksnya juga menyebut 2025/2026; jadwal gelombang menunjukkan penerimaan 2027/2028.",
+        "en": "Day school: development fund and infaq are set at the interview according to ability. Tuition: regular class Rp450,000, specialist classes (IT, bilingual, sports, research, tahfidz) Rp600,000. Boarding: total on entry Rp18,650,000 (boys) / Rp18,900,000 (girls), including infaq of at least Rp4,000,000 and development fund of at least Rp5,000,000; monthly Rp1,650,000–Rp1,800,000 (meals, boarding, boarding activities, tuition). The page is titled 2027/2028 but its text also mentions 2025/2026; the wave dates point to the 2027/2028 intake."
+      },
+      "source": {
+        "title": "Info PPDB — SMP Muhammadiyah 3 Yogyakarta (situs resmi)",
+        "url": "https://smpmugayogya.sch.id/info-ppdb/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Gelombang inden Juli–3 Oktober 2026; gelombang 1: 5 Oktober 2026–6 Februari 2027; gelombang 2: 8 Februari–24 April 2027; gelombang 3: 26 April–Juli 2027.",
+        "en": "Early (inden) wave July–3 October 2026; wave 1: 5 October 2026–6 February 2027; wave 2: 8 February–24 April 2027; wave 3: 26 April–July 2027."
+      },
+      "steps": [
+        {
+          "id": "Buat akun dan bayar formulir.",
+          "en": "Create an account and pay the form fee."
+        },
+        {
+          "id": "Isi biodata di aplikasi.",
+          "en": "Fill in the profile in the app."
+        },
+        {
+          "id": "Wawancara dan tes.",
+          "en": "Interview and test."
+        },
+        {
+          "id": "Pengumuman.",
+          "en": "Announcement."
+        },
+        {
+          "id": "Registrasi/daftar ulang maks. 5 hari setelah pengumuman.",
+          "en": "Re-register within 5 days of the announcement."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi rapor kelas 5 semester 2",
+          "en": "Copy of grade 5 semester 2 report"
+        },
+        {
+          "id": "Fotokopi ijazah (2 lembar, menyusul)",
+          "en": "Copy of primary certificate (2, can follow later)"
+        },
+        {
+          "id": "Nilai ASPD asli (khusus peserta DIY, menyusul)",
+          "en": "Original ASPD score (DIY applicants, can follow later)"
+        },
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga (3 lembar)",
+          "en": "Copies of family card (3)"
+        },
+        {
+          "id": "Pas foto 3x4 (3 lembar)",
+          "en": "3x4 photos (3)"
+        },
+        {
+          "id": "Fotokopi KMS/PIP/PKH jika punya",
+          "en": "Copy of KMS/PIP/PKH card if any"
+        }
+      ],
+      "notes": {
+        "id": "Mengundurkan diri setelah membayar: Rp5.000.000 tidak dikembalikan.",
+        "en": "Withdrawing after payment: Rp5,000,000 is retained."
+      },
+      "source": {
+        "title": "Info PPDB — SMP Muhammadiyah 3 Yogyakarta (situs resmi)",
+        "url": "https://smpmugayogya.sch.id/info-ppdb/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

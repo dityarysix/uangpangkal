@@ -1,0 +1,48 @@
+{
+  "name": "SD Assalaam Bandung",
+  "city": "Kota Bandung",
+  "district": "Regol",
+  "address": "Jl. Sasak Gantung No.1-4, Balonggede, Regol, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "0838-0400-7400",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "tuition": {
+        "amount": 2250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku (per tahun)",
+            "en": "Books (per year)"
+          },
+          "amount": 1795000
+        },
+        {
+          "label": {
+            "id": "Seragam (pembayaran awal)",
+            "en": "Uniforms (initial payment)"
+          },
+          "amount": 1350000
+        }
+      ],
+      "notes": {
+        "id": "Sumber menyebut \"SPP (Sumbangan Pengembangan Pendidikan)\" Rp2.250.000 per bulan; uang pangkal tidak dicantumkan.",
+        "en": "The source lists \"SPP (education development contribution)\" Rp2,250,000 per month; entry fee not listed."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Bandung, Ada Kurikulum Internasional (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-di-bandung",
+        "published": "2025-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

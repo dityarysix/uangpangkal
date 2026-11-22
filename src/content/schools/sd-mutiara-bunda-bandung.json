@@ -1,0 +1,37 @@
+{
+  "name": "SD Mutiara Bunda Bandung",
+  "city": "Kota Bandung",
+  "district": "Arcamanik",
+  "address": "Jl. Arcamanik Endah No.3, Sukamiskin, Arcamanik, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "0812-8008-2116",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya tahunan (tertinggi)",
+            "en": "Annual package (highest)"
+          },
+          "amount": 49900000
+        }
+      ],
+      "notes": {
+        "id": "Biaya tahunan Rp44.400.000–Rp49.900.000, sudah mencakup pendaftaran, daftar ulang, biaya pengembangan, kegiatan per semester, dan iuran bulanan. Gelombang pertama Rp44.400.000–Rp47.900.000.",
+        "en": "Annual package Rp44,400,000–Rp49,900,000, covering registration, re-registration, development fee, semester activities and monthly fees. First wave Rp44,400,000–Rp47,900,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Bandung, Ada Kurikulum Internasional (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-di-bandung",
+        "published": "2025-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

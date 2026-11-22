@@ -1,0 +1,148 @@
+{
+  "name": "Sekolah Islam Al-Falaah Ciputat",
+  "city": "Tangerang Selatan",
+  "district": "Ciputat",
+  "address": "Villa Mutiara, Sawah Baru, Ciputat, Tangerang Selatan",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://sekolahal-falaah.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 12907500,
+        "max": 17210000
+      },
+      "tuition": {
+        "amount": 1065000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam, kegiatan & buku paket 1 tahun, BKOMG",
+            "en": "Uniforms, activities & textbooks for 1 year, parents' association"
+          },
+          "amount": 6025000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal normal Rp17.210.000; diskon 25% (dari TK Al-Falaah) Rp12.907.500; 15% (kakak/adik di AF) Rp14.628.500; 10% (kakak/adik alumni AF) Rp15.489.000. Total normal Rp24.300.000. Pembayaran lunas atau 2 tahap (60% lalu 40% pada 25 Januari–3 Februari 2027). Mengundurkan diri: dipotong 80% dari total pembayaran. SPP naik Rp50.000 per tahun. Sudah termasuk seragam 6 stel, kegiatan 1 tahun, SPP Juli 2027, buku paket 1 tahun, dan BKOMG.",
+        "en": "Entry fee Rp17,210,000 normally; 25% off (from TK Al-Falaah) Rp12,907,500; 15% off (sibling at AF) Rp14,628,500; 10% off (sibling alumni) Rp15,489,000. Normal total Rp24,300,000. Pay in full or in 2 stages (60%, then 40% on 25 January–3 February 2027). Withdrawal: 80% of the total is retained. Tuition rises Rp50,000 a year. Includes 6 uniform sets, 1 year of activities, July 2027 tuition, 1 year of textbooks and parents' association fee."
+      },
+      "source": {
+        "title": "Prosedur SPMB SD Islam Al-Falaah TA 2027/2028 (situs resmi)",
+        "url": "https://sekolahal-falaah.sch.id/ppdb-sd-islam-al-falaah/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 8294000,
+        "max": 12760000
+      },
+      "tuition": {
+        "amount": 1025000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam, kegiatan & buku paket 1 tahun, BKOMG",
+            "en": "Uniforms, activities & textbooks for 1 year, parents' association"
+          },
+          "amount": 6645000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal normal Rp12.760.000; diskon 35% (dari SD Al-Falaah) Rp8.294.000; 15% (kakak/adik di AF) Rp10.846.000; 10% (kakak/adik alumni AF) Rp11.484.000. Total normal Rp20.430.000. Pembayaran lunas atau 2 tahap (60% lalu 40% pada 25 Januari–3 Februari 2027). Mengundurkan diri: dipotong 80% dari total pembayaran. SPP naik Rp50.000 per tahun. Sudah termasuk seragam 6 stel, kegiatan 1 tahun, SPP Juli 2027, buku paket 1 tahun, dan BKOMG.",
+        "en": "Entry fee Rp12,760,000 normally; 35% off (from SD Al-Falaah) Rp8,294,000; 15% off (sibling at AF) Rp10,846,000; 10% off (sibling alumni) Rp11,484,000. Normal total Rp20,430,000. Pay in full or in 2 stages (60%, then 40% on 25 January–3 February 2027). Withdrawal: 80% of the total is retained. Tuition rises Rp50,000 a year. Includes 6 uniform sets, 1 year of activities, July 2027 tuition, 1 year of textbooks and parents' association fee."
+      },
+      "source": {
+        "title": "Prosedur SPMB SMP Islam Al-Falaah TA 2027/2028 (situs resmi)",
+        "url": "https://sekolahal-falaah.sch.id/ppdb-smp-islam-al-falaah/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Psikotes eksternal 17 Oktober 2026; observasi akademik dan wawancara orang tua 31 Oktober 2026; pengumuman 11 November 2026; pembayaran tahap I 11–20 November 2026.",
+        "en": "External psychological test 17 October 2026; academic observation and parent interview 31 October 2026; results 11 November 2026; first payment 11–20 November 2026."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di sekolahal-falaah.sch.id dan isi formulir.",
+          "en": "Register online at sekolahal-falaah.sch.id and fill in the form."
+        },
+        {
+          "id": "Bayar formulir Rp450.000.",
+          "en": "Pay the Rp450,000 form fee."
+        },
+        {
+          "id": "Panitia menghubungi untuk kelengkapan administrasi.",
+          "en": "The committee contacts you about paperwork."
+        },
+        {
+          "id": "Ikuti psikotes, observasi akademik, dan wawancara orang tua.",
+          "en": "Attend the psychological test, academic observation and parent interview."
+        }
+      ],
+      "test": {
+        "id": "Psikotes, observasi akademik siswa, wawancara orang tua.",
+        "en": "Psychological test, academic observation, parent interview."
+      },
+      "notes": {
+        "id": "Usia 6 tahun pada Juli 2027.",
+        "en": "Age 6 by July 2027."
+      },
+      "source": {
+        "title": "Prosedur SPMB SD Islam Al-Falaah TA 2027/2028 (situs resmi)",
+        "url": "https://sekolahal-falaah.sch.id/ppdb-sd-islam-al-falaah/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Seleksi 24 Oktober 2026; pengumuman 4 November 2026; pembayaran tahap I 4–13 November 2026.",
+        "en": "Selection 24 October 2026; results 4 November 2026; first payment 4–13 November 2026."
+      },
+      "steps": [
+        {
+          "id": "Daftar online dan isi formulir.",
+          "en": "Register online and fill in the form."
+        },
+        {
+          "id": "Bayar formulir Rp350.000.",
+          "en": "Pay the Rp350,000 form fee."
+        },
+        {
+          "id": "Ikuti observasi akademik dan wawancara orang tua.",
+          "en": "Attend the academic observation and parent interview."
+        }
+      ],
+      "test": {
+        "id": "Observasi akademik siswa dan wawancara orang tua.",
+        "en": "Academic observation and parent interview."
+      },
+      "source": {
+        "title": "Prosedur SPMB SMP Islam Al-Falaah TA 2027/2028 (situs resmi)",
+        "url": "https://sekolahal-falaah.sch.id/ppdb-smp-islam-al-falaah/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

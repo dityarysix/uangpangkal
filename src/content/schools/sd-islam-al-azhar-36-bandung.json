@@ -1,0 +1,40 @@
+{
+  "name": "SD Islam Al Azhar 36 Bandung",
+  "city": "Kota Bandung",
+  "district": "Lengkong",
+  "address": "Jl. Palasari No.9, Lengkong, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 28000000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang jamiyyah",
+            "en": "Parents' association (jamiyyah)"
+          },
+          "amount": 250000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Bandung, Ada Kurikulum Internasional (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-di-bandung",
+        "published": "2025-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

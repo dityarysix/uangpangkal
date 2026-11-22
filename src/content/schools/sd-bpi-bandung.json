@@ -1,0 +1,37 @@
+{
+  "name": "SD BPI Bandung",
+  "city": "Kota Bandung",
+  "district": "Lengkong",
+  "address": "Jl. Halimun No.40, Lengkong, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "phone": "(022) 7301460",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kegiatan per tahun",
+            "en": "Activity fee per year"
+          },
+          "amount": 4025000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal dan SPP tidak dicantumkan sumber.",
+        "en": "Entry fee and tuition not listed by the source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Bandung, Ada Kurikulum Internasional (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-di-bandung",
+        "published": "2025-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

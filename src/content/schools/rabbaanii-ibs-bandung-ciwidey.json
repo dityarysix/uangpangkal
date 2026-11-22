@@ -1,0 +1,90 @@
+{
+  "name": "Rabbaanii Islamic Boarding School Bandung (Ciwidey)",
+  "city": "Kabupaten Bandung",
+  "district": "Ciwidey",
+  "levels": [
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://rabbaanii.sch.id",
+  "phone": "CS 0853-1364-2033",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 22800000,
+        "max": 24800000
+      },
+      "tuition": {
+        "amount": 3300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya gelombang 1 setelah diskon (biaya sebelum diskon ada di sorotan Instagram @rabbaanii_official). Uang pangkal sudah termasuk seragam 5 stel (TK 4 stel), buku paket tahun pertama, SPP Juli 2027, dan uang tahunan. DP minimal 25%, sisa maks. 4 bulan. Uang pangkal tidak dapat dikembalikan bila mengundurkan diri. Boarding khusus putra. Uang pangkal Rp24.800.000 (umum) / Rp22.800.000 (alumni/keluarga). Uang tahunan Rp3.500.000.",
+        "en": "Wave 1 prices after discount (pre-discount prices are in the @rabbaanii_official Instagram highlights). The entry fee includes 5 uniform sets (TK: 4), first-year textbooks, July 2027 tuition and the annual fee. Minimum 25% down payment, the rest within 4 months. Non-refundable if you withdraw. Boys' boarding only. Entry Rp24,800,000 (general) / Rp22,800,000 (alumni/family). Annual fee Rp3,500,000."
+      },
+      "source": {
+        "title": "Biaya Pendidikan SPMB Rabbaanii — Gelombang 1 TA 2027/2028 (situs resmi)",
+        "url": "https://rabbaanii.sch.id/spmb/biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 28300000,
+        "max": 30300000
+      },
+      "tuition": {
+        "amount": 3300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya gelombang 1 setelah diskon (biaya sebelum diskon ada di sorotan Instagram @rabbaanii_official). Uang pangkal sudah termasuk seragam 5 stel (TK 4 stel), buku paket tahun pertama, SPP Juli 2027, dan uang tahunan. DP minimal 25%, sisa maks. 4 bulan. Uang pangkal tidak dapat dikembalikan bila mengundurkan diri. Boarding khusus putra. Uang pangkal Rp30.300.000 (umum) / Rp28.300.000 (alumni/keluarga). Uang tahunan Rp4.000.000.",
+        "en": "Wave 1 prices after discount (pre-discount prices are in the @rabbaanii_official Instagram highlights). The entry fee includes 5 uniform sets (TK: 4), first-year textbooks, July 2027 tuition and the annual fee. Minimum 25% down payment, the rest within 4 months. Non-refundable if you withdraw. Boys' boarding only. Entry Rp30,300,000 (general) / Rp28,300,000 (alumni/family). Annual fee Rp4,000,000."
+      },
+      "source": {
+        "title": "Biaya Pendidikan SPMB Rabbaanii — Gelombang 1 TA 2027/2028 (situs resmi)",
+        "url": "https://rabbaanii.sch.id/spmb/biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Gelombang 1 mulai 15 September 2026; tes online 16 Oktober dan tes offline 17 Oktober 2026.",
+        "en": "Wave 1 from 15 September 2026; online test 16 October and in-person test 17 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di rabbaanii.sch.id dan bayar formulir.",
+          "en": "Register online at rabbaanii.sch.id and pay the form fee."
+        },
+        {
+          "id": "Ikuti tes online dan offline sesuai jadwal gelombang.",
+          "en": "Take the online and in-person tests on the wave's dates."
+        },
+        {
+          "id": "Daftar ulang: bayar DP uang pangkal minimal 25%.",
+          "en": "Re-register by paying at least 25% of the entry fee."
+        }
+      ],
+      "notes": {
+        "id": "Untuk pindahan dan pengajuan subsidi/beasiswa hubungi CS 0853-1364-2033.",
+        "en": "For transfers and subsidy/scholarship requests contact CS 0853-1364-2033."
+      },
+      "source": {
+        "title": "Biaya Pendidikan SPMB Rabbaanii — Gelombang 1 TA 2027/2028 (situs resmi)",
+        "url": "https://rabbaanii.sch.id/spmb/biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Global Prestasi School Bandung",
+  "city": "Kota Bandung",
+  "district": "Cidadap",
+  "address": "Allegro Altura Complex, Jl. Citra Green, Ciumbuleuit, Cidadap, Kota Bandung",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 40000000
+      },
+      "tuition": {
+        "amount": 10950000,
+        "period": "quarter"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 2500000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Biaya kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 3650000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = biaya pengembangan. Daftar ulang Rp200.000–Rp400.000.",
+        "en": "Entry fee = development fee. Re-registration Rp200,000–Rp400,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Bandung, Ada Kurikulum Internasional (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-di-bandung",
+        "published": "2025-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

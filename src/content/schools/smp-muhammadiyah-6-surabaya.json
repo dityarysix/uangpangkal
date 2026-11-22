@@ -1,0 +1,58 @@
+{
+  "name": "SMP Muhammadiyah 6 Surabaya",
+  "city": "Surabaya",
+  "district": "Karang Pilang",
+  "address": "Jl. Kemlaten Baru No.43, Kebraon, Karang Pilang, Surabaya",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://smpmusix.com",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 1000000,
+        "max": 4000000
+      },
+      "tuition": {
+        "amount": 475000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Tabungan (per bulan)",
+            "en": "Savings (per month)"
+          },
+          "amount": 25000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan siswa (per tahun)",
+            "en": "Student activity fund (per year)"
+          },
+          "amount": 4000000
+        },
+        {
+          "label": {
+            "id": "Buku paket & LKS (1 tahun)",
+            "en": "Textbooks & workbooks (1 year)"
+          },
+          "amount": 1150000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = uang pembangunan: gelombang inden Rp1.000.000, gelombang 1 Rp3.000.000, gelombang 2 Rp4.000.000. Belum termasuk seragam.",
+        "en": "Entry fee = building fee: early (inden) wave Rp1,000,000, wave 1 Rp3,000,000, wave 2 Rp4,000,000. Uniforms not included."
+      },
+      "source": {
+        "title": "Rincian Pembiayaan SPMB 2026–2027 — SMP Muhammadiyah 6 Surabaya (situs resmi)",
+        "url": "https://smpmusix.com/index.php/rincian-pembiayaan-ppdb/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
