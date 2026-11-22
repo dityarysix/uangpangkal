@@ -7,8 +7,8 @@ const dict = {
   },
   heroTitle: { id: 'Berapa biaya masuk sekolah swasta?', en: 'How much does a private school cost?' },
   heroLead: {
-    id: 'Bandingkan uang pangkal, SPP, dan prosedur pendaftaran sekolah swasta di Jabodetabek, Bandung, Semarang, Surabaya, dan Yogyakarta.',
-    en: 'Compare entry fees, tuition and admission procedures of private schools in Greater Jakarta, Bandung, Semarang, Surabaya and Yogyakarta.',
+    id: 'Bandingkan uang pangkal, SPP, dan prosedur pendaftaran sekolah swasta di Jakarta, Tangerang, Depok, Bogor, Bekasi, Bandung, Semarang, Surabaya, Yogyakarta, dan Solo.',
+    en: 'Compare entry fees, tuition and admission procedures of private schools in Jakarta, Tangerang, Depok, Bogor, Bekasi, Bandung, Semarang, Surabaya, Yogyakarta and Solo.',
   },
   searchPlaceholder: { id: 'Cari nama sekolah…', en: 'Search school name…' },
   allAreas: { id: 'Semua wilayah', en: 'All areas' },

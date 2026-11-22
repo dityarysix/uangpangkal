@@ -84,5 +84,5 @@ schools = [
 for s in schools:
     f = s.pop("fee")
     slug = s.pop("slug")
-    upsert(slug, area="jabodetabek", level="SD", year=f.pop("year", "2026/2027"), source=SRC, checked=CHECKED, **s, **f)
+    upsert(slug, level="SD", year=f.pop("year", "2026/2027"), source=SRC, checked=CHECKED, **s, **f)
     print("wrote", slug)

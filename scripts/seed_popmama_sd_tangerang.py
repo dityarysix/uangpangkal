@@ -5,7 +5,7 @@ from seedlib import L, fee, upsert, UNIFORM, ACTIVITY, BOOKS
 SRC = {"title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
        "published": "2025-11-10"}
-C = dict(area="jabodetabek", level="SD", year="2025/2026", source=SRC, checked="2026-11-22")
+C = dict(level="SD", year="2025/2026", source=SRC, checked="2026-11-22")
 TS = "Tangerang Selatan"
 
 upsert("sdi-cikal-harapan-bsd", name="SDI Cikal Harapan", city=TS, district="Serpong", religion="Islam",

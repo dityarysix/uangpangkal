@@ -1,6 +1,7 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
+import { CITIES } from './lib/areas';
 
 /** Rupiah amount, stored as a plain integer (e.g. 47500000). */
 const rupiah = z.number().int().nonnegative();
@@ -38,9 +39,8 @@ const schools = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/schools' }),
   schema: z.object({
     name: z.string(),
-    area: z.enum(['jabodetabek', 'bandung', 'semarang', 'surabaya', 'yogyakarta']),
-    /** City / kota / kabupaten, e.g. "Jakarta Selatan", "Tangerang Selatan". */
-    city: z.string(),
+    /** City / kota / kabupaten exactly as listed in src/lib/areas.ts; the area is derived from it. */
+    city: z.enum(CITIES),
     district: z.string().optional(),
     address: z.string().optional(),
     npsn: z.string().optional(),

@@ -2,18 +2,16 @@
 import Base from '../layouts/Base.astro';
 import SchoolCard from '../components/SchoolCard.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { areaBySlug } from '../lib/areas';
+import { areaBySlug, areaOfCity } from '../lib/areas';
 import { t, paths, type Lang } from '../lib/i18n';
 import { allSchools } from '../lib/schools';
 interface Props { lang: Lang; slug: string }
 const { lang, slug } = Astro.props;
 const area = areaBySlug(slug)!;
-const schools = (await allSchools()).filter((s) => s.data.area === slug);
+const schools = (await allSchools()).filter((s) => areaOfCity(s.data.city).slug === slug);
 const byCity = area.cities
   .map((c) => ({ city: c, list: schools.filter((s) => s.data.city === c) }))
   .filter((g) => g.list.length);
-const other = schools.filter((s) => !area.cities.includes(s.data.city));
-if (other.length) byCity.push({ city: lang === 'id' ? 'Lainnya' : 'Other', list: other });
 const title = lang === 'id'
   ? `Biaya Sekolah Swasta di ${area.name.id} — Uang Pangkal & SPP`
   : `Private School Fees in ${area.name.en} — Entry Fees & Tuition`;

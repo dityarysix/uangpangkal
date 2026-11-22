@@ -5,7 +5,7 @@ from seedlib import L, fee, upsert, BOOKS
 SRC = {"title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
        "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
        "published": "2025-12-22"}
-C = dict(area="jabodetabek", level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
+C = dict(level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
 
 upsert("smp-wijaya-kusuma-penjaringan", name="SMP Wijaya Kusuma", city="Jakarta Utara", district="Penjaringan",
        address="Jl. Bandengan 80, Penjaringan, Jakarta Utara",

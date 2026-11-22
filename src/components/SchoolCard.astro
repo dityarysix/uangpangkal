@@ -1,5 +1,6 @@
 ---
 import { t, paths, rupiahShort, CURRENT_YEAR, type Lang } from '../lib/i18n';
+import { areaOfCity } from '../lib/areas';
 import { minEntryFee, lowestTuition, type School } from '../lib/schools';
 interface Props { school: School; lang: Lang }
 const { school, lang } = Astro.props;
@@ -9,7 +10,7 @@ const tuition = lowestTuition(school);
 const years = [...new Set(d.fees.map((f) => f.academicYear))].sort().reverse();
 ---
 <a class="card" href={paths.school(lang, school.id)}
-   data-name={d.name.toLowerCase()} data-area={d.area} data-levels={d.levels.join(' ')} data-entry={entry ?? ''}>
+   data-name={d.name.toLowerCase()} data-area={areaOfCity(d.city).slug} data-levels={d.levels.join(' ')} data-entry={entry ?? ''}>
   <div class="top">
     <h3>{d.name}</h3>
     <p class="muted loc">{d.district ? `${d.district}, ` : ''}{d.city}</p>

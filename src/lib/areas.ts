@@ -1,19 +1,58 @@
-export type Area = 'jabodetabek' | 'bandung' | 'semarang' | 'surabaya' | 'yogyakarta';
-
-export const AREAS: { slug: Area; name: { id: string; en: string }; cities: string[] }[] = [
+/**
+ * Areas shown on the site. A school's area is derived from its `city`, so every
+ * city used in the data must be listed here (the content schema enforces it).
+ */
+export const AREAS = [
   {
-    slug: 'jabodetabek',
-    name: { id: 'Jakarta Raya (Jabodetabek)', en: 'Greater Jakarta (Jabodetabek)' },
-    cities: [
-      'Jakarta Pusat', 'Jakarta Selatan', 'Jakarta Barat', 'Jakarta Timur', 'Jakarta Utara',
-      'Kota Bogor', 'Kabupaten Bogor', 'Depok', 'Kota Tangerang', 'Kabupaten Tangerang', 'Tangerang Selatan',
-      'Kota Bekasi', 'Kabupaten Bekasi',
-    ],
+    slug: 'jakarta',
+    name: { id: 'Jakarta', en: 'Jakarta' },
+    cities: ['Jakarta Selatan', 'Jakarta Timur', 'Jakarta Barat', 'Jakarta Utara', 'Jakarta Pusat'],
   },
-  { slug: 'bandung', name: { id: 'Bandung Raya', en: 'Greater Bandung' }, cities: ['Kota Bandung', 'Kabupaten Bandung', 'Cimahi', 'Bandung Barat'] },
-  { slug: 'semarang', name: { id: 'Semarang', en: 'Semarang' }, cities: ['Kota Semarang', 'Kabupaten Semarang'] },
-  { slug: 'surabaya', name: { id: 'Surabaya Raya', en: 'Greater Surabaya' }, cities: ['Surabaya', 'Sidoarjo', 'Gresik'] },
-  { slug: 'yogyakarta', name: { id: 'Yogyakarta', en: 'Yogyakarta' }, cities: ['Kota Yogyakarta', 'Sleman', 'Bantul'] },
-];
+  {
+    slug: 'tangerang-raya',
+    name: { id: 'Tangerang Raya', en: 'Greater Tangerang' },
+    cities: ['Tangerang Selatan', 'Kota Tangerang', 'Kabupaten Tangerang'],
+  },
+  {
+    slug: 'depok-bogor-raya',
+    name: { id: 'Depok/Bogor Raya', en: 'Depok & Bogor' },
+    cities: ['Depok', 'Kota Bogor', 'Kabupaten Bogor'],
+  },
+  {
+    slug: 'bekasi-raya',
+    name: { id: 'Bekasi Raya', en: 'Greater Bekasi' },
+    cities: ['Kota Bekasi', 'Kabupaten Bekasi'],
+  },
+  {
+    slug: 'bandung-raya',
+    name: { id: 'Bandung Raya', en: 'Greater Bandung' },
+    cities: ['Kota Bandung', 'Kabupaten Bandung', 'Kabupaten Bandung Barat', 'Cimahi', 'Kabupaten Sumedang'],
+  },
+  {
+    slug: 'semarang-raya',
+    name: { id: 'Semarang Raya', en: 'Greater Semarang' },
+    cities: ['Kota Semarang', 'Kabupaten Semarang', 'Salatiga', 'Kabupaten Kendal', 'Kabupaten Demak'],
+  },
+  {
+    slug: 'surabaya-raya',
+    name: { id: 'Surabaya Raya', en: 'Greater Surabaya' },
+    cities: ['Surabaya', 'Sidoarjo', 'Gresik', 'Kota Mojokerto', 'Kabupaten Mojokerto', 'Jombang'],
+  },
+  {
+    slug: 'yogyakarta-raya',
+    name: { id: 'Yogyakarta Raya', en: 'Greater Yogyakarta' },
+    cities: ['Kota Yogyakarta', 'Sleman', 'Bantul', 'Kulon Progo', 'Gunungkidul'],
+  },
+  {
+    slug: 'solo-raya',
+    name: { id: 'Solo Raya', en: 'Greater Solo' },
+    cities: ['Surakarta (Solo)', 'Sukoharjo', 'Karanganyar', 'Boyolali', 'Klaten', 'Sragen', 'Wonogiri'],
+  },
+] as const;
+
+export type Area = (typeof AREAS)[number];
+export type AreaSlug = Area['slug'];
+export const CITIES = AREAS.flatMap((a) => a.cities) as unknown as [string, ...string[]];
 
 export const areaBySlug = (slug: string) => AREAS.find((a) => a.slug === slug);
+export const areaOfCity = (city: string) => AREAS.find((a) => (a.cities as readonly string[]).includes(city))!;

@@ -2,13 +2,13 @@
 import Base from '../layouts/Base.astro';
 import SchoolCard from '../components/SchoolCard.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { AREAS } from '../lib/areas';
+import { AREAS, areaOfCity } from '../lib/areas';
 import { t, paths, type Lang } from '../lib/i18n';
 import { allSchools } from '../lib/schools';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const schools = await allSchools();
-const count = (a: string) => schools.filter((s) => s.data.area === a).length;
+const count = (a: string) => schools.filter((s) => areaOfCity(s.data.city).slug === a).length;
 const LEVELS = ['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK'];
 const caps = [5_000_000, 10_000_000, 25_000_000, 50_000_000, 100_000_000];
 const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'million'}`;
@@ -77,7 +77,8 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
 <style>
   .hero { padding: 1.5rem 0 0.5rem; max-width: 720px; }
   .lead { font-size: 1.1rem; color: var(--muted); margin: 0; }
-  .areas { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.7rem; margin-top: 1.6rem; }
+  .areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.7rem; margin-top: 1.6rem; }
+  @media (max-width: 720px) { .areas { grid-template-columns: 1fr 1fr; gap: 0.5rem; } .area { padding: 0.7rem 0.8rem; } }
   .area { display: flex; flex-direction: column; padding: 0.9rem 1rem; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--teal); color: var(--navy); text-decoration: none; transition: border-color .15s, box-shadow .15s; }
   .area .muted { font-size: 0.85rem; }
   .area:hover { border-color: var(--teal); box-shadow: 0 4px 14px rgba(30,58,95,.08); }

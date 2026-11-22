@@ -24,14 +24,14 @@ BOOKS = ("Buku", "Books")
 ACTIVITY = ("Uang kegiatan", "Activity fee")
 
 
-def upsert(slug, *, name, area, city, level, source, checked, year,
+def upsert(slug, *, name, city, area=None, level, source, checked, year,
            district=None, address=None, website=None, phone=None, religion=None,
            curriculum=None, **fee_fields):
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / f"{slug}.json"
     doc = json.loads(path.read_text()) if path.exists() else {}
     doc["name"] = name
-    doc["area"] = area
+    doc.pop("area", None)  # area is derived from city on the site
     doc["city"] = city
     for k, v in (("district", district), ("address", address), ("website", website),
                  ("phone", phone), ("religion", religion)):
@@ -47,7 +47,7 @@ def upsert(slug, *, name, area, city, level, source, checked, year,
     fees.append(entry)
     fees.sort(key=lambda f: (LEVEL_ORDER.index(f["level"]), f["academicYear"]))
     doc["fees"] = fees
-    order = ["name", "area", "city", "district", "address", "npsn", "levels", "curriculum", "religion",
+    order = ["name", "city", "district", "address", "npsn", "levels", "curriculum", "religion",
              "website", "phone", "fees", "admission"]
     doc = {k: doc[k] for k in order if k in doc}
     path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")

@@ -5,7 +5,7 @@ from seedlib import L, fee, upsert
 SRC = {"title": "9 Daftar Biaya Masuk SMP di Jakarta Pusat Tahun Ajaran 2026/2027 (Popmama)",
        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-masuk-smp-di-jakarta-pusat-tahun-ajaran-2026-2027-00-bbqjr-hzfm3q",
        "published": "2025-12-11"}
-C = dict(area="jabodetabek", city="Jakarta Pusat", level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
+C = dict(city="Jakarta Pusat", level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
 
 upsert("sekolah-bunda-mulia-petojo", name="Sekolah Bunda Mulia Petojo", district="Gambir",
        address="Jl. A.M. Sangaji No.20, Petojo Utara, Gambir, Jakarta Pusat", website="https://sbm.sch.id",

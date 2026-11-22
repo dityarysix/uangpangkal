@@ -6,7 +6,7 @@ from seedlib import L, fee, upsert, UNIFORM, ACTIVITY, BOOKS
 SRC = {"title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
        "published": "2025-12-01"}
-C = dict(area="jabodetabek", level="SMP", year="2026/2027", yearAssumed=True, source=SRC, checked="2026-11-22")
+C = dict(level="SMP", year="2026/2027", yearAssumed=True, source=SRC, checked="2026-11-22")
 TS = "Tangerang Selatan"
 
 upsert("smp-islam-al-azhar-25-setu", name="SMP Islam Al-Azhar 25", city=TS, district="Setu", religion="Islam",

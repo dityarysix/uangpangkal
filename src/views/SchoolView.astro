@@ -1,13 +1,13 @@
 ---
 import Base from '../layouts/Base.astro';
 import AdSlot from '../components/AdSlot.astro';
-import { areaBySlug } from '../lib/areas';
+import { areaOfCity } from '../lib/areas';
 import { t, paths, rupiah, CURRENT_YEAR, type Lang } from '../lib/i18n';
 import { latestFees, type School } from '../lib/schools';
 interface Props { lang: Lang; school: School }
 const { lang, school } = Astro.props;
 const d = school.data;
-const area = areaBySlug(d.area)!;
+const area = areaOfCity(d.city);
 const fees = latestFees(school);
 const period = (p: 'month' | 'quarter' | 'semester' | 'year') => t(lang, `perPeriod_${p}`);
 const prevYearStart = Number(CURRENT_YEAR.slice(0, 4)) - 1;
@@ -27,7 +27,7 @@ const jsonld = {
 ---
 <Base lang={lang} title={title} description={desc} altPath={paths.school(lang === 'id' ? 'en' : 'id', school.id)}>
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonld)} />
-  <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › <a href={paths.area(lang, d.area)}>{area.name[lang]}</a> › {d.name}</p>
+  <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › <a href={paths.area(lang, area.slug)}>{area.name[lang]}</a> › {d.name}</p>
   <h1>{d.name}</h1>
   <p class="muted">{d.address ?? `${d.district ? d.district + ', ' : ''}${d.city}`}</p>
   <p>

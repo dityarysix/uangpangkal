@@ -5,7 +5,7 @@ from seedlib import L, fee, upsert
 SRC = {"title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
        "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
        "published": "2025-12-12"}
-C = dict(area="jabodetabek", city="Jakarta Selatan", level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
+C = dict(city="Jakarta Selatan", level="SMP", year="2026/2027", source=SRC, checked="2026-11-22")
 WAVE = L("Terdapat diskon gelombang.", "Early-wave discounts available.")
 
 upsert("al-jabr-islamic-school", name="Al Jabr Islamic School", district="Cilandak", religion="Islam", curriculum=["Nasional Plus"],

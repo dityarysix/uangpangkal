@@ -5,7 +5,7 @@ from seedlib import L, fee, upsert, UNIFORM, ACTIVITY, BOOKS
 SRC = {"title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
        "published": "2026-02-10"}
-C = dict(area="jabodetabek", city="Depok", level="SD", year="2026/2027", source=SRC, checked="2026-11-22")
+C = dict(city="Depok", level="SD", year="2026/2027", source=SRC, checked="2026-11-22")
 
 upsert("ar-rahman-islamic-school-cinere", name="Ar-Rahman Islamic School Cinere", district="Cinere", religion="Islam",
        address="Jl. Bukit Cinere Raya No.15C, Gandul, Cinere, Depok", website="https://arrahman-islamic.sch.id",
