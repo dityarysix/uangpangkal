@@ -1,0 +1,33 @@
+{
+  "name": "SMA Citra Negara Depok",
+  "city": "Depok",
+  "district": "Beji",
+  "address": "Jl. Kemiri Jaya II No.99, Tanah Baru, Beji, Depok",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal dan SPP dari tabel artikel (dirangkum 12 Juni 2026). Konfirmasi ke sekolah.",
+        "en": "Entry fee and tuition from the article's table (compiled 12 June 2026). Confirm with the school."
+      },
+      "source": {
+        "title": "Tak Lolos SMA Negeri? Ini 8 SMA Swasta Akreditasi A di Depok dengan Biaya Masuk Mulai Rp2,7 Juta (Gebrak.id)",
+        "url": "https://www.gebrak.id/2026/06/tak-lolos-sma-negeri-ini-8-sma-swasta.html",
+        "published": "2026-06-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
