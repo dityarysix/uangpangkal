@@ -1,0 +1,141 @@
+{
+  "name": "Pondok Pesantren Darussalam Rajapolah Tasikmalaya",
+  "city": "Kabupaten Tasikmalaya",
+  "district": "Rajapolah",
+  "address": "Narunggul, Tanjungpura, Rajapolah, Kabupaten Tasikmalaya",
+  "levels": [
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://www.darussalam-tasik.or.id",
+  "phone": "0821-2632-7799",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 1000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total pembiayaan awal tahun",
+            "en": "Total start-of-year payment"
+          },
+          "amount": 4000000
+        }
+      ],
+      "notes": {
+        "id": "Pesantren (boarding) dengan sekolah formal SMP dan SMA. Uang pangkal = infaq pengembangan pondok dan uang pangkal Rp1.000.000. Total awal tahun Rp4.000.000 sudah termasuk uang makan Rp550.000 dan syahriyah Rp235.000, kegiatan, kesehatan, dll.",
+        "en": "Boarding pesantren with formal SMP and SMA. Entry fee = development donation and entry fee Rp1,000,000. The Rp4,000,000 start-of-year total includes meals Rp550,000 and syahriyah Rp235,000, activities, health, etc."
+      },
+      "source": {
+        "title": "Rincian Biaya Masuk PSB 2026–2027 — Pondok Pesantren Darussalam Rajapolah (situs resmi)",
+        "url": "https://psb.darussalam-tasik.or.id/informasi_rincian-biaya-masuk_pg-3.html"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 1000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total pembiayaan awal tahun",
+            "en": "Total start-of-year payment"
+          },
+          "amount": 4000000
+        }
+      ],
+      "notes": {
+        "id": "Pesantren (boarding) dengan sekolah formal SMP dan SMA. Uang pangkal = infaq pengembangan pondok dan uang pangkal Rp1.000.000. Total awal tahun Rp4.000.000 sudah termasuk uang makan Rp550.000 dan syahriyah Rp235.000, kegiatan, kesehatan, dll.",
+        "en": "Boarding pesantren with formal SMP and SMA. Entry fee = development donation and entry fee Rp1,000,000. The Rp4,000,000 start-of-year total includes meals Rp550,000 and syahriyah Rp235,000, activities, health, etc."
+      },
+      "source": {
+        "title": "Rincian Biaya Masuk PSB 2026–2027 — Pondok Pesantren Darussalam Rajapolah (situs resmi)",
+        "url": "https://psb.darussalam-tasik.or.id/informasi_rincian-biaya-masuk_pg-3.html"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "steps": [
+        {
+          "id": "Isi formulir PSB online",
+          "en": "Fill in the online admission form"
+        },
+        {
+          "id": "Bayar biaya pendaftaran dan konfirmasi pembayaran",
+          "en": "Pay the registration fee and confirm payment"
+        },
+        {
+          "id": "Dapatkan ID dan PIN, login akun PSB, cetak formulir",
+          "en": "Get an ID and PIN, log in, print the form"
+        },
+        {
+          "id": "Ikuti tes masuk",
+          "en": "Take the entrance test"
+        },
+        {
+          "id": "Lihat hasil penerimaan",
+          "en": "Check the result"
+        },
+        {
+          "id": "Daftar ulang, setor berkas, bayar biaya sekolah",
+          "en": "Re-register, submit documents, pay school fees"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "Rincian Biaya Masuk PSB 2026–2027 — Pondok Pesantren Darussalam Rajapolah (situs resmi)",
+        "url": "https://psb.darussalam-tasik.or.id/informasi_rincian-biaya-masuk_pg-3.html"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "steps": [
+        {
+          "id": "Isi formulir PSB online",
+          "en": "Fill in the online admission form"
+        },
+        {
+          "id": "Bayar biaya pendaftaran dan konfirmasi pembayaran",
+          "en": "Pay the registration fee and confirm payment"
+        },
+        {
+          "id": "Dapatkan ID dan PIN, login akun PSB, cetak formulir",
+          "en": "Get an ID and PIN, log in, print the form"
+        },
+        {
+          "id": "Ikuti tes masuk",
+          "en": "Take the entrance test"
+        },
+        {
+          "id": "Lihat hasil penerimaan",
+          "en": "Check the result"
+        },
+        {
+          "id": "Daftar ulang, setor berkas, bayar biaya sekolah",
+          "en": "Re-register, submit documents, pay school fees"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "Rincian Biaya Masuk PSB 2026–2027 — Pondok Pesantren Darussalam Rajapolah (situs resmi)",
+        "url": "https://psb.darussalam-tasik.or.id/informasi_rincian-biaya-masuk_pg-3.html"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

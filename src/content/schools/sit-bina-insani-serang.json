@@ -1,0 +1,290 @@
+{
+  "name": "SIT Bina Insani Serang",
+  "city": "Kabupaten Serang",
+  "district": "Waringinkurung",
+  "address": "Jl. Raya Waringinkurung Km. 4, Kabupaten Serang, Banten",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "curriculum": [
+    "Nasional"
+  ],
+  "religion": "Islam",
+  "website": "https://pmbsit.yabica.com/",
+  "phone": "0817-6560-665",
+  "fees": [
+    {
+      "level": "KB",
+      "academicYear": "2027/2028",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 3300000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM",
+            "en": "Learning activities (KBM)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pembangunan Rp2.300.000 + sapra Rp1.000.000. Total awal Rp5.400.000 (termasuk SPP bulan pertama). Play Group. TKIT Bina Insani 2: SPP Rp300.000 + KBM Rp1.500.000 saja.",
+        "en": "Entry fee = building donation Rp2,300,000 + facilities Rp1,000,000. Initial total Rp5,400,000 (incl. first month's tuition). Play group. TKIT Bina Insani 2: only tuition Rp300,000 + KBM Rp1,500,000."
+      },
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 3300000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM",
+            "en": "Learning activities (KBM)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pembangunan Rp2.300.000 + sapra Rp1.000.000. Total awal Rp5.400.000 (termasuk SPP bulan pertama). TK A. TKIT Bina Insani 2: SPP Rp300.000 + KBM Rp1.500.000 saja.",
+        "en": "Entry fee = building donation Rp2,300,000 + facilities Rp1,000,000. Initial total Rp5,400,000 (incl. first month's tuition). TK A. TKIT Bina Insani 2: only tuition Rp300,000 + KBM Rp1,500,000."
+      },
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 10800000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM",
+            "en": "Learning activities (KBM)"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pembangunan Rp6.600.000 + sapra Rp4.200.000. Total awal Rp13.450.000 (termasuk SPP bulan pertama). Sama untuk SDIT Bina Insani dan SDIT Bina Insani 2.",
+        "en": "Entry fee = building donation Rp6,600,000 + facilities Rp4,200,000. Initial total Rp13,450,000 (incl. first month's tuition). Same for SDIT Bina Insani and SDIT Bina Insani 2."
+      },
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 9800000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM",
+            "en": "Learning activities (KBM)"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pembangunan Rp6.600.000 + sapra Rp3.200.000. Total awal Rp13.850.000 (termasuk SPP bulan pertama). SMPIT Al Masykar Bina Insani. fullday. Boarding: SPP Rp1.750.000 (total Rp14.650.000).",
+        "en": "Entry fee = building donation Rp6,600,000 + facilities Rp3,200,000. Initial total Rp13,850,000 (incl. first month's tuition). SMPIT Al Masykar Bina Insani, full-day. Boarding: tuition Rp1,750,000 (total Rp14,650,000)."
+      },
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 4300000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM",
+            "en": "Learning activities (KBM)"
+          },
+          "amount": 2750000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pembangunan Rp2.800.000 + sapra Rp1.500.000. Total awal Rp7.650.000 (termasuk SPP bulan pertama). SMAIT Bina Insani. fullday. Boarding: SPP Rp1.000.000 (total Rp8.150.000).",
+        "en": "Entry fee = building donation Rp2,800,000 + facilities Rp1,500,000. Initial total Rp7,650,000 (incl. first month's tuition). SMAIT Bina Insani, full-day. Boarding: tuition Rp1,000,000 (total Rp8,150,000)."
+      },
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Dibuka 1 Oktober 2026.",
+        "en": "Opened 1 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Isi dan lengkapi formulir pendaftaran online, unggah persyaratan",
+          "en": "Fill in the online form and upload the requirements"
+        },
+        {
+          "id": "Bayar biaya pendaftaran Rp100.000",
+          "en": "Pay the Rp100,000 registration fee"
+        },
+        {
+          "id": "Ikuti tes observasi dan wawancara orang tua sesuai jadwal",
+          "en": "Attend the observation test and parent interview as scheduled"
+        },
+        {
+          "id": "Lihat hasil observasi sesuai jadwal",
+          "en": "Check the observation results on the scheduled date"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga",
+          "en": "Copy of family card"
+        }
+      ],
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Dibuka 1 Oktober 2026.",
+        "en": "Opened 1 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Isi dan lengkapi formulir pendaftaran online, unggah persyaratan",
+          "en": "Fill in the online form and upload the requirements"
+        },
+        {
+          "id": "Bayar biaya pendaftaran Rp100.000",
+          "en": "Pay the Rp100,000 registration fee"
+        },
+        {
+          "id": "Ikuti tes observasi dan wawancara orang tua sesuai jadwal",
+          "en": "Attend the observation test and parent interview as scheduled"
+        },
+        {
+          "id": "Lihat hasil observasi sesuai jadwal",
+          "en": "Check the observation results on the scheduled date"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga",
+          "en": "Copy of family card"
+        }
+      ],
+      "source": {
+        "title": "PMB SIT Bina Insani T.A. 2027/2028 (situs resmi YABICA)",
+        "url": "https://pmbsit.yabica.com/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

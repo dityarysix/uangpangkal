@@ -1,0 +1,114 @@
+{
+  "name": "SDIT Mutiara Insani Klaten",
+  "city": "Klaten",
+  "district": "Delanggu",
+  "address": "Jl. Kaswari, Gatak, Delanggu, Klaten",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://sditmutiarainsani.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 5250000,
+        "max": 6250000
+      },
+      "tuition": {
+        "amount": 325000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Perpustakaan",
+            "en": "Library"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 795000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 942000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pendidikan Rp1.000.000 + infaq pengembangan pilihan Rp4.250.000 / Rp4.750.000 / Rp5.250.000. Diskon 20% infaq pengembangan untuk lulusan TKIT Mutiara Insani. Kuota 2 rombel × 28 siswa.",
+        "en": "Entry fee = education donation Rp1,000,000 + development donation option Rp4,250,000 / Rp4,750,000 / Rp5,250,000. 20% development-donation discount for TKIT Mutiara Insani graduates. Quota 2 classes × 28."
+      },
+      "source": {
+        "title": "SPMB SDIT Mutiara Insani Tahun Ajaran 2027/2028 Dibuka (situs resmi)",
+        "url": "https://sditmutiarainsani.sch.id/spmb-sdit-mutiara-insani-tahun-ajaran-2027-2028-dibuka-saatnya-menyiapkan-pendidikan-terbaik-untuk-ananda/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Gelombang I: 19–24 Okt 2026 (TKIT Mutiara Insani/se-yayasan), 26–31 Okt 2026 (TK lain); gelombang II: 23–26 Nov 2026.",
+        "en": "Wave I: 19–24 Oct 2026 (TKIT Mutiara Insani/foundation), 26–31 Oct 2026 (other kindergartens); wave II: 23–26 Nov 2026."
+      },
+      "steps": [
+        {
+          "id": "Datang ke sekolah, ambil nomor antrean",
+          "en": "Come to the school and take a queue number"
+        },
+        {
+          "id": "Bayar biaya pendaftaran Rp200.000 dan isi formulir online",
+          "en": "Pay the Rp200,000 registration fee and fill in the online form"
+        },
+        {
+          "id": "Serahkan berkas pendaftaran",
+          "en": "Hand in the documents"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi rapor TK semester gasal 2026/2027 dilegalisir",
+          "en": "Legalised copy of the kindergarten report (odd semester 2026/2027)"
+        },
+        {
+          "id": "Fotokopi akta kelahiran (2 lembar)",
+          "en": "Copies of birth certificate (2)"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga (2 lembar)",
+          "en": "Copies of family card (2)"
+        },
+        {
+          "id": "Foto 3×4 (2 lembar)",
+          "en": "3×4 photos (2)"
+        }
+      ],
+      "source": {
+        "title": "SPMB SDIT Mutiara Insani Tahun Ajaran 2027/2028 Dibuka (situs resmi)",
+        "url": "https://sditmutiarainsani.sch.id/spmb-sdit-mutiara-insani-tahun-ajaran-2027-2028-dibuka-saatnya-menyiapkan-pendidikan-terbaik-untuk-ananda/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
