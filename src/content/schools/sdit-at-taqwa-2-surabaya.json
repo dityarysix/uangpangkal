@@ -1,0 +1,57 @@
+{
+  "name": "SDIT At-Taqwa 2 Surabaya",
+  "city": "Surabaya",
+  "district": "Wiyung",
+  "address": "Jl. Griya Babatan Mukti, Wiyung, Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://sekolahattaqwa.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 7875000
+      },
+      "tuition": {
+        "amount": 980000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pengembangan pendidikan",
+            "en": "Education development fund"
+          },
+          "amount": 1800000
+        },
+        {
+          "label": {
+            "id": "Uang peralatan",
+            "en": "Supplies"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1300000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq jariyah.",
+        "en": "Entry fee = infaq jariyah."
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Surabaya 24/25, Seharga DP Rumah (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/biaya-masuk-sd-swasta-di-surabaya-2024-2025-seharga-dp-rumah-01-7cxy7-0dtrhr",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

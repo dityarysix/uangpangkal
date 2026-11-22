@@ -1,0 +1,59 @@
+{
+  "name": "Sekolah Ciputra Surabaya",
+  "city": "Surabaya",
+  "address": "Citra Raya, Surabaya Barat",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "IB"
+  ],
+  "website": "https://sekolahciputra.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 21250000,
+        "max": 68500000
+      },
+      "tuition": {
+        "amount": 61910000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "DPP SD Rp21.250.000–Rp68.500.000; SPP tahunan Rp61.910.000–Rp68.110.000 (tergantung kelas).",
+        "en": "SD development fee Rp21,250,000–Rp68,500,000; annual tuition Rp61,910,000–Rp68,110,000 (depending on grade)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Surabaya 24/25, Seharga DP Rumah (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/biaya-masuk-sd-swasta-di-surabaya-2024-2025-seharga-dp-rumah-01-7cxy7-0dtrhr",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 2500000,
+      "entryFee": {
+        "min": 92990000
+      },
+      "tuition": {
+        "amount": 70900000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Perkiraan biaya menurut sumber. Uang pangkal = development fee.",
+        "en": "Estimated fees according to the source. Entry fee = development fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SD Swasta Terbaik di Surabaya 2025: Biaya, Fasilitas, dan Keunggulannya (Akurat)",
+        "url": "https://www.akurat.co/pendidikan/824267/10-sd-swasta-terbaik-di-surabaya-2025-biaya-fasilitas-dan-keunggulannya",
+        "published": "2025-12-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -10,14 +10,14 @@ CHK = "2026-11-22"
 
 # ---- SMP Santa Maria Surabaya ----
 SM = {"title": "SPMB SMP Santa Maria Surabaya TA 2027/2028 (situs resmi)", "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SMP-SURABAYA"}
-upsert("smp-santa-maria-surabaya", name="SMP Santa Maria Surabaya", city="Surabaya", religion="Katolik",
+upsert("sekolah-santa-maria-surabaya", name="Sekolah Santa Maria Surabaya", city="Surabaya", religion="Katolik",
        address="Jl. Raya Darmo No.49, Surabaya", website="https://ppdb.sanmarosu-jatim.sch.id",
        level="SMP", year="2027/2028", source=SM, checked=CHK,
        registrationFee=325_000, entryFee={"min": 14_200_000, "max": 16_200_000}, tuition={"amount": 1_400_000, "period": "month"},
        otherFees=[fee("Uang kegiatan", "Activity fee", 2_890_000)],
        notes=L("Uang pangkal = uang pengembangan dan sarana pendidikan. Jalur khusus (dari SD Santa Maria Surabaya/Sidoarjo): Rp14.200.000, SPP Rp1.400.000. Jalur prestasi: Rp15.200.000, SPP Rp1.500.000. Jalur umum I: Rp16.200.000, SPP Rp1.600.000. Potongan Rp500.000 per keluarga untuk saudara kandung; potongan 5% jika uang pengembangan dibayar lunas; cicilan 50% lalu 5 kali angsuran; potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027.",
                "Entry fee = development & facilities fee. Special track (from SD Santa Maria Surabaya/Sidoarjo): Rp14,200,000, tuition Rp1,400,000. Achievement track: Rp15,200,000, tuition Rp1,500,000. General track I: Rp16,200,000, tuition Rp1,600,000. Rp500,000 sibling discount per family; 5% off if the development fee is paid in full; or 50% upfront then 5 monthly instalments; 5% off if a full year's tuition is paid in July–August 2027."))
-add_admission("smp-santa-maria-surabaya", {"level": "SMP", "academicYear": "2027/2028",
+add_admission("sekolah-santa-maria-surabaya", {"level": "SMP", "academicYear": "2027/2028",
     "period": L("Tahap 1 (jalur prestasi): pendaftaran 1–10 September 2026; tes literasi dan numerasi 12 September 2026.", "Stage 1 (achievement track): registration 1–10 September 2026; literacy and numeracy test 12 September 2026."),
     "steps": [L("Daftar di ppdb.sanmarosu-jatim.sch.id.", "Register at ppdb.sanmarosu-jatim.sch.id."),
               L("Beli formulir SPMB Rp325.000 via VA BCA.", "Buy the SPMB form (Rp325,000) via BCA virtual account."),

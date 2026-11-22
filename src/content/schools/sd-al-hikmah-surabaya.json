@@ -1,0 +1,75 @@
+{
+  "name": "SD Al Hikmah Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 34000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pengembangan pendidikan",
+            "en": "Education development fund"
+          },
+          "amount": 2850000
+        },
+        {
+          "label": {
+            "id": "Biaya penyelenggaraan pendidikan",
+            "en": "Education operating fee"
+          },
+          "amount": 2200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq. Total Rp39,05 juta belum termasuk seragam dan buku.",
+        "en": "Entry fee = infaq. Total Rp39.05 million excluding uniforms and books."
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Surabaya 24/25, Seharga DP Rumah (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/biaya-masuk-sd-swasta-di-surabaya-2024-2025-seharga-dp-rumah-01-7cxy7-0dtrhr",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 30500000
+      },
+      "tuition": {
+        "amount": 1900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya pengembangan pendidikan",
+            "en": "Education development fee"
+          },
+          "amount": 2500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq.",
+        "en": "Entry fee = infaq."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Surabaya Terbaik, Lengkap dengan Rincian Biayanya (Mamikita)",
+        "url": "https://mamikita.com/sd-swasta-di-surabaya/",
+        "published": "2024-02-25"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

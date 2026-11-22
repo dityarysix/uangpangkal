@@ -1,0 +1,246 @@
+{
+  "name": "Sekolah Santa Maria Surabaya",
+  "city": "Surabaya",
+  "address": "Jl. Raya Darmo No.49, Surabaya",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Katolik",
+  "website": "https://ppdb.sanmarosu-jatim.sch.id",
+  "fees": [
+    {
+      "level": "KB",
+      "academicYear": "2027/2028",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 1100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pengembangan/gedung dibayar sekali, berlaku sampai lulus TK B. SPP disesuaikan saat masuk TK A. Potongan 5% jika uang pengembangan dibayar lunas (plus 1 pasang seragam olahraga); potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027. Belum termasuk seragam.",
+        "en": "The development/building fee is paid once and covers up to TK B graduation. Tuition is adjusted on entering TK A. 5% off if the development fee is paid in full (plus one free sports uniform); 5% off if a full year's tuition is paid in July–August 2027. Uniforms not included."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Kb Surabaya TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/KB-SURABAYA"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 11000000
+      },
+      "tuition": {
+        "amount": 1150000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan TK A",
+            "en": "Activity fee TK A"
+          },
+          "amount": 2800000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan TK B",
+            "en": "Activity fee TK B"
+          },
+          "amount": 3000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pengembangan/gedung dibayar sekali, berlaku sampai lulus TK B. Potongan 5% jika uang pengembangan dibayar lunas (plus 1 pasang seragam olahraga); potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027. Belum termasuk seragam.",
+        "en": "The development/building fee is paid once and covers up to TK B graduation. 5% off if the development fee is paid in full (plus one free sports uniform); 5% off if a full year's tuition is paid in July–August 2027. Uniforms not included."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Tk Surabaya TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/TK-SURABAYA"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 275000,
+      "entryFee": {
+        "min": 16200000,
+        "max": 17200000
+      },
+      "tuition": {
+        "amount": 1250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2440000
+        }
+      ],
+      "notes": {
+        "id": "Jalur khusus (dari TK Santa Maria Surabaya / TK Santa Maria II Sidoarjo): UPP Rp16.200.000, SPP Rp1.250.000. Jalur peminatan (TK lain, daftar s.d. 9 Agustus 2026): Rp16.700.000, SPP Rp1.275.000. Jalur umum: Rp17.200.000, SPP Rp1.300.000. Potongan Rp300.000 untuk pendaftar awal tertentu; potongan keluarga Rp500.000. Potongan 5% jika uang pengembangan dibayar lunas (plus 1 pasang seragam olahraga); potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027. Belum termasuk seragam. Belum termasuk buku paket.",
+        "en": "Special track (from TK Santa Maria Surabaya / TK Santa Maria II Sidoarjo): development fee Rp16,200,000, tuition Rp1,250,000. Interest track (other kindergartens, registered by 9 August 2026): Rp16,700,000, tuition Rp1,275,000. General track: Rp17,200,000, tuition Rp1,300,000. Rp300,000 off for certain early registrants; Rp500,000 family discount. 5% off if the development fee is paid in full (plus one free sports uniform); 5% off if a full year's tuition is paid in July–August 2027. Uniforms not included. Textbooks not included."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Sd Surabaya TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SD-SURABAYA"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 325000,
+      "entryFee": {
+        "min": 14200000,
+        "max": 16200000
+      },
+      "tuition": {
+        "amount": 1400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2890000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = uang pengembangan dan sarana pendidikan. Jalur khusus (dari SD Santa Maria Surabaya/Sidoarjo): Rp14.200.000, SPP Rp1.400.000. Jalur prestasi: Rp15.200.000, SPP Rp1.500.000. Jalur umum I: Rp16.200.000, SPP Rp1.600.000. Potongan Rp500.000 per keluarga untuk saudara kandung; potongan 5% jika uang pengembangan dibayar lunas; cicilan 50% lalu 5 kali angsuran; potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027.",
+        "en": "Entry fee = development & facilities fee. Special track (from SD Santa Maria Surabaya/Sidoarjo): Rp14,200,000, tuition Rp1,400,000. Achievement track: Rp15,200,000, tuition Rp1,500,000. General track I: Rp16,200,000, tuition Rp1,600,000. Rp500,000 sibling discount per family; 5% off if the development fee is paid in full; or 50% upfront then 5 monthly instalments; 5% off if a full year's tuition is paid in July–August 2027."
+      },
+      "source": {
+        "title": "SPMB SMP Santa Maria Surabaya TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SMP-SURABAYA"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 19300000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan 1 tahun kelas X",
+            "en": "Grade 10 activity fee (1 year)"
+          },
+          "amount": 3300000
+        }
+      ],
+      "notes": {
+        "id": "Biaya jalur umum II. Belum termasuk seragam.",
+        "en": "General track II fees. Uniforms not included."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Sma Surabaya TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SMA-SURABAYA"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Tahap 1 (jalur prestasi): pendaftaran 1–10 September 2026; tes literasi dan numerasi 12 September 2026.",
+        "en": "Stage 1 (achievement track): registration 1–10 September 2026; literacy and numeracy test 12 September 2026."
+      },
+      "steps": [
+        {
+          "id": "Daftar di ppdb.sanmarosu-jatim.sch.id.",
+          "en": "Register at ppdb.sanmarosu-jatim.sch.id."
+        },
+        {
+          "id": "Beli formulir SPMB Rp325.000 via VA BCA.",
+          "en": "Buy the SPMB form (Rp325,000) via BCA virtual account."
+        },
+        {
+          "id": "Isi data dan unggah berkas (scan/foto dokumen asli, maks. 1 MB).",
+          "en": "Enter details and upload documents (scans/photos of originals, max 1 MB)."
+        },
+        {
+          "id": "Ikuti tes literasi dan numerasi (Bahasa Indonesia dan Matematika kelas 5 SD).",
+          "en": "Take the literacy and numeracy test (grade 5 Indonesian and maths)."
+        },
+        {
+          "id": "Diterima jika lolos filter akademis dan filter keuangan (uang pengembangan dan uang kegiatan lunas).",
+          "en": "Accepted once both the academic filter and the financial filter (development and activity fees paid) are passed."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Surat pernyataan bermaterai Rp10.000",
+          "en": "Signed statement with Rp10,000 duty stamp"
+        },
+        {
+          "id": "Rapor kelas IV dan V semester 1 dan 2",
+          "en": "Grade 4 and 5 report cards, both semesters"
+        },
+        {
+          "id": "Kartu Keluarga",
+          "en": "Family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Akta kelahiran",
+          "en": "Birth certificate"
+        },
+        {
+          "id": "Surat baptis Katolik (bagi yang sudah dibaptis)",
+          "en": "Catholic baptism certificate (if baptised)"
+        },
+        {
+          "id": "Foto berwarna terbaru",
+          "en": "Recent colour photo"
+        },
+        {
+          "id": "Piagam penghargaan (jalur prestasi non-akademis)",
+          "en": "Award certificates (non-academic achievement track)"
+        }
+      ],
+      "test": {
+        "id": "Tes literasi dan numerasi.",
+        "en": "Literacy and numeracy test."
+      },
+      "source": {
+        "title": "SPMB SMP Santa Maria Surabaya TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SMP-SURABAYA"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

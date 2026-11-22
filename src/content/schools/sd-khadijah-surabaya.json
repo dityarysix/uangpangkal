@@ -1,0 +1,56 @@
+{
+  "name": "SD Khadijah Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 11000000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq. Sumber tidak menyebut kampus.",
+        "en": "Entry fee = infaq. The source does not name the campus."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Surabaya Terbaik, Lengkap dengan Rincian Biayanya (Mamikita)",
+        "url": "https://mamikita.com/sd-swasta-di-surabaya/",
+        "published": "2024-02-25"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

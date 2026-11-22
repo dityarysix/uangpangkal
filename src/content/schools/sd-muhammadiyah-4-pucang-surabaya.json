@@ -1,0 +1,59 @@
+{
+  "name": "SD Muhammadiyah 4 Pucang Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "religion": "Islam",
+  "website": "https://mudipat.co",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 16500000,
+        "max": 17000000
+      },
+      "tuition": {
+        "amount": 1450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kegiatan sekolah (reguler)",
+            "en": "School activity fee (regular)"
+          },
+          "amount": 3850000
+        },
+        {
+          "label": {
+            "id": "Seragam & perlengkapan putra",
+            "en": "Uniforms & supplies (boys)"
+          },
+          "amount": 2970000
+        },
+        {
+          "label": {
+            "id": "Seragam & perlengkapan putri",
+            "en": "Uniforms & supplies (girls)"
+          },
+          "amount": 3810000
+        }
+      ],
+      "notes": {
+        "id": "Program reguler: DPP Rp16,5 juta, SPP Rp1,45 juta, BKS Rp3,85 juta (total masuk putra Rp24,7 juta / putri Rp25,6 juta). Program Cambridge: DPP Rp17 juta, SPP Rp1,75 juta, BKS Rp4,61 juta (total Rp26,335 juta / Rp27,175 juta).",
+        "en": "Regular programme: development fee Rp16.5M, tuition Rp1.45M, activity fee Rp3.85M (total on entry boys Rp24.7M / girls Rp25.6M). Cambridge programme: Rp17M, Rp1.75M, Rp4.61M (total Rp26.335M / Rp27.175M)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Surabaya 24/25, Seharga DP Rumah (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/biaya-masuk-sd-swasta-di-surabaya-2024-2025-seharga-dp-rumah-01-7cxy7-0dtrhr",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

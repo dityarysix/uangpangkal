@@ -1,0 +1,172 @@
+{
+  "name": "Sekolah Santa Maria II Sidoarjo",
+  "city": "Sidoarjo",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP"
+  ],
+  "religion": "Katolik",
+  "website": "https://ppdb.sanmarosu-jatim.sch.id",
+  "fees": [
+    {
+      "level": "KB",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 6375000,
+        "max": 8000000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan KB A",
+            "en": "Activity fee KB A"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan KB B",
+            "en": "Activity fee KB B"
+          },
+          "amount": 1400000
+        }
+      ],
+      "notes": {
+        "id": "Uang sarana dan pengembangan: early bird / jalur expo Rp6.375.000; gelombang 1 Rp7.500.000; gelombang 2 Rp8.000.000. Seragam ± Rp500.000. Ada saudara kandung yang masuk di tahun yang sama: potongan uang pengembangan Rp500.000 per keluarga. Potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027.",
+        "en": "Facilities & development fee: early bird / expo track Rp6,375,000; wave 1 Rp7,500,000; wave 2 Rp8,000,000. Uniforms ~Rp500,000. Sibling entering the same year: Rp500,000 off the development fee per family. 5% off if a full year's tuition is paid in July–August 2027."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Kb Sidoarjo TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/KB-SIDOARJO"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 5950000,
+        "max": 7500000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan TK A",
+            "en": "Activity fee TK A"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan TK B",
+            "en": "Activity fee TK B"
+          },
+          "amount": 1700000
+        }
+      ],
+      "notes": {
+        "id": "Uang sarana dan pengembangan: early bird / jalur expo Rp5.950.000; gelombang 1 Rp7.000.000; gelombang 2 Rp7.500.000 (berlaku sampai lulus TK B). Seragam ± Rp500.000. Ada saudara kandung yang masuk di tahun yang sama: potongan uang pengembangan Rp500.000 per keluarga. Potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027.",
+        "en": "Facilities & development fee: early bird / expo track Rp5,950,000; wave 1 Rp7,000,000; wave 2 Rp7,500,000 (covers up to TK B). Uniforms ~Rp500,000. Sibling entering the same year: Rp500,000 off the development fee per family. 5% off if a full year's tuition is paid in July–August 2027."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Tk Sidoarjo TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/TK-SIDOARJO"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 225000,
+      "entryFee": {
+        "min": 9000000,
+        "max": 10000000
+      },
+      "tuition": {
+        "amount": 855000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 1850000
+        },
+        {
+          "label": {
+            "id": "Seragam (perkiraan)",
+            "en": "Uniforms (approx.)"
+          },
+          "amount": 900000
+        },
+        {
+          "label": {
+            "id": "Buku (perkiraan)",
+            "en": "Books (approx.)"
+          },
+          "amount": 650000
+        }
+      ],
+      "notes": {
+        "id": "Gelombang 1: jalur khusus (dari TK Santa Maria) Rp9.000.000 dengan SPP Rp855.000; jalur umum Rp10.000.000 dengan SPP Rp900.000. Gelombang 2 jalur khusus Rp10.000.000, SPP Rp900.000. Potongan 5% jika uang pengembangan lunas. Ada saudara kandung yang masuk di tahun yang sama: potongan uang pengembangan Rp500.000 per keluarga. Potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027.",
+        "en": "Wave 1: special track (from TK Santa Maria) Rp9,000,000 with tuition Rp855,000; general track Rp10,000,000 with tuition Rp900,000. Wave 2 special track Rp10,000,000, tuition Rp900,000. 5% off if the development fee is paid in full. Sibling entering the same year: Rp500,000 off the development fee per family. 5% off if a full year's tuition is paid in July–August 2027."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Sd Sidoarjo TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SD-SIDOARJO"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 1905000
+        },
+        {
+          "label": {
+            "id": "Seragam (perkiraan)",
+            "en": "Uniforms (approx.)"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Gelombang II: jalur khusus SPP Rp900.000; jalur umum SPP Rp950.000. Uang pengembangan bisa dicicil (50% lalu 5 kali angsuran); lunas dapat potongan 5% dan 1 stel seragam olahraga. Ada saudara kandung yang masuk di tahun yang sama: potongan uang pengembangan Rp500.000 per keluarga. Potongan 5% jika SPP 1 tahun dilunasi Juli–Agustus 2027.",
+        "en": "Wave II: special track tuition Rp900,000; general track Rp950,000. Development fee can be paid in instalments (50%, then 5 monthly payments); paying in full gets 5% off and a sports uniform. Sibling entering the same year: Rp500,000 off the development fee per family. 5% off if a full year's tuition is paid in July–August 2027."
+      },
+      "source": {
+        "title": "SPMB Santa Maria Smp Sidoarjo TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.sanmarosu-jatim.sch.id/profile/SMP-SIDOARJO"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

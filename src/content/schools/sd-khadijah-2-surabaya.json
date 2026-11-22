@@ -1,0 +1,70 @@
+{
+  "name": "SD Khadijah 2 Surabaya",
+  "city": "Surabaya",
+  "address": "Jl. Darmo Permai Selatan V/61-63, Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 9500000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activity fee per year"
+          },
+          "amount": 900000
+        },
+        {
+          "label": {
+            "id": "Buku per tahun",
+            "en": "Books per year"
+          },
+          "amount": 1250000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1400000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Kegiatan ICP",
+            "en": "ICP activities"
+          },
+          "amount": 1700000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq. Total kelas reguler Rp14.150.000 (putra) / Rp14.250.000 (putri); kelas ICP Rp15.850.000 / Rp15.950.000. Inden Rp1.000.000 memberi potongan infaq Rp1.000.000 (sampai 30 September 2024).",
+        "en": "Entry fee = infaq. Regular class total Rp14,150,000 (boys) / Rp14,250,000 (girls); ICP class Rp15,850,000 / Rp15,950,000. An Rp1,000,000 early deposit gave Rp1,000,000 off the infaq (until 30 September 2024)."
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Surabaya 24/25, Seharga DP Rumah (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/biaya-masuk-sd-swasta-di-surabaya-2024-2025-seharga-dp-rumah-01-7cxy7-0dtrhr",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

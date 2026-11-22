@@ -1,0 +1,30 @@
+{
+  "name": "SMP SIG (Semen Gresik)",
+  "city": "Gresik",
+  "district": "Kebomas",
+  "address": "Kebomas, Gresik",
+  "levels": [
+    "SMP"
+  ],
+  "website": "https://ppdb.smpsemengresik.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 0,
+      "entryFee": {
+        "min": 6350000,
+        "max": 7500000
+      },
+      "notes": {
+        "id": "Biaya masuk normal Rp7.500.000; potongan menurut gelombang dan kategori (mis. gelombang 1 Rp7.000.000; anak keluarga SIG gelombang 1 Rp6.350.000) plus gratis SPP 1–3 bulan. Gratis formulir, seragam, ekstrakurikuler, ujian, dan daftar ulang kenaikan kelas. Besaran SPP tidak dicantumkan.",
+        "en": "Normal entry fee Rp7,500,000; discounts by wave and category (e.g. wave 1 Rp7,000,000; SIG employees' children in wave 1 Rp6,350,000) plus 1–3 months' free tuition. Free form, uniforms, extracurriculars, exams and annual re-registration. Monthly tuition not listed."
+      },
+      "source": {
+        "title": "SPMB SMP SIG (Semen Gresik) TA 2027/2028 (situs resmi)",
+        "url": "https://ppdb.smpsemengresik.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

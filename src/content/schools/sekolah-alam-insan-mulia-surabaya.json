@@ -1,0 +1,73 @@
+{
+  "name": "Sekolah Alam Insan Mulia (SAIM) Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Sekolah Alam"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 26000000
+      },
+      "tuition": {
+        "amount": 2160000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang",
+            "en": "Re-registration"
+          },
+          "amount": 3800000
+        },
+        {
+          "label": {
+            "id": "Iuran Forsaim",
+            "en": "Forsaim contribution"
+          },
+          "amount": 10000
+        }
+      ],
+      "notes": {
+        "id": "Bisa dicicil: pembayaran awal Rp10.410.000 lalu 5 termin @Rp3.120.000.",
+        "en": "Can be paid in instalments: Rp10,410,000 upfront then 5 instalments of Rp3,120,000."
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Surabaya 24/25, Seharga DP Rumah (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/biaya-masuk-sd-swasta-di-surabaya-2024-2025-seharga-dp-rumah-01-7cxy7-0dtrhr",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan biaya menurut sumber.",
+        "en": "Estimated fees according to the source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SD Swasta Terbaik di Surabaya 2025: Biaya, Fasilitas, dan Keunggulannya (Akurat)",
+        "url": "https://www.akurat.co/pendidikan/824267/10-sd-swasta-terbaik-di-surabaya-2025-biaya-fasilitas-dan-keunggulannya",
+        "published": "2025-12-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

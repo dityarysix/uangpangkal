@@ -12,6 +12,25 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 20000000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "notes": {
+        "id": "Perkiraan biaya menurut sumber. Pendaftaran sekitar Rp20 juta, uang gedung Rp30 juta, SPP tahunan \"relatif tinggi\".",
+        "en": "Estimated fees according to the source. Registration about Rp20M, building fee Rp30M, annual tuition \"relatively high\"."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SD Swasta Terbaik di Surabaya 2025: Biaya, Fasilitas, dan Keunggulannya (Akurat)",
+        "url": "https://www.akurat.co/pendidikan/824267/10-sd-swasta-terbaik-di-surabaya-2025-biaya-fasilitas-dan-keunggulannya",
+        "published": "2025-12-16"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 2700000,
       "entryFee": {

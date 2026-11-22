@@ -10,6 +10,29 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 31000000
+      },
+      "tuition": {
+        "amount": 2200000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan biaya menurut sumber.",
+        "en": "Estimated fees according to the source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "10 SD Swasta Terbaik di Surabaya 2025: Biaya, Fasilitas, dan Keunggulannya (Akurat)",
+        "url": "https://www.akurat.co/pendidikan/824267/10-sd-swasta-terbaik-di-surabaya-2025-biaya-fasilitas-dan-keunggulannya",
+        "published": "2025-12-16"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 350000,
       "entryFee": {
