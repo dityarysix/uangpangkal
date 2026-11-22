@@ -1,0 +1,456 @@
+{
+  "name": "Nurul Fikri Islamic School Depok",
+  "city": "Depok",
+  "district": "Cimanggis",
+  "address": "Jl. Tugu Raya No.61, Tugu, Cimanggis, Depok",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.nurulfikri.sch.id",
+  "phone": "+62 872 0645 / psb@nurulfikri.sch.id",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 6000000,
+        "max": 9000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pendidikan (sekali bayar)",
+            "en": "Education fund (one-off)"
+          },
+          "amount": 9000000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1400000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1700000
+        }
+      ],
+      "notes": {
+        "id": "Dana pengembangan (uang pangkal) dan dana pendidikan dibayar satu kali selama di jenjang tersebut; dana pendidikan termasuk sarana dan bahan ajar tahun pertama. SPP dibayar mulai Juli dan belum termasuk katering dan antar jemput; besaran SPP tidak dicantumkan di situs. PG/TK A: dana pengembangan Rp9.000.000, dana pendidikan Rp9.000.000. TK B: Rp6.000.000 dan Rp8.000.000. Biaya pendaftaran: Rp500.000 (dari luar Nurul Fikri). Rp400.000 (dari Nurul Fikri). Rp250.000 (anak pegawai).",
+        "en": "The development fund (entry fee) and education fund are paid once per school level; the education fund covers first-year facilities and learning materials. Tuition starts in July and excludes catering and transport; the tuition amount is not published on the site. Playgroup/TK A: development fund Rp9,000,000, education fund Rp9,000,000. TK B: Rp6,000,000 and Rp8,000,000. Registration: Rp500,000 (external), Rp400,000 (from Nurul Fikri), Rp250,000 (staff children)."
+      },
+      "source": {
+        "title": "Biaya Pendidikan TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 22500000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pendidikan",
+            "en": "Education fund"
+          },
+          "amount": 14000000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1900000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2500000
+        },
+        {
+          "label": {
+            "id": "Dana tahunan (tahun berikutnya)",
+            "en": "Annual fee (following years)"
+          },
+          "amount": 3750000
+        }
+      ],
+      "notes": {
+        "id": "Pendaftaran Rp500.000–Rp650.000. Uang pangkal = dana pengembangan. SPP tidak dicantumkan sumber.",
+        "en": "Registration Rp500,000–Rp650,000. Entry fee = development fund. Tuition not stated by the source."
+      },
+      "source": {
+        "title": "10 Biaya Sekolah SD Swasta di Depok untuk Tahun Ajaran 2026/2027 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/biaya-sekolah-sd-swasta-di-depok-tahun-ajaran-2026-2027-00-bbqjr-302fg6",
+        "published": "2026-02-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 650000,
+      "entryFee": {
+        "min": 22500000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pendidikan (sekali bayar)",
+            "en": "Education fund (one-off)"
+          },
+          "amount": 14000000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2600000
+        }
+      ],
+      "notes": {
+        "id": "Dana pengembangan (uang pangkal) dan dana pendidikan dibayar satu kali selama di jenjang tersebut; dana pendidikan termasuk sarana dan bahan ajar tahun pertama. SPP dibayar mulai Juli dan belum termasuk katering dan antar jemput; besaran SPP tidak dicantumkan di situs. Biaya pendaftaran: Rp650.000 (dari luar Nurul Fikri). Rp500.000 (dari Nurul Fikri). Rp325.000 (anak pegawai).",
+        "en": "The development fund (entry fee) and education fund are paid once per school level; the education fund covers first-year facilities and learning materials. Tuition starts in July and excludes catering and transport; the tuition amount is not published on the site. Registration: Rp650,000 (external), Rp500,000 (from Nurul Fikri), Rp325,000 (staff children)."
+      },
+      "source": {
+        "title": "Biaya Pendidikan TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 850000,
+      "entryFee": {
+        "min": 22500000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pendidikan (sekali bayar)",
+            "en": "Education fund (one-off)"
+          },
+          "amount": 16000000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2100000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 3000000
+        }
+      ],
+      "notes": {
+        "id": "Dana pengembangan (uang pangkal) dan dana pendidikan dibayar satu kali selama di jenjang tersebut; dana pendidikan termasuk sarana dan bahan ajar tahun pertama. SPP dibayar mulai Juli dan belum termasuk katering dan antar jemput; besaran SPP tidak dicantumkan di situs. Biaya pendaftaran: Rp850.000 (dari luar Nurul Fikri). Rp550.000 (dari Nurul Fikri). Rp425.000 (anak pegawai).",
+        "en": "The development fund (entry fee) and education fund are paid once per school level; the education fund covers first-year facilities and learning materials. Tuition starts in July and excludes catering and transport; the tuition amount is not published on the site. Registration: Rp850,000 (external), Rp550,000 (from Nurul Fikri), Rp425,000 (staff children)."
+      },
+      "source": {
+        "title": "Biaya Pendidikan TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/biaya"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 900000,
+      "entryFee": {
+        "min": 22500000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana pendidikan (sekali bayar)",
+            "en": "Education fund (one-off)"
+          },
+          "amount": 16000000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2200000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 3000000
+        }
+      ],
+      "notes": {
+        "id": "Dana pengembangan (uang pangkal) dan dana pendidikan dibayar satu kali selama di jenjang tersebut; dana pendidikan termasuk sarana dan bahan ajar tahun pertama. SPP dibayar mulai Juli dan belum termasuk katering dan antar jemput; besaran SPP tidak dicantumkan di situs. Biaya pendaftaran: Rp900.000 (dari luar Nurul Fikri). Rp550.000 (dari Nurul Fikri). Rp450.000 (anak pegawai).",
+        "en": "The development fund (entry fee) and education fund are paid once per school level; the education fund covers first-year facilities and learning materials. Tuition starts in July and excludes catering and transport; the tuition amount is not published on the site. Registration: Rp900,000 (external), Rp550,000 (from Nurul Fikri), Rp450,000 (staff children)."
+      },
+      "source": {
+        "title": "Biaya Pendidikan TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/biaya"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran online dibuka 8 Agustus 2026. Siswa dari luar Nurul Fikri: gelombang I seleksi 17 Oktober 2026; gelombang II seleksi 14 November 2026 (pengumuman 26 November); gelombang III seleksi 5 Desember 2026 (pengumuman 17 Desember). Gelombang II dan III hanya dibuka jika kuota masih tersedia.",
+        "en": "Online registration opened 8 August 2026. External applicants: wave I selection 17 October 2026; wave II selection 14 November 2026 (results 26 November); wave III selection 5 December 2026 (results 17 December). Waves II and III open only if places remain."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di ppdb.nurulfikri.sch.id.",
+          "en": "Register online at ppdb.nurulfikri.sch.id."
+        },
+        {
+          "id": "Bayar biaya pendaftaran.",
+          "en": "Pay the registration fee."
+        },
+        {
+          "id": "Unggah dokumen maksimal 5 hari setelah pembayaran.",
+          "en": "Upload documents within 5 days of payment."
+        },
+        {
+          "id": "Ikuti seleksi sesuai jadwal (offline).",
+          "en": "Attend the selection on the scheduled date (in person)."
+        },
+        {
+          "id": "Pengumuman hasil, lalu daftar ulang dengan membayar biaya pendidikan.",
+          "en": "Results are announced; then re-register by paying the education fees."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan Kartu Keluarga",
+          "en": "Scan of the family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Scan akta kelahiran",
+          "en": "Scan of the birth certificate"
+        }
+      ],
+      "test": {
+        "id": "Observasi (dibantu psikolog) dan wawancara orang tua.",
+        "en": "Observation (with a psychologist) and parent interview."
+      },
+      "notes": {
+        "id": "Usia: PG lahir Juli 2023–Juni 2024; TK A lahir Juli 2022–Juni 2023; TK B lahir Juli 2021–Juni 2022.",
+        "en": "Age: Playgroup born July 2023–June 2024; TK A born July 2022–June 2023; TK B born July 2021–June 2022."
+      },
+      "source": {
+        "title": "Jadwal Tes & Syarat Pendaftaran TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/jadwal"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran online dibuka 8 Agustus 2026. Siswa dari luar Nurul Fikri: gelombang I seleksi 17–18 Oktober 2026; gelombang II seleksi 14 November 2026 (pengumuman 26 November); gelombang III seleksi 5 Desember 2026 (pengumuman 17 Desember). Gelombang II dan III hanya dibuka jika kuota masih tersedia.",
+        "en": "Online registration opened 8 August 2026. External applicants: wave I selection 17–18 October 2026; wave II selection 14 November 2026 (results 26 November); wave III selection 5 December 2026 (results 17 December). Waves II and III open only if places remain."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di ppdb.nurulfikri.sch.id.",
+          "en": "Register online at ppdb.nurulfikri.sch.id."
+        },
+        {
+          "id": "Bayar biaya pendaftaran.",
+          "en": "Pay the registration fee."
+        },
+        {
+          "id": "Unggah dokumen maksimal 5 hari setelah pembayaran.",
+          "en": "Upload documents within 5 days of payment."
+        },
+        {
+          "id": "Ikuti seleksi sesuai jadwal (offline).",
+          "en": "Attend the selection on the scheduled date (in person)."
+        },
+        {
+          "id": "Pengumuman hasil, lalu daftar ulang dengan membayar biaya pendidikan.",
+          "en": "Results are announced; then re-register by paying the education fees."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan Kartu Keluarga",
+          "en": "Scan of the family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Scan akta kelahiran",
+          "en": "Scan of the birth certificate"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter (tinggi & berat badan, tekanan darah, penyakit kronis, alergi), diunggah sebelum seleksi",
+          "en": "Doctor's health certificate (height, weight, blood pressure, chronic illness, allergies), uploaded before the selection"
+        }
+      ],
+      "test": {
+        "id": "Psikotes dan wawancara orang tua; tes akademik untuk siswa pindahan.",
+        "en": "Psychological test and parent interview; academic test for transfer students."
+      },
+      "notes": {
+        "id": "Usia minimal 5 tahun 10 bulan pada Juli 2027 (lahir paling lambat Oktober 2021).",
+        "en": "Minimum age 5 years 10 months in July 2027 (born no later than October 2021)."
+      },
+      "source": {
+        "title": "Jadwal Tes & Syarat Pendaftaran TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/jadwal"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran online dibuka 8 Agustus 2026. Siswa dari luar Nurul Fikri: gelombang I seleksi 10, 11, 17 dan 18 Oktober 2026; gelombang II seleksi 14 November 2026 (pengumuman 26 November); gelombang III seleksi 5 Desember 2026 (pengumuman 17 Desember). Gelombang II dan III hanya dibuka jika kuota masih tersedia.",
+        "en": "Online registration opened 8 August 2026. External applicants: wave I selection 10, 11, 17 and 18 October 2026; wave II selection 14 November 2026 (results 26 November); wave III selection 5 December 2026 (results 17 December). Waves II and III open only if places remain."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di ppdb.nurulfikri.sch.id.",
+          "en": "Register online at ppdb.nurulfikri.sch.id."
+        },
+        {
+          "id": "Bayar biaya pendaftaran.",
+          "en": "Pay the registration fee."
+        },
+        {
+          "id": "Unggah dokumen maksimal 5 hari setelah pembayaran.",
+          "en": "Upload documents within 5 days of payment."
+        },
+        {
+          "id": "Ikuti seleksi sesuai jadwal (offline).",
+          "en": "Attend the selection on the scheduled date (in person)."
+        },
+        {
+          "id": "Pengumuman hasil, lalu daftar ulang dengan membayar biaya pendidikan.",
+          "en": "Results are announced; then re-register by paying the education fees."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan Kartu Keluarga",
+          "en": "Scan of the family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Scan akta kelahiran",
+          "en": "Scan of the birth certificate"
+        },
+        {
+          "id": "Scan rapor SD kelas 4 dan 5; nilai PAI, Bahasa Indonesia, Matematika, IPA, IPS diinput di situs",
+          "en": "Scan of grade 4 and 5 report cards; enter Islamic studies, Indonesian, maths, science and social studies grades on the site"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter (tinggi & berat badan, tekanan darah, penyakit kronis, alergi), diunggah sebelum seleksi",
+          "en": "Doctor's health certificate (height, weight, blood pressure, chronic illness, allergies), uploaded before the selection"
+        }
+      ],
+      "test": {
+        "id": "Psikotes, tes potensi akademik (matematika, literasi, IPA, IPS), wawancara orang tua dan wawancara siswa.",
+        "en": "Psychological test, academic aptitude test (maths, literacy, science, social studies), parent interview and student interview."
+      },
+      "source": {
+        "title": "Jadwal Tes & Syarat Pendaftaran TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/jadwal"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran online dibuka 8 Agustus 2026. Siswa dari luar Nurul Fikri: gelombang I seleksi 26–27 September dan 3, 4, 10, 11 Oktober 2026; gelombang II seleksi 14 November 2026 (pengumuman 26 November); gelombang III seleksi 5 Desember 2026 (pengumuman 17 Desember). Gelombang II dan III hanya dibuka jika kuota masih tersedia.",
+        "en": "Online registration opened 8 August 2026. External applicants: wave I selection 26–27 September and 3, 4, 10, 11 October 2026; wave II selection 14 November 2026 (results 26 November); wave III selection 5 December 2026 (results 17 December). Waves II and III open only if places remain."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di ppdb.nurulfikri.sch.id.",
+          "en": "Register online at ppdb.nurulfikri.sch.id."
+        },
+        {
+          "id": "Bayar biaya pendaftaran.",
+          "en": "Pay the registration fee."
+        },
+        {
+          "id": "Unggah dokumen maksimal 5 hari setelah pembayaran.",
+          "en": "Upload documents within 5 days of payment."
+        },
+        {
+          "id": "Ikuti seleksi sesuai jadwal (offline).",
+          "en": "Attend the selection on the scheduled date (in person)."
+        },
+        {
+          "id": "Pengumuman hasil, lalu daftar ulang dengan membayar biaya pendidikan.",
+          "en": "Results are announced; then re-register by paying the education fees."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan Kartu Keluarga",
+          "en": "Scan of the family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Scan akta kelahiran",
+          "en": "Scan of the birth certificate"
+        },
+        {
+          "id": "Scan rapor SMP kelas 7 dan 8; nilai PAI, Bahasa Indonesia, Bahasa Inggris, Matematika, IPA, IPS diinput di situs",
+          "en": "Scan of grade 7 and 8 report cards; enter Islamic studies, Indonesian, English, maths, science and social studies grades on the site"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter (tinggi & berat badan, tekanan darah, penyakit kronis, alergi), diunggah sebelum seleksi",
+          "en": "Doctor's health certificate (height, weight, blood pressure, chronic illness, allergies), uploaded before the selection"
+        },
+        {
+          "id": "Hasil tes bebas narkoba (AMP, MET, COC, THC) dari RS, klinik, atau laboratorium",
+          "en": "Drug test result (AMP, MET, COC, THC) from a hospital, clinic or lab"
+        }
+      ],
+      "test": {
+        "id": "Psikotes, tes potensi akademik (matematika, literasi, IPA, IPS), wawancara orang tua dan wawancara siswa.",
+        "en": "Psychological test, academic aptitude test (maths, literacy, science, social studies), parent interview and student interview."
+      },
+      "source": {
+        "title": "Jadwal Tes & Syarat Pendaftaran TA 2027/2028 — PPDB Nurul Fikri Islamic School (situs resmi)",
+        "url": "https://ppdb.nurulfikri.sch.id/jadwal"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

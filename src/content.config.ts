@@ -15,8 +15,10 @@ const source = z.object({
   published: z.string().optional(),
 });
 
+const levelEnum = z.enum(['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK']);
+
 const feeEntry = z.object({
-  level: z.enum(['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK']),
+  level: levelEnum,
   /** Academic year the fees apply to, e.g. "2026/2027". */
   academicYear: z.string().regex(/^\d{4}\/\d{4}$/),
   /** True when the source does not state the academic year and we inferred it from the publish date. */
@@ -44,22 +46,28 @@ const schools = defineCollection({
     district: z.string().optional(),
     address: z.string().optional(),
     npsn: z.string().optional(),
-    levels: z.array(z.enum(['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK'])).min(1),
+    levels: z.array(levelEnum).min(1),
     curriculum: z.array(z.string()).default([]),
     religion: z.enum(['Umum', 'Islam', 'Kristen', 'Katolik', 'Buddha', 'Hindu']).optional(),
     website: z.string().url().optional(),
     phone: z.string().optional(),
     fees: z.array(feeEntry).default([]),
+    /** Admission procedure, one entry per level (or one without level if it applies to all). */
     admission: z
-      .object({
-        academicYear: z.string().optional(),
-        period: bilingual.optional(),
-        steps: z.array(bilingual).default([]),
-        documents: z.array(bilingual).default([]),
-        test: bilingual.optional(),
-        source: source.optional(),
-      })
-      .optional(),
+      .array(
+        z.object({
+          level: levelEnum.optional(),
+          academicYear: z.string().regex(/^\d{4}\/\d{4}$/),
+          period: bilingual.optional(),
+          steps: z.array(bilingual).default([]),
+          documents: z.array(bilingual).default([]),
+          test: bilingual.optional(),
+          notes: bilingual.optional(),
+          source,
+          checked: z.string(),
+        }),
+      )
+      .default([]),
   }),
 });
 

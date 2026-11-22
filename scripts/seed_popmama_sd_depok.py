@@ -41,7 +41,7 @@ upsert("sdit-darul-abidin-depok", name="SDIT Darul Abidin Depok", district="Beji
        otherFees=[fee("Biaya masuk tahap II", "Entry fee stage II", 2_500_000)],
        notes=L("Formulir Rp475.000–Rp525.000. Uang pangkal = biaya masuk tahap I. Tahap III: Rp300.000/bulan selama 36 bulan.",
                "Form Rp475,000–Rp525,000. Entry fee = stage I. Stage III: Rp300,000/month for 36 months."), **C)
-upsert("sdit-nurul-fikri-depok", name="SDIT Nurul Fikri Depok", district="Cimanggis", religion="Islam",
+upsert("nurul-fikri-islamic-school-depok", name="Nurul Fikri Islamic School Depok", district="Cimanggis", religion="Islam",
        address="Jl. Tugu Raya No.61, Tugu, Cimanggis, Depok", website="https://sdit.nurulfikri.sch.id",
        registrationFee=500_000, entryFee={"min": 22_500_000},
        otherFees=[fee("Dana pendidikan", "Education fund", 14_000_000), fee("Seragam putra", "Uniforms (boys)", 1_900_000),

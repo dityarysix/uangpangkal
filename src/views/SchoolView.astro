@@ -68,16 +68,20 @@ const jsonld = {
   <AdSlot />
 
   <h2>{t(lang, 'admissionTitle')}</h2>
-  {!d.admission || (d.admission.steps.length === 0 && !d.admission.period) ? (
+  {d.admission.length === 0 ? (
     <p class="muted">{t(lang, 'noAdmission')}</p>
   ) : (
-    <div>
-      {d.admission.period && <p><strong>{t(lang, 'period')}:</strong> {d.admission.period[lang]}</p>}
-      {d.admission.steps.length > 0 && <ol>{d.admission.steps.map((s) => <li>{s[lang]}</li>)}</ol>}
-      {d.admission.documents.length > 0 && (<><h3>{t(lang, 'documents')}</h3><ul>{d.admission.documents.map((s) => <li>{s[lang]}</li>)}</ul></>)}
-      {d.admission.test && <p><strong>{t(lang, 'test')}:</strong> {d.admission.test[lang]}</p>}
-      {d.admission.source && <p class="src muted">{t(lang, 'source')}: <a href={d.admission.source.url} rel="nofollow noopener" target="_blank">{d.admission.source.title}</a></p>}
-    </div>
+    [...d.admission].sort((a, b) => b.academicYear.localeCompare(a.academicYear)).map((a) => (
+      <article class="fee adm">
+        <header>{a.level && <><strong>{a.level}</strong> · </>}{t(lang, 'year')} {a.academicYear}</header>
+        {a.period && <p><strong>{t(lang, 'period')}:</strong> {a.period[lang]}</p>}
+        {a.steps.length > 0 && <ol>{a.steps.map((s) => <li>{s[lang]}</li>)}</ol>}
+        {a.documents.length > 0 && (<><h3>{t(lang, 'documents')}</h3><ul>{a.documents.map((s) => <li>{s[lang]}</li>)}</ul></>)}
+        {a.test && <p><strong>{t(lang, 'test')}:</strong> {a.test[lang]}</p>}
+        {a.notes && <p class="notes">{a.notes[lang]}</p>}
+        <p class="src muted">{t(lang, 'source')}: <a href={a.source.url} rel="nofollow noopener" target="_blank">{a.source.title}</a> · {t(lang, 'checked')} {date(a.checked)}</p>
+      </article>
+    ))
   )}
 
   <p class="warn disclaimer">{t(lang, 'disclaimer')}</p>
@@ -94,4 +98,6 @@ const jsonld = {
   .notes { font-size: 0.92rem; margin: 0.8rem 0 0; }
   .src { font-size: 0.8rem; margin: 0.7rem 0 0; }
   .disclaimer { margin-top: 2rem; }
+  .adm h3 { font-size: 1rem; margin: 0.8rem 0 0.3rem; }
+  .adm ol, .adm ul { margin: 0.3rem 0; padding-left: 1.3rem; }
 </style>

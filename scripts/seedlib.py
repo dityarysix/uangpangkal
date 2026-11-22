@@ -28,6 +28,19 @@ BOOKS = ("Buku", "Books")
 ACTIVITY = ("Uang kegiatan", "Activity fee")
 
 
+def add_admission(slug, entry):
+    """Add/replace an admission entry (matched on level + academic year + source URL)."""
+    path = OUT / f"{slug}.json"
+    doc = json.loads(path.read_text())
+    adm = [a for a in doc.get("admission", [])
+           if not (a.get("level") == entry.get("level") and a["academicYear"] == entry["academicYear"]
+                   and a["source"]["url"] == entry["source"]["url"])]
+    adm.append(entry)
+    adm.sort(key=lambda a: (LEVEL_ORDER.index(a["level"]) if a.get("level") else -1, a["academicYear"]))
+    doc["admission"] = adm
+    path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
+
+
 def upsert(slug, *, name, city, area=None, level, source, checked, year,
            district=None, address=None, website=None, phone=None, religion=None,
            curriculum=None, **fee_fields):
