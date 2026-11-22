@@ -1,0 +1,166 @@
+---
+import Base from '../layouts/Base.astro';
+import { t, paths, type Lang } from '../lib/i18n';
+import { allSchools } from '../lib/schools';
+import { CORRECTION_ENDPOINT, CONTACT_EMAIL } from '../lib/config';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const id = lang === 'id';
+const schools = await allSchools();
+const LEVELS = ['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK'];
+const T = {
+  title: id ? 'Kirim data atau koreksi biaya sekolah' : 'Send school fee data or a correction',
+  lead: id
+    ? 'Orang tua dan pihak sekolah bisa mengirim biaya terbaru, info pendaftaran, atau koreksi. Kami memeriksa setiap kiriman sebelum menampilkannya, dan selalu mencantumkan sumber serta tahun ajaran.'
+    : 'Parents and schools can send newer fees, admission info, or corrections. We check every submission before publishing it, and always show the source and academic year.',
+  type: id ? 'Jenis kiriman' : 'Type of submission',
+  types: id
+    ? ['Koreksi data yang salah', 'Biaya tahun ajaran baru', 'Sekolah baru yang belum ada', 'Info prosedur pendaftaran', 'Lainnya']
+    : ['Correct wrong data', 'Fees for a new academic year', 'A school that is not listed', 'Admission procedure info', 'Other'],
+  school: id ? 'Nama sekolah' : 'School name',
+  schoolHint: id ? 'Ketik untuk mencari, atau tulis nama sekolah baru beserta kotanya.' : 'Type to search, or write a new school name with its city.',
+  level: t(lang, 'level'), year: t(lang, 'year'),
+  yearHint: id ? 'mis. 2027/2028' : 'e.g. 2027/2028',
+  details: id ? 'Rincian biaya / koreksi' : 'Fee details / correction',
+  detailsHint: id
+    ? 'Tuliskan selengkap mungkin: biaya pendaftaran, uang pangkal, SPP (per bulan/tahun), biaya lain, diskon atau gelombang.'
+    : 'As complete as possible: registration fee, entry fee, tuition (per month/year), other fees, discounts or waves.',
+  source: id ? 'Sumber informasi' : 'Source of the information',
+  sources: id
+    ? ['Brosur / dokumen resmi sekolah', 'Situs atau media sosial sekolah', 'Langsung dari sekolah (telepon/WA/kunjungan)', 'Pengalaman sendiri sebagai orang tua', 'Artikel / media', 'Lainnya']
+    : ['School brochure / official document', 'School website or social media', 'Directly from the school (phone/WA/visit)', 'Own experience as a parent', 'Article / media', 'Other'],
+  link: id ? 'Tautan sumber atau foto brosur (opsional)' : 'Link to the source or a brochure photo (optional)',
+  linkHint: id ? 'mis. tautan Google Drive, Instagram, atau situs sekolah' : 'e.g. a Google Drive, Instagram or school website link',
+  role: id ? 'Anda adalah' : 'You are',
+  roles: id ? ['Orang tua / calon orang tua', 'Pihak sekolah', 'Lainnya'] : ['A parent / prospective parent', 'School staff', 'Other'],
+  contact: id ? 'Email atau WhatsApp (opsional)' : 'Email or WhatsApp (optional)',
+  contactHint: id ? 'Hanya untuk menghubungi Anda jika kami perlu konfirmasi. Tidak dipublikasikan.' : 'Only used to contact you if we need to confirm. Never published.',
+  send: id ? 'Kirim' : 'Send',
+  sending: id ? 'Mengirim…' : 'Sending…',
+  ok: id ? 'Terima kasih! Kiriman Anda sudah kami terima dan akan diperiksa.' : 'Thank you! We received your submission and will review it.',
+  fail: id ? 'Maaf, pengiriman gagal. Coba lagi nanti.' : 'Sorry, sending failed. Please try again later.',
+  required: id ? 'wajib' : 'required',
+  privacy: id
+    ? 'Dengan mengirim, Anda setuju informasi biaya yang Anda kirim boleh ditampilkan di situs ini (tanpa nama dan kontak Anda).'
+    : 'By sending, you agree that the fee information you submit may be published on this site (without your name or contact details).',
+  noEndpoint: id ? 'Formulir online belum aktif.' : 'The online form is not active yet.',
+  emailUs: id ? 'Kirim info lewat email ke' : 'Send the information by email to',
+};
+---
+<Base lang={lang} title={`${T.title} — uangpangkal.com`} description={T.lead} altPath={paths.correction(id ? 'en' : 'id')}>
+  <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › {t(lang, 'submitData')}</p>
+  <h1>{T.title}</h1>
+  <p class="lead">{T.lead}</p>
+
+  {!CORRECTION_ENDPOINT && (
+    <p class="warn">{T.noEndpoint} {CONTACT_EMAIL && <>{T.emailUs} <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</>}</p>
+  )}
+
+  <form id="correction" class="form" data-endpoint={CORRECTION_ENDPOINT} data-sending={T.sending} data-ok={T.ok} data-fail={T.fail} data-lang={lang}>
+    <label>{T.type}
+      <select name="type" required>{T.types.map((x) => <option>{x}</option>)}</select>
+    </label>
+    <label><span>{T.school} <span class="req">({T.required})</span></span>
+      <input name="school" list="school-list" required autocomplete="off" />
+      <small>{T.schoolHint}</small>
+    </label>
+    <datalist id="school-list">{schools.map((s) => <option value={s.data.name} data-slug={s.id}>{s.data.city}</option>)}</datalist>
+    <input type="hidden" name="school_slug" />
+    <div class="row">
+      <label>{T.level}
+        <select name="level"><option value="">—</option>{LEVELS.map((l) => <option>{l}</option>)}</select>
+      </label>
+      <label>{T.year}
+        <input name="academic_year" placeholder={T.yearHint} pattern="\d{4}/\d{4}" />
+      </label>
+    </div>
+    <label><span>{T.details} <span class="req">({T.required})</span></span>
+      <textarea name="details" rows="7" required placeholder={T.detailsHint}></textarea>
+    </label>
+    <label><span>{T.source} <span class="req">({T.required})</span></span>
+      <select name="source" required>{T.sources.map((x) => <option>{x}</option>)}</select>
+    </label>
+    <label>{T.link}
+      <input name="source_link" type="url" placeholder="https://" />
+      <small>{T.linkHint}</small>
+    </label>
+    <div class="row">
+      <label>{T.role}
+        <select name="role">{T.roles.map((x) => <option>{x}</option>)}</select>
+      </label>
+      <label>{T.contact}
+        <input name="contact" autocomplete="email" />
+        <small>{T.contactHint}</small>
+      </label>
+    </div>
+    <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+    <p class="muted small">{T.privacy}</p>
+    <button type="submit" disabled={!CORRECTION_ENDPOINT}>{T.send}</button>
+    <p id="status" role="status" aria-live="polite"></p>
+  </form>
+</Base>
+
+<script>
+  const form = document.getElementById('correction') as HTMLFormElement;
+  const status = document.getElementById('status')!;
+  const list = document.getElementById('school-list') as HTMLDataListElement;
+  const schoolInput = form.elements.namedItem('school') as HTMLInputElement;
+  const slugInput = form.elements.namedItem('school_slug') as HTMLInputElement;
+  const bySlug = new Map([...list.options].map((o) => [o.dataset.slug!, o.value]));
+  const byName = new Map([...list.options].map((o) => [o.value, o.dataset.slug!]));
+
+  // Prefill from ?sekolah=<slug>
+  const pre = new URLSearchParams(location.search).get('sekolah');
+  if (pre && bySlug.has(pre)) {
+    schoolInput.value = bySlug.get(pre)!;
+    slugInput.value = pre;
+    (form.elements.namedItem('type') as HTMLSelectElement).selectedIndex = 0;
+  }
+  schoolInput.addEventListener('input', () => { slugInput.value = byName.get(schoolInput.value) ?? ''; });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const endpoint = form.dataset.endpoint;
+    if (!endpoint) return;
+    const button = form.querySelector('button')!;
+    button.disabled = true;
+    status.textContent = form.dataset.sending!;
+    const data = Object.fromEntries(new FormData(form).entries());
+    data._subject = `uangpangkal.com: ${data.type} — ${data.school}`;
+    data.page_lang = form.dataset.lang!;
+    try {
+      const res = await fetch(endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(data),
+      });
+      if (!res.ok) throw new Error(String(res.status));
+      form.reset();
+      slugInput.value = '';
+      status.textContent = form.dataset.ok!;
+      status.className = 'ok';
+    } catch {
+      status.textContent = form.dataset.fail!;
+      status.className = 'fail';
+      button.disabled = false;
+    }
+  });
+</script>
+
+<style>
+  .lead { color: var(--muted); max-width: 680px; }
+  .form { display: grid; gap: 1rem; max-width: 680px; margin-top: 1.2rem; background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: var(--radius); padding: 1.2rem; }
+  label { display: grid; gap: 0.3rem; font-weight: 600; color: var(--navy); font-size: 0.95rem; }
+  input, select, textarea { font: inherit; font-weight: 400; color: var(--ink); padding: 0.6rem 0.7rem; border: 1px solid #cfd6df; border-radius: 8px; background: #fff; width: 100%; }
+  textarea { resize: vertical; }
+  small, .small { font-weight: 400; color: var(--muted); font-size: 0.82rem; }
+  .req { font-weight: 400; color: var(--muted); font-size: 0.8rem; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; align-items: start; }
+  @media (max-width: 600px) { .row { grid-template-columns: 1fr; } }
+  .hp { position: absolute; left: -9999px; }
+  button { justify-self: start; font: inherit; font-weight: 700; color: #fff; background: var(--teal-text); border: 0; border-radius: 8px; padding: 0.7rem 1.4rem; cursor: pointer; }
+  button:hover { background: var(--navy); }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  #status.ok { color: var(--teal-text); font-weight: 600; }
+  #status.fail { color: #a33; font-weight: 600; }
+</style>

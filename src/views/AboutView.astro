@@ -17,7 +17,7 @@ const id = lang === 'id';
       <h2>Penting</h2>
       <p>Biaya berubah setiap tahun ajaran dan sering ada diskon gelombang awal. Selalu konfirmasi langsung ke sekolah sebelum mendaftar.</p>
       <h2>Menemukan kesalahan?</h2>
-      <p>Jika Anda orang tua atau pihak sekolah dan menemukan data yang salah atau sudah usang, kirim koreksi beserta sumbernya. Formulir koreksi segera hadir.</p>
+      <p>Jika Anda orang tua atau pihak sekolah dan menemukan data yang salah atau sudah usang, kirim koreksi beserta sumbernya lewat <a href={paths.correction(lang)}>formulir koreksi</a>.</p>
     </div>
   ) : (
     <div class="prose">
@@ -27,7 +27,7 @@ const id = lang === 'id';
       <h2>Important</h2>
       <p>Fees change every academic year and early-bird discounts are common. Always confirm directly with the school before applying.</p>
       <h2>Found a mistake?</h2>
-      <p>If you are a parent or school representative and spot wrong or outdated data, send a correction with a source. A correction form is coming soon.</p>
+      <p>If you are a parent or school representative and spot wrong or outdated data, send a correction with a source using the <a href={paths.correction(lang)}>correction form</a>.</p>
     </div>
   )}
 </Base>

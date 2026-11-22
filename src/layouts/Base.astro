@@ -39,6 +39,7 @@ const ADSENSE_CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT; // e.g. ca-pub-XXX
       <div class="wrap bar">
         <a class="logo" href={paths.home(lang)}>uang<span>pangkal</span>.com</a>
         <nav>
+          <a href={paths.correction(lang)}><span class="long">{t(lang, 'submitData')}</span><span class="short">{t(lang, 'submitDataShort')}</span></a>
           <a href={paths.about(lang)}>{t(lang, 'about')}</a>
           <a class="lang" href={altPath} hreflang={other} lang={other}>{other === 'en' ? 'English' : 'Bahasa Indonesia'}</a>
         </nav>
@@ -48,7 +49,7 @@ const ADSENSE_CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT; // e.g. ca-pub-XXX
     <footer class="site-footer">
       <div class="wrap">
         <p>{t(lang, 'disclaimer')}</p>
-        <p>© {new Date().getFullYear()} uangpangkal.com · <a href={paths.about(lang)}>{t(lang, 'about')}</a></p>
+        <p>© {new Date().getFullYear()} uangpangkal.com · <a href={paths.about(lang)}>{t(lang, 'about')}</a> · <a href={paths.correction(lang)}>{t(lang, 'submitData')}</a></p>
       </div>
     </footer>
   </body>
@@ -71,7 +72,9 @@ const ADSENSE_CLIENT = import.meta.env.PUBLIC_ADSENSE_CLIENT; // e.g. ca-pub-XXX
   .bar { display: flex; align-items: center; justify-content: space-between; height: 60px; }
   .logo { font-weight: 800; font-size: 1.2rem; text-decoration: none; color: #fff; letter-spacing: -0.02em; }
   .logo span { color: var(--yellow); }
-  nav { display: flex; gap: 1.1rem; font-size: 0.95rem; }
+  nav { display: flex; gap: 1.1rem; font-size: 0.95rem; white-space: nowrap; }
+  nav .short { display: none; }
+  @media (max-width: 560px) { nav { gap: 0.8rem; font-size: 0.9rem; } nav .long { display: none; } nav .short { display: inline; } }
   nav a { text-decoration: none; color: #d5deea; }
   nav a:hover { color: #fff; }
   main { padding: 1.5rem 1.1rem 3rem; min-height: 70vh; }

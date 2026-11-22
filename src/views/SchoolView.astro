@@ -84,6 +84,11 @@ const jsonld = {
     ))
   )}
 
+  <aside class="cta">
+    <p>{t(lang, 'correctionCta')}</p>
+    <a class="btn" href={paths.correction(lang, school.id)}>{t(lang, 'reportCorrection')}</a>
+  </aside>
+
   <p class="warn disclaimer">{t(lang, 'disclaimer')}</p>
 </Base>
 <style>
@@ -97,7 +102,11 @@ const jsonld = {
   tr.other td { font-weight: 500; }
   .notes { font-size: 0.92rem; margin: 0.8rem 0 0; }
   .src { font-size: 0.8rem; margin: 0.7rem 0 0; }
-  .disclaimer { margin-top: 2rem; }
+  .disclaimer { margin-top: 1rem; }
+  .cta { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 0.8rem; background: #e9f4f2; border-radius: var(--radius); padding: 1rem 1.1rem; }
+  .cta p { margin: 0; color: var(--navy); }
+  .btn { display: inline-block; font-weight: 700; color: #fff; background: var(--teal-text); border-radius: 8px; padding: 0.55rem 1.1rem; text-decoration: none; white-space: nowrap; }
+  .btn:hover { background: var(--navy); }
   .adm h3 { font-size: 1rem; margin: 0.8rem 0 0.3rem; }
   .adm ol, .adm ul { margin: 0.3rem 0; padding-left: 1.3rem; }
 </style>

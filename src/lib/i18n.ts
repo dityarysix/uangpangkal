@@ -61,6 +61,12 @@ const dict = {
   free: { id: 'Gratis', en: 'Free' },
   latestFees: { id: 'Biaya terbaru', en: 'Latest fees' },
   reportCorrection: { id: 'Laporkan koreksi', en: 'Report a correction' },
+  submitData: { id: 'Kirim data / koreksi', en: 'Send data / corrections' },
+  submitDataShort: { id: 'Koreksi', en: 'Correct' },
+  correctionCta: {
+    id: 'Punya info biaya terbaru, brosur, atau menemukan data yang salah? Bantu orang tua lain.',
+    en: 'Have newer fees, a brochure, or spotted a mistake? Help other parents.',
+  },
 } as const;
 
 export type Key = keyof typeof dict;
@@ -74,6 +80,8 @@ export const paths = {
   area: (l: Lang, slug: string) => (l === 'id' ? `/wilayah/${slug}/` : `/en/area/${slug}/`),
   school: (l: Lang, slug: string) => (l === 'id' ? `/sekolah/${slug}/` : `/en/school/${slug}/`),
   about: (l: Lang) => (l === 'id' ? '/tentang/' : '/en/about/'),
+  correction: (l: Lang, school?: string) =>
+    (l === 'id' ? '/koreksi/' : '/en/correction/') + (school ? `?sekolah=${encodeURIComponent(school)}` : ''),
 };
 
 export function rupiah(n: number) {
