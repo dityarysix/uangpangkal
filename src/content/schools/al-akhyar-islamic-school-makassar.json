@@ -10,6 +10,37 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp3 juta + infaq sarpras Rp10 juta. Potongan Rp1 juta (dari TK Al Akhyar), Rp500 ribu (saudara kandung). Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry Rp3M + facilities donation Rp10M. Rp1M off (from TK Al Akhyar), Rp500k off (sibling). From an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Infaq kegiatan per tahun",
+            "en": "Activities donation per year"
+          },
+          "amount": 1000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2023/2024",
       "entryFee": {
         "min": 13000000

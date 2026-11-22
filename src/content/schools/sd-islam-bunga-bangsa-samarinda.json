@@ -1,0 +1,32 @@
+{
+  "name": "SD Islam Bunga Bangsa Samarinda",
+  "city": "Kota Samarinda",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "From an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 17500000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Samarinda dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-samarinda",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

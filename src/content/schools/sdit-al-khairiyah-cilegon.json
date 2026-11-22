@@ -1,0 +1,28 @@
+{
+  "name": "SDIT Al Khairiyah Cilegon",
+  "city": "Cilegon",
+  "district": "Citangkil",
+  "address": "Jl. KH. Enggus Arja No.1, Citangkil, Kota Cilegon",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Pendaftaran termasuk tes psikotes; SPP ditanyakan ke sekolah. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Registration includes a psychological test; ask the school for tuition. From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Cilegon (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/sekolah-sd-terbaik-di-cilegon/",
+        "published": "2026-07-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

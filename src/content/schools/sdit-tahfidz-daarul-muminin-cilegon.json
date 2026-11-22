@@ -1,0 +1,31 @@
+{
+  "name": "SDIT Tahfidz Daarul Mu'minin Cilegon",
+  "city": "Cilegon",
+  "district": "Jombang",
+  "address": "Jl. Mawar, Lingkungan Barokah, Jombang Wetan, Kota Cilegon",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya SPP yang disebut. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Only tuition is given. From an article; academic year not stated. Confirm with the school."
+      },
+      "tuition": {
+        "amount": 425000,
+        "period": "month"
+      },
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Cilegon (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/sekolah-sd-terbaik-di-cilegon/",
+        "published": "2026-07-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

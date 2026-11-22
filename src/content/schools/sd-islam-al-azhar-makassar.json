@@ -1,0 +1,51 @@
+{
+  "name": "SD Islam Al Azhar Makassar",
+  "city": "Kota Makassar",
+  "district": "Rappocini",
+  "address": "Jl. Aroeppala / Jl. Hertasning Baru, Gunung Sari, Rappocini, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 1180000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Jam'iyyah",
+            "en": "Parents' association"
+          },
+          "amount": 150000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1260000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

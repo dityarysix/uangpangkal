@@ -1,0 +1,26 @@
+{
+  "name": "SD Al Firdaus Islamic School Samarinda",
+  "city": "Kota Samarinda",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya biaya pendaftaran yang disebut. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Only the registration fee is given. From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 250000,
+      "source": {
+        "title": "Daftar SD Swasta di Samarinda dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-samarinda",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -10,6 +10,28 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya masuk sekitar Rp2 juta. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry about Rp2M. From an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 2000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2023/2024",
       "tuition": {
         "amount": 250000,

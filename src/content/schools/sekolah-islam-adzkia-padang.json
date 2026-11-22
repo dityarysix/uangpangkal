@@ -60,6 +60,52 @@
     },
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "SDIT Adzkia Kuranji. Pendaftaran Rp125.000 (internal) / Rp250.000 (eksternal). Uang bulanan minimal Rp1 juta. Qardh al-hasan Rp2 juta. Artikel diterbitkan ulang Okt 2026, tetapi angkanya tampak lebih lama; tahun ajaran tidak disebut.",
+        "en": "SDIT Adzkia Kuranji. Registration Rp125,000 (internal) / Rp250,000 (external). Minimum monthly Rp1M. Qardh al-hasan Rp2M. Article republished Oct 2026, but the figures look older; academic year not stated."
+      },
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 7500000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang PBM 1 tahun",
+            "en": "Learning fee (1 year)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 300000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Padang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-padang",
+        "published": "2026-10-12"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 300000,
       "entryFee": {

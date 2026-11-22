@@ -1,0 +1,28 @@
+{
+  "name": "SD Islam Al Azhar 40 Cilegon",
+  "city": "Cilegon",
+  "district": "Purwakarta",
+  "address": "Jl. KH Yasin Beji No.51, Kotabumi, Purwakarta, Kota Cilegon",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Al Azhar 40 YPKS. Hanya biaya pendaftaran yang disebut. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Al Azhar 40 YPKS. Only the registration fee is given. From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Cilegon (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/sekolah-sd-terbaik-di-cilegon/",
+        "published": "2026-07-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

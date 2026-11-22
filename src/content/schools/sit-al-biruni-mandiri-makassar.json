@@ -1,0 +1,50 @@
+{
+  "name": "SIT Al-Biruni Mandiri Makassar",
+  "city": "Kota Makassar",
+  "district": "Panakkukang",
+  "address": "Jl. Karantina No.4, Sinrijala, Panakkukang, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Kelas reguler: kegiatan Rp7 juta/tahun, SPP Rp2,2 juta. ICP Class: kegiatan Rp8,5 juta, SPP Rp2,5 juta. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Regular class: activities Rp7M/year, tuition Rp2.2M. ICP Class: activities Rp8.5M, tuition Rp2.5M. From an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 40000000
+      },
+      "tuition": {
+        "amount": 2200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan tahunan (reguler)",
+            "en": "Annual activities (regular)"
+          },
+          "amount": 7000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 2500000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -10,6 +10,73 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Potongan uang pangkal Rp1 juta untuk lanjutan TK B. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Rp1M entry discount for TK B continuers. From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 17000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Observasi",
+            "en": "Observation"
+          },
+          "amount": 350000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1275000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1375000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 1250000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Komite per tahun",
+            "en": "Committee per year"
+          },
+          "amount": 250000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2023/2024",
       "registrationFee": 350000,
       "entryFee": {

@@ -1,0 +1,51 @@
+{
+  "name": "SD Islam Tahfidz Quran Al Quds Samarinda",
+  "city": "Kota Samarinda",
+  "district": "Samarinda Ulu",
+  "address": "Gedung Al Ishlah lt. 2, Jl. Air Hitam (samping flyover), Samarinda Ulu",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = infaq. Seragam Rp850–975 ribu; katering Rp10.000/hari. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry = donation. Uniforms Rp850–975k; catering Rp10,000/day. From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 575000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam (min.)",
+            "en": "Uniforms (min.)"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 537000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Samarinda dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-samarinda",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

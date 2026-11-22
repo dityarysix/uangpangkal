@@ -1,0 +1,34 @@
+{
+  "name": "SDIT Arafah Andalas Padang",
+  "city": "Kota Padang",
+  "district": "Padang Timur",
+  "address": "Jl. Kampung Terendam, Andalas, Padang Timur, Kota Padang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menyebut \"biaya pendaftaran Rp7.800.000\"; dicatat sebagai biaya masuk. Artikel diterbitkan ulang Okt 2026, tetapi angkanya tampak lebih lama; tahun ajaran tidak disebut.",
+        "en": "The article says \"registration Rp7,800,000\"; recorded as the entry cost. Article republished Oct 2026, but the figures look older; academic year not stated."
+      },
+      "entryFee": {
+        "min": 7800000
+      },
+      "tuition": {
+        "amount": 575000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Padang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-padang",
+        "published": "2026-10-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

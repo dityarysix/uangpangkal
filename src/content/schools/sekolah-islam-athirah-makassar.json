@@ -1,0 +1,35 @@
+{
+  "name": "Sekolah Islam Athirah Makassar",
+  "city": "Kota Makassar",
+  "address": "Athirah I: Jl. Kajaolalido No.22; Athirah II: Jl. Raya Baruga No.26, Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel hanya menyebut biaya masuk dan bulanan sekitar Rp23 juta. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "The article only gives entry and monthly fees of about Rp23M. From an article; academic year not stated. Confirm with the school."
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya masuk & bulanan (estimasi)",
+            "en": "Entry & monthly (estimate)"
+          },
+          "amount": 23000000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

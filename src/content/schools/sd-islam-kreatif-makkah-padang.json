@@ -1,0 +1,43 @@
+{
+  "name": "SD Islam Kreatif Makkah Padang",
+  "city": "Kota Padang",
+  "district": "Padang Timur",
+  "address": "Jl. Jati 1 No.14E, Sawahan, Padang Timur, Kota Padang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel diterbitkan ulang Okt 2026, tetapi angkanya tampak lebih lama; tahun ajaran tidak disebut.",
+        "en": "Article republished Oct 2026, but the figures look older; academic year not stated."
+      },
+      "entryFee": {
+        "min": 8500000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang menu per bulan",
+            "en": "Meals per month"
+          },
+          "amount": 350000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Padang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-padang",
+        "published": "2026-10-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

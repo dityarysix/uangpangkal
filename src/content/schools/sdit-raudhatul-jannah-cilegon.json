@@ -1,0 +1,44 @@
+{
+  "name": "SDIT Raudhatul Jannah Cilegon",
+  "city": "Cilegon",
+  "district": "Cibeber",
+  "address": "Jl. Pondok Cilegon Indah No.70, Cibeber, Kota Cilegon",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = infaq pengembangan pendidikan; artikel menulis \"Rp3.900.00\" (dibaca Rp3.900.000). Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry = development donation; the article writes \"Rp3.900.00\" (read as Rp3,900,000). From an article; academic year not stated. Confirm with the school."
+      },
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 3900000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan edukatif",
+            "en": "Educational activities"
+          },
+          "amount": 700000
+        }
+      ],
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Cilegon (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/sekolah-sd-terbaik-di-cilegon/",
+        "published": "2026-07-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

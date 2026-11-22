@@ -1,0 +1,65 @@
+{
+  "name": "Sekolah Alam Ar-Royyan Padang",
+  "city": "Kota Padang",
+  "district": "Lubuk Begalung",
+  "address": "Jl. Bhakti ABRI No.40B, Pagambiran Ampalu Nan XX, Lubuk Begalung, Kota Padang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = sarana. Bisa dibayar 3 tahap; potongan sarana Rp2 juta untuk lanjutan TKIT Ar-Royyan. Modul tema Rp250 ribu dan ATK Rp225 ribu per semester. Artikel diterbitkan ulang Okt 2026, tetapi angkanya tampak lebih lama; tahun ajaran tidak disebut.",
+        "en": "Entry = facilities fee. Payable in 3 stages; Rp2M off for TKIT Ar-Royyan continuers. Theme modules Rp250k and stationery Rp225k per semester. Article republished Oct 2026, but the figures look older; academic year not stated."
+      },
+      "registrationFee": 225000,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 350000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra (4 stel)",
+            "en": "Uniforms boys (4 sets)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam putri (4 stel)",
+            "en": "Uniforms girls (4 sets)"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Modul Qur'an",
+            "en": "Qur'an module"
+          },
+          "amount": 100000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Padang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-padang",
+        "published": "2026-10-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

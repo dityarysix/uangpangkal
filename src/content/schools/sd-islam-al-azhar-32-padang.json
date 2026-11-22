@@ -1,0 +1,43 @@
+{
+  "name": "SD Islam Al-Azhar 32 Padang",
+  "city": "Kota Padang",
+  "address": "Jl. Khatib Sulaiman No.86, Kota Padang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = uang mahar. SPP reguler Rp900.000; bilingual/tahfiz Rp980.000. Artikel diterbitkan ulang Okt 2026, tetapi angkanya tampak lebih lama; tahun ajaran tidak disebut.",
+        "en": "Entry = \"mahar\" fee. Tuition regular Rp900,000; bilingual/tahfiz Rp980,000. Article republished Oct 2026, but the figures look older; academic year not stated."
+      },
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Jam'iyyah/komite per tahun",
+            "en": "Association/committee per year"
+          },
+          "amount": 200000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Padang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-padang",
+        "published": "2026-10-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

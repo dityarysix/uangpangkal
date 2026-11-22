@@ -1,0 +1,30 @@
+{
+  "name": "SDIT Dar el-Iman Padang",
+  "city": "Kota Padang",
+  "district": "Nanggalo",
+  "address": "Komplek Islamic Centre Dar el-Iman, Jl. Gunung Juaro, Surau Gadang, Nanggalo, Kota Padang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel diterbitkan ulang Okt 2026, tetapi angkanya tampak lebih lama; tahun ajaran tidak disebut.",
+        "en": "Article republished Oct 2026, but the figures look older; academic year not stated."
+      },
+      "entryFee": {
+        "min": 7000000
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Padang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-padang",
+        "published": "2026-10-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

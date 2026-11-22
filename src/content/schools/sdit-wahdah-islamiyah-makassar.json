@@ -1,0 +1,34 @@
+{
+  "name": "SDIT Wahdah Islamiyah Makassar",
+  "city": "Kota Makassar",
+  "district": "Manggala",
+  "address": "Jl. Raya Baruga No.12B, Antang, Manggala, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "From an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Makassar dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-makassar",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

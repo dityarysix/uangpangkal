@@ -1,0 +1,50 @@
+{
+  "name": "SDIA Unggulan Al Fatah Samarinda",
+  "city": "Kota Samarinda",
+  "district": "Sambutan",
+  "address": "Jl. Sukses No.37, Sambutan, Kota Samarinda",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = jariyah gedung. Seragam Rp1,1–1,3 juta. Dari artikel; tahun ajaran tidak disebut. Konfirmasi ke sekolah.",
+        "en": "Entry = building donation. Uniforms Rp1.1–1.3M. From an article; academic year not stated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 1000000
+      },
+      "tuition": {
+        "amount": 100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam (min.)",
+            "en": "Uniforms (min.)"
+          },
+          "amount": 1100000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 500000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Samarinda dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-samarinda",
+        "published": "2022-07-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
