@@ -1,0 +1,57 @@
+{
+  "name": "Kids Republic",
+  "city": "Jakarta Timur",
+  "district": "Jatinegara",
+  "address": "Jl. Cipinang Bali I No.5A, Cipinang Muara, Jatinegara, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Annual fee kelas 1–3",
+            "en": "Annual fee grades 1–3"
+          },
+          "amount": 5000000
+        },
+        {
+          "label": {
+            "id": "Annual fee kelas 4–6",
+            "en": "Annual fee grades 4–6"
+          },
+          "amount": 6875000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1500000
+        }
+      ],
+      "notes": {
+        "id": "Tuition Rp2,5 juta (kelas 1–3) / Rp3 juta (kelas 4–6). Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "Tuition Rp2.5M (grades 1–3) / Rp3M (grades 4–6). The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

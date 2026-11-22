@@ -1,0 +1,106 @@
+{
+  "name": "SMPIT BISA Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Jl. Cagar Alam Selatan No.17, Pancoran Mas, Kota Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://smpit.bisa.sch.id/",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 7500000,
+        "max": 9500000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal 3 pilihan: I Rp9.500.000, II Rp8.500.000, III Rp7.500.000 (termasuk seragam, modul, kegiatan). Kuota 20 putra dan 10 putri.",
+        "en": "Three entry-fee options: I Rp9,500,000, II Rp8,500,000, III Rp7,500,000 (incl. uniforms, modules, activities). Quota 20 boys and 10 girls."
+      },
+      "source": {
+        "title": "SPMB SMPIT BISA Depok TA 2027/2028 (situs resmi)",
+        "url": "https://smpit.bisa.sch.id/spmb/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Gelombang 2: 1 Des 2026–31 Jan 2027; gelombang 3: 1 Feb–30 Apr 2027",
+        "en": "Wave 2: 1 Dec 2026–31 Jan 2027; wave 3: 1 Feb–30 Apr 2027"
+      },
+      "steps": [
+        {
+          "id": "Bayar uang pendaftaran Rp500.000 (transfer BSI a.n. SDIT BISA Depok)",
+          "en": "Pay the Rp500,000 registration fee (BSI transfer to SDIT BISA Depok)"
+        },
+        {
+          "id": "Isi formulir pendaftaran online",
+          "en": "Fill in the online registration form"
+        },
+        {
+          "id": "Buat janji jadwal tes dan observasi dengan sekolah",
+          "en": "Book a test and observation slot with the school"
+        },
+        {
+          "id": "Ikuti tes dan observasi dengan membawa Formulir Data dan Informasi Tambahan (FDIT)",
+          "en": "Attend the test and observation, bringing the completed additional data form (FDIT)"
+        },
+        {
+          "id": "Jika lulus: lunasi uang masuk, lengkapi berkas, tanda tangani Surat Patuh Aturan Pendidikan",
+          "en": "If accepted: pay the entry fee in full, submit documents, sign the school rules agreement"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi rapor kelas 4, 5 dan 6",
+          "en": "Copy of grade 4, 5 and 6 report cards"
+        },
+        {
+          "id": "Fotokopi ijazah dilegalisir (3 lembar)",
+          "en": "Legalised diploma copies (3)"
+        },
+        {
+          "id": "Surat keterangan baik dari sekolah asal",
+          "en": "Good-conduct letter from previous school"
+        },
+        {
+          "id": "Fotokopi akta kelahiran, KK, KTP ayah dan ibu (masing-masing 3 lembar)",
+          "en": "Copies of birth certificate, family card, both parents' ID cards (3 each)"
+        },
+        {
+          "id": "Pas foto 3×4 dan 4×6 latar biru (masing-masing 4 lembar)",
+          "en": "Blue-background photos 3×4 and 4×6 (4 each)"
+        },
+        {
+          "id": "Surat keterangan sehat dari puskesmas",
+          "en": "Health certificate from a community health centre"
+        },
+        {
+          "id": "Sertifikat prestasi (jika ada)",
+          "en": "Achievement certificates (if any)"
+        }
+      ],
+      "notes": {
+        "id": "Alur pendaftaran one day service.",
+        "en": "One-day-service registration flow."
+      },
+      "source": {
+        "title": "SPMB SMPIT BISA Depok TA 2027/2028 (situs resmi)",
+        "url": "https://smpit.bisa.sch.id/spmb/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

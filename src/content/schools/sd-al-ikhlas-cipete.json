@@ -1,0 +1,32 @@
+{
+  "name": "SD Al-Ikhlas Cipete",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. Cipete III No.10, Cipete Selatan, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 27500000,
+        "max": 28500000
+      },
+      "notes": {
+        "id": "Uang pangkal Rp28.500.000 (siswa luar) / Rp27.500.000 (dari TK Al-Ikhlas). Artikel tidak menyebut tahun ajaran.",
+        "en": "Entry fee Rp28,500,000 (external) / Rp27,500,000 (from TK Al-Ikhlas). The article does not state the academic year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Jakarta Selatan (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-jakarta-selatan/",
+        "published": "2026-10-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

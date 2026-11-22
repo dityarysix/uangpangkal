@@ -1,0 +1,35 @@
+{
+  "name": "SDIT Nurul Iman Jakarta Timur",
+  "city": "Jakarta Timur",
+  "district": "Duren Sawit",
+  "address": "Jl. Kesehatan No.7, Pondok Bambu, Duren Sawit, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 18500000
+      },
+      "tuition": {
+        "amount": 970000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya masuk Rp18,5 juta sudah termasuk diskon 20% penyesuaian COVID-19. Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "Entry fee Rp18.5M already includes a 20% COVID-19 discount. The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

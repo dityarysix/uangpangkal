@@ -1,0 +1,64 @@
+{
+  "name": "SDIT Ar-Rahmah Jakarta Timur",
+  "city": "Jakarta Timur",
+  "district": "Duren Sawit",
+  "address": "Jl. Duren Sawit Barat II Blok F No.2, Klender, Duren Sawit, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Buku/modul",
+            "en": "Books/modules"
+          },
+          "amount": 1300000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 2800000
+        }
+      ],
+      "notes": {
+        "id": "Dana sumbangan pendidikan Rp12 juta. Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "Education contribution Rp12M. The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

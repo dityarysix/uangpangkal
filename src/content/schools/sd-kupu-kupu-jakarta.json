@@ -1,0 +1,44 @@
+{
+  "name": "SD Kupu-Kupu",
+  "city": "Jakarta Selatan",
+  "district": "Mampang Prapatan",
+  "address": "Jl. Bangka VII Dalam No.14, Pela Mampang, Mampang Prapatan, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 46500000,
+        "max": 48500000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 695000
+        }
+      ],
+      "notes": {
+        "id": "Biaya formulir Rp200.000. Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "Form fee Rp200,000. The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

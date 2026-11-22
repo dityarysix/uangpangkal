@@ -1,0 +1,47 @@
+{
+  "name": "Sekolah Lentera Indonesia",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. Sultan Iskandar Muda No.98, Kebayoran Lama Utara, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "tuition": {
+        "amount": 92000000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Ujian masuk",
+            "en": "Entrance exam"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Deposit (dapat dikembalikan)",
+            "en": "Refundable deposit"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Artikel tidak menyebut tahun ajaran.",
+        "en": "The article does not state the academic year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Jakarta Selatan (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-jakarta-selatan/",
+        "published": "2026-10-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

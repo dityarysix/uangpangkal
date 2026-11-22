@@ -1,0 +1,57 @@
+{
+  "name": "SD Muhammadiyah 5 Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Baru",
+  "address": "Jl. Limau III No.3, Kebayoran Baru, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Program kegiatan 1 tahun",
+            "en": "Activities (1 year)"
+          },
+          "amount": 3500000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1400000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1300000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = biaya gedung Rp5.000.000 + BPP Rp7.000.000. Total sekitar Rp19.000.000. Artikel tidak menyebut tahun ajaran.",
+        "en": "Entry fee = building Rp5,000,000 + development Rp7,000,000. Total about Rp19,000,000. The article does not state the academic year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Jakarta Selatan (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-jakarta-selatan/",
+        "published": "2026-10-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

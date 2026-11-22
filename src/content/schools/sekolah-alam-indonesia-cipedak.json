@@ -1,0 +1,50 @@
+{
+  "name": "Sekolah Alam Indonesia Cipedak",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. Pembangunan No.51, Cipedak, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 18000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya sit in",
+            "en": "Sit-in fee"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Uang tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 4500000
+        }
+      ],
+      "notes": {
+        "id": "Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

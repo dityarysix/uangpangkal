@@ -1,0 +1,43 @@
+{
+  "name": "Raffles Christian School Pondok Pinang",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. Gedung Hijau Raya I No.1, Pondok Pinang, Kebayoran Lama, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 32000000
+      },
+      "tuition": {
+        "amount": 58000000,
+        "period": "semester"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya tes",
+            "en": "Test fee"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Biaya pengembangan Rp32 juta. Artikel tidak menyebut tahun ajaran.",
+        "en": "Development fee Rp32M. The article does not state the academic year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Jakarta Selatan (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-jakarta-selatan/",
+        "published": "2026-10-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

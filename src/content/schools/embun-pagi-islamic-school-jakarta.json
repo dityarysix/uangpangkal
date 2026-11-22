@@ -1,0 +1,52 @@
+{
+  "name": "Embun Pagi Islamic School",
+  "city": "Jakarta Timur",
+  "district": "Duren Sawit",
+  "address": "Jl. Raya Kalimalang No.8, Pondok Kelapa, Duren Sawit, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 650000,
+      "entryFee": {
+        "min": 34000000,
+        "max": 38000000
+      },
+      "tuition": {
+        "amount": 2700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku (min.)",
+            "en": "Books (min.)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Buku (maks.)",
+            "en": "Books (max.)"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal: early bird Rp34 juta, gelombang 1 Rp35 juta, gelombang 2 Rp36 juta, gelombang 3 (normal) Rp38 juta. Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "Entry fee: early bird Rp34M, wave 1 Rp35M, wave 2 Rp36M, wave 3 (normal) Rp38M. The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

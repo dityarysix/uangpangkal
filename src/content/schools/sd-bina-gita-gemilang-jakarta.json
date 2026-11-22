@@ -1,0 +1,35 @@
+{
+  "name": "SD Bina Gita Gemilang",
+  "city": "Jakarta Selatan",
+  "district": "Tebet",
+  "address": "Jl. Prof. Dr. Soepomo No.11, Tebet Barat, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 750000,
+      "entryFee": {
+        "min": 33000000,
+        "max": 34000000
+      },
+      "tuition": {
+        "amount": 3100000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp34 juta; Rp33 juta untuk alumni TK Kinderfield. SPP Rp9,3 juta per term atau Rp3,1 juta per bulan. Artikel menyebut tahun ajaran 2026, tetapi sebagian angka menyebut penyesuaian COVID-19 sehingga kemungkinan data lama. Konfirmasi ke sekolah.",
+        "en": "Entry fee Rp34M; Rp33M for TK Kinderfield alumni. Tuition Rp9.3M per term or Rp3.1M per month. The article says academic year 2026, but some figures mention COVID-19 adjustments, so they may be older. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya SD Jakarta Selatan dan Timur Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-sd-jakarta-selatan-dan-timur/",
+        "published": "2026-09-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Sekolah Islam Nurhikmah Bekasi",
+  "city": "Kota Bekasi",
+  "district": "Pondok Melati",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://nurhikmah.sch.id/",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 500000,
+      "notes": {
+        "id": "Halaman resmi hanya mencantumkan biaya pendaftaran; uang pangkal dan SPP tidak dipublikasikan.",
+        "en": "The official page lists registration fees only; entry fee and tuition are not published."
+      },
+      "source": {
+        "title": "Informasi SPMB 2027/2028 Sekolah Nurhikmah (situs resmi)",
+        "url": "https://nurhikmah.sch.id/informasi-ppdb-2025-2026/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 600000,
+      "notes": {
+        "id": "Pendaftaran Rp600.000 (siswa luar); Rp200.000 untuk lulusan TK Nurhikmah. Halaman resmi hanya mencantumkan biaya pendaftaran; uang pangkal dan SPP tidak dipublikasikan.",
+        "en": "Registration Rp600,000 (external); Rp200,000 for TK Nurhikmah graduates. The official page lists registration fees only; entry fee and tuition are not published."
+      },
+      "source": {
+        "title": "Informasi SPMB 2027/2028 Sekolah Nurhikmah (situs resmi)",
+        "url": "https://nurhikmah.sch.id/informasi-ppdb-2025-2026/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 600000,
+      "notes": {
+        "id": "Pendaftaran Rp600.000 (siswa luar); Rp250.000 untuk lulusan SD Nurhikmah. Halaman resmi hanya mencantumkan biaya pendaftaran; uang pangkal dan SPP tidak dipublikasikan.",
+        "en": "Registration Rp600,000 (external); Rp250,000 for SD Nurhikmah graduates. The official page lists registration fees only; entry fee and tuition are not published."
+      },
+      "source": {
+        "title": "Informasi SPMB 2027/2028 Sekolah Nurhikmah (situs resmi)",
+        "url": "https://nurhikmah.sch.id/informasi-ppdb-2025-2026/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 600000,
+      "notes": {
+        "id": "Pendaftaran Rp600.000 (siswa luar); Rp250.000 untuk lulusan SMP Nurhikmah. Halaman resmi hanya mencantumkan biaya pendaftaran; uang pangkal dan SPP tidak dipublikasikan.",
+        "en": "Registration Rp600,000 (external); Rp250,000 for SMP Nurhikmah graduates. The official page lists registration fees only; entry fee and tuition are not published."
+      },
+      "source": {
+        "title": "Informasi SPMB 2027/2028 Sekolah Nurhikmah (situs resmi)",
+        "url": "https://nurhikmah.sch.id/informasi-ppdb-2025-2026/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
