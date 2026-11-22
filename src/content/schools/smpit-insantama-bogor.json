@@ -1,0 +1,60 @@
+{
+  "name": "SMPIT Insantama Bogor",
+  "city": "Kota Bogor",
+  "district": "Bogor Barat",
+  "address": "Jl. Hegarmanah IV No.47, Gunungbatu, Bogor Barat, Kota Bogor",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://insantama.sch.id",
+  "phone": "(0251) 8363973",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Parenting",
+            "en": "Parenting programme"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1530000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1790000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pengembangan. Alamat dari direktori sekolah.",
+        "en": "Entry fee = development infaq. Address from school directories."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

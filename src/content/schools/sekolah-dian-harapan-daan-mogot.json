@@ -1,0 +1,259 @@
+{
+  "name": "Sekolah Dian Harapan Daan Mogot",
+  "city": "Jakarta Barat",
+  "address": "Daan Mogot, Jakarta Barat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "website": "https://www.sdh.sch.id",
+  "phone": "admission.sdhdaanmogot@sdh.or.id / +62 812 8484 8969",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 14000000,
+        "max": 22000000
+      },
+      "tuition": {
+        "amount": 1375000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1500000
+        }
+      ],
+      "notes": {
+        "id": "Rentang biaya ini berlaku untuk jaringan Sekolah Dian Harapan secara umum menurut sumber, bukan khusus kampus ini, dan disebut sebagai perkiraan (\"sekitar\"). Uang pangkal = DPP. Tanyakan biaya kampus ini langsung ke bagian admission. SPP Rp1.375.000–Rp2.700.000/bulan.",
+        "en": "This fee range is given by the source for the Sekolah Dian Harapan network in general, not specifically this campus, and is approximate. Entry fee = DPP. Ask this campus's admissions office for its exact fees. Tuition Rp1,375,000–Rp2,700,000/month."
+      },
+      "source": {
+        "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
+        "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar online melalui situs SDH.",
+          "en": "Register online via the SDH website."
+        },
+        {
+          "id": "Unggah dokumen (atau serahkan langsung ke kampus).",
+          "en": "Upload documents (or hand in hard copies at the campus)."
+        },
+        {
+          "id": "Bagian admission menginformasikan jadwal tes masuk; tes bisa di kampus atau online.",
+          "en": "Admissions informs you of the entrance test date; tests can be on campus or online."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan/fotokopi akta kelahiran",
+          "en": "Scan/copy of birth certificate"
+        },
+        {
+          "id": "Scan/fotokopi Kartu Keluarga",
+          "en": "Scan/copy of family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Dua pas foto terbaru 3x4",
+          "en": "Two recent 3x4 photos"
+        },
+        {
+          "id": "Satu salinan rapor tahun terakhir",
+          "en": "One copy of last year's report card"
+        }
+      ],
+      "test": {
+        "id": "Observasi dan wawancara orang tua.",
+        "en": "Observation and parent interview."
+      },
+      "notes": {
+        "id": "Kelas K1/K2/K3: usia minimal 3/4/5 tahun per 30 September.",
+        "en": "K1/K2/K3: minimum age 3/4/5 by 30 September."
+      },
+      "period": {
+        "id": "Pendaftaran online dibuka. Situs tidak menyebut tahun ajaran; ini prosedur yang berlaku per November 2026.",
+        "en": "Online registration is open. The site does not state the academic year; this is the procedure in effect as of November 2026."
+      },
+      "source": {
+        "title": "Admissions — Sekolah Dian Harapan (situs resmi)",
+        "url": "https://www.sdh.sch.id/admissions"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar online melalui situs SDH.",
+          "en": "Register online via the SDH website."
+        },
+        {
+          "id": "Unggah dokumen (atau serahkan langsung ke kampus).",
+          "en": "Upload documents (or hand in hard copies at the campus)."
+        },
+        {
+          "id": "Bagian admission menginformasikan jadwal tes masuk; tes bisa di kampus atau online.",
+          "en": "Admissions informs you of the entrance test date; tests can be on campus or online."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan/fotokopi akta kelahiran",
+          "en": "Scan/copy of birth certificate"
+        },
+        {
+          "id": "Scan/fotokopi Kartu Keluarga",
+          "en": "Scan/copy of family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Dua pas foto terbaru 3x4",
+          "en": "Two recent 3x4 photos"
+        },
+        {
+          "id": "Satu salinan rapor tahun terakhir",
+          "en": "One copy of last year's report card"
+        }
+      ],
+      "test": {
+        "id": "Kelas 1: psikotes, wawancara siswa & orang tua. Kelas 2–6: psikotes, Matematika, Bahasa Inggris, Bahasa Indonesia, wawancara siswa & orang tua.",
+        "en": "Grade 1: psychological test, student & parent interview. Grades 2–6: psychological test, maths, English, Indonesian, student & parent interview."
+      },
+      "notes": {
+        "id": "Kelas 1: usia minimal 6 tahun per 30 September.",
+        "en": "Grade 1: minimum age 6 by 30 September."
+      },
+      "period": {
+        "id": "Pendaftaran online dibuka. Situs tidak menyebut tahun ajaran; ini prosedur yang berlaku per November 2026.",
+        "en": "Online registration is open. The site does not state the academic year; this is the procedure in effect as of November 2026."
+      },
+      "source": {
+        "title": "Admissions — Sekolah Dian Harapan (situs resmi)",
+        "url": "https://www.sdh.sch.id/admissions"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar online melalui situs SDH.",
+          "en": "Register online via the SDH website."
+        },
+        {
+          "id": "Unggah dokumen (atau serahkan langsung ke kampus).",
+          "en": "Upload documents (or hand in hard copies at the campus)."
+        },
+        {
+          "id": "Bagian admission menginformasikan jadwal tes masuk; tes bisa di kampus atau online.",
+          "en": "Admissions informs you of the entrance test date; tests can be on campus or online."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan/fotokopi akta kelahiran",
+          "en": "Scan/copy of birth certificate"
+        },
+        {
+          "id": "Scan/fotokopi Kartu Keluarga",
+          "en": "Scan/copy of family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Dua pas foto terbaru 3x4",
+          "en": "Two recent 3x4 photos"
+        },
+        {
+          "id": "Satu salinan rapor tahun terakhir",
+          "en": "One copy of last year's report card"
+        }
+      ],
+      "test": {
+        "id": "Psikotes, Matematika, Bahasa Inggris, Bahasa Indonesia, wawancara siswa & orang tua.",
+        "en": "Psychological test, maths, English, Indonesian, student & parent interview."
+      },
+      "period": {
+        "id": "Pendaftaran online dibuka. Situs tidak menyebut tahun ajaran; ini prosedur yang berlaku per November 2026.",
+        "en": "Online registration is open. The site does not state the academic year; this is the procedure in effect as of November 2026."
+      },
+      "source": {
+        "title": "Admissions — Sekolah Dian Harapan (situs resmi)",
+        "url": "https://www.sdh.sch.id/admissions"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar online melalui situs SDH.",
+          "en": "Register online via the SDH website."
+        },
+        {
+          "id": "Unggah dokumen (atau serahkan langsung ke kampus).",
+          "en": "Upload documents (or hand in hard copies at the campus)."
+        },
+        {
+          "id": "Bagian admission menginformasikan jadwal tes masuk; tes bisa di kampus atau online.",
+          "en": "Admissions informs you of the entrance test date; tests can be on campus or online."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan/fotokopi akta kelahiran",
+          "en": "Scan/copy of birth certificate"
+        },
+        {
+          "id": "Scan/fotokopi Kartu Keluarga",
+          "en": "Scan/copy of family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Dua pas foto terbaru 3x4",
+          "en": "Two recent 3x4 photos"
+        },
+        {
+          "id": "Satu salinan rapor tahun terakhir",
+          "en": "One copy of last year's report card"
+        }
+      ],
+      "test": {
+        "id": "Psikotes, Matematika, Bahasa Inggris, Bahasa Indonesia, wawancara siswa & orang tua.",
+        "en": "Psychological test, maths, English, Indonesian, student & parent interview."
+      },
+      "period": {
+        "id": "Pendaftaran online dibuka. Situs tidak menyebut tahun ajaran; ini prosedur yang berlaku per November 2026.",
+        "en": "Online registration is open. The site does not state the academic year; this is the procedure in effect as of November 2026."
+      },
+      "source": {
+        "title": "Admissions — Sekolah Dian Harapan (situs resmi)",
+        "url": "https://www.sdh.sch.id/admissions"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

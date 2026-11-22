@@ -29,4 +29,9 @@ upsert("charis-global-school-cikarang", name="Charis Global School Lippo Cikaran
 upsert("sekolah-kesatuan-bogor", name="Sekolah Kesatuan Bogor", city="Kota Bogor", website="https://sekolah-kesatuan.sch.id",
        registrationFee=250_000, entryFee={"min": 14_000_000}, tuition={"amount": 1_200_000, "period": "month"},
        otherFees=[fee("Tes masuk", "Entrance test", 100_000), fee(*BOOKS, 1_200_000)], **C)
+upsert("smpit-insantama-bogor", name="SMPIT Insantama Bogor", city="Kota Bogor", district="Bogor Barat", religion="Islam",
+       address="Jl. Hegarmanah IV No.47, Gunungbatu, Bogor Barat, Kota Bogor", phone="(0251) 8363973", website="https://insantama.sch.id",
+       registrationFee=600_000, entryFee={"min": 25_000_000}, tuition={"amount": 1_200_000, "period": "month"},
+       otherFees=[fee("Parenting", "Parenting programme", 800_000), fee("Seragam putra", "Uniforms (boys)", 1_530_000), fee("Seragam putri", "Uniforms (girls)", 1_790_000)],
+       notes=L("Uang pangkal = infaq pengembangan. Alamat dari direktori sekolah.", "Entry fee = development infaq. Address from school directories."), **C)
 print("ok")
