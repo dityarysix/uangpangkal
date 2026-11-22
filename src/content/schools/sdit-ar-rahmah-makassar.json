@@ -1,0 +1,64 @@
+{
+  "name": "SDIT Ar-Rahmah Makassar",
+  "city": "Kota Makassar",
+  "district": "Tamalanrea",
+  "address": "Perumahan Dosen Unhas, Jl. Al-Ikhlas I Blok H, Tamalanrea Jaya, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 1220000
+      },
+      "tuition": {
+        "amount": 280000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Praktikum",
+            "en": "Practicals"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Kesiswaan",
+            "en": "Student affairs"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Buku dan lembar kerja",
+            "en": "Books and worksheets"
+          },
+          "amount": 1100000
+        },
+        {
+          "label": {
+            "id": "Seragam 3 pasang",
+            "en": "Uniforms (3 sets)"
+          },
+          "amount": 750000
+        }
+      ],
+      "notes": {
+        "id": "Uang masuk = biaya fasilitas pendidikan. Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Entry = education facilities fee. Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "30 SD Negeri dan Swasta Makassar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231027101549-61-320556/30-sd-negeri-swasta-makassar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-27"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "SD Harapan 1 Medan",
+  "city": "Kota Medan",
+  "district": "Medan Maimun",
+  "address": "Jl. Imam Bonjol No.32, Medan Maimun, Kota Medan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 3010000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang sarana pendidikan per tahun",
+            "en": "Education facilities fee per year"
+          },
+          "amount": 1050000
+        }
+      ],
+      "notes": {
+        "id": "Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Medan Akreditasi A, Lengkap dengan Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231024093600-61-319347/20-sd-negeri-dan-swasta-medan-akreditasi-a-lengkap-dengan-alamat-estimasi-biaya",
+        "published": "2023-10-25"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

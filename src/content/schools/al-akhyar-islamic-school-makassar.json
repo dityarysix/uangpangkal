@@ -1,0 +1,43 @@
+{
+  "name": "Al-Akhyar Islamic School Makassar",
+  "city": "Kota Makassar",
+  "district": "Biringkanaya",
+  "address": "Jl. Arung Teko No.99, Sudiang, Biringkanaya, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Infaq kegiatan",
+            "en": "Activities donation"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal Rp3.000.000 + infaq sarana prasarana Rp10.000.000. Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Entry fee Rp3,000,000 + facilities donation Rp10,000,000. Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "30 SD Negeri dan Swasta Makassar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231027101549-61-320556/30-sd-negeri-swasta-makassar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-27"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

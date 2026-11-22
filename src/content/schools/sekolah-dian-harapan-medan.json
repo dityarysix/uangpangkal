@@ -1,0 +1,113 @@
+{
+  "name": "Sekolah Dian Harapan Medan",
+  "city": "Kota Medan",
+  "district": "Medan Petisah",
+  "address": "Lippo Plaza, Jl. Imam Bonjol No.6, Petisah Tengah, Medan Petisah, Kota Medan",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "website": "https://www.sdh.sch.id",
+  "fees": [],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar online melalui situs SDH.",
+          "en": "Register online via the SDH website."
+        },
+        {
+          "id": "Unggah dokumen (atau serahkan langsung ke kampus).",
+          "en": "Upload documents (or hand in hard copies at the campus)."
+        },
+        {
+          "id": "Bagian admission menginformasikan jadwal tes masuk; tes bisa di kampus atau online.",
+          "en": "Admissions informs you of the entrance test date; tests can be on campus or online."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan/fotokopi akta kelahiran",
+          "en": "Scan/copy of birth certificate"
+        },
+        {
+          "id": "Scan/fotokopi Kartu Keluarga",
+          "en": "Scan/copy of family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Dua pas foto terbaru 3x4",
+          "en": "Two recent 3x4 photos"
+        },
+        {
+          "id": "Satu salinan rapor tahun terakhir",
+          "en": "One copy of last year's report card"
+        }
+      ],
+      "test": {
+        "id": "Kelas 1: psikotes, wawancara siswa & orang tua. Kelas 2–6: psikotes, Matematika, Bahasa Inggris, Bahasa Indonesia, wawancara.",
+        "en": "Grade 1: psychological test, student & parent interview. Grades 2–6: psychological test, maths, English, Indonesian, interview."
+      },
+      "period": {
+        "id": "Prosedur jaringan SDH per November 2026; situs tidak menyebut tahun ajaran. Biaya kampus tidak dipublikasikan.",
+        "en": "SDH network procedure as of November 2026; the site does not state the year. Campus fees are not published."
+      },
+      "source": {
+        "title": "Admissions — Sekolah Dian Harapan (situs resmi)",
+        "url": "https://www.sdh.sch.id/admissions"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar online melalui situs SDH.",
+          "en": "Register online via the SDH website."
+        },
+        {
+          "id": "Unggah dokumen (atau serahkan langsung ke kampus).",
+          "en": "Upload documents (or hand in hard copies at the campus)."
+        },
+        {
+          "id": "Bagian admission menginformasikan jadwal tes masuk; tes bisa di kampus atau online.",
+          "en": "Admissions informs you of the entrance test date; tests can be on campus or online."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan/fotokopi akta kelahiran",
+          "en": "Scan/copy of birth certificate"
+        },
+        {
+          "id": "Scan/fotokopi Kartu Keluarga",
+          "en": "Scan/copy of family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Dua pas foto terbaru 3x4",
+          "en": "Two recent 3x4 photos"
+        },
+        {
+          "id": "Satu salinan rapor tahun terakhir",
+          "en": "One copy of last year's report card"
+        }
+      ],
+      "test": {
+        "id": "Psikotes, Matematika, Bahasa Inggris, Bahasa Indonesia, wawancara siswa & orang tua.",
+        "en": "Psychological test, maths, English, Indonesian, student & parent interview."
+      },
+      "period": {
+        "id": "Prosedur jaringan SDH per November 2026; situs tidak menyebut tahun ajaran. Biaya kampus tidak dipublikasikan.",
+        "en": "SDH network procedure as of November 2026; the site does not state the year. Campus fees are not published."
+      },
+      "source": {
+        "title": "Admissions — Sekolah Dian Harapan (situs resmi)",
+        "url": "https://www.sdh.sch.id/admissions"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

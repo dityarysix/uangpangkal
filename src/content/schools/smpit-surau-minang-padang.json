@@ -1,0 +1,35 @@
+{
+  "name": "SMPIT Surau Minang Padang",
+  "city": "Kota Padang",
+  "district": "Kuranji",
+  "address": "Jl. Raya Ampang (belakang Kantor Pos Kuranji), Kota Padang",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 8800000,
+        "max": 8900000
+      },
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pembangunan Rp8.800.000 (putra) / Rp8.900.000 (putri). Pendaftaran dibuka mulai 11 November 2026.",
+        "en": "Building fee Rp8,800,000 (boys) / Rp8,900,000 (girls). Registration opens 11 November 2026."
+      },
+      "source": {
+        "title": "SDIT PIS dan SMPIT Surau Minang Buka Pendaftaran Siswa Baru 2027/2028 (Sumbarbisnis)",
+        "url": "https://sumbarbisnis.com/sdit-pis-dan-smpit-surau-minang-buka-pendaftaran-siswa-baru-2027-2028/",
+        "published": "2026-11-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

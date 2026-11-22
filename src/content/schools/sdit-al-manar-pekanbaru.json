@@ -1,0 +1,58 @@
+{
+  "name": "SDIT Al Manar Pekanbaru",
+  "city": "Kota Pekanbaru",
+  "district": "Marpoyan Damai",
+  "address": "Gg. Al-Manar, Tengkerang Barat, Marpoyan Damai, Pekanbaru",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 3500000
+      },
+      "tuition": {
+        "amount": 250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya pendidikan 1 tahun",
+            "en": "Education fee (1 year)"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Sarana prasarana",
+            "en": "Facilities"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Seragam 5 pasang",
+            "en": "Uniforms (5 sets)"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "Uang masuk = pembangunan. Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Entry = building fee. Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Pekanbaru Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231026163120-61-320598/20-sd-negeri-dan-swasta-pekanbaru-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-26"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

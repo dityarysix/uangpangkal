@@ -1,0 +1,231 @@
+{
+  "name": "Perguruan Islam Al-Amjad Medan",
+  "city": "Kota Medan",
+  "district": "Medan Sunggal",
+  "address": "Jl. Merpati No.81 (Ringroad), Sei Sikambing B, Medan Sunggal, Kota Medan",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://www.perguruanalamjad.com",
+  "phone": "061 4256 5253 / 0811 682 7787",
+  "fees": [],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Dibuka sejak open house 24 Oktober 2026. Early bird (diskon uang pangkal) sampai 31 Januari 2027; diskon sibling bisa digabung.",
+        "en": "Open since the open house on 24 October 2026. Early-bird entry-fee discount until 31 January 2027; sibling discount can be combined."
+      },
+      "steps": [
+        {
+          "id": "Pra-registrasi online di spmb.alamjad.sch.id atau langsung di sekolah (gratis, tidak mengikat)",
+          "en": "Online pre-registration at spmb.alamjad.sch.id or at the school (free, non-binding)"
+        },
+        {
+          "id": "Tim sekolah menghubungi untuk jadwal kedatangan",
+          "en": "The school contacts you to schedule a visit"
+        },
+        {
+          "id": "Registrasi di sekolah dan bayar uang pendaftaran (kursi baru terjamin setelah ini)",
+          "en": "Register at the school and pay the registration fee (seat secured only after this)"
+        },
+        {
+          "id": "Seleksi: calon murid dan orang tua hadir bersama",
+          "en": "Selection day: applicant and parents attend together"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi kartu keluarga",
+          "en": "Copy of family card"
+        },
+        {
+          "id": "Pas foto 3x4 (4 lembar)",
+          "en": "3x4 photos (4)"
+        },
+        {
+          "id": "Rapor TK terakhir (bila ada)",
+          "en": "Latest kindergarten report (if any)"
+        }
+      ],
+      "test": {
+        "id": "Observasi tumbuh kembang, kemandirian, kesiapan belajar; wawancara orang tua. Usia PG 3, TK-A 4, TK-B 5 tahun per 31 Juli 2027.",
+        "en": "Observation of development, independence, readiness; parent interview. Age: PG 3, TK-A 4, TK-B 5 by 31 July 2027."
+      },
+      "source": {
+        "title": "Pendaftaran Siswa Baru Al-Amjad 2027/2028 (situs resmi)",
+        "url": "https://www.perguruanalamjad.com/daftar"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Dibuka sejak open house 24 Oktober 2026. Early bird (diskon uang pangkal) sampai 31 Januari 2027; diskon sibling bisa digabung.",
+        "en": "Open since the open house on 24 October 2026. Early-bird entry-fee discount until 31 January 2027; sibling discount can be combined."
+      },
+      "steps": [
+        {
+          "id": "Pra-registrasi online di spmb.alamjad.sch.id atau langsung di sekolah (gratis, tidak mengikat)",
+          "en": "Online pre-registration at spmb.alamjad.sch.id or at the school (free, non-binding)"
+        },
+        {
+          "id": "Tim sekolah menghubungi untuk jadwal kedatangan",
+          "en": "The school contacts you to schedule a visit"
+        },
+        {
+          "id": "Registrasi di sekolah dan bayar uang pendaftaran (kursi baru terjamin setelah ini)",
+          "en": "Register at the school and pay the registration fee (seat secured only after this)"
+        },
+        {
+          "id": "Seleksi: calon murid dan orang tua hadir bersama",
+          "en": "Selection day: applicant and parents attend together"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi kartu keluarga",
+          "en": "Copy of family card"
+        },
+        {
+          "id": "Pas foto 3x4 (4 lembar)",
+          "en": "3x4 photos (4)"
+        },
+        {
+          "id": "Rapor TK terakhir (bila ada)",
+          "en": "Latest kindergarten report (if any)"
+        }
+      ],
+      "test": {
+        "id": "Tanpa tes akademik: observasi kesiapan belajar dan wawancara orang tua. Usia minimal 6 tahun per 31 Juli 2027.",
+        "en": "No academic test: readiness observation and parent interview. Minimum age 6 by 31 July 2027."
+      },
+      "source": {
+        "title": "Pendaftaran Siswa Baru Al-Amjad 2027/2028 (situs resmi)",
+        "url": "https://www.perguruanalamjad.com/daftar"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Dibuka sejak open house 24 Oktober 2026. Early bird (diskon uang pangkal) sampai 31 Januari 2027; diskon sibling bisa digabung.",
+        "en": "Open since the open house on 24 October 2026. Early-bird entry-fee discount until 31 January 2027; sibling discount can be combined."
+      },
+      "steps": [
+        {
+          "id": "Pra-registrasi online di spmb.alamjad.sch.id atau langsung di sekolah (gratis, tidak mengikat)",
+          "en": "Online pre-registration at spmb.alamjad.sch.id or at the school (free, non-binding)"
+        },
+        {
+          "id": "Tim sekolah menghubungi untuk jadwal kedatangan",
+          "en": "The school contacts you to schedule a visit"
+        },
+        {
+          "id": "Registrasi di sekolah dan bayar uang pendaftaran (kursi baru terjamin setelah ini)",
+          "en": "Register at the school and pay the registration fee (seat secured only after this)"
+        },
+        {
+          "id": "Seleksi: calon murid dan orang tua hadir bersama",
+          "en": "Selection day: applicant and parents attend together"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi kartu keluarga",
+          "en": "Copy of family card"
+        },
+        {
+          "id": "Pas foto 3x4 (4 lembar)",
+          "en": "3x4 photos (4)"
+        },
+        {
+          "id": "Rapor kelas 5 SD semester 2",
+          "en": "Grade 5 semester 2 report"
+        }
+      ],
+      "test": {
+        "id": "Seleksi akademik mata pelajaran inti, sikap, dan keislaman; wawancara orang tua.",
+        "en": "Academic test in core subjects, attitude and Islamic knowledge; parent interview."
+      },
+      "source": {
+        "title": "Pendaftaran Siswa Baru Al-Amjad 2027/2028 (situs resmi)",
+        "url": "https://www.perguruanalamjad.com/daftar"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Dibuka sejak open house 24 Oktober 2026. Early bird (diskon uang pangkal) sampai 31 Januari 2027; diskon sibling bisa digabung.",
+        "en": "Open since the open house on 24 October 2026. Early-bird entry-fee discount until 31 January 2027; sibling discount can be combined."
+      },
+      "steps": [
+        {
+          "id": "Pra-registrasi online di spmb.alamjad.sch.id atau langsung di sekolah (gratis, tidak mengikat)",
+          "en": "Online pre-registration at spmb.alamjad.sch.id or at the school (free, non-binding)"
+        },
+        {
+          "id": "Tim sekolah menghubungi untuk jadwal kedatangan",
+          "en": "The school contacts you to schedule a visit"
+        },
+        {
+          "id": "Registrasi di sekolah dan bayar uang pendaftaran (kursi baru terjamin setelah ini)",
+          "en": "Register at the school and pay the registration fee (seat secured only after this)"
+        },
+        {
+          "id": "Seleksi: calon murid dan orang tua hadir bersama",
+          "en": "Selection day: applicant and parents attend together"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi kartu keluarga",
+          "en": "Copy of family card"
+        },
+        {
+          "id": "Pas foto 3x4 (4 lembar)",
+          "en": "3x4 photos (4)"
+        },
+        {
+          "id": "Rapor kelas 8 SMP semester 2",
+          "en": "Grade 8 semester 2 report"
+        }
+      ],
+      "test": {
+        "id": "Seleksi akademik mata pelajaran inti, sikap, dan keislaman; wawancara orang tua.",
+        "en": "Academic test in core subjects, attitude and Islamic knowledge; parent interview."
+      },
+      "source": {
+        "title": "Pendaftaran Siswa Baru Al-Amjad 2027/2028 (situs resmi)",
+        "url": "https://www.perguruanalamjad.com/daftar"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

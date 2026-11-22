@@ -1,0 +1,58 @@
+{
+  "name": "SDIT Al Fikri Islamic Green School Pekanbaru",
+  "city": "Kota Pekanbaru",
+  "district": "Marpoyan Damai",
+  "address": "Jl. Merak No.1, Tengkerang Tengah, Marpoyan Damai, Pekanbaru",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM 1 tahun",
+            "en": "Learning activities (1 year)"
+          },
+          "amount": 4700000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1350000
+        },
+        {
+          "label": {
+            "id": "Tes IQ",
+            "en": "IQ test"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Pekanbaru Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231026163120-61-320598/20-sd-negeri-dan-swasta-pekanbaru-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-26"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sekolah Kristen IPEKA CPI Makassar",
+  "city": "Kota Makassar",
+  "address": "Perum Citra Land City Losari Blok C-D No.02, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 75000000
+      },
+      "tuition": {
+        "amount": 14000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka \"sekitar\". Kisaran biaya dari artikel; jenjang tidak dirinci. Konfirmasi ke sekolah.",
+        "en": "Approximate figures. Fee range from an article; level not specified. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "4 Sekolah Internasional di Makassar, Lengkap dengan Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-makassar",
+        "published": "2025-06-19"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

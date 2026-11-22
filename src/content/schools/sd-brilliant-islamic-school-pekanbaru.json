@@ -1,0 +1,30 @@
+{
+  "name": "SD Brilliant Islamic School Pekanbaru",
+  "city": "Kota Pekanbaru",
+  "district": "Tampan",
+  "address": "Jl. Swakarya B No.30, Tuah Karya, Tampan, Pekanbaru",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 9250000
+      },
+      "notes": {
+        "id": "Estimasi biaya total Rp9.250.000. Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Estimated total Rp9,250,000. Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Pekanbaru Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231026163120-61-320598/20-sd-negeri-dan-swasta-pekanbaru-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-26"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "name": "SMA Swasta Santo Yoseph Medan",
+  "city": "Kota Medan",
+  "district": "Medan Tuntungan",
+  "address": "Jl. Flamboyan Raya No.139, Tanjung Selamat, Medan Tuntungan, Kota Medan",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Katolik",
+  "website": "https://www.smastyosephmedan.com",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 1850000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 150000
+        },
+        {
+          "label": {
+            "id": "Baju olahraga",
+            "en": "Sports uniform"
+          },
+          "amount": 185000
+        },
+        {
+          "label": {
+            "id": "Baju kotak-kotak",
+            "en": "Checked uniform"
+          },
+          "amount": 170000
+        },
+        {
+          "label": {
+            "id": "Baju batik",
+            "en": "Batik uniform"
+          },
+          "amount": 160000
+        },
+        {
+          "label": {
+            "id": "Uang OSIS per tahun",
+            "en": "Student council fee per year"
+          },
+          "amount": 240000
+        }
+      ],
+      "notes": {
+        "id": "Total gelombang 1 Rp3.455.000. Potongan 50% uang pangkal untuk lulusan SMP Santo Yoseph dan SMP Deli Murni Sukamaju, serta juara umum 1–3 kelas IX.",
+        "en": "Wave 1 total Rp3,455,000. 50% entry-fee reduction for graduates of SMP Santo Yoseph and SMP Deli Murni Sukamaju, and for top-3 overall in grade 9."
+      },
+      "source": {
+        "title": "Detail SPMB 2026/2027 — SMA Swasta Santo Yoseph Medan (situs resmi)",
+        "url": "https://www.smastyosephmedan.com/ppdb/1"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "steps": [],
+      "documents": [
+        {
+          "id": "Fotokopi surat permandian (1 lembar)",
+          "en": "Copy of baptism certificate (1)"
+        },
+        {
+          "id": "Surat tanda lulus (1 lembar)",
+          "en": "Graduation letter (1)"
+        },
+        {
+          "id": "Ijazah asli SMP dan fotokopi (2 lembar)",
+          "en": "Original SMP diploma and 2 copies"
+        }
+      ],
+      "source": {
+        "title": "Detail SPMB 2026/2027 — SMA Swasta Santo Yoseph Medan (situs resmi)",
+        "url": "https://www.smastyosephmedan.com/ppdb/1"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

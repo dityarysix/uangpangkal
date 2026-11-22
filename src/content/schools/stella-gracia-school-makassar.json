@@ -1,0 +1,35 @@
+{
+  "name": "Stella Gracia School Makassar",
+  "city": "Kota Makassar",
+  "district": "Tamalate",
+  "address": "Jl. Manunggal 22 No.5, Maccini Sombala, Tamalate, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 10000000,
+        "period": "quarter"
+      },
+      "notes": {
+        "id": "SPP Rp10.000.000 per 4 bulan (dicatat per term). Biaya pendaftaran (uang masuk) Rp25.000.000. Kisaran biaya dari artikel; jenjang tidak dirinci. Konfirmasi ke sekolah.",
+        "en": "Tuition Rp10,000,000 per 4 months (shown per term). Joining fee Rp25,000,000. Fee range from an article; level not specified. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "4 Sekolah Internasional di Makassar, Lengkap dengan Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-makassar",
+        "published": "2025-06-19"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

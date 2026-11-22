@@ -1,0 +1,27 @@
+{
+  "name": "SD Runiah Makassar",
+  "city": "Kota Makassar",
+  "district": "Mariso",
+  "address": "Jl. Gagak No.25, Mariso, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "registrationFee": 300000,
+      "notes": {
+        "id": "Sekolah inklusi. Hanya biaya pendaftaran yang disebut. Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Inclusive school. Only the registration fee is given. Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "30 SD Negeri dan Swasta Makassar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231027101549-61-320556/30-sd-negeri-swasta-makassar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-27"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

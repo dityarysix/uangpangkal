@@ -1,0 +1,69 @@
+{
+  "name": "SMPIT Al Furqon Palembang",
+  "city": "Kota Palembang",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 17923000,
+        "max": 26303000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Total biaya masuk (wakaf lahan, uang pangkal, SPP Juli, seragam, kegiatan dan buku 1 tahun): internal fullday Rp17.923.000 / boarding Rp22.338.000; eksternal fullday Rp21.888.000 / boarding Rp26.303.000. SPP fullday Rp1.500.000, boarding Rp3.540.000 per bulan.",
+        "en": "Total entry cost (land endowment, entry fee, July tuition, uniforms, 1 year of activities and books): internal full-day Rp17,923,000 / boarding Rp22,338,000; external full-day Rp21,888,000 / boarding Rp26,303,000. Tuition full-day Rp1,500,000, boarding Rp3,540,000 per month."
+      },
+      "source": {
+        "title": "SPMB SMP IT Al Furqon Palembang TP 2026/2027 (situs resmi)",
+        "url": "https://sites.google.com/view/ppdbsmpitalfurqonpalembang/beranda"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "period": {
+        "id": "Dibuka 1 September 2025.",
+        "en": "Opened 1 September 2025."
+      },
+      "steps": [
+        {
+          "id": "Pelajari informasi pendaftaran dan biaya",
+          "en": "Read the admission and fee information"
+        },
+        {
+          "id": "Mendaftar (langsung di kantor administrasi atau online)",
+          "en": "Register (at the admin office or online)"
+        },
+        {
+          "id": "Tes seleksi masuk",
+          "en": "Entrance selection test"
+        },
+        {
+          "id": "Pengumuman kelulusan dan daftar ulang",
+          "en": "Results and re-registration"
+        },
+        {
+          "id": "Pengambilan seragam dan buku",
+          "en": "Collect uniforms and books"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB SMP IT Al Furqon Palembang TP 2026/2027 (situs resmi)",
+        "url": "https://sites.google.com/view/ppdbsmpitalfurqonpalembang/beranda"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Medan Independent School",
+  "city": "Kota Medan",
+  "district": "Medan Tuntungan",
+  "address": "Jl. Tali Air No.5, Mangga, Medan Tuntungan, Kota Medan",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "IB",
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "registrationFee": 35000000,
+      "tuition": {
+        "amount": 197400000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya pengembangan per tahun",
+            "en": "Development fee per year"
+          },
+          "amount": 12400000
+        }
+      ],
+      "notes": {
+        "id": "Biaya registrasi dibayar sekali saat masuk. Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Registration fee is paid once on entry. Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Medan Akreditasi A, Lengkap dengan Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231024093600-61-319347/20-sd-negeri-dan-swasta-medan-akreditasi-a-lengkap-dengan-alamat-estimasi-biaya",
+        "published": "2023-10-25"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

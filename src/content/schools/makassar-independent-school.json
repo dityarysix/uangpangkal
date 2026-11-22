@@ -1,0 +1,36 @@
+{
+  "name": "Makassar Independent School",
+  "city": "Kota Makassar",
+  "district": "Ujung Pandang",
+  "address": "Jl. Botolempangan No.19, Sawerigading, Ujung Pandang, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 9000000,
+        "period": "quarter"
+      },
+      "notes": {
+        "id": "Kisaran biaya dari artikel; jenjang tidak dirinci. Konfirmasi ke sekolah.",
+        "en": "Fee range from an article; level not specified. Confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "4 Sekolah Internasional di Makassar, Lengkap dengan Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-makassar",
+        "published": "2025-06-19"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

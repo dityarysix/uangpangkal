@@ -9,6 +9,8 @@ interface Props { lang: Lang }
 const { lang } = Astro.props;
 const schools = await allSchools();
 const count = (a: string) => schools.filter((s) => areaOfCity(s.data.city).slug === a).length;
+// Areas appear on the home page once they have at least one school.
+const shown = AREAS.filter((a) => count(a.slug) > 0);
 const LEVELS = ['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK'];
 const caps = [5_000_000, 10_000_000, 25_000_000, 50_000_000, 100_000_000];
 const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'million'}`;
@@ -20,7 +22,7 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
   </section>
 
   <section class="areas" aria-label={t(lang, 'areas')}>
-    {AREAS.map((a) => (
+    {shown.map((a) => (
       <a class="area" href={paths.area(lang, a.slug)}>
         <strong>{a.name[lang]}</strong>
         <span class="muted">{count(a.slug)} {t(lang, 'schools')}</span>
@@ -34,7 +36,7 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
     <input type="search" id="q" placeholder={t(lang, 'searchPlaceholder')} aria-label={t(lang, 'searchPlaceholder')} />
     <select id="area" aria-label={t(lang, 'areas')}>
       <option value="">{t(lang, 'allAreas')}</option>
-      {AREAS.map((a) => <option value={a.slug}>{a.name[lang]}</option>)}
+      {shown.map((a) => <option value={a.slug}>{a.name[lang]}</option>)}
     </select>
     <select id="level" aria-label={t(lang, 'level')}>
       <option value="">{t(lang, 'allLevels')}</option>

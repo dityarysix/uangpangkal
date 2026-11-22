@@ -1,0 +1,33 @@
+{
+  "name": "Prime One School Medan",
+  "city": "Kota Medan",
+  "district": "Medan Amplas",
+  "address": "Jl. Jenderal Besar A.H. Nasution No.88A, Harjosari II, Medan Amplas, Kota Medan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 15000000
+      },
+      "tuition": {
+        "amount": 2750000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka dari artikel blog (tahun ajaran 2026); konfirmasi ke sekolah.",
+        "en": "Figures from a blog article (academic year 2026); confirm with the school."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk Sekolah Dasar di Medan Tahun Ajaran Baru 2026 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sekolah-dasar-di-medan/",
+        "published": "2026-09-29"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

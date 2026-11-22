@@ -24,9 +24,19 @@ export const AREAS = [
     cities: ['Kota Bekasi', 'Kabupaten Bekasi'],
   },
   {
+    slug: 'serang-raya',
+    name: { id: 'Serang Raya', en: 'Greater Serang' },
+    cities: ['Kota Serang', 'Kabupaten Serang', 'Cilegon', 'Pandeglang'],
+  },
+  {
     slug: 'bandung-raya',
     name: { id: 'Bandung Raya', en: 'Greater Bandung' },
     cities: ['Kota Bandung', 'Kabupaten Bandung', 'Kabupaten Bandung Barat', 'Cimahi', 'Kabupaten Sumedang'],
+  },
+  {
+    slug: 'tasikmalaya-raya',
+    name: { id: 'Tasikmalaya Raya', en: 'Greater Tasikmalaya' },
+    cities: ['Kota Tasikmalaya', 'Kabupaten Tasikmalaya', 'Ciamis', 'Kota Banjar', 'Garut'],
   },
   {
     slug: 'semarang-raya',
@@ -52,6 +62,46 @@ export const AREAS = [
     slug: 'solo-raya',
     name: { id: 'Solo Raya', en: 'Greater Solo' },
     cities: ['Surakarta (Solo)', 'Sukoharjo', 'Karanganyar', 'Boyolali', 'Klaten', 'Sragen', 'Wonogiri'],
+  },
+  {
+    slug: 'medan-raya',
+    name: { id: 'Medan Raya', en: 'Greater Medan' },
+    cities: ['Kota Medan', 'Deli Serdang', 'Binjai', 'Karo'],
+  },
+  {
+    slug: 'pekanbaru-raya',
+    name: { id: 'Pekanbaru Raya', en: 'Greater Pekanbaru' },
+    cities: ['Kota Pekanbaru', 'Kampar', 'Siak', 'Pelalawan'],
+  },
+  {
+    slug: 'padang-raya',
+    name: { id: 'Padang Raya', en: 'Greater Padang' },
+    cities: ['Kota Padang', 'Padang Pariaman', 'Kota Pariaman', 'Bukittinggi'],
+  },
+  {
+    slug: 'batam-raya',
+    name: { id: 'Batam Raya', en: 'Greater Batam' },
+    cities: ['Kota Batam', 'Tanjungpinang', 'Bintan', 'Karimun'],
+  },
+  {
+    slug: 'palembang-raya',
+    name: { id: 'Palembang Raya', en: 'Greater Palembang' },
+    cities: ['Kota Palembang', 'Banyuasin', 'Ogan Ilir'],
+  },
+  {
+    slug: 'bandar-lampung-raya',
+    name: { id: 'Bandar Lampung Raya', en: 'Greater Bandar Lampung' },
+    cities: ['Kota Bandar Lampung', 'Lampung Selatan', 'Pesawaran', 'Kota Metro'],
+  },
+  {
+    slug: 'samarinda-raya',
+    name: { id: 'Samarinda Raya', en: 'Greater Samarinda' },
+    cities: ['Kota Samarinda', 'Kutai Kartanegara', 'Bontang', 'Balikpapan'],
+  },
+  {
+    slug: 'makassar-raya',
+    name: { id: 'Makassar Raya', en: 'Greater Makassar' },
+    cities: ['Kota Makassar', 'Gowa', 'Maros', 'Takalar'],
   },
 ] as const;
 

@@ -1,0 +1,79 @@
+{
+  "name": "SDIT Al-Fatih Makassar",
+  "city": "Kota Makassar",
+  "district": "Makassar",
+  "address": "Jl. Domba No.12, Maricaya, Makassar, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 20500000
+      },
+      "tuition": {
+        "amount": 1235000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Observasi",
+            "en": "Observation"
+          },
+          "amount": 400000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1725000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1375000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 1250000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan",
+            "en": "Activities"
+          },
+          "amount": 1150000
+        },
+        {
+          "label": {
+            "id": "Komite per tahun",
+            "en": "Committee fee per year"
+          },
+          "amount": 250000
+        }
+      ],
+      "notes": {
+        "id": "Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "30 SD Negeri dan Swasta Makassar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231027101549-61-320556/30-sd-negeri-swasta-makassar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-27"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

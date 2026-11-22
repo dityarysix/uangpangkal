@@ -1,0 +1,33 @@
+{
+  "name": "SD Xaverius 1 Palembang",
+  "city": "Kota Palembang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "SPP Rp800.000–Rp1.500.000/bulan. Estimasi kisaran dari artikel; konfirmasi ke sekolah.",
+        "en": "Tuition Rp800,000–Rp1,500,000/month. Estimated range from an article; confirm with the school."
+      },
+      "entryFee": {
+        "min": 10000000,
+        "max": 25000000
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Daftar Rekomendasi SD Swasta di Palembang Lengkap dengan Estimasi Rincian Biaya Masuknya (Akurat Sumsel)",
+        "url": "https://sumsel.akurat.co/sumsel/850881/daftar-rekomendasi-sd-swasta-di-palembang-lengkap-dengan-estimasi-rincian-biaya-masuknya",
+        "published": "2026-04-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

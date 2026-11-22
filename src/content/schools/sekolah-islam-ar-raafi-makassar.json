@@ -1,0 +1,31 @@
+{
+  "name": "Sekolah Islam Ar-Raafi Makassar",
+  "city": "Kota Makassar",
+  "district": "Rappocini",
+  "address": "Jl. Sultan Alauddin No.307b, Gunung Sari, Rappocini, Kota Makassar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "tuition": {
+        "amount": 250000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Infaq jariyah Rp250.000/bulan (full day). Estimasi biaya dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Monthly donation Rp250,000 (full day). Estimated fees from a 2023 article; academic year not stated."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "30 SD Negeri dan Swasta Makassar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231027101549-61-320556/30-sd-negeri-swasta-makassar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-27"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
