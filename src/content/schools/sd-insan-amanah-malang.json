@@ -1,0 +1,43 @@
+{
+  "name": "SD Insan Amanah Malang",
+  "city": "Kota Malang",
+  "address": "Blok M Griyashanta, Jl. Soekarno–Hatta, Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0341) 410206",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1095000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = DPP.",
+        "en": "Entry fee = DPP."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Kota Malang (Malang Raya Media)",
+        "url": "https://malangraya.media/lifestyle/pendidikan/2024/01/biaya-masuk-sd-di-kota-malang/",
+        "published": "2024-01-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

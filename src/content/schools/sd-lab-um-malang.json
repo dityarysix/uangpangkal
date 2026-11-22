@@ -1,0 +1,46 @@
+{
+  "name": "SD Laboratorium UM Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 4000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana kegiatan dan alat pendidikan",
+            "en": "Activities & learning materials"
+          },
+          "amount": 5000000
+        },
+        {
+          "label": {
+            "id": "Seragam dan buku tulis",
+            "en": "Uniforms & exercise books"
+          },
+          "amount": 950000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = dana pembangunan.",
+        "en": "Entry fee = building fund."
+      },
+      "source": {
+        "title": "Kisaran Biaya Masuk SD Swasta di Malang Tahun Ajaran 2024/25 (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/reyvan-maulid/biaya-masuk-sd-swasta-di-malang-c1c2",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

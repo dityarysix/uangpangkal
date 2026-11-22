@@ -1,0 +1,47 @@
+{
+  "name": "PJ Global School Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 825000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Her-registrasi per tahun",
+            "en": "Annual re-registration"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = DPP.",
+        "en": "Entry fee = DPP."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Kota Malang (Malang Raya Media)",
+        "url": "https://malangraya.media/lifestyle/pendidikan/2024/01/biaya-masuk-sd-di-kota-malang/",
+        "published": "2024-01-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

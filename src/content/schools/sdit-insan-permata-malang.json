@@ -1,0 +1,65 @@
+{
+  "name": "SDIT Insan Permata Malang",
+  "city": "Kota Malang",
+  "district": "Lowokwaru",
+  "address": "Jl. Akordion Utara No.3, Tunggulwulung, Lowokwaru, Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 7750000,
+        "max": 12750000
+      },
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Makan (per bulan)",
+            "en": "Meals (per month)"
+          },
+          "amount": 185000
+        },
+        {
+          "label": {
+            "id": "Kegiatan",
+            "en": "Activities"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1300000
+        },
+        {
+          "label": {
+            "id": "Peralatan siswa dan buku",
+            "en": "Supplies and books"
+          },
+          "amount": 950000
+        }
+      ],
+      "notes": {
+        "id": "Sumber tidak menyebut tahun; artikel bertanggal Oktober 2026 tetapi angkanya bisa lebih lama. DPP dan SPP proporsional (lima kategori): DPP Rp7,75–12,75 juta; SPP Rp450–850 ribu.",
+        "en": "The source gives no year; the article is dated October 2026 but the figures may be older. Development fee and tuition are proportional (five categories): Rp7.75–12.75M; tuition Rp450–850k."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Malang (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-malang/",
+        "published": "2026-10-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

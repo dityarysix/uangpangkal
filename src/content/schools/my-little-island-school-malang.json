@@ -1,0 +1,51 @@
+{
+  "name": "My Little Island School Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge",
+    "IB"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 24000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Biaya kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = DPP.",
+        "en": "Entry fee = DPP."
+      },
+      "source": {
+        "title": "Kisaran Biaya Masuk SD Swasta di Malang Tahun Ajaran 2024/25 (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/reyvan-maulid/biaya-masuk-sd-swasta-di-malang-c1c2",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

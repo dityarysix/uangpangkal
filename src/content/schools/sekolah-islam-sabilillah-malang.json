@@ -1,0 +1,180 @@
+{
+  "name": "Sekolah Islam Sabilillah Malang",
+  "city": "Kota Malang",
+  "district": "Lowokwaru",
+  "address": "Jl. Terusan Piranha Atas No.135, Tunjungsekar, Lowokwaru, Kota Malang",
+  "levels": [
+    "SD",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 19500000
+      },
+      "tuition": {
+        "amount": 1445000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam laki-laki",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1365000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1395000
+        }
+      ],
+      "notes": {
+        "id": "SD (Jl. Terusan Piranha Atas No.114). Uang pangkal = infaq.",
+        "en": "SD (Jl. Terusan Piranha Atas No.114). Entry fee = infaq."
+      },
+      "source": {
+        "title": "Kisaran Biaya Masuk SD Swasta di Malang Tahun Ajaran 2024/25 (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/reyvan-maulid/biaya-masuk-sd-swasta-di-malang-c1c2",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "SD. Sumber tidak menyebut tahun; artikel bertanggal Oktober 2026 tetapi angkanya bisa lebih lama. Uang pangkal = uang pembelajaran/gedung.",
+        "en": "SD. The source gives no year; the article is dated October 2026 but the figures may be older. Entry fee = learning/building fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 Harga Sekolah SD Swasta Terbaik di Malang (Data Pendidikan)",
+        "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-malang/",
+        "published": "2026-10-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka 2024 ini jauh lebih rendah daripada perkiraan 2026 dari sumber lain.",
+        "en": "These 2024 figures are much lower than the 2026 estimate from another source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "5 Sekolah Swasta Terbaik di Malang Jawa Timur (SD-SMA) (blog SMAN 3 Malang)",
+        "url": "https://sman3malang.sch.id/sekolah-swasta-terbaik-malang-sd-sma/",
+        "published": "2024-06-06"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 20000000,
+        "max": 25000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan/kisaran menurut sumber. Lokasi menurut sumber: Malang. Boarding. SPP Rp2–3 juta, belum termasuk kegiatan internasional.",
+        "en": "Estimate/range according to the source. Location per source: Malang. Boarding. Tuition Rp2–3M, excluding international activities."
+      },
+      "source": {
+        "title": "Biaya Sekolah di Malang 2026: Perbandingan Total SD hingga SMA Favorit (GetRadius)",
+        "url": "https://getradius.id/news/70257-biaya-sekolah-di-malang-2026-perbandingan-total-sd-hingga-sma-favorit-apa-yang-harus-dipersiapkan-orang-tua",
+        "published": "2026-05-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "steps": [
+        {
+          "id": "Buka sekolahsabilillah.sch.id, buat akun (pilih satuan pendidikan dan jalur), unggah Kartu Keluarga.",
+          "en": "Go to sekolahsabilillah.sch.id, create an account (choose unit and track), upload the family card."
+        },
+        {
+          "id": "Transfer biaya pendaftaran Rp450.000 ke virtual account BNI.",
+          "en": "Pay the Rp450,000 registration fee to the BNI virtual account."
+        },
+        {
+          "id": "Login dengan NIK calon siswa, isi biodata dan unggah berkas.",
+          "en": "Log in with the child's NIK, fill in the profile and upload documents."
+        },
+        {
+          "id": "Ikuti wawancara kesiapan belajar/seleksi sesuai jadwal dengan membawa bukti pendaftaran.",
+          "en": "Attend the readiness interview/selection with the registration receipt."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Kartu Keluarga",
+          "en": "Family card"
+        },
+        {
+          "id": "Akta kelahiran",
+          "en": "Birth certificate"
+        },
+        {
+          "id": "Surat keterangan aktif belajar",
+          "en": "Proof of current enrolment"
+        },
+        {
+          "id": "Pas foto 3x4 berwarna",
+          "en": "3x4 colour photo"
+        },
+        {
+          "id": "Piagam penghargaan (jika ada)",
+          "en": "Award certificates (if any)"
+        },
+        {
+          "id": "Surat keterangan sehat dari dokter",
+          "en": "Doctor's health certificate"
+        }
+      ],
+      "test": {
+        "id": "Wawancara kesiapan belajar/seleksi.",
+        "en": "Readiness interview/selection."
+      },
+      "notes": {
+        "id": "Jalur: prestasi undangan, inden internal/eksternal, reguler internal/eksternal. Berdasarkan artikel Juli 2024; tahun ajaran diasumsikan.",
+        "en": "Tracks: invited achievers, early internal/external, regular internal/external. Based on a July 2024 article; academic year assumed."
+      },
+      "source": {
+        "title": "Biaya Masuk SMA Islam Sabilillah Malang & Cara Pendaftaran (Hai Malang)",
+        "url": "https://haimalang.com/2024/07/12/wajib-disimak-biaya-masuk-sma-islam-sabilillah-malang-lengkap-beserta-cara-pendaftaran/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "SMK RUS Kudus",
+  "city": "Kabupaten Kudus",
+  "levels": [
+    "SMK"
+  ],
+  "website": "https://smkrus.sch.id",
+  "fees": [
+    {
+      "level": "SMK",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 3000000,
+        "max": 12000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Keperluan peserta didik putra",
+            "en": "Student package (boys)"
+          },
+          "amount": 1925000
+        },
+        {
+          "label": {
+            "id": "Keperluan peserta didik putri",
+            "en": "Student package (girls)"
+          },
+          "amount": 2065000
+        }
+      ],
+      "notes": {
+        "id": "Uang gedung/SPI dan SPP Juli 2026 per program: DKV desain grafika Rp3.000.000 & Rp550.000 (dari Kudus) / Rp6.000.000 & Rp750.000 (luar Kudus); DKV teknik grafika Rp3.000.000 & Rp500.000; Animasi Rp4.000.000 & Rp650.000 (Kudus); PPLG/RPL Rp12.000.000 & Rp1.350.000 (luar Kudus). Uang gedung boleh lebih dari angka tertera. SPP sudah termasuk ujian, kunjungan industri, karya wisata; tidak ada iuran bulanan lain.",
+        "en": "Building fee and July 2026 tuition by programme: graphic design Rp3,000,000 & Rp550,000 (from Kudus) / Rp6,000,000 & Rp750,000 (outside Kudus); print technology Rp3,000,000 & Rp500,000; animation Rp4,000,000 & Rp650,000 (Kudus); software/game development Rp12,000,000 & Rp1,350,000 (outside Kudus). The building fee may be paid above the listed amount. Tuition includes exams, industry visits and trips; no other monthly charges."
+      },
+      "source": {
+        "title": "Rincian Biaya Registrasi PMB TP 2026/2027 — SMK RUS Kudus (dokumen resmi)",
+        "url": "https://smkrus.sch.id/wp-content/uploads/2025/10/BIaya-Pendidikan-2026-2027.pdf",
+        "published": "2025-09-29"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

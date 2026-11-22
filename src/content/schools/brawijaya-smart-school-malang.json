@@ -1,0 +1,74 @@
+{
+  "name": "Brawijaya Smart School Malang",
+  "city": "Kota Malang",
+  "district": "Lowokwaru",
+  "address": "Jl. Cipayung No.8, Ketawanggede, Lowokwaru, Kota Malang",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 4000000,
+        "max": 6000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Buku kelas 1",
+            "en": "Grade 1 books"
+          },
+          "amount": 750000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 700000
+        }
+      ],
+      "notes": {
+        "id": "SD. DPP Rp4–6 juta; SPP Rp400–600 ribu.",
+        "en": "SD. Development fee Rp4–6M; tuition Rp400–600k."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Kota Malang (Malang Raya Media)",
+        "url": "https://malangraya.media/lifestyle/pendidikan/2024/01/biaya-masuk-sd-di-kota-malang/",
+        "published": "2024-01-18"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2024/2025",
+      "registrationFee": 250000,
+      "notes": {
+        "id": "Hanya biaya formulir yang dicantumkan sumber.",
+        "en": "The source lists only the form fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "5 Sekolah Swasta Terbaik di Malang Jawa Timur (SD-SMA) (blog SMAN 3 Malang)",
+        "url": "https://sman3malang.sch.id/sekolah-swasta-terbaik-malang-sd-sma/",
+        "published": "2024-06-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

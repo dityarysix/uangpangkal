@@ -52,7 +52,7 @@ upsert("sekolah-kristen-petra-malang", name="Sekolah Kristen Petra Malang", city
        entryFee={"min": 18_000_000, "max": 22_000_000}, tuition={"amount": 1_800_000, "period": "month"}, notes=rng("SPP Rp1,8–2,5 juta.", "Tuition Rp1.8–2.5M."))
 upsert("sd-muhammadiyah-1-malang", name="SD Muhammadiyah 1 Malang", city=KM, religion="Islam", level="SD", year="2026/2027", source=R2, checked=CHK,
        entryFee={"min": 8_000_000, "max": 10_000_000}, tuition={"amount": 800_000, "period": "month"}, notes=rng("SPP Rp800 ribu–1,2 juta.", "Tuition Rp800k–1.2M."))
-upsert("sma-islam-sabilillah-malang", name="SMA Islam Sabilillah Malang", city=KM, district="Lowokwaru", religion="Islam", address="Jl. Terusan Piranha Atas No.135, Tunjungsekar, Lowokwaru, Kota Malang",
+upsert("sekolah-islam-sabilillah-malang", name="Sekolah Islam Sabilillah Malang", city=KM, district="Lowokwaru", religion="Islam", address="Jl. Terusan Piranha Atas No.135, Tunjungsekar, Lowokwaru, Kota Malang",
        level="SMA", year="2026/2027", source=R2, checked=CHK, entryFee={"min": 20_000_000, "max": 25_000_000}, tuition={"amount": 2_000_000, "period": "month"},
        notes=rng("Boarding. SPP Rp2–3 juta, belum termasuk kegiatan internasional.", "Boarding. Tuition Rp2–3M, excluding international activities."))
 
@@ -64,11 +64,11 @@ upsert("sd-unggulan-al-yalu-malang", name="SD Unggulan Al-Ya'lu Malang", city=KM
 upsert("smp-laboratorium-um-malang", name="SMP Laboratorium UM Malang", city=KM, district="Lowokwaru", address="Jl. Simpang Bogor No.T-7, Sumbersari, Lowokwaru, Kota Malang",
        level="SMP", otherFees=[fee("Daftar ulang (reguler/inklusi)", "Re-registration (regular/inclusive)", 7_500_000)],
        notes=L("Biaya daftar ulang Rp7.500.000 (reguler/inklusi), Rp8.200.000 (ICP), Rp7.600.000 (tahfidz). Di bawah Yayasan Pendidikan Bhinneka Karya Unit Korpri IKIP Malang.", "Re-registration fee Rp7,500,000 (regular/inclusive), Rp8,200,000 (ICP), Rp7,600,000 (tahfidz). Run by the Bhinneka Karya foundation (IKIP Malang)."), **O)
-upsert("smp-brawijaya-smart-school-malang", name="SMP Brawijaya Smart School Malang", city=KM, district="Lowokwaru", address="Jl. Cipayung No.8, Ketawanggede, Lowokwaru, Kota Malang",
+upsert("brawijaya-smart-school-malang", name="Brawijaya Smart School Malang", city=KM, district="Lowokwaru", address="Jl. Cipayung No.8, Ketawanggede, Lowokwaru, Kota Malang",
        level="SMP", registrationFee=250_000, notes=L("Hanya biaya formulir yang dicantumkan sumber.", "The source lists only the form fee."), **O)
 upsert("sma-katolik-cor-jesu-malang", name="SMA Katolik Cor Jesu Malang", city=KM, religion="Katolik", level="SMA", registrationFee=150_000,
        notes=L("Hanya biaya pendaftaran yang dicantumkan sumber. Tersedia asrama.", "The source lists only the registration fee. Boarding available."), **O)
-upsert("sma-islam-sabilillah-malang", name="SMA Islam Sabilillah Malang", city=KM, level="SMA", registrationFee=500_000, entryFee={"min": 10_000_000}, tuition={"amount": 1_500_000, "period": "month"},
+upsert("sekolah-islam-sabilillah-malang", name="Sekolah Islam Sabilillah Malang", city=KM, level="SMA", registrationFee=500_000, entryFee={"min": 10_000_000}, tuition={"amount": 1_500_000, "period": "month"},
        notes=L("Angka 2024 ini jauh lebih rendah daripada perkiraan 2026 dari sumber lain.", "These 2024 figures are much lower than the 2026 estimate from another source."), **O)
 print("ok")
 

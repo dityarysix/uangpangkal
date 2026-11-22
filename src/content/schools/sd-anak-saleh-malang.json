@@ -1,0 +1,50 @@
+{
+  "name": "SD Anak Saleh Malang",
+  "city": "Kota Malang",
+  "district": "Lowokwaru",
+  "address": "Jl. Arumba No.31, Tunggulwulung, Lowokwaru, Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 14900000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam laki-laki",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq.",
+        "en": "Entry fee = infaq."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Kota Malang (Malang Raya Media)",
+        "url": "https://malangraya.media/lifestyle/pendidikan/2024/01/biaya-masuk-sd-di-kota-malang/",
+        "published": "2024-01-18"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

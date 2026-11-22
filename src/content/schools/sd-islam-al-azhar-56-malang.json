@@ -8,6 +8,99 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 17500000
+      },
+      "tuition": {
+        "amount": 1550000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang jamiyyah",
+            "en": "Parents' association"
+          },
+          "amount": 300000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2300000
+        }
+      ],
+      "source": {
+        "title": "Kisaran Biaya Masuk SD Swasta di Malang Tahun Ajaran 2024/25 (IDN Times)",
+        "url": "https://www.idntimes.com/life/family/reyvan-maulid/biaya-masuk-sd-swasta-di-malang-c1c2",
+        "published": "2024-10-31"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 14000000
+      },
+      "tuition": {
+        "amount": 1350000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang buku tahunan",
+            "en": "Annual books"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Seragam laki-laki",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1397000
+        },
+        {
+          "label": {
+            "id": "Seragam perempuan",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1529000
+        },
+        {
+          "label": {
+            "id": "Dana syiar",
+            "en": "Syiar fund"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Dana jamiyah",
+            "en": "Parents' association"
+          },
+          "amount": 300000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq.",
+        "en": "Entry fee = infaq."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD di Kota Malang (Malang Raya Media)",
+        "url": "https://malangraya.media/lifestyle/pendidikan/2024/01/biaya-masuk-sd-di-kota-malang/",
+        "published": "2024-01-18"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "entryFee": {
         "min": 18500000
