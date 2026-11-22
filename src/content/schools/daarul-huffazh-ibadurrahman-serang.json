@@ -1,0 +1,177 @@
+{
+  "name": "Daarul Huffazh Ibadurrahman Serang",
+  "city": "Kota Serang",
+  "district": "Cipocok Jaya",
+  "address": "Jl. Raya Pandeglang KM 04 RT 05/RW 01, Dalung, Cipocok Jaya, Kota Serang",
+  "levels": [
+    "TK",
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://spmb.ibadurrahman.sch.id/",
+  "phone": "+62 8591 0650 0225",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 2200000,
+        "max": 4200000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM & kegiatan per tahun",
+            "en": "Learning & activities per year"
+          },
+          "amount": 1900000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 400000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 50000
+        }
+      ],
+      "notes": {
+        "id": "Total SPMB: Early Bird 1 Rp4.550.000 / normal Rp6.550.000 (SPP bulanan di luar total). Uang pangkal = infaq bangunan Rp3.000.000 + sarpra Rp1.200.000 (harga normal); diskon early bird dihitung dari total. TK Qur'an.",
+        "en": "Total admission cost: Early Bird 1 Rp4,550,000 / normal Rp6,550,000 (monthly tuition separate). Entry fee = building donation Rp3,000,000 + facilities Rp1,200,000 (normal price); the early-bird discount applies to the total. Qur'an kindergarten."
+      },
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 4500000,
+        "max": 6500000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM & kegiatan per tahun",
+            "en": "Learning & activities per year"
+          },
+          "amount": 2800000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Total SPMB: Early Bird 1 Rp8.000.000 / normal Rp10.000.000 (SPP bulanan di luar total). Uang pangkal = infaq bangunan Rp5.000.000 + sarpra Rp1.500.000 (harga normal); diskon early bird dihitung dari total. SD Qur'an.",
+        "en": "Total admission cost: Early Bird 1 Rp8,000,000 / normal Rp10,000,000 (monthly tuition separate). Entry fee = building donation Rp5,000,000 + facilities Rp1,500,000 (normal price); the early-bird discount applies to the total. Qur'an primary school."
+      },
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Early Bird 1: 10 Okt–12 Des 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027.",
+        "en": "Early Bird 1: 10 Oct–12 Dec 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027."
+      },
+      "steps": [
+        {
+          "id": "Pilih unit dan jalur pendaftaran",
+          "en": "Choose the unit and admission track"
+        },
+        {
+          "id": "Isi formulir pendaftaran",
+          "en": "Fill in the registration form"
+        },
+        {
+          "id": "Unggah dokumen sesuai jalur",
+          "en": "Upload documents for the chosen track"
+        },
+        {
+          "id": "Selesaikan pembayaran tagihan SPMB",
+          "en": "Pay the admission invoice"
+        },
+        {
+          "id": "Verifikasi dan seleksi (tes/observasi)",
+          "en": "Verification and selection (test/observation)"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Early Bird 1: 10 Okt–12 Des 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027.",
+        "en": "Early Bird 1: 10 Oct–12 Dec 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027."
+      },
+      "steps": [
+        {
+          "id": "Pilih unit dan jalur pendaftaran",
+          "en": "Choose the unit and admission track"
+        },
+        {
+          "id": "Isi formulir pendaftaran",
+          "en": "Fill in the registration form"
+        },
+        {
+          "id": "Unggah dokumen sesuai jalur",
+          "en": "Upload documents for the chosen track"
+        },
+        {
+          "id": "Selesaikan pembayaran tagihan SPMB",
+          "en": "Pay the admission invoice"
+        },
+        {
+          "id": "Verifikasi dan seleksi (tes/observasi)",
+          "en": "Verification and selection (test/observation)"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

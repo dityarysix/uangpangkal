@@ -1,0 +1,332 @@
+{
+  "name": "Sekolah Islam Ibadurrahman Ciruas Serang",
+  "city": "Kabupaten Serang",
+  "district": "Ciruas",
+  "address": "Kp. Kubangawan RT 002/RW 002, Citerep, Ciruas, Kabupaten Serang (RA & SDIT); Perum Bumi Ciruas Blok C8 No.14–15, Ranjeng, Ciruas (SMPIT & SMAIT)",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://spmb.ibadurrahman.sch.id/",
+  "phone": "+62 8591 0650 0225",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 2000000,
+        "max": 4000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM & kegiatan per tahun",
+            "en": "Learning & activities per year"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 850000
+        }
+      ],
+      "notes": {
+        "id": "Total SPMB: Early Bird 1 Rp4.850.000 / normal Rp6.850.000 (SPP bulanan di luar total). Uang pangkal = infaq bangunan Rp3.000.000 + sarpra Rp1.000.000 (harga normal); diskon early bird dihitung dari total. RAIT Waladun Sholih.",
+        "en": "Total admission cost: Early Bird 1 Rp4,850,000 / normal Rp6,850,000 (monthly tuition separate). Entry fee = building donation Rp3,000,000 + facilities Rp1,000,000 (normal price); the early-bird discount applies to the total. RAIT Waladun Sholih."
+      },
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 5450000,
+        "max": 7450000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM & kegiatan per tahun",
+            "en": "Learning & activities per year"
+          },
+          "amount": 2200000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Total SPMB: Early Bird 1 Rp8.950.000 / normal Rp10.950.000 (SPP bulanan di luar total). Uang pangkal = infaq bangunan Rp5.000.000 + sarpra Rp2.450.000 (harga normal); diskon early bird dihitung dari total. SDIT Ibadurrahman.",
+        "en": "Total admission cost: Early Bird 1 Rp8,950,000 / normal Rp10,950,000 (monthly tuition separate). Entry fee = building donation Rp5,000,000 + facilities Rp2,450,000 (normal price); the early-bird discount applies to the total. SDIT Ibadurrahman."
+      },
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 5000000,
+        "max": 7000000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM & kegiatan per tahun",
+            "en": "Learning & activities per year"
+          },
+          "amount": 2600000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Total SPMB: Early Bird 1 Rp8.900.000 / normal Rp10.900.000 (SPP bulanan di luar total). Uang pangkal = infaq bangunan Rp5.000.000 + sarpra Rp2.000.000 (harga normal); diskon early bird dihitung dari total. SMPIT Ibadurrahman. Asrama putri: tambahan Rp450.000/bulan.",
+        "en": "Total admission cost: Early Bird 1 Rp8,900,000 / normal Rp10,900,000 (monthly tuition separate). Entry fee = building donation Rp5,000,000 + facilities Rp2,000,000 (normal price); the early-bird discount applies to the total. SMPIT Ibadurrahman. Girls' boarding: extra Rp450,000/month."
+      },
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 2850000,
+        "max": 4850000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "KBM & kegiatan per tahun",
+            "en": "Learning & activities per year"
+          },
+          "amount": 2400000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1300000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 100000
+        }
+      ],
+      "notes": {
+        "id": "Total SPMB: Early Bird 1 Rp6.650.000 / normal Rp8.650.000 (SPP bulanan di luar total). Uang pangkal = infaq bangunan Rp3.500.000 + sarpra Rp1.350.000 (harga normal); diskon early bird dihitung dari total. SMAIT Ibadurrahman. Asrama putri: tambahan Rp450.000/bulan.",
+        "en": "Total admission cost: Early Bird 1 Rp6,650,000 / normal Rp8,650,000 (monthly tuition separate). Entry fee = building donation Rp3,500,000 + facilities Rp1,350,000 (normal price); the early-bird discount applies to the total. SMAIT Ibadurrahman. Girls' boarding: extra Rp450,000/month."
+      },
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Early Bird 1: 10 Okt–12 Des 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027.",
+        "en": "Early Bird 1: 10 Oct–12 Dec 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027."
+      },
+      "steps": [
+        {
+          "id": "Pilih unit dan jalur pendaftaran",
+          "en": "Choose the unit and admission track"
+        },
+        {
+          "id": "Isi formulir pendaftaran",
+          "en": "Fill in the registration form"
+        },
+        {
+          "id": "Unggah dokumen sesuai jalur",
+          "en": "Upload documents for the chosen track"
+        },
+        {
+          "id": "Selesaikan pembayaran tagihan SPMB",
+          "en": "Pay the admission invoice"
+        },
+        {
+          "id": "Verifikasi dan seleksi (tes/observasi)",
+          "en": "Verification and selection (test/observation)"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Early Bird 1: 10 Okt–12 Des 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027.",
+        "en": "Early Bird 1: 10 Oct–12 Dec 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027."
+      },
+      "steps": [
+        {
+          "id": "Pilih unit dan jalur pendaftaran",
+          "en": "Choose the unit and admission track"
+        },
+        {
+          "id": "Isi formulir pendaftaran",
+          "en": "Fill in the registration form"
+        },
+        {
+          "id": "Unggah dokumen sesuai jalur",
+          "en": "Upload documents for the chosen track"
+        },
+        {
+          "id": "Selesaikan pembayaran tagihan SPMB",
+          "en": "Pay the admission invoice"
+        },
+        {
+          "id": "Verifikasi dan seleksi (tes/observasi)",
+          "en": "Verification and selection (test/observation)"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Early Bird 1: 10 Okt–12 Des 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027.",
+        "en": "Early Bird 1: 10 Oct–12 Dec 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027."
+      },
+      "steps": [
+        {
+          "id": "Pilih unit dan jalur pendaftaran",
+          "en": "Choose the unit and admission track"
+        },
+        {
+          "id": "Isi formulir pendaftaran",
+          "en": "Fill in the registration form"
+        },
+        {
+          "id": "Unggah dokumen sesuai jalur",
+          "en": "Upload documents for the chosen track"
+        },
+        {
+          "id": "Selesaikan pembayaran tagihan SPMB",
+          "en": "Pay the admission invoice"
+        },
+        {
+          "id": "Verifikasi dan seleksi (tes/observasi)",
+          "en": "Verification and selection (test/observation)"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Early Bird 1: 10 Okt–12 Des 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027.",
+        "en": "Early Bird 1: 10 Oct–12 Dec 2026; Early Bird 2: 2 Jan–21 Mar 2027; normal: Apr–Jun 2027."
+      },
+      "steps": [
+        {
+          "id": "Pilih unit dan jalur pendaftaran",
+          "en": "Choose the unit and admission track"
+        },
+        {
+          "id": "Isi formulir pendaftaran",
+          "en": "Fill in the registration form"
+        },
+        {
+          "id": "Unggah dokumen sesuai jalur",
+          "en": "Upload documents for the chosen track"
+        },
+        {
+          "id": "Selesaikan pembayaran tagihan SPMB",
+          "en": "Pay the admission invoice"
+        },
+        {
+          "id": "Verifikasi dan seleksi (tes/observasi)",
+          "en": "Verification and selection (test/observation)"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "SPMB 2027/2028 — Yayasan Islam Ibadurrahman Ciruas (situs resmi)",
+        "url": "https://spmb.ibadurrahman.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "name": "SIT Al Auliya Balikpapan",
+  "city": "Balikpapan",
+  "district": "Balikpapan Utara",
+  "address": "Jl. MT. Haryono No.137 RT 43, Graha Indah, Balikpapan Utara, Kota Balikpapan",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://spmb.al-auliya.sch.id/",
+  "fees": [
+    {
+      "level": "KB",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 2000000,
+        "max": 2000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Dana kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "APE",
+            "en": "Educational play equipment"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 300000
+        },
+        {
+          "label": {
+            "id": "Dana kesehatan",
+            "en": "Health fund"
+          },
+          "amount": 50000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1000000
+        }
+      ],
+      "notes": {
+        "id": "KBIT 1. Total Rp5.450.000. Daycare: uang pangkal Rp1.000.000, SPP Rp1.100.000/bulan.",
+        "en": "KBIT 1. Total Rp5,450,000. Daycare: entry Rp1,000,000, Rp1,100,000/month."
+      },
+      "source": {
+        "title": "SPMB Online SIT Al Auliya Balikpapan TA 2027/2028 (situs resmi)",
+        "url": "https://spmb.al-auliya.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 2000000,
+        "max": 4000000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Perlengkapan dan APE",
+            "en": "Supplies and play equipment"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1100000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan",
+            "en": "Activities"
+          },
+          "amount": 1400000
+        },
+        {
+          "label": {
+            "id": "Komite sekolah",
+            "en": "School committee"
+          },
+          "amount": 360000
+        },
+        {
+          "label": {
+            "id": "Dana kesehatan",
+            "en": "Health fund"
+          },
+          "amount": 50000
+        }
+      ],
+      "notes": {
+        "id": "TKIT 1 dan TKIT 2 (sama). Uang pangkal Rp4.000.000 (eksternal) / Rp2.000.000 (internal, tanpa biaya administrasi). Total Rp8.960.000 / Rp6.760.000.",
+        "en": "TKIT 1 and TKIT 2 (same). Entry Rp4,000,000 (external) / Rp2,000,000 (internal, no admin fee). Total Rp8,960,000 / Rp6,760,000."
+      },
+      "source": {
+        "title": "SPMB Online SIT Al Auliya Balikpapan TA 2027/2028 (situs resmi)",
+        "url": "https://spmb.al-auliya.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 11500000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 1450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Perlengkapan dan buku (laki-laki)",
+            "en": "Supplies and books (boys)"
+          },
+          "amount": 3850000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan dan buku (perempuan)",
+            "en": "Supplies and books (girls)"
+          },
+          "amount": 4050000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan",
+            "en": "Activities"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Komite sekolah",
+            "en": "School committee"
+          },
+          "amount": 350000
+        }
+      ],
+      "notes": {
+        "id": "SDIT 1: uang pangkal Rp13.000.000 (eksternal) / Rp11.500.000 (internal), SPP Rp1.450.000. SDIT 2: Rp15.000.000 / Rp14.000.000, SPP Rp1.600.000.",
+        "en": "SDIT 1: entry Rp13,000,000 (external) / Rp11,500,000 (internal), tuition Rp1,450,000. SDIT 2: Rp15,000,000 / Rp14,000,000, tuition Rp1,600,000."
+      },
+      "source": {
+        "title": "SPMB Online SIT Al Auliya Balikpapan TA 2027/2028 (situs resmi)",
+        "url": "https://spmb.al-auliya.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 14500000,
+        "max": 18000000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya operasional sekolah (3 tahun)",
+            "en": "School operations (3 years)"
+          },
+          "amount": 3700000
+        },
+        {
+          "label": {
+            "id": "Komite per tahun",
+            "en": "Committee per year"
+          },
+          "amount": 350000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan putra",
+            "en": "Supplies (boys)"
+          },
+          "amount": 2420000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan putri",
+            "en": "Supplies (girls)"
+          },
+          "amount": 2620000
+        }
+      ],
+      "notes": {
+        "id": "Fullday: uang pangkal Rp16.000.000 (eksternal) / Rp14.500.000 (internal), SPP Rp1.600.000. Boarding: Rp18.000.000 / Rp16.500.000, SPP Rp2.750.000, operasional 3 tahun Rp4.500.000.",
+        "en": "Full-day: entry Rp16,000,000 (external) / Rp14,500,000 (internal), tuition Rp1,600,000. Boarding: Rp18,000,000 / Rp16,500,000, tuition Rp2,750,000, 3-year operations Rp4,500,000."
+      },
+      "source": {
+        "title": "SPMB Online SIT Al Auliya Balikpapan TA 2027/2028 (situs resmi)",
+        "url": "https://spmb.al-auliya.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 11500000,
+        "max": 13000000
+      },
+      "tuition": {
+        "amount": 1650000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam (laki-laki)",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2600000
+        },
+        {
+          "label": {
+            "id": "Seragam (perempuan)",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 3150000
+        },
+        {
+          "label": {
+            "id": "Dana kegiatan",
+            "en": "Activities"
+          },
+          "amount": 3700000
+        },
+        {
+          "label": {
+            "id": "Komite sekolah",
+            "en": "School committee"
+          },
+          "amount": 350000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal Rp13.000.000 (eksternal) / Rp11.500.000 (internal). Total laki-laki Rp21.650.000 / Rp20.150.000.",
+        "en": "Entry Rp13,000,000 (external) / Rp11,500,000 (internal). Boys' total Rp21,650,000 / Rp20,150,000."
+      },
+      "source": {
+        "title": "SPMB Online SIT Al Auliya Balikpapan TA 2027/2028 (situs resmi)",
+        "url": "https://spmb.al-auliya.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
