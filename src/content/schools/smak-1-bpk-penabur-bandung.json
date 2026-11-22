@@ -1,0 +1,29 @@
+{
+  "name": "SMAK 1 BPK Penabur Bandung",
+  "city": "Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya pendaftaran (paket masuk) sekitar Rp15,5 juta untuk Kelas Unggulan dan Rp13,3 juta untuk Kelas Nasional. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Admission package about Rp15.5M (Excellence class) and Rp13.3M (National class). Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 13300000,
+        "max": 15500000
+      },
+      "source": {
+        "title": "Rekomendasi SMA Swasta Terbaik di Bandung: Lengkap dengan Biaya dan Fasilitas (Akurat)",
+        "url": "https://akurat.co/pendidikan/879727/rekomendasi-sma-swasta-terbaik-di-bandung-lengkap-dengan-biaya-dan-fasilitas",
+        "published": "2026-08-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

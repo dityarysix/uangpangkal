@@ -1,0 +1,30 @@
+{
+  "name": "SMA Al-Irsyad Satya",
+  "city": "Kabupaten Bandung Barat",
+  "district": "Padalarang",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya tahunan Rp28–50 juta tergantung program. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Annual fees Rp28–50M depending on programme. Approximate figures from an article; academic year not stated."
+      },
+      "tuition": {
+        "amount": 28000000,
+        "period": "year"
+      },
+      "source": {
+        "title": "Rekomendasi SMA Swasta Terbaik di Bandung: Lengkap dengan Biaya dan Fasilitas (Akurat)",
+        "url": "https://akurat.co/pendidikan/879727/rekomendasi-sma-swasta-terbaik-di-bandung-lengkap-dengan-biaya-dan-fasilitas",
+        "published": "2026-08-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "SMA Santa Angela Bandung",
+  "city": "Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "SPP bulanan sekitar Rp2,5 juta. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Monthly tuition about Rp2.5M. Approximate figures from an article; academic year not stated."
+      },
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SMA Swasta Terbaik di Bandung: Lengkap dengan Biaya dan Fasilitas (Akurat)",
+        "url": "https://akurat.co/pendidikan/879727/rekomendasi-sma-swasta-terbaik-di-bandung-lengkap-dengan-biaya-dan-fasilitas",
+        "published": "2026-08-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Olifant School Yogyakarta",
+  "city": "Sleman",
+  "district": "Depok",
+  "address": "Jl. Cendrawasih, Demangan Baru, Condongcatur, Depok, Sleman",
+  "levels": [
+    "TK"
+  ],
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2021/2022",
+      "yearAssumed": true,
+      "entryFee": {
+        "min": 15000000
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Experiential activities per tahun",
+            "en": "Experiential activities per year"
+          },
+          "amount": 3350000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 750000
+        },
+        {
+          "label": {
+            "id": "Daftar ulang (naik kelas)",
+            "en": "Re-registration (next grade)"
+          },
+          "amount": 2750000
+        }
+      ],
+      "notes": {
+        "id": "Olifant Preschool. Joining fee Rp15.000.000; total biaya awal Rp21.400.000 termasuk SPP Juli. Artikel 2021, kemungkinan sudah berubah.",
+        "en": "Olifant Preschool. Joining fee Rp15,000,000; initial total Rp21,400,000 incl. July tuition. 2021 article, likely outdated."
+      },
+      "source": {
+        "title": "Sekolah Mahal di Jogja, Ada Rupa Ada Harga (Mojok)",
+        "url": "https://mojok.co/liputan/susul/sekolah-mahal-di-jogja-ada-rupa-ada-harga/",
+        "published": "2021-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

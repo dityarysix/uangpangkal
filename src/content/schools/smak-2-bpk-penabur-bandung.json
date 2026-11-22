@@ -1,0 +1,32 @@
+{
+  "name": "SMAK 2 BPK Penabur Bandung",
+  "city": "Kota Bandung",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Disebut \"SMA BPK 2 Penabur\". Biaya pendaftaran sekitar Rp6,2 juta termasuk SPP bulan pertama. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Listed as \"SMA BPK 2 Penabur\". Admission about Rp6.2M incl. first month's tuition. Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 6200000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SMA Swasta Terbaik di Bandung: Lengkap dengan Biaya dan Fasilitas (Akurat)",
+        "url": "https://akurat.co/pendidikan/879727/rekomendasi-sma-swasta-terbaik-di-bandung-lengkap-dengan-biaya-dan-fasilitas",
+        "published": "2026-08-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
