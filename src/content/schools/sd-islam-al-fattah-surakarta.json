@@ -1,0 +1,83 @@
+{
+  "name": "SD Islam Al Fattah Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Banjarsari",
+  "address": "Jl. Menteri Supeno No.16A, Manahan, Banjarsari, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://sdislamalfattah.com",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 5000000
+      },
+      "tuition": {
+        "amount": 300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = biaya kelengkapan murid baru (tunai atau diangsur sesuai kesepakatan saat wawancara), termasuk seragam lengkap 5 stel dan buku paket 1 tahun. Biaya bulanan disebut infaq pendidikan; Rp300.000 adalah angka untuk kelas 1 tahun 2026/2027 dan sudah mencakup buku paket. Tidak ada biaya daftar ulang.",
+        "en": "Entry fee = new-student package (cash or instalments agreed at the interview), including 5 full uniform sets and a year of textbooks. The monthly fee is called an education infaq; Rp300,000 is the figure for grade 1 in 2026/2027 and covers textbooks. No re-registration fees."
+      },
+      "source": {
+        "title": "Penerimaan Murid Baru TP 2027/2028 SD Islam Al Fattah Surakarta (situs resmi)",
+        "url": "https://sdislamalfattah.com/blog/2026/08/12/penerimaan-murid-baru-tahun-pelajaran-2027-2028-sd-islam-al-fattah-surakarta/",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Isi formulir pendaftaran dan bayar biaya pendaftaran Rp200.000.",
+          "en": "Fill in the registration form and pay the Rp200,000 registration fee."
+        },
+        {
+          "id": "Ikuti tes seleksi (jadwal diinformasikan kemudian).",
+          "en": "Attend the selection test (date to be announced)."
+        },
+        {
+          "id": "Jika diterima, bayar biaya kelengkapan murid baru.",
+          "en": "If accepted, pay the new-student package fee."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran (1 lembar)",
+          "en": "Copy of birth certificate (1)"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga (1 lembar)",
+          "en": "Copy of family card (1)"
+        },
+        {
+          "id": "Fotokopi ijazah TK/RA (tidak wajib)",
+          "en": "Copy of kindergarten certificate (optional)"
+        }
+      ],
+      "test": {
+        "id": "Tes kesiapan belajar (calon murid) dan wawancara orang tua/wali.",
+        "en": "School-readiness test (child) and parent/guardian interview."
+      },
+      "notes": {
+        "id": "Usia minimal 6 tahun per 1 Juli 2027.",
+        "en": "Minimum age 6 by 1 July 2027."
+      },
+      "source": {
+        "title": "Penerimaan Murid Baru TP 2027/2028 SD Islam Al Fattah Surakarta (situs resmi)",
+        "url": "https://sdislamalfattah.com/blog/2026/08/12/penerimaan-murid-baru-tahun-pelajaran-2027-2028-sd-islam-al-fattah-surakarta/",
+        "published": "2026-08-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

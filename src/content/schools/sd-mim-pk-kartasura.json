@@ -1,0 +1,35 @@
+{
+  "name": "SD MIM PK Kartasura",
+  "city": "Sukoharjo",
+  "district": "Kartasura",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "otherFees": [
+        {
+          "label": {
+            "id": "Paket biaya tahun pertama",
+            "en": "First-year fee package"
+          },
+          "amount": 9000000
+        }
+      ],
+      "notes": {
+        "id": "Sekolah inklusi. Sumber menyebut dana Rp9.000.000 sudah termasuk seragam, SPP, tes MIR, kegiatan operasional, dan buku selama setahun.",
+        "en": "Inclusive school. The source says Rp9,000,000 covers uniforms, tuition, MIR test, operations and books for a year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Solo, Lengkap Dengan Rincian Biayanya (Mamikita)",
+        "url": "https://mamikita.com/7-sd-swasta-di-solo-lengkap-dengan-rincian-biayanya/",
+        "published": "2024-02-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

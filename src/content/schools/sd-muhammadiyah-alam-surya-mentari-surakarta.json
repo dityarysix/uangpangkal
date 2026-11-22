@@ -1,0 +1,30 @@
+{
+  "name": "SD Muhammadiyah Alam Surya Mentari Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Laweyan",
+  "address": "Jl. Mangga VI, Jajar, Laweyan, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Sekolah Alam"
+  ],
+  "religion": "Islam",
+  "website": "https://www.sekolahalamsolo.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 300000,
+      "notes": {
+        "id": "Situs hanya mencantumkan biaya pendaftaran; uang pangkal dan SPP tidak dipublikasikan.",
+        "en": "The site only lists the registration fee; entry fee and tuition are not published."
+      },
+      "source": {
+        "title": "Info Pendaftaran SPMB 2027/2028 — SD Muhammadiyah Alam Surya Mentari (situs resmi)",
+        "url": "https://www.sekolahalamsolo.sch.id/p/info-pendaftaran.html"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

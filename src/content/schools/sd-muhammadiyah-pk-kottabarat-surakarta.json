@@ -1,0 +1,33 @@
+{
+  "name": "SD Muhammadiyah Program Khusus Kottabarat Surakarta",
+  "city": "Surakarta (Solo)",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 11750000,
+        "max": 12750000
+      },
+      "tuition": {
+        "amount": 1400000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya masuk mencakup uang pengembangan, seragam, dan pengembangan laboratorium. SPP mencakup fieldtrip, outing, kemah, LKSD, katering, snack, dan ekstrakurikuler.",
+        "en": "Entry fee covers development, uniforms and lab development. Tuition covers field trips, outings, camp, workbooks, catering, snacks and extracurriculars."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "7 SD Swasta di Solo, Lengkap Dengan Rincian Biayanya (Mamikita)",
+        "url": "https://mamikita.com/7-sd-swasta-di-solo-lengkap-dengan-rincian-biayanya/",
+        "published": "2024-02-28"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
