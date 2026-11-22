@@ -1,14 +1,57 @@
 {
   "name": "Sekolah Alam Insan Mulia (SAIM) Surabaya",
   "city": "Surabaya",
+  "address": "SAIM East 1: Jl. Medokan Semampir Indah 99-101; SAIM East 2: Jl. Keputih Tegal No.54, Surabaya",
   "levels": [
-    "SD"
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
   ],
   "curriculum": [
     "Sekolah Alam"
   ],
   "religion": "Islam",
+  "website": "https://www.saim.sch.id",
+  "phone": "0811-3200-0111",
   "fees": [
+    {
+      "level": "KB",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 8625000,
+        "max": 11500000
+      },
+      "notes": {
+        "id": "Harga normal Rp11.500.000; diskon 25% menjadi Rp8.625.000 untuk pendaftaran awal. Bayar awal 30% maks. 10 hari setelah diterima, sisanya 5 termin; lunas paling lambat 30 Juni 2026. Termasuk seragam. Daftar ulang dan SPP diinformasikan kemudian.",
+        "en": "Normal price Rp11,500,000; 25% early-registration discount to Rp8,625,000. 30% within 10 days of acceptance, then 5 instalments; fully paid by 30 June 2026. Includes uniforms. Re-registration and tuition announced later."
+      },
+      "source": {
+        "title": "SAIM Surabaya — External Tuition Fee Academic Year 2026-2027 (brosur resmi)",
+        "url": "https://cdnc.heyzine.com/files/uploaded/29a5615317bab526d1b95eea41b5d548aa85573d.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 10500000,
+        "max": 14000000
+      },
+      "notes": {
+        "id": "Harga normal Rp14.000.000; diskon 25% menjadi Rp10.500.000 untuk pendaftaran awal. Bayar awal 30% maks. 10 hari setelah diterima, sisanya 5 termin; lunas paling lambat 30 Juni 2026. Termasuk seragam. Daftar ulang dan SPP diinformasikan kemudian.",
+        "en": "Normal price Rp14,000,000; 25% early-registration discount to Rp10,500,000. 30% within 10 days of acceptance, then 5 instalments; fully paid by 30 June 2026. Includes uniforms. Re-registration and tuition announced later."
+      },
+      "source": {
+        "title": "SAIM Surabaya — External Tuition Fee Academic Year 2026-2027 (brosur resmi)",
+        "url": "https://cdnc.heyzine.com/files/uploaded/29a5615317bab526d1b95eea41b5d548aa85573d.pdf"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2024/2025",
@@ -66,6 +109,114 @@
         "title": "10 SD Swasta Terbaik di Surabaya 2025: Biaya, Fasilitas, dan Keunggulannya (Akurat)",
         "url": "https://www.akurat.co/pendidikan/824267/10-sd-swasta-terbaik-di-surabaya-2025-biaya-fasilitas-dan-keunggulannya",
         "published": "2025-12-16"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 19500000,
+        "max": 26000000
+      },
+      "notes": {
+        "id": "Harga normal Rp26.000.000; diskon 25% menjadi Rp19.500.000 untuk pendaftaran awal. Bayar awal 30% maks. 10 hari setelah diterima, sisanya 5 termin; lunas paling lambat 30 Juni 2026. Termasuk seragam. Daftar ulang dan SPP diinformasikan kemudian.",
+        "en": "Normal price Rp26,000,000; 25% early-registration discount to Rp19,500,000. 30% within 10 days of acceptance, then 5 instalments; fully paid by 30 June 2026. Includes uniforms. Re-registration and tuition announced later."
+      },
+      "source": {
+        "title": "SAIM Surabaya — External Tuition Fee Academic Year 2026-2027 (brosur resmi)",
+        "url": "https://cdnc.heyzine.com/files/uploaded/29a5615317bab526d1b95eea41b5d548aa85573d.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 16125000,
+        "max": 21500000
+      },
+      "notes": {
+        "id": "Harga normal Rp21.500.000; diskon 25% menjadi Rp16.125.000 untuk pendaftaran awal. Bayar awal 30% maks. 10 hari setelah diterima, sisanya 5 termin; lunas paling lambat 30 Juni 2026. Termasuk seragam. Daftar ulang dan SPP diinformasikan kemudian.",
+        "en": "Normal price Rp21,500,000; 25% early-registration discount to Rp16,125,000. 30% within 10 days of acceptance, then 5 instalments; fully paid by 30 June 2026. Includes uniforms. Re-registration and tuition announced later."
+      },
+      "source": {
+        "title": "SAIM Surabaya — External Tuition Fee Academic Year 2026-2027 (brosur resmi)",
+        "url": "https://cdnc.heyzine.com/files/uploaded/29a5615317bab526d1b95eea41b5d548aa85573d.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 17625000,
+        "max": 23500000
+      },
+      "notes": {
+        "id": "Harga normal Rp23.500.000; diskon 25% menjadi Rp17.625.000 untuk pendaftaran awal. Bayar awal 30% maks. 10 hari setelah diterima, sisanya 5 termin; lunas paling lambat 30 Juni 2026. Termasuk seragam. Daftar ulang dan SPP diinformasikan kemudian.",
+        "en": "Normal price Rp23,500,000; 25% early-registration discount to Rp17,625,000. 30% within 10 days of acceptance, then 5 instalments; fully paid by 30 June 2026. Includes uniforms. Re-registration and tuition announced later."
+      },
+      "source": {
+        "title": "SAIM Surabaya — External Tuition Fee Academic Year 2026-2027 (brosur resmi)",
+        "url": "https://cdnc.heyzine.com/files/uploaded/29a5615317bab526d1b95eea41b5d548aa85573d.pdf"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "academicYear": "2026/2027",
+      "steps": [
+        {
+          "id": "Isi formulir di admission.saim.schoolmate.id.",
+          "en": "Fill in the form at admission.saim.schoolmate.id."
+        },
+        {
+          "id": "Cek email untuk tautan login.",
+          "en": "Check your email for the login link."
+        },
+        {
+          "id": "Bayar biaya pendaftaran, isi data siswa dan orang tua, unggah dokumen, pilih jadwal observasi.",
+          "en": "Pay the registration fee, fill in student and parent details, upload documents, choose an observation slot."
+        },
+        {
+          "id": "Pengumuman penerimaan, lalu bayar uang pangkal; setelah lunas orang tua mendapat akun LMS SAIM.",
+          "en": "Results are announced, then pay the entry fee; once paid, parents receive an LMS account."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Kartu Keluarga",
+          "en": "Family card (Kartu Keluarga)"
+        },
+        {
+          "id": "Akta kelahiran",
+          "en": "Birth certificate"
+        },
+        {
+          "id": "Foto",
+          "en": "Photo"
+        },
+        {
+          "id": "Ijazah (SMP dan SMA)",
+          "en": "Previous certificate (SMP and SMA)"
+        }
+      ],
+      "test": {
+        "id": "Observasi.",
+        "en": "Observation."
+      },
+      "notes": {
+        "id": "Usia minimal per Juli 2026: PG A 2 tahun, PG B 3 tahun, TK A 4 tahun, SD 6 tahun. Biaya pendaftaran SMP/SMA termasuk tes kesehatan.",
+        "en": "Minimum age by July 2026: PG A 2, PG B 3, TK A 4, SD 6. SMP/SMA registration includes a health check."
+      },
+      "source": {
+        "title": "SAIM Surabaya — External Tuition Fee Academic Year 2026-2027 (brosur resmi)",
+        "url": "https://cdnc.heyzine.com/files/uploaded/29a5615317bab526d1b95eea41b5d548aa85573d.pdf"
       },
       "checked": "2026-11-22"
     }

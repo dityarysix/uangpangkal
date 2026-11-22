@@ -1,0 +1,84 @@
+{
+  "name": "Terang Bangsa Christian School Semarang",
+  "city": "Kota Semarang",
+  "district": "Semarang Barat",
+  "address": "Jl. Arteri Utara, Komplek Grand Marina A3, Tawangsari, Semarang Barat, Kota Semarang",
+  "levels": [
+    "SMA"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "religion": "Kristen",
+  "website": "https://terbang.sch.id",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "yearAssumed": true,
+      "registrationFee": 25000,
+      "entryFee": {
+        "min": 6000000,
+        "max": 10000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang pengembangan pendidikan",
+            "en": "Education development fee"
+          },
+          "amount": 1750000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal normal Rp10.000.000; promo gelombang 2 diskon 40% menjadi Rp6.000.000. Halaman tidak menyebut tahun ajaran.",
+        "en": "Normal entry fee Rp10,000,000; wave 2 promotion 40% off to Rp6,000,000. The page does not state the academic year."
+      },
+      "source": {
+        "title": "SMA Kristen Terang Bangsa — Biaya & Alur Pendaftaran (situs resmi)",
+        "url": "https://terbang.sch.id/akademik/SMA"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Beli formulir di Admission gedung A lt. 1 (Rp25.000), atau isi formulir online lalu admin menghubungi sesuai antrean.",
+          "en": "Buy the form at Admissions, building A floor 1 (Rp25,000), or fill in the online form and wait for the admin to contact you."
+        },
+        {
+          "id": "Tanya jawab informasi sekolah di Admission.",
+          "en": "Q&A about the school at Admissions."
+        },
+        {
+          "id": "Serahkan formulir, bukti transfer, dan kelengkapan pendaftaran ke TU jenjang.",
+          "en": "Hand the form, transfer receipt and documents to the level's administration office."
+        },
+        {
+          "id": "Pengukuran seragam, lalu siswa siap mengikuti pembelajaran.",
+          "en": "Uniform fitting, then the student is ready to start."
+        }
+      ],
+      "source": {
+        "title": "SMA Kristen Terang Bangsa — Biaya & Alur Pendaftaran (situs resmi)",
+        "url": "https://terbang.sch.id/akademik/SMA"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

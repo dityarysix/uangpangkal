@@ -1,0 +1,42 @@
+{
+  "name": "SMA ABBS Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Banjarsari",
+  "address": "Jl. Tarumanegara III, Banyuanyar, Banjarsari, Surakarta",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 9150000,
+        "max": 13650000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Fasilitas boarding",
+            "en": "Boarding facilities"
+          },
+          "amount": 8850000
+        }
+      ],
+      "notes": {
+        "id": "Biaya masuk jalur khusus Rp9.150.000; jalur reguler Rp13.650.000.",
+        "en": "Entry fee special track Rp9,150,000; regular track Rp13,650,000."
+      },
+      "source": {
+        "title": "Daftar Lengkap Biaya Sekolah SMA di Solo Tahun Ajaran 2023-2024 (Nakita)",
+        "url": "https://nakita.grid.id/read/023714272/daftar-lengkap-biaya-sekolah-sma-di-solo-tahun-ajaran-2023-2024-beserta-fasilitas-yang-dimiliki?page=all"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -2,11 +2,52 @@
   "name": "Technosa School",
   "city": "Tangerang Selatan",
   "district": "Serpong Utara",
+  "address": "Jl. Raya Pd. Jagung No.67, Pondok Jagung Timur, Serpong Utara, Tangerang Selatan",
   "levels": [
-    "SMP"
+    "SD",
+    "SMP",
+    "SMA"
   ],
   "website": "https://www.technosa.sch.id",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 750000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 800000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal bisa dicicil sesuai periode yang disepakati. Biaya yang sudah dibayar tidak dapat dikembalikan. Uang buku menyesuaikan harga buku.",
+        "en": "The entry fee can be paid in agreed instalments. Payments are non-refundable. Book costs depend on book prices."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Info dan Biaya SD/SMP/SMA Umum — Technosa School (situs resmi)",
+        "url": "https://www.technosa.sch.id/daftar/info-dan-biaya-sd-smp-sma-umum/"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",
@@ -39,6 +80,82 @@
         "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
         "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Seragam + jas laboratorium",
+            "en": "Uniforms + lab coat"
+          },
+          "amount": 850000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal bisa dicicil sesuai periode yang disepakati. Biaya yang sudah dibayar tidak dapat dikembalikan. Uang buku menyesuaikan harga buku.",
+        "en": "The entry fee can be paid in agreed instalments. Payments are non-refundable. Book costs depend on book prices."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Info dan Biaya SD/SMP/SMA Umum — Technosa School (situs resmi)",
+        "url": "https://www.technosa.sch.id/daftar/info-dan-biaya-sd-smp-sma-umum/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Seragam + jas laboratorium",
+            "en": "Uniforms + lab coat"
+          },
+          "amount": 900000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal bisa dicicil sesuai periode yang disepakati. Biaya yang sudah dibayar tidak dapat dikembalikan. Uang buku menyesuaikan harga buku.",
+        "en": "The entry fee can be paid in agreed instalments. Payments are non-refundable. Book costs depend on book prices."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Info dan Biaya SD/SMP/SMA Umum — Technosa School (situs resmi)",
+        "url": "https://www.technosa.sch.id/daftar/info-dan-biaya-sd-smp-sma-umum/"
       },
       "checked": "2026-11-22"
     }

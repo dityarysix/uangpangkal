@@ -1,10 +1,11 @@
 {
-  "name": "SMP Insan Cendekia Boarding School Sukoharjo",
+  "name": "Insan Cendekia Boarding School Sukoharjo",
   "city": "Sukoharjo",
   "district": "Baki",
   "address": "Jl. Ovensari, Kadilangu, Baki, Sukoharjo",
   "levels": [
-    "SMP"
+    "SMP",
+    "SMA"
   ],
   "religion": "Islam",
   "phone": "(0271) 6727303",
@@ -43,6 +44,42 @@
       "source": {
         "title": "Daftar Biaya 3 Sekolah SMP Swasta di Solo Tahun Ajaran 2023-2024 (Nakita)",
         "url": "https://nakita.grid.id/read/023694707/daftar-biaya-3-sekolah-smp-swasta-di-solo-tahun-ajaran-2023-2024?page=all"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 13600000
+      },
+      "tuition": {
+        "amount": 2600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku dan kegiatan",
+            "en": "Books and activities"
+          },
+          "amount": 3600000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = DSP.",
+        "en": "Entry fee = DSP."
+      },
+      "source": {
+        "title": "Daftar Lengkap Biaya Sekolah SMA di Solo Tahun Ajaran 2023-2024 (Nakita)",
+        "url": "https://nakita.grid.id/read/023714272/daftar-lengkap-biaya-sekolah-sma-di-solo-tahun-ajaran-2023-2024-beserta-fasilitas-yang-dimiliki?page=all"
       },
       "checked": "2026-11-22"
     }

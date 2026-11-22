@@ -88,7 +88,7 @@ upsert("smpit-nur-hidayah-surakarta", name="SMPIT Nur Hidayah Surakarta", city=K
        otherFees=[fee("Wakaf pendidikan", "Education endowment", 1_500_000), fee("Seragam putra", "Uniforms (boys)", 1_000_000), fee("Seragam putri", "Uniforms (girls)", 1_200_000),
                   fee("Kegiatan awal masuk", "Orientation activities", 500_000), fee(*BOOKS, 400_000)],
        notes=L("Total putra Rp17.750.000 / putri Rp17.950.000. Boarding sekitar Rp22,25 juta (putra) / Rp22,45 juta (putri).", "Total boys Rp17,750,000 / girls Rp17,950,000. Boarding about Rp22.25M (boys) / Rp22.45M (girls)."), **N)
-upsert("smp-insan-cendekia-boarding-school-sukoharjo", name="SMP Insan Cendekia Boarding School Sukoharjo", city="Sukoharjo", district="Baki",
+upsert("insan-cendekia-boarding-school-sukoharjo", name="Insan Cendekia Boarding School Sukoharjo", city="Sukoharjo", district="Baki",
        address="Jl. Ovensari, Kadilangu, Baki, Sukoharjo", phone="(0271) 6727303",
        registrationFee=350_000, entryFee={"min": 10_200_000}, tuition={"amount": 2_600_000, "period": "month"},
        otherFees=[fee("Buku dan kegiatan", "Books and activities", 3_600_000), fee(*UNIFORM, 1_100_000)], notes=L("Total Rp17.500.000.", "Total Rp17,500,000."), **N)

@@ -3,7 +3,8 @@
   "city": "Surabaya",
   "address": "Jl. Pakuwon Indah, Surabaya",
   "levels": [
-    "SD"
+    "SD",
+    "SMA"
   ],
   "curriculum": [
     "Internasional"
@@ -27,6 +28,23 @@
         "title": "7 Harga Sekolah SD Swasta Terbaik di Surabaya (Data Pendidikan)",
         "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-swasta-terbaik-surabaya/",
         "published": "2026-10-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "entryFee": {
+        "min": 150000000
+      },
+      "notes": {
+        "id": "Sumber: uang pangkal dari Rp26 juta (prasekolah) hingga Rp150 juta untuk program SMA (perkiraan).",
+        "en": "Source: entry fee from Rp26M (preschool) up to Rp150M for the SMA programme (estimate)."
+      },
+      "source": {
+        "title": "7 Sekolah Internasional di Surabaya, Ada Kisaran Biaya! (Orami)",
+        "url": "https://www.orami.co.id/magazine/sekolah-internasional-di-surabaya"
       },
       "checked": "2026-11-22"
     }

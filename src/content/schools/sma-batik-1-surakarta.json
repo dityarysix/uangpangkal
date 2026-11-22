@@ -1,0 +1,33 @@
+{
+  "name": "SMA Batik 1 Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Laweyan",
+  "address": "Jl. Slamet Riyadi No.445, Pajang, Laweyan, Surakarta",
+  "levels": [
+    "SMA"
+  ],
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2023/2024",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 7500000,
+        "max": 14500000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Kelas reguler: pendaftaran Rp250.000, SPP Rp500.000, DPP Rp7.500.000 (di bagian lain tertulis Rp8.000.000). Kelas internasional: Rp300.000, SPP Rp1.750.000, DPP Rp13.500.000 (atau Rp14.500.000). Angka DPP di sumber tidak konsisten.",
+        "en": "Regular class: registration Rp250,000, tuition Rp500,000, development fee Rp7,500,000 (elsewhere Rp8,000,000). International class: Rp300,000, tuition Rp1,750,000, development fee Rp13,500,000 (or Rp14,500,000). The source is inconsistent on the development fee."
+      },
+      "source": {
+        "title": "Daftar Lengkap Biaya Sekolah SMA di Solo Tahun Ajaran 2023-2024 (Nakita)",
+        "url": "https://nakita.grid.id/read/023714272/daftar-lengkap-biaya-sekolah-sma-di-solo-tahun-ajaran-2023-2024-beserta-fasilitas-yang-dimiliki?page=all"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
