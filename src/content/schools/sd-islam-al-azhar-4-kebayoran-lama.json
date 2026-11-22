@@ -1,0 +1,51 @@
+{
+  "name": "SD Islam Al Azhar 4 Kebayoran Lama",
+  "city": "Jakarta Selatan",
+  "district": "Kebayoran Lama",
+  "address": "Jl. Ciputat Raya No.5A, Kebayoran Lama, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Formulir Rp400.000 (Sep–Des 2025), Rp450.000 (Jan–Mar 2026), Rp500.000 (Apr–Jun 2026). Dari artikel (berbagai sumber); tahun ajaran diasumsikan dari periode formulir Sep 2025–Jun 2026.",
+        "en": "Form Rp400,000 (Sep–Dec 2025), Rp450,000 (Jan–Mar 2026), Rp500,000 (Apr–Jun 2026). From an article (various sources); year assumed from the Sep 2025–Jun 2026 form periods."
+      },
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 25500000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Iuran jam'iyyah per tahun",
+            "en": "Parents' association per year"
+          },
+          "amount": 400000
+        },
+        {
+          "label": {
+            "id": "Iuran Tilawati per tahun",
+            "en": "Tilawati Qur'an programme per year"
+          },
+          "amount": 900000
+        }
+      ],
+      "source": {
+        "title": "Orang Tua Sebaiknya Tahu, Segini Kisaran Biaya Masuk SD-SD Swasta Islam di Jakarta Selatan (Gebrak.id)",
+        "url": "https://www.gebrak.id/2025/12/orang-tua-sebaiknya-tahu-segini-kisaran-biaya-masuk-sd-sd-swasta-islam-di-jakarta-selatan.html",
+        "published": "2025-12-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

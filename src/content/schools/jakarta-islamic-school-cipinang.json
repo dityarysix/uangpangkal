@@ -1,0 +1,43 @@
+{
+  "name": "Jakarta Islamic School (JIS) Cipinang Melayu",
+  "city": "Jakarta Timur",
+  "district": "Makasar",
+  "address": "Jl. Manunggal I No.17, Komplek Kodam, Cipinang Melayu, Makasar, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal sudah termasuk uang kegiatan dan buku. Dari artikel 2021; kemungkinan sudah berubah.",
+        "en": "Entry fee includes activities and books. From a 2021 article; likely outdated."
+      },
+      "entryFee": {
+        "min": 27500000
+      },
+      "tuition": {
+        "amount": 2600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang per tahun",
+            "en": "Annual re-registration"
+          },
+          "amount": 3500000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Jakarta Timur, Catat Bun (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20211101170245-61-249940/biaya-masuk-sd-swasta-di-jakarta-timur-catat-bun",
+        "published": "2021-11-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

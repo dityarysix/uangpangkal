@@ -1,0 +1,44 @@
+{
+  "name": "SDIT Ibnu Sina Jakarta",
+  "city": "Jakarta Timur",
+  "district": "Duren Sawit",
+  "address": "Jl. Madrasah II No.10, Duren Sawit, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Pendaftaran termasuk observasi. Pindahan kelas 2–3 Rp21.850.000, kelas 4–6 Rp19.850.000, SPP pindahan Rp900.000. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Registration includes observation. Transfers grades 2–3 Rp21,850,000, grades 4–6 Rp19,850,000, transfer tuition Rp900,000. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 21850000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "POMG per tahun",
+            "en": "Parents' association per year"
+          },
+          "amount": 120000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SDIT di Jakarta (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sdit-di-jakarta",
+        "published": "2025-04-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

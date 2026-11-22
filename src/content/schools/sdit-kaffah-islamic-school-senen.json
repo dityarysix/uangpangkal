@@ -10,6 +10,29 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Formulir termasuk psikotes. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Form fee includes psychological test. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 8000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SDIT di Jakarta (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sdit-di-jakarta",
+        "published": "2025-04-30"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 500000,
       "entryFee": {

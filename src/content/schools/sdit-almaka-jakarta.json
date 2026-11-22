@@ -1,0 +1,28 @@
+{
+  "name": "SDIT Almaka Jakarta",
+  "city": "Jakarta Barat",
+  "district": "Kalideres",
+  "address": "Jl. Peta Selatan No.2, Kalideres, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Hanya biaya formulir yang disebut. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Only the form fee is given. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 350000,
+      "source": {
+        "title": "Rekomendasi SDIT di Jakarta (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sdit-di-jakarta",
+        "published": "2025-04-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

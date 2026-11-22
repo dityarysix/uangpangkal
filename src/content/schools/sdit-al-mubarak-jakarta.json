@@ -1,0 +1,35 @@
+{
+  "name": "SDIT Al Mubarak Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Cempaka Putih",
+  "address": "Jl. Pramuka Sari III No.24, Rawasari, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SDIT di Jakarta (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sdit-di-jakarta",
+        "published": "2025-04-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

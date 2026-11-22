@@ -2,7 +2,7 @@
   "name": "SD Al-Ikhlas Cipete",
   "city": "Jakarta Selatan",
   "district": "Cilandak",
-  "address": "Jl. Cipete III No.10, Cipete Selatan, Jakarta Selatan",
+  "address": "Jl. Cipete II, Cipete Selatan, Cilandak, Jakarta Selatan",
   "levels": [
     "SD"
   ],
@@ -49,6 +49,30 @@
         "title": "7 Harga Sekolah SD Swasta Terbaik di Jakarta Selatan (Data Pendidikan)",
         "url": "https://www.datapendidikan.com/blog/harga-sekolah-sd-terbaik-di-jakarta-selatan/",
         "published": "2026-10-02"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp35.000.000 (dari TK Islam Al-Ikhlas) / Rp38.000.000 (TK luar). Dari artikel (berbagai sumber); tahun ajaran diasumsikan dari periode formulir Sep 2025–Jun 2026.",
+        "en": "Entry fee Rp35,000,000 (from TK Islam Al-Ikhlas) / Rp38,000,000 (external). From an article (various sources); year assumed from the Sep 2025–Jun 2026 form periods."
+      },
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 35000000,
+        "max": 38000000
+      },
+      "tuition": {
+        "amount": 2400000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Orang Tua Sebaiknya Tahu, Segini Kisaran Biaya Masuk SD-SD Swasta Islam di Jakarta Selatan (Gebrak.id)",
+        "url": "https://www.gebrak.id/2025/12/orang-tua-sebaiknya-tahu-segini-kisaran-biaya-masuk-sd-sd-swasta-islam-di-jakarta-selatan.html",
+        "published": "2025-12-02"
       },
       "checked": "2026-11-22"
     }

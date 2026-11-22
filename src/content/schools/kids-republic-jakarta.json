@@ -9,6 +9,45 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Kegiatan tahunan sudah termasuk buku. Dari artikel 2021; kemungkinan sudah berubah.",
+        "en": "Annual activities include books. From a 2021 article; likely outdated."
+      },
+      "registrationFee": 650000,
+      "entryFee": {
+        "min": 28000000
+      },
+      "tuition": {
+        "amount": 2250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Kegiatan tahunan",
+            "en": "Annual activities"
+          },
+          "amount": 4000000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SD Swasta di Jakarta Timur, Catat Bun (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20211101170245-61-249940/biaya-masuk-sd-swasta-di-jakarta-timur-catat-bun",
+        "published": "2021-11-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 500000,
       "entryFee": {

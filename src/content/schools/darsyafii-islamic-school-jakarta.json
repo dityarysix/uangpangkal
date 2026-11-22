@@ -1,0 +1,44 @@
+{
+  "name": "Darsyafii Islamic School",
+  "city": "Jakarta Selatan",
+  "district": "Pasar Minggu",
+  "address": "Jl. Buncit Raya, Pasar Minggu, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel (berbagai sumber); tahun ajaran diasumsikan dari periode formulir Sep 2025–Jun 2026.",
+        "en": "From an article (various sources); year assumed from the Sep 2025–Jun 2026 form periods."
+      },
+      "registrationFee": 1200000,
+      "entryFee": {
+        "min": 50000000
+      },
+      "tuition": {
+        "amount": 4200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Annual fee",
+            "en": "Annual fee"
+          },
+          "amount": 6000000
+        }
+      ],
+      "source": {
+        "title": "Orang Tua Sebaiknya Tahu, Segini Kisaran Biaya Masuk SD-SD Swasta Islam di Jakarta Selatan (Gebrak.id)",
+        "url": "https://www.gebrak.id/2025/12/orang-tua-sebaiknya-tahu-segini-kisaran-biaya-masuk-sd-sd-swasta-islam-di-jakarta-selatan.html",
+        "published": "2025-12-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

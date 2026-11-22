@@ -1,0 +1,65 @@
+{
+  "name": "SDIT Al-Huda Kelapa Gading",
+  "city": "Jakarta Utara",
+  "district": "Kelapa Gading",
+  "address": "Jl. Musik Raya No.2 Blok Z, Pegangsaan Dua, Kelapa Gading, Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = dana sumbangan pendidikan. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry fee = education contribution. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2200000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2500000
+        },
+        {
+          "label": {
+            "id": "Buku dan modul",
+            "en": "Books and modules"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "UKM dan operasional per tahun",
+            "en": "Activities & operations per year"
+          },
+          "amount": 3200000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SDIT di Jakarta (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sdit-di-jakarta",
+        "published": "2025-04-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

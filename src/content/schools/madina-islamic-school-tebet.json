@@ -2,13 +2,46 @@
   "name": "Madina Islamic School Tebet",
   "city": "Jakarta Selatan",
   "district": "Tebet",
-  "address": "Jl. Tebet Dalam IV No.1, Tebet Barat, Jakarta Selatan",
+  "address": "Jl. Tebet Dalam IV, Tebet, Jakarta Selatan",
   "levels": [
+    "SD",
     "SMP"
   ],
   "religion": "Islam",
   "phone": "(021) 8312311 / 0821-2308-0368",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang tahunan Rp8.741.125 (putra) / Rp9.041.125 (putri). Dari artikel (berbagai sumber); tahun ajaran diasumsikan dari periode formulir Sep 2025–Jun 2026.",
+        "en": "Annual fee Rp8,741,125 (boys) / Rp9,041,125 (girls). From an article (various sources); year assumed from the Sep 2025–Jun 2026 form periods."
+      },
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 45500000
+      },
+      "tuition": {
+        "amount": 3800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang tahunan (putra)",
+            "en": "Annual fee (boys)"
+          },
+          "amount": 8741125
+        }
+      ],
+      "source": {
+        "title": "Orang Tua Sebaiknya Tahu, Segini Kisaran Biaya Masuk SD-SD Swasta Islam di Jakarta Selatan (Gebrak.id)",
+        "url": "https://www.gebrak.id/2025/12/orang-tua-sebaiknya-tahu-segini-kisaran-biaya-masuk-sd-sd-swasta-islam-di-jakarta-selatan.html",
+        "published": "2025-12-02"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",

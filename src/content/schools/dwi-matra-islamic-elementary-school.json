@@ -1,0 +1,44 @@
+{
+  "name": "Dwi Matra Islamic Elementary School",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. M.P.R. II Dalam No.30A, Cilandak Barat, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp32.000.000 (dari TK Dwi Matra) / Rp36.000.000 (TK luar). Dari artikel (berbagai sumber); tahun ajaran diasumsikan dari periode formulir Sep 2025–Jun 2026.",
+        "en": "Entry fee Rp32,000,000 (from TK Dwi Matra) / Rp36,000,000 (external). From an article (various sources); year assumed from the Sep 2025–Jun 2026 form periods."
+      },
+      "entryFee": {
+        "min": 32000000,
+        "max": 36000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Booking fee",
+            "en": "Booking fee"
+          },
+          "amount": 2500000
+        }
+      ],
+      "source": {
+        "title": "Orang Tua Sebaiknya Tahu, Segini Kisaran Biaya Masuk SD-SD Swasta Islam di Jakarta Selatan (Gebrak.id)",
+        "url": "https://www.gebrak.id/2025/12/orang-tua-sebaiknya-tahu-segini-kisaran-biaya-masuk-sd-sd-swasta-islam-di-jakarta-selatan.html",
+        "published": "2025-12-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

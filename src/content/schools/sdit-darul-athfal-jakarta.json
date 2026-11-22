@@ -1,0 +1,30 @@
+{
+  "name": "SDIT Darul Athfal Jakarta",
+  "city": "Jakarta Barat",
+  "district": "Kebon Jeruk",
+  "address": "Jl. Anggrek Cakra No.24, Kebon Jeruk, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Kisaran biaya masuk. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate entry cost. Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 25700000
+      },
+      "source": {
+        "title": "Rekomendasi SDIT di Jakarta (Orami)",
+        "url": "https://www.orami.co.id/magazine/rekomendasi-sdit-di-jakarta",
+        "published": "2025-04-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

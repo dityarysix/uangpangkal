@@ -44,6 +44,44 @@
         "published": "2026-09-28"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = educational development contribution. Termly fee kelas 1–3 Rp16.500.000, kelas 4–6 Rp19.800.000; yearly fee Rp7.000.000 / Rp8.400.000. Dari artikel (berbagai sumber); tahun ajaran diasumsikan dari periode formulir Sep 2025–Jun 2026.",
+        "en": "Entry = educational development contribution. Termly fee grades 1–3 Rp16,500,000, grades 4–6 Rp19,800,000; yearly fee Rp7,000,000 / Rp8,400,000. From an article (various sources); year assumed from the Sep 2025–Jun 2026 form periods."
+      },
+      "entryFee": {
+        "min": 72500000
+      },
+      "tuition": {
+        "amount": 16500000,
+        "period": "quarter"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Booking fee",
+            "en": "Booking fee"
+          },
+          "amount": 26000000
+        },
+        {
+          "label": {
+            "id": "Yearly fee (kelas 1–3)",
+            "en": "Yearly fee (grades 1–3)"
+          },
+          "amount": 7000000
+        }
+      ],
+      "source": {
+        "title": "Orang Tua Sebaiknya Tahu, Segini Kisaran Biaya Masuk SD-SD Swasta Islam di Jakarta Selatan (Gebrak.id)",
+        "url": "https://www.gebrak.id/2025/12/orang-tua-sebaiknya-tahu-segini-kisaran-biaya-masuk-sd-sd-swasta-islam-di-jakarta-selatan.html",
+        "published": "2025-12-02"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }
