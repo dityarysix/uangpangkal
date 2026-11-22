@@ -47,7 +47,7 @@ const jsonld = {
   {fees.map((f) => (
     <article class="fee">
       <header>
-        <strong>{f.level}</strong> · {t(lang, 'year')} {f.academicYear}
+        <strong>{f.level}</strong> · {t(lang, 'year')} {f.academicYear} {f.academicYear === CURRENT_YEAR && <span class="badge-new">{t(lang, 'latestFees')}</span>}
       </header>
       {isOld(f.academicYear) && <p class="warn">{t(lang, 'olderData')}</p>}
       <table>
@@ -84,12 +84,12 @@ const jsonld = {
 </Base>
 <style>
   .contact { display: flex; gap: 1rem; }
-  .fee { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; margin-bottom: 1rem; }
+  .fee { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: var(--radius); padding: 1rem 1.1rem; margin-bottom: 1rem; }
   .fee header { margin-bottom: 0.6rem; }
   table { width: 100%; border-collapse: collapse; }
   th, td { text-align: left; padding: 0.45rem 0; border-bottom: 1px solid var(--line); vertical-align: top; }
   th { font-weight: 500; color: var(--muted); width: 55%; }
-  td { font-weight: 700; font-variant-numeric: tabular-nums; }
+  td { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--navy); }
   tr.other td { font-weight: 500; }
   .notes { font-size: 0.92rem; margin: 0.8rem 0 0; }
   .src { font-size: 0.8rem; margin: 0.7rem 0 0; }

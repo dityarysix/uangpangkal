@@ -78,11 +78,11 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
   .hero { padding: 1.5rem 0 0.5rem; max-width: 720px; }
   .lead { font-size: 1.1rem; color: var(--muted); margin: 0; }
   .areas { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 0.7rem; margin-top: 1.6rem; }
-  .area { display: flex; flex-direction: column; padding: 0.9rem 1rem; border-radius: var(--radius); background: var(--brand); color: #fff; text-decoration: none; }
-  .area .muted { color: #cfe6e1; font-size: 0.85rem; }
-  .area:hover { background: var(--brand-ink); }
+  .area { display: flex; flex-direction: column; padding: 0.9rem 1rem; border-radius: var(--radius); background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--teal); color: var(--navy); text-decoration: none; transition: border-color .15s, box-shadow .15s; }
+  .area .muted { font-size: 0.85rem; }
+  .area:hover { border-color: var(--teal); box-shadow: 0 4px 14px rgba(30,58,95,.08); }
   .filters { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 0.5rem; margin: 1rem 0 0.4rem; }
-  .filters input, .filters select { font: inherit; padding: 0.6rem 0.7rem; border: 1px solid var(--line); border-radius: 8px; background: #fff; min-width: 0; }
+  .filters input, .filters select { font: inherit; color: var(--ink); padding: 0.6rem 0.7rem; border: 1px solid #cfd6df; border-radius: 8px; background: #fff; min-width: 0; }
   @media (max-width: 720px) { .filters { grid-template-columns: 1fr 1fr; } .filters input { grid-column: 1 / -1; } }
   .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 0.8rem; }
   :global(.card[hidden]) { display: none; }
