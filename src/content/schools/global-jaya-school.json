@@ -1,0 +1,70 @@
+{
+  "name": "Global Jaya School",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "address": "Jl. Emerald Boulevard, Bintaro Jaya, Pondok Aren, Tangerang Selatan",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "curriculum": [
+    "IB"
+  ],
+  "website": "https://www.globaljaya.com",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 27000000,
+        "max": 113000000
+      },
+      "tuition": {
+        "amount": 36360000,
+        "period": "quarter"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam (3 set)",
+            "en": "Uniforms (3 sets)"
+          },
+          "amount": 800000
+        }
+      ],
+      "notes": {
+        "id": "SP development fee Rp27.000.000 per 1 tahun atau Rp113.000.000 untuk 6 tahun. SPP per tahun Rp133.320.000 (termasuk diskon 1 bulan).",
+        "en": "Development fee Rp27,000,000 per year or Rp113,000,000 for 6 years. Tuition per year Rp133,320,000 (includes one month's discount)."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 138000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Uang pangkal = SP development fee (1 tahun).",
+        "en": "Entry fee = development fee (1 year)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

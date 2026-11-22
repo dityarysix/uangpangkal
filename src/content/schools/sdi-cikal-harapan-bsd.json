@@ -1,0 +1,47 @@
+{
+  "name": "SDI Cikal Harapan",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "address": "BSD City, Serpong, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 18000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kegiatan belajar mengajar (per tahun)",
+            "en": "Teaching & learning fee (per year)"
+          },
+          "amount": 4000000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1200000
+        }
+      ],
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

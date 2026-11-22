@@ -41,7 +41,7 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
       {LEVELS.map((l) => <option value={l}>{l}</option>)}
     </select>
     <select id="cap" aria-label={t(lang, 'maxEntry')}>
-      <option value="">{t(lang, 'maxEntry')}: {t(lang, 'any')}</option>
+      <option value="">{t(lang, 'anyEntry')}</option>
       {caps.map((c) => <option value={c}>{fmt(c)}</option>)}
     </select>
   </form>

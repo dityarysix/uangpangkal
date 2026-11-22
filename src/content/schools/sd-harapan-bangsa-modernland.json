@@ -1,0 +1,30 @@
+{
+  "name": "SD Harapan Bangsa Modernland",
+  "area": "jabodetabek",
+  "city": "Kota Tangerang",
+  "district": "Tangerang",
+  "address": "Jl. Pulau Putri Raya Kav 10, Modernland, Tangerang, Kota Tangerang",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 46942250
+      },
+      "tuition": {
+        "amount": 3412500,
+        "period": "month"
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

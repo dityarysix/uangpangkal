@@ -1,0 +1,39 @@
+{
+  "name": "Tara Salvia",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Ciputat",
+  "address": "Jl. Menjangan Raya No.9, Sawah Lama, Ciputat, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 47000000
+      },
+      "tuition": {
+        "amount": 2425000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan (per tahun)",
+            "en": "Activity fee (per year)"
+          },
+          "amount": 3725000
+        }
+      ],
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

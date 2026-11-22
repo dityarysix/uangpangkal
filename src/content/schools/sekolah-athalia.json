@@ -1,0 +1,40 @@
+{
+  "name": "Sekolah Athalia",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong Utara",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 400025,
+      "tuition": {
+        "amount": 2600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang alat & bahan (UAB)",
+            "en": "Tools & materials fee"
+          },
+          "amount": 3100000
+        }
+      ],
+      "notes": {
+        "id": "Sumber juga mencantumkan \"SPP Rp27.000.000\" (kemungkinan uang pangkal; konfirmasi ke sekolah). Perkiraan seragam & buku Rp2.200.000.",
+        "en": "The source also lists \"SPP Rp27,000,000\" (probably the entry fee; confirm with the school). Estimated uniforms & books Rp2,200,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

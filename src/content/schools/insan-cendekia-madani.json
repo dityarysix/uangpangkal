@@ -1,0 +1,36 @@
+{
+  "name": "Insan Cendekia Madani (ICM)",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "address": "Gg. H. Amat, Jl. Maruga Raya, Ciater, Serpong, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 900000,
+      "entryFee": {
+        "min": 39000000,
+        "max": 65000000
+      },
+      "tuition": {
+        "amount": 5650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp39.000.000 dengan diskon sampai Desember 2025; harga normal Rp65.000.000. Sekolah berasrama.",
+        "en": "Entry fee Rp39,000,000 with discount until December 2025; normal price Rp65,000,000. Boarding school."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

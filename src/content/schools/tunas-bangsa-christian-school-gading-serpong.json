@@ -1,0 +1,31 @@
+{
+  "name": "Tunas Bangsa Christian School Gading Serpong",
+  "area": "jabodetabek",
+  "city": "Kabupaten Tangerang",
+  "district": "Kelapa Dua",
+  "address": "Jl. Kelapa Gading Selatan Sektor IIA Blok HA 1, Pakulonan Barat, Kelapa Dua, Kabupaten Tangerang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 29000000
+      },
+      "tuition": {
+        "amount": 2750000,
+        "period": "month"
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

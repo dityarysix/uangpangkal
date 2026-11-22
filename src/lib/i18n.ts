@@ -14,6 +14,7 @@ const dict = {
   allAreas: { id: 'Semua wilayah', en: 'All areas' },
   allLevels: { id: 'Semua jenjang', en: 'All levels' },
   maxEntry: { id: 'Uang pangkal maks.', en: 'Max entry fee' },
+  anyEntry: { id: 'Semua uang pangkal', en: 'Any entry fee' },
   any: { id: 'Berapa saja', en: 'Any' },
   areas: { id: 'Wilayah', en: 'Areas' },
   schools: { id: 'sekolah', en: 'schools' },
@@ -52,11 +53,12 @@ const dict = {
   about: { id: 'Tentang', en: 'About' },
   home: { id: 'Beranda', en: 'Home' },
   perPeriod_month: { id: '/bulan', en: '/month' },
-  perPeriod_quarter: { id: '/3 bulan', en: '/quarter' },
+  perPeriod_quarter: { id: '/3 bln', en: '/quarter' },
   perPeriod_semester: { id: '/semester', en: '/semester' },
   perPeriod_year: { id: '/tahun', en: '/year' },
   feeNotPublished: { id: 'Belum dipublikasikan', en: 'Not published' },
   yearAssumed: { id: 'diasumsikan; sumber tidak menyebut tahun ajaran', en: 'assumed; the source does not state the year' },
+  free: { id: 'Gratis', en: 'Free' },
   latestFees: { id: 'Biaya terbaru', en: 'Latest fees' },
   reportCorrection: { id: 'Laporkan koreksi', en: 'Report a correction' },
 } as const;
@@ -78,12 +80,13 @@ export function rupiah(n: number) {
   return 'Rp' + n.toLocaleString('id-ID');
 }
 
-/** Compact form for cards: Rp47,5 jt / Rp47.5M */
+/** Compact form for cards: Rp1,75 jt / Rp1.75 mn. Keeps up to 2 decimals so amounts are not rounded away. */
 export function rupiahShort(n: number, lang: Lang) {
+  const loc = lang === 'id' ? 'id-ID' : 'en-US';
   if (n >= 1_000_000) {
-    const v = (n / 1_000_000).toLocaleString(lang === 'id' ? 'id-ID' : 'en-US', { maximumFractionDigits: 1 });
-    return `Rp${v} ${lang === 'id' ? 'jt' : 'M'}`;
+    const v = (n / 1_000_000).toLocaleString(loc, { maximumFractionDigits: 2 });
+    return `Rp${v} ${lang === 'id' ? 'jt' : 'mn'}`;
   }
-  if (n >= 1_000) return `Rp${Math.round(n / 1_000)} ${lang === 'id' ? 'rb' : 'k'}`;
+  if (n >= 1_000) return `Rp${(n / 1_000).toLocaleString(loc, { maximumFractionDigits: 1 })} ${lang === 'id' ? 'rb' : 'k'}`;
   return rupiah(n);
 }

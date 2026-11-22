@@ -1,0 +1,35 @@
+{
+  "name": "Stella Maris School",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "address": "Jl. Artha Kencana Kav C1, Kencana Loka, Serpong, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 27048000,
+        "max": 30000000
+      },
+      "tuition": {
+        "amount": 2700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp30.000.000, diskon 2%+8% menjadi Rp27.048.000. SPP naik Rp130.000/tahun. Uang kegiatan, buku, dan seragam diinfokan kemudian.",
+        "en": "Entry fee Rp30,000,000, 2%+8% discount to Rp27,048,000. Tuition rises Rp130,000/year. Activity, book and uniform fees announced later."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

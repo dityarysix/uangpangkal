@@ -1,0 +1,60 @@
+{
+  "name": "Sekolah Auliya",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "address": "Jl. Jombang Raya No.1, Parigi, Pondok Aren, Tangerang Selatan",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://sekolahauliya.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 750000,
+      "entryFee": {
+        "min": 47900000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya pendaftaran = observasi & wawancara. Biaya masuk bisa dicicil dan ada diskon.",
+        "en": "Registration fee = observation & interview. Entry fee can be paid in instalments; discounts available."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 40900000
+      },
+      "tuition": {
+        "amount": 2400000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = biaya penerimaan.",
+        "en": "Entry fee = admission fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

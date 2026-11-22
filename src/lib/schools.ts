@@ -18,10 +18,10 @@ export function minEntryFee(s: School): number | undefined {
   return vals.length ? Math.min(...vals) : undefined;
 }
 
-export function minMonthlyTuition(s: School): number | undefined {
+/** Lowest tuition as the school states it (amount + its own period), compared on a monthly basis. */
+export function lowestTuition(s: School) {
   const per = { month: 1, quarter: 3, semester: 6, year: 12 } as const;
-  const vals = s.data.fees
-    .map((f) => (f.tuition ? Math.round(f.tuition.amount / per[f.tuition.period]) : undefined))
-    .filter((v): v is number => v !== undefined);
-  return vals.length ? Math.min(...vals) : undefined;
+  const list = s.data.fees.map((f) => f.tuition).filter((t) => t !== undefined);
+  if (!list.length) return undefined;
+  return list.reduce((a, b) => (b.amount / per[b.period] < a.amount / per[a.period] ? b : a));
 }

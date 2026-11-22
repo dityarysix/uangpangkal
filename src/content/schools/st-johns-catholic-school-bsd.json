@@ -1,0 +1,35 @@
+{
+  "name": "St. John's Catholic School BSD",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "address": "Jl. Kencana Loka Raya Sektor 12 No.8, BSD City, Rawa Buntu, Serpong, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 65000000
+      },
+      "tuition": {
+        "amount": 4650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal sudah termasuk seragam dan buku selama satu tahun pertama. Ekstrakurikuler Rp1–3 juta/tahun.",
+        "en": "Entry fee includes uniforms and books for the first year. Extracurriculars Rp1–3 million/year."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Sekolah Pelita Harapan Lippo Village",
+  "area": "jabodetabek",
+  "city": "Kabupaten Tangerang",
+  "district": "Kelapa Dua",
+  "address": "Jl. Boulevard Palem Raya No.2500, Lippo Village, Kelapa Dua, Kabupaten Tangerang",
+  "levels": [
+    "SD",
+    "SMP"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 3000000,
+      "entryFee": {
+        "min": 56500000,
+        "max": 214200000
+      },
+      "tuition": {
+        "amount": 214000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Sumber mencantumkan biaya per tahun akademik: 1 tahun Rp56.500.000; 2 tahun Rp99.500.000; 3 tahun Rp128.000.000; 4 tahun Rp157.000.000; 5 tahun Rp185.000.000; 6 tahun Rp214.200.000. SPP/tahun kelas 1–2 Rp214.000.000; kelas 3–6 Rp223.000.000.",
+        "en": "Source lists fees by number of academic years: 1 year Rp56,500,000; 2 years Rp99,500,000; 3 years Rp128,000,000; 4 years Rp157,000,000; 5 years Rp185,000,000; 6 years Rp214,200,000. Tuition per year grades 1–2 Rp214,000,000; grades 3–6 Rp223,000,000."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 3000000,
+      "otherFees": [
+        {
+          "label": {
+            "id": "1 tahun akademik (sesuai sumber)",
+            "en": "1 academic year (as stated by source)"
+          },
+          "amount": 284000000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

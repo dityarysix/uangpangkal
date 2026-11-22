@@ -1,0 +1,32 @@
+{
+  "name": "SMP Islam Amalina",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 950000,
+      "entryFee": {
+        "min": 21000000,
+        "max": 24000000
+      },
+      "tuition": {
+        "amount": 1100000,
+        "period": "month"
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

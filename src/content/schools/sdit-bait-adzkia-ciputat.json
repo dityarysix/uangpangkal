@@ -1,0 +1,72 @@
+{
+  "name": "SDIT Bait Adzkia Islamic School",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Ciputat",
+  "address": "Jl. Suka Damai VI, Serua Indah, Ciputat, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku siswa (per tahun)",
+            "en": "Student books (per year)"
+          },
+          "amount": 1350000
+        },
+        {
+          "label": {
+            "id": "Seragam (6 set)",
+            "en": "Uniforms (6 sets)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Sampul rapor",
+            "en": "Report cover"
+          },
+          "amount": 100000
+        },
+        {
+          "label": {
+            "id": "Sarpras (pemeliharaan, lab komputer, server & aplikasi)",
+            "en": "Facilities (maintenance, computer lab, server & app)"
+          },
+          "amount": 650000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan termasuk ekskul (per tahun)",
+            "en": "Activities incl. extracurriculars (per year)"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq gedung. SPP khusus kelas 1.",
+        "en": "Entry fee = building infaq. Tuition for grade 1."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

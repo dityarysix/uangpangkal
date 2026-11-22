@@ -1,0 +1,80 @@
+{
+  "name": "Al-Fath School Indonesia",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Ciputat Timur",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://alfathschoolindonesia.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 26000000
+      },
+      "tuition": {
+        "amount": 2490150,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang media (per bulan)",
+            "en": "Media fee (per month)"
+          },
+          "amount": 250000
+        },
+        {
+          "label": {
+            "id": "Iuran PTA (per tahun)",
+            "en": "PTA fee (per year)"
+          },
+          "amount": 225000
+        },
+        {
+          "label": {
+            "id": "Cambridge Test English (per tahun)",
+            "en": "Cambridge English test (per year)"
+          },
+          "amount": 1450000
+        },
+        {
+          "label": {
+            "id": "Seragam (per tahun)",
+            "en": "Uniforms (per year)"
+          },
+          "amount": 1450000
+        },
+        {
+          "label": {
+            "id": "Komputer (per tahun)",
+            "en": "Computer (per year)"
+          },
+          "amount": 700000
+        },
+        {
+          "label": {
+            "id": "Buku (per tahun)",
+            "en": "Books (per year)"
+          },
+          "amount": 750000
+        }
+      ],
+      "notes": {
+        "id": "SPP sudah termasuk katering makan siang. Sumbangan min. Rp500.000 – maks. Rp2.000.000/tahun.",
+        "en": "Tuition includes lunch catering. Donation min. Rp500,000 – max. Rp2,000,000/year."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

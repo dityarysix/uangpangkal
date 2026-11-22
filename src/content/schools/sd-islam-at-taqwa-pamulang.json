@@ -1,0 +1,51 @@
+{
+  "name": "SD Islam At-Taqwa",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pamulang",
+  "address": "Jl. Benda Timur 15, Benda Baru, Pamulang, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 2900000
+      },
+      "tuition": {
+        "amount": 250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam (6 stel)",
+            "en": "Uniforms (6 sets)"
+          },
+          "amount": 1650000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 1650000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = dana pembangunan. SPP sudah termasuk ekskul, flat sampai kelas 6.",
+        "en": "Entry fee = building fund. Tuition includes extracurriculars, flat until grade 6."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

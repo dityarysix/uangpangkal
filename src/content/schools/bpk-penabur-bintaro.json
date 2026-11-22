@@ -1,0 +1,35 @@
+{
+  "name": "BPK Penabur Bintaro Jaya",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "address": "Jl. Panglima Polim Blok A6 No.1, Sektor 7 Bintaro Jaya, Pondok Jaya, Pondok Aren, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 21200000
+      },
+      "tuition": {
+        "amount": 2650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Belum termasuk buku, seragam, uang kegiatan, dan ekskul.",
+        "en": "Excludes books, uniforms, activity fee and extracurriculars."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

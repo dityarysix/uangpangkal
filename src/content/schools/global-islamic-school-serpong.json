@@ -1,0 +1,54 @@
+{
+  "name": "Global Islamic School (GIS) Serpong",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 750000,
+      "entryFee": {
+        "min": 34650000
+      },
+      "tuition": {
+        "amount": 2200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan (per tahun)",
+            "en": "Activities (per year)"
+          },
+          "amount": 4655000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan (per tahun)",
+            "en": "Supplies (per year)"
+          },
+          "amount": 5865000
+        },
+        {
+          "label": {
+            "id": "BKOMG (per tahun)",
+            "en": "Parent–teacher body (per year)"
+          },
+          "amount": 300000
+        }
+      ],
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

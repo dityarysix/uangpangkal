@@ -1,0 +1,35 @@
+{
+  "name": "Sampoerna Academy BSD",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "levels": [
+    "SMP"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "website": "https://www.sampoernaacademy.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 8000000,
+      "tuition": {
+        "amount": 119900000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Grade 7 & 8: Rp119.900.000/tahun; Grade 9: Rp135.000.000/tahun. Belum termasuk buku, seragam, field trip.",
+        "en": "Grades 7 & 8: Rp119,900,000/year; Grade 9: Rp135,000,000/year. Excludes books, uniforms, field trips."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

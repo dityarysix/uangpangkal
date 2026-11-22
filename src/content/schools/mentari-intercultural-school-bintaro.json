@@ -1,0 +1,60 @@
+{
+  "name": "Mentari Intercultural School Bintaro",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "address": "Jl. Perigi Baru No.7A, Parigi Baru, Pondok Aren, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 800000,
+      "entryFee": {
+        "min": 73500000
+      },
+      "tuition": {
+        "amount": 5350000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku & materi belajar (Grade 1)",
+            "en": "Books & learning materials (Grade 1)"
+          },
+          "amount": 4280000
+        },
+        {
+          "label": {
+            "id": "Kelas renang Grade 1 (8 sesi)",
+            "en": "Grade 1 swimming (8 sessions)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Asuransi kecelakaan (per tahun)",
+            "en": "Personal accident insurance (per year)"
+          },
+          "amount": 200000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = development fee (Grade 1–6). SPP untuk Grade 1; tiap grade berbeda. Seragam: TBA.",
+        "en": "Entry fee = development fee (Grades 1–6). Tuition shown for Grade 1; each grade differs. Uniforms: TBA."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Sekolah An-Nisaa' Izada",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://annisaa-izada.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 850000,
+      "entryFee": {
+        "min": 37300000
+      },
+      "tuition": {
+        "amount": 2885000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Iuran INSAANI",
+            "en": "INSAANI contribution"
+          },
+          "amount": 255000
+        },
+        {
+          "label": {
+            "id": "Perpustakaan",
+            "en": "Library"
+          },
+          "amount": 300000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = biaya penerimaan.",
+        "en": "Entry fee = admission fee."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

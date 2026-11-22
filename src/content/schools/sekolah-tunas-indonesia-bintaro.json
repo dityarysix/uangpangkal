@@ -1,0 +1,37 @@
+{
+  "name": "Sekolah Tunas Indonesia",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "address": "Jl. Jombang Raya Bintaro Jaya No.18, Parigi, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Nasional Plus"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 28000000
+      },
+      "tuition": {
+        "amount": 2900000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Seragam & buku ± Rp3.000.000/tahun.",
+        "en": "Uniforms & books ~Rp3,000,000/year."
+      },
+      "source": {
+        "title": "18 Daftar SD di Tangerang Raya dan Biaya Masuk 2025/2026 (Popmama)",
+        "url": "https://www.popmama.com/big-kid/6-9-years-old/daftar-sd-di-tangerang-raya-dan-biaya-masuk-2025-2026-00-8zdst-vg8hpm",
+        "published": "2025-11-10"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

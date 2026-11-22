@@ -1,0 +1,36 @@
+{
+  "name": "SMP Islam Al-Azhar 25",
+  "area": "jabodetabek",
+  "city": "Tangerang Selatan",
+  "district": "Setu",
+  "address": "Jl. Kelapa Dua No.50, Babakan, Setu, Tangerang Selatan",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 550000,
+      "entryFee": {
+        "min": 27000000
+      },
+      "tuition": {
+        "amount": 1825000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang sekolah kelas prestasi Rp1.825.000; kelas bilingual Rp1.930.000.",
+        "en": "Tuition: achievement class Rp1,825,000; bilingual class Rp1,930,000."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Sekolah SMP di Tangerang & Tangerang Selatan Terbaru (Popmama)",
+        "url": "https://www.popmama.com/big-kid/10-12-years-old/biaya-sekolah-smp-di-tangerang-tangsel-terbaru-orangtua-wajib-cek-00-sdwkg-ccc7f7",
+        "published": "2025-12-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
