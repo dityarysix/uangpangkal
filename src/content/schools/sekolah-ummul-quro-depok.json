@@ -1,0 +1,36 @@
+{
+  "name": "Sekolah Ummul Quro Depok",
+  "city": "Depok",
+  "district": "Beji",
+  "address": "Jl. Mandor Sanim, Kukusan, Beji, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Paket masuk gelombang I (Sep–Des 2023) Rp30.395.000, gelombang II (Jan–Apr 2024) Rp31.395.000. Jalur tes inklusi +Rp375.000. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry package wave I (Sep–Dec 2023) Rp30,395,000, wave II (Jan–Apr 2024) Rp31,395,000. Inclusion test track +Rp375,000. From an article; academic year not stated."
+      },
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 30395000,
+        "max": 31395000
+      },
+      "tuition": {
+        "amount": 1700000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

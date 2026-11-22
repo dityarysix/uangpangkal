@@ -67,6 +67,44 @@
         "published": "2024-10-17"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perlengkapan setahun Rp1,02 juta; dana kesehatan Rp95.000. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Annual supplies Rp1.02M; health fund Rp95,000. From an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 24500000
+      },
+      "tuition": {
+        "amount": 1150000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam 5 stel",
+            "en": "Uniforms (5 sets)"
+          },
+          "amount": 1140000
+        },
+        {
+          "label": {
+            "id": "Kegiatan siswa",
+            "en": "Student activities"
+          },
+          "amount": 1050000
+        }
+      ],
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }

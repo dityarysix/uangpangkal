@@ -1,0 +1,58 @@
+{
+  "name": "Sekolah Islam Fitrah Al Fikri Depok",
+  "city": "Depok",
+  "district": "Sukmajaya",
+  "address": "Jl. Raden Saleh No.2A, Sukmajaya, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut.",
+        "en": "From an article; academic year not stated."
+      },
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 30870000
+      },
+      "tuition": {
+        "amount": 1890000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 2750000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Komite",
+            "en": "Committee"
+          },
+          "amount": 240000
+        }
+      ],
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

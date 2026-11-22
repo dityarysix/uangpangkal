@@ -59,6 +59,58 @@
         "published": "2022-07-07"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = sumbangan pendidikan. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry = education contribution. From an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 9000000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Administrasi",
+            "en": "Administration"
+          },
+          "amount": 2745000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1339000
+        },
+        {
+          "label": {
+            "id": "Paket buku",
+            "en": "Book package"
+          },
+          "amount": 2946000
+        },
+        {
+          "label": {
+            "id": "Komite per bulan",
+            "en": "Committee per month"
+          },
+          "amount": 50000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SD Swasta Semarang, Tentukan Pilihan Terbaik untuk Anak! (Nakita)",
+        "url": "https://nakita.grid.id/read/024050247/biaya-masuk-sd-swasta-semarang-tentukan-pilihan-terbaik-untuk-anak?page=all",
+        "published": "2024-03-26"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }

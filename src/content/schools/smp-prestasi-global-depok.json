@@ -1,13 +1,37 @@
 {
-  "name": "SMP Prestasi Global Depok",
+  "name": "Sekolah Prestasi Global Depok",
   "city": "Depok",
   "district": "Pancoran Mas",
   "address": "Jl. Palem I No.1, Perumahan Mampang Indah II, Rangkapan Jaya, Pancoran Mas, Depok",
   "levels": [
+    "SD",
     "SMP"
   ],
   "religion": "Islam",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Biaya pengembangan pendidikan (uang pangkal, kegiatan tahunan, seragam, buku paket) Rp20.000.000. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Education development fee (entry, annual activities, uniforms, textbooks) Rp20,000,000. From an article; academic year not stated."
+      },
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",

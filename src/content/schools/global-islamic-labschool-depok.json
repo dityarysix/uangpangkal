@@ -1,0 +1,34 @@
+{
+  "name": "Global Islamic LabSchool Depok",
+  "city": "Depok",
+  "address": "Jl. Raya KSU-Kalimulya No.67, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menyebut \"uang pendaftaran Rp30.050.000\"; dicatat sebagai biaya masuk. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "The article says \"registration Rp30,050,000\"; recorded as the entry cost. From an article; academic year not stated."
+      },
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 30050000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

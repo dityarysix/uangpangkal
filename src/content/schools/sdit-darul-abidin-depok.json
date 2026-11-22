@@ -2,12 +2,36 @@
   "name": "SDIT Darul Abidin Depok",
   "city": "Depok",
   "district": "Beji",
-  "address": "Jl. Karet Hijau No.52, Beji Timur, Beji, Depok",
+  "address": "Jl. Karet Hijau No.23, Beji, Depok",
   "levels": [
     "SD"
   ],
   "religion": "Islam",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Gelombang I Rp35.000.000, gelombang II Rp36.500.000. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Wave I Rp35,000,000, wave II Rp36,500,000. From an article; academic year not stated."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 35000000,
+        "max": 36500000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2026/2027",

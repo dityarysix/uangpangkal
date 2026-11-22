@@ -1,0 +1,58 @@
+{
+  "name": "Sekolah Al Irsyad Al Islamiyyah Depok",
+  "city": "Depok",
+  "district": "Sukmajaya",
+  "address": "Jl. Lesung Raya No.290, Abadijaya, Sukmajaya, Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = biaya awal pengembangan. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry = initial development fee. From an article; academic year not stated."
+      },
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 13000000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1150000
+        },
+        {
+          "label": {
+            "id": "Kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 1500000
+        }
+      ],
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

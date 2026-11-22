@@ -1,0 +1,44 @@
+{
+  "name": "Sekolah Alam Indonesia Depok",
+  "city": "Depok",
+  "district": "Sukmajaya",
+  "address": "Jl. Raden Saleh / Jl. Studio Alam TVRI No.78x, Sukmajaya, Depok",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "yearAssumed": true,
+      "notes": {
+        "id": "DPP Rp9–15 juta; operasional tahunan Rp3,5–4,5 juta; biaya guru per bulan SD Rp800 ribu (TK Rp700 ribu). Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Development fee Rp9–15M; annual operations Rp3.5–4.5M; monthly teacher fee SD Rp800k (TK Rp700k). From an article; academic year not stated."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 9000000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Operasional tahunan (min.)",
+            "en": "Annual operations (min.)"
+          },
+          "amount": 3500000
+        }
+      ],
+      "source": {
+        "title": "Cek Biaya Sekolah di Depok, dari Termurah sampai Termahal (SobatSekolah)",
+        "url": "https://sobatsekolah.com/pendidikan/biaya-sekolah-di-depok/",
+        "published": "2024-04-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
