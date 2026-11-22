@@ -1,0 +1,50 @@
+{
+  "name": "SMA Kolese Gonzaga",
+  "city": "Jakarta Selatan",
+  "district": "Pasar Minggu",
+  "address": "Jl. Pejaten Barat 10A, Jakarta Selatan",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Katolik",
+  "website": "https://www.gonzaga.sch.id",
+  "phone": "(021) 7804986 / WA +62 819-2701-1222",
+  "fees": [],
+  "admission": [
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Seleksi 2027/2028 sudah selesai; pengumuman 30 Oktober 2026 dan daftar ulang (pertemuan wajib orang tua) 31 Oktober 2026.",
+        "en": "Selection for 2027/2028 is finished; results on 30 October 2026 and re-registration (mandatory parents' meeting) on 31 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Pendaftaran online dan tes akademik di sekolah.",
+          "en": "Online registration and an academic test at the school."
+        },
+        {
+          "id": "Pengumuman hasil seleksi.",
+          "en": "Results announced."
+        },
+        {
+          "id": "Orang tua calon murid yang diterima wajib hadir sendiri (tidak boleh diwakilkan) untuk daftar ulang; yang tidak hadir dianggap mengundurkan diri.",
+          "en": "Parents of accepted students must attend in person for re-registration; absence counts as withdrawal."
+        }
+      ],
+      "test": {
+        "id": "Tes akademik.",
+        "en": "Academic test."
+      },
+      "notes": {
+        "id": "Biaya tidak dicantumkan di situs.",
+        "en": "Fees are not published on the site."
+      },
+      "source": {
+        "title": "Pengumuman Penerimaan Peserta Didik Baru 2027/2028 — SMA Kolese Gonzaga (situs resmi)",
+        "url": "https://www.gonzaga.sch.id/en/pengumuman-penerimaan-peserta-didik-baru-2027-2028/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

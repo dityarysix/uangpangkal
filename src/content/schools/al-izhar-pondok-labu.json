@@ -1,0 +1,56 @@
+{
+  "name": "Perguruan Islam Al-Izhar Pondok Labu",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. RS Fatmawati Kav.49, Pondok Labu, Cilandak, Jakarta Selatan",
+  "levels": [
+    "KB",
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://psb.alizhar.sch.id",
+  "fees": [],
+  "admission": [
+    {
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran 3–17 November 2026 (pukul 14.30 WIB): KB, TK, SD untuk internal; SMP dan SMA untuk internal (reguler), eksternal (early bird, ditutup bila kuota penuh), dan beasiswa.",
+        "en": "Registration 3–17 November 2026 (14:30 WIB): KB, TK and SD for internal applicants; SMP and SMA for internal (regular), external (early bird, closes when full) and scholarship tracks."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di psb.alizhar.sch.id.",
+          "en": "Register online at psb.alizhar.sch.id."
+        },
+        {
+          "id": "Transfer biaya pendaftaran ke rekening sekolah dan unggah bukti di akun PSB.",
+          "en": "Transfer the registration fee to the school account and upload proof in your PSB account."
+        },
+        {
+          "id": "Ikuti seleksi dan wawancara orang tua sesuai jadwal.",
+          "en": "Attend the selection and parent interview on schedule."
+        },
+        {
+          "id": "Pengumuman lewat email orang tua, lalu lunasi biaya pendidikan.",
+          "en": "Results by email to parents, then pay the education fees."
+        }
+      ],
+      "test": {
+        "id": "Seleksi PSB dan wawancara orang tua.",
+        "en": "Admission selection and parent interview."
+      },
+      "notes": {
+        "id": "Besaran biaya tidak dicantumkan di halaman.",
+        "en": "Fee amounts are not shown on the page."
+      },
+      "source": {
+        "title": "Penerimaan Siswa Baru Perguruan Islam Al-Izhar Pondok Labu (situs resmi)",
+        "url": "https://psb.alizhar.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "SDIT Al-Uswah Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Jagakarsa",
+  "address": "Jl. Pratama No.21, Srengseng Sawah, Jagakarsa, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://web.sditaluswahjakarta.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 1100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam 6 macam",
+            "en": "Uniforms (6 types)"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Buku tulis & paket 1 tahun",
+            "en": "Exercise & textbooks (1 year)"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan 1 tahun",
+            "en": "Activities (1 year)"
+          },
+          "amount": 2100000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = dana pengembangan sarana prasarana. SPP termasuk katering dan ekstrakurikuler. Total masuk Rp18.000.000; potongan Rp500.000 untuk 50 pendaftar pertama. Per November 2026 kuota pendaftaran online dan offline sudah terpenuhi.",
+        "en": "Entry fee = facilities development fund. Tuition includes catering and extracurriculars. Total on entry Rp18,000,000; Rp500,000 off for the first 50 applicants. As of November 2026 both online and offline quotas are full."
+      },
+      "source": {
+        "title": "Info PMB SDIT Al-Uswah TP 2027/2028 (situs resmi)",
+        "url": "https://web.sditaluswahjakarta.sch.id/info-ppdb/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

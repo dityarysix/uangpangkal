@@ -1,0 +1,31 @@
+{
+  "name": "Sekolah Santa Ursula Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Sawah Besar",
+  "address": "Jl. Pos No.2, Pasar Baru, Jakarta Pusat",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Katolik",
+  "website": "https://spmb.santaursulajakarta.sch.id",
+  "fees": [],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran online dibuka mulai 1 Agustus 2026.",
+        "en": "Online registration opened on 1 August 2026."
+      },
+      "notes": {
+        "id": "Biaya tidak dicantumkan; kontak tatausaha@smp.santaursulajakarta.sch.id.",
+        "en": "Fees are not published; contact tatausaha@smp.santaursulajakarta.sch.id."
+      },
+      "source": {
+        "title": "Pendaftaran SMP Santa Ursula Jakarta — SPMB 2027/2028 (situs resmi)",
+        "url": "https://smp.santaursulajakarta.sch.id/pendaftaran/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

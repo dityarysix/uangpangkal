@@ -1,0 +1,53 @@
+{
+  "name": "Sekolah Budi Luhur Pondok Aren",
+  "city": "Tangerang Selatan",
+  "district": "Pondok Aren",
+  "address": "Jl. Jombang Raya No.77, Pondok Kacang Timur, Pondok Aren, Tangerang Selatan",
+  "levels": [
+    "SD"
+  ],
+  "website": "https://sdpa.sekolahbudiluhur.sch.id",
+  "phone": "Sekretariat 0856-9752-4293",
+  "fees": [],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran online dengan nomor antrean; promo early bird diskon 25% pada 14 September–3 Oktober 2026.",
+        "en": "Online registration with queue numbers; 25% early-bird discount from 14 September to 3 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Daftar online dan dapatkan nomor antrean.",
+          "en": "Register online and get a queue number."
+        },
+        {
+          "id": "Hadir ke sekolah untuk pembayaran administrasi sesuai jadwal.",
+          "en": "Come to the school to pay the administration fee on the scheduled day."
+        },
+        {
+          "id": "Calon siswa dari TK non-Budi Luhur mengikuti observasi bersama guru SD.",
+          "en": "Children from other kindergartens attend an observation with SD teachers."
+        },
+        {
+          "id": "Bila diterima, lunasi biaya administrasi pendidikan lewat transfer.",
+          "en": "If accepted, pay the education fees in full by transfer."
+        }
+      ],
+      "test": {
+        "id": "Observasi (untuk siswa dari luar TK Budi Luhur).",
+        "en": "Observation (for children from outside TK Budi Luhur)."
+      },
+      "notes": {
+        "id": "Besaran biaya tidak dicantumkan; hubungi sekretariat.",
+        "en": "Fee amounts are not published; contact the secretariat."
+      },
+      "source": {
+        "title": "Informasi Pendaftaran Siswa Baru 2027–2028 — SD Budi Luhur Pondok Aren (situs resmi)",
+        "url": "https://sdpa.sekolahbudiluhur.sch.id/pengumuman/informasi-pendaftaran-siswa-baru-2027-2028/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

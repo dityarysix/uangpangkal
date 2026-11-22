@@ -1,0 +1,80 @@
+{
+  "name": "SMA EMIISc Jakarta",
+  "city": "Jakarta Timur",
+  "district": "Kramat Jati",
+  "address": "Jl. Raya Condet No.27, Batu Ampar, Kramat Jati, Jakarta Timur",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://emiisc.sch.id",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "tuition": {
+        "amount": 1705000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang tahunan (kelas 10)",
+            "en": "Annual fee (grade 10)"
+          },
+          "amount": 4990000
+        }
+      ],
+      "notes": {
+        "id": "Biaya pendaftaran termasuk tes masuk. Uang pangkal minimal 50% dibayar setelah lulus tes, lalu dilunasi. Uang tahunan kelas 11 & 12 berbeda.",
+        "en": "Registration includes the entrance test. Pay at least 50% of the entry fee after passing the test, then the rest. Annual fee differs for grades 11 & 12."
+      },
+      "source": {
+        "title": "SPMB SMA EMIISc Jakarta TA 2026/2027 (situs resmi)",
+        "url": "https://emiisc.sch.id/sma-emiisc-jakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "steps": [
+        {
+          "id": "Daftar dan bayar biaya pendaftaran & tes.",
+          "en": "Register and pay the registration & test fee."
+        },
+        {
+          "id": "Ikuti tes masuk dan tanda tangan MOU.",
+          "en": "Take the entrance test and sign the MOU."
+        },
+        {
+          "id": "Bayar uang pangkal minimal 50%.",
+          "en": "Pay at least 50% of the entry fee."
+        },
+        {
+          "id": "Lunasi sisa uang pangkal.",
+          "en": "Pay the remaining entry fee."
+        },
+        {
+          "id": "Mulai kegiatan belajar.",
+          "en": "Start classes."
+        }
+      ],
+      "test": {
+        "id": "Tes masuk.",
+        "en": "Entrance test."
+      },
+      "source": {
+        "title": "SPMB SMA EMIISc Jakarta TA 2026/2027 (situs resmi)",
+        "url": "https://emiisc.sch.id/sma-emiisc-jakarta/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

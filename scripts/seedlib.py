@@ -28,6 +28,19 @@ BOOKS = ("Buku", "Books")
 ACTIVITY = ("Uang kegiatan", "Activity fee")
 
 
+def ensure_school(slug, *, name, city, levels, **fields):
+    """Create/update a school record without adding fees (e.g. admission info only)."""
+    OUT.mkdir(parents=True, exist_ok=True)
+    path = OUT / f"{slug}.json"
+    doc = json.loads(path.read_text()) if path.exists() else {"fees": []}
+    doc.update({"name": name, "city": city, **{k: v for k, v in fields.items() if v is not None}})
+    lv = set(doc.get("levels", [])) | set(levels)
+    doc["levels"] = [l for l in LEVEL_ORDER if l in lv]
+    order = ["name", "city", "district", "address", "npsn", "levels", "curriculum", "religion", "website", "phone", "fees", "admission"]
+    doc = {k: doc[k] for k in order if k in doc}
+    path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
+
+
 def add_admission(slug, entry):
     """Add/replace an admission entry (matched on level + academic year + source URL)."""
     path = OUT / f"{slug}.json"

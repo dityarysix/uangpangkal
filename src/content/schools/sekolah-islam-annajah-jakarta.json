@@ -1,0 +1,302 @@
+{
+  "name": "Sekolah Islam Annajah Jakarta",
+  "city": "Jakarta Selatan",
+  "district": "Pesanggrahan",
+  "address": "Jl. Ciledug Raya No.10, Pesanggrahan, Jakarta Selatan",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://ppdb.annajah-jkt.sch.id",
+  "phone": "TK (021) 7377677 · SD (021) 73886134 · SMP (021) 7374045 · SMA (021) 7359616",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 16860000
+      },
+      "tuition": {
+        "amount": 1150000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Play group/TK. Uang pangkal termasuk SPP Juli 2027, seragam 5 stel, buku & alat tulis 1 tahun, kegiatan 1 tahun (rekreasi, kunjungan edukasi, manasik haji & tes IQ untuk TK B), rapor, foto.",
+        "en": "Playgroup/kindergarten. Entry fee includes July 2027 tuition, 5 uniform sets, a year of books & stationery, a year of activities (trip, educational visits, mock hajj & IQ test for TK B), report book, photo."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 17850000,
+        "max": 23800000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp23.800.000 (dari TK luar Annajah) / Rp17.850.000 (TK Annajah gelombang 1); termasuk SPP Juli 2027, gedung & seragam, buku 1 tahun, kesiswaan, ujian, rapor.",
+        "en": "Entry fee Rp23,800,000 (from outside kindergartens) / Rp17,850,000 (Annajah kindergarten, wave 1); includes July 2027 tuition, building & uniforms, a year of books, student affairs, exams, report book."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 14010000,
+        "max": 18680000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp18.680.000 (dari SD/MI luar) / Rp14.010.000 (SDI Annajah); termasuk seragam 5 stel, SPP Juli 2027, ekskul non-mitra, buku 1 tahun, ulangan umum, LDKS/city tour, jaket almamater. Uang pangkal tidak dapat dikembalikan bila mengundurkan diri.",
+        "en": "Entry fee Rp18,680,000 (from other primary schools) / Rp14,010,000 (SDI Annajah); includes 5 uniform sets, July 2027 tuition, extracurriculars, a year of books, exams, leadership camp/city tour, school jacket. The entry fee is non-refundable if you withdraw."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 14239000,
+        "max": 18985000
+      },
+      "tuition": {
+        "amount": 1300000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal Rp18.985.000 (dari SMP/MTs luar) / Rp14.239.000 (MTs/SMP Annajah); termasuk seragam 6 stel, SPP Juli 2027, ekskul 1 tahun, buku kelas X, ujian, lab bahasa, program riset, LDKS. SPP Rp1.300.000 tidak naik selama 3 tahun, termasuk lab komputer & bahasa. Bayar minimal 50% setelah lulus seleksi, sisanya tahap II. Uang pangkal tidak dapat dikembalikan bila mengundurkan diri.",
+        "en": "Entry fee Rp18,985,000 (from other junior highs) / Rp14,239,000 (Annajah); includes 6 uniform sets, July 2027 tuition, a year of extracurriculars, grade 10 books, exams, language lab, research programme, leadership camp. Tuition Rp1,300,000 is fixed for 3 years and includes computer & language labs. Pay at least 50% after acceptance, the rest in stage II. The entry fee is non-refundable if you withdraw."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "TK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran mulai 1 Oktober 2026.",
+        "en": "Registration from 1 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Bayar formulir Rp200.000.",
+          "en": "Pay the Rp200,000 form fee."
+        },
+        {
+          "id": "Ikuti observasi/tes.",
+          "en": "Attend the observation/test."
+        },
+        {
+          "id": "Bila diterima, bayar uang pangkal.",
+          "en": "If accepted, pay the entry fee."
+        }
+      ],
+      "documents": [
+        {
+          "id": "2 fotokopi akta kelahiran",
+          "en": "2 copies of birth certificate"
+        },
+        {
+          "id": "2 fotokopi Kartu Keluarga",
+          "en": "2 copies of family card"
+        },
+        {
+          "id": "2 foto calon siswa (ukuran 3R)",
+          "en": "2 photos of the child (3R size)"
+        }
+      ],
+      "test": {
+        "id": "Observasi.",
+        "en": "Observation."
+      },
+      "notes": {
+        "id": "Usia per Juli 2026: Play group 3–4 tahun; TK A 4–5 tahun; TK B 5–6 tahun.",
+        "en": "Age by July 2026: playgroup 3–4; TK A 4–5; TK B 5–6."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran mulai 19 Oktober 2026.",
+        "en": "Registration from 19 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Bayar formulir Rp200.000.",
+          "en": "Pay the Rp200,000 form fee."
+        },
+        {
+          "id": "Ikuti observasi/tes.",
+          "en": "Attend the observation/test."
+        },
+        {
+          "id": "Bila diterima, bayar uang pangkal.",
+          "en": "If accepted, pay the entry fee."
+        }
+      ],
+      "documents": [
+        {
+          "id": "2 fotokopi akta kelahiran",
+          "en": "2 copies of birth certificate"
+        },
+        {
+          "id": "2 fotokopi Kartu Keluarga",
+          "en": "2 copies of family card"
+        },
+        {
+          "id": "Pas foto 4x6 latar merah",
+          "en": "4x6 photo, red background"
+        }
+      ],
+      "test": {
+        "id": "Observasi: pengenalan huruf, angka, dan psikomotorik.",
+        "en": "Observation: letters, numbers and motor skills."
+      },
+      "notes": {
+        "id": "Usia minimal 6 tahun pada bulan Juli (sumber menulis Juli 2025).",
+        "en": "Minimum age 6 in July (the source says July 2025)."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran mulai 19 Oktober 2026.",
+        "en": "Registration from 19 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Bayar formulir Rp200.000.",
+          "en": "Pay the Rp200,000 form fee."
+        },
+        {
+          "id": "Ikuti observasi/tes.",
+          "en": "Attend the observation/test."
+        },
+        {
+          "id": "Bila diterima, bayar uang pangkal.",
+          "en": "If accepted, pay the entry fee."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi akta kelahiran",
+          "en": "Copy of birth certificate"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga",
+          "en": "Copy of family card"
+        },
+        {
+          "id": "Fotokopi NISN",
+          "en": "Copy of NISN"
+        },
+        {
+          "id": "Surat pernyataan siswa dan orang tua bermaterai",
+          "en": "Signed student & parent statement with duty stamp"
+        }
+      ],
+      "test": {
+        "id": "Observasi atau tes.",
+        "en": "Observation or test."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran mulai 19 Oktober 2026.",
+        "en": "Registration from 19 October 2026."
+      },
+      "steps": [
+        {
+          "id": "Bayar formulir Rp200.000.",
+          "en": "Pay the Rp200,000 form fee."
+        },
+        {
+          "id": "Ikuti observasi/tes.",
+          "en": "Attend the observation/test."
+        },
+        {
+          "id": "Bila diterima, bayar uang pangkal.",
+          "en": "If accepted, pay the entry fee."
+        }
+      ],
+      "documents": [
+        {
+          "id": "2 fotokopi akta kelahiran",
+          "en": "2 copies of birth certificate"
+        },
+        {
+          "id": "2 fotokopi Kartu Keluarga",
+          "en": "2 copies of family card"
+        },
+        {
+          "id": "2 fotokopi NISN",
+          "en": "2 copies of NISN"
+        },
+        {
+          "id": "2 fotokopi ijazah SMP/MTs",
+          "en": "2 copies of junior high certificate"
+        }
+      ],
+      "test": {
+        "id": "Observasi atau tes.",
+        "en": "Observation or test."
+      },
+      "source": {
+        "title": "PPDB Annajah Islamic Jakarta School TP 2027/2028 (situs resmi)",
+        "url": "https://ppdb.annajah-jkt.sch.id/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
