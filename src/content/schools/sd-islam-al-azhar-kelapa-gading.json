@@ -1,0 +1,50 @@
+{
+  "name": "SD Islam Al Azhar Kelapa Gading",
+  "city": "Jakarta Utara",
+  "district": "Kelapa Gading",
+  "address": "Jl. Boulevard Timur No.1, Kelapa Gading Timur, Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate fees from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 18000000
+      },
+      "tuition": {
+        "amount": 1100000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 2350000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 250000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Utara dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-utara",
+        "published": "2023-10-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

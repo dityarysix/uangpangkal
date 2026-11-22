@@ -1,0 +1,44 @@
+{
+  "name": "SD Budi Mulia Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Kemayoran",
+  "address": "Jl. Gunung Sahari No.91, Gunung Sahari Selatan, Kemayoran, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = uang gedung. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry fee = building fee. Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 60000,
+      "entryFee": {
+        "min": 5800000
+      },
+      "tuition": {
+        "amount": 590000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 1500000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Pusat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-pusat",
+        "published": "2023-10-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

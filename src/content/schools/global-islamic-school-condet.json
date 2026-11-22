@@ -10,6 +10,52 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menulis SPP Rp1,85 juta \"per tahun\"; kemungkinan per bulan. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "The article says tuition Rp1.85M \"per year\"; probably per month. Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 550000,
+      "entryFee": {
+        "min": 30500000
+      },
+      "tuition": {
+        "amount": 1850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan tahunan",
+            "en": "Annual activities"
+          },
+          "amount": 2780000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan tahunan",
+            "en": "Annual supplies"
+          },
+          "amount": 4350000
+        },
+        {
+          "label": {
+            "id": "POMG per tahun",
+            "en": "Parents' association per year"
+          },
+          "amount": 250000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Timur dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-timur",
+        "published": "2023-10-03"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 550000,
       "entryFee": {

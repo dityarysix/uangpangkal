@@ -1,0 +1,44 @@
+{
+  "name": "SD Gandhi Ancol",
+  "city": "Jakarta Utara",
+  "district": "Pademangan",
+  "address": "Jl. Pangandaran I No.4, Ancol, Pademangan, Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Nasional plus: pangkal Rp16 juta, SPP Rp1,8 juta. Internasional: pangkal Rp23 juta, SPP Rp2,25 juta. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "National plus: entry Rp16M, tuition Rp1.8M. International: entry Rp23M, tuition Rp2.25M. Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 16000000,
+        "max": 23000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Peralatan per tahun",
+            "en": "Equipment per year"
+          },
+          "amount": 1500000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Utara dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-utara",
+        "published": "2023-10-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

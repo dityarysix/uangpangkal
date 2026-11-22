@@ -1,0 +1,51 @@
+{
+  "name": "SD Santa Maria Juanda Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Gambir",
+  "address": "Jl. Ir. H. Juanda No.29, Kebon Kelapa, Gambir, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang kegiatan Rp1,2–3 juta. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Activity fee Rp1.2–3M. Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 1500000,
+      "entryFee": {
+        "min": 24500000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan (min.)",
+            "en": "Activities (min.)"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 2000000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Pusat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-pusat",
+        "published": "2023-10-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

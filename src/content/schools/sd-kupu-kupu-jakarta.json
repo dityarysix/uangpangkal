@@ -9,6 +9,30 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp49,7 juta (tanpa relasi) / Rp49,2 juta (ada relasi). Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry fee Rp49.7M (no relation) / Rp49.2M (with relation). Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 49200000,
+        "max": 49700000
+      },
+      "tuition": {
+        "amount": 2450000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Selatan dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-selatan",
+        "published": "2023-10-02"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2026/2027",
       "registrationFee": 200000,
       "entryFee": {

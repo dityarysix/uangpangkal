@@ -1,0 +1,34 @@
+{
+  "name": "SD Bojana Tirta Islamic School",
+  "city": "Jakarta Timur",
+  "district": "Pulo Gadung",
+  "address": "Jl. Bojana Tirta Raya No.3A, Pisangan Timur, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menyebut \"biaya pendaftaran Rp28 juta\"; dicatat sebagai biaya masuk. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "The article says \"registration fee Rp28M\"; recorded as the entry fee. Approximate fees from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 28000000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Timur dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-timur",
+        "published": "2023-10-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

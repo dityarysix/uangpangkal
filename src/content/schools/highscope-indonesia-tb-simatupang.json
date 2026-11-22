@@ -1,0 +1,39 @@
+{
+  "name": "HighScope Indonesia TB Simatupang",
+  "city": "Jakarta Selatan",
+  "district": "Cilandak",
+  "address": "Jl. TB Simatupang No.8, Cilandak Barat, Jakarta Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Kisaran biaya SD sekitar Rp70 jutaan; SPP Rp6,6 juta/bulan. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Primary fees around Rp70M; tuition Rp6.6M/month. Approximate fees from an article; academic year not stated."
+      },
+      "tuition": {
+        "amount": 6600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kisaran biaya (tidak dirinci)",
+            "en": "Fee range (not itemised)"
+          },
+          "amount": 70000000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Selatan dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-selatan",
+        "published": "2023-10-02"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

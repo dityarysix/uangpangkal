@@ -1,0 +1,51 @@
+{
+  "name": "SD Islam Al Azhar 20 Cibubur",
+  "city": "Jakarta Timur",
+  "district": "Ciracas",
+  "address": "Jl. Abdulrahman No.9, Cibubur, Ciracas, Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Buku Rp1,85–2 juta per tahun. Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Books Rp1.85–2M per year. Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 1250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 1850000
+        },
+        {
+          "label": {
+            "id": "Seragam tahun pertama",
+            "en": "First-year uniforms"
+          },
+          "amount": 1500000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Timur dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-timur",
+        "published": "2023-10-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

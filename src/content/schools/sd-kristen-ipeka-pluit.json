@@ -1,0 +1,35 @@
+{
+  "name": "SD Kristen IPEKA Pluit",
+  "city": "Jakarta Utara",
+  "district": "Penjaringan",
+  "address": "Jl. Pluit Timur Raya No.1, Pluit, Penjaringan, Jakarta Utara",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 24000000
+      },
+      "tuition": {
+        "amount": 2400000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Utara dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-utara",
+        "published": "2023-10-05"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

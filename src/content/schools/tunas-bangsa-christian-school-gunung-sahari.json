@@ -2,12 +2,50 @@
   "name": "Tunas Bangsa Christian School Gunung Sahari",
   "city": "Jakarta Pusat",
   "district": "Sawah Besar",
-  "address": "Jl. Gunung Sahari XII No.11, Gunung Sahari Utara, Sawah Besar, Jakarta Pusat",
+  "address": "Jl. Gunung Sahari 12 No.11, Gunung Sahari Utara, Sawah Besar, Jakarta Pusat",
   "levels": [
     "SD"
   ],
   "religion": "Kristen",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate fees from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 11700000
+      },
+      "tuition": {
+        "amount": 1125000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan dan sarana per tahun",
+            "en": "Activities & facilities per year"
+          },
+          "amount": 1750000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 1700000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Pusat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-pusat",
+        "published": "2023-10-06"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2026/2027",

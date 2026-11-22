@@ -1,0 +1,50 @@
+{
+  "name": "Mahatma Gandhi School Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Kemayoran",
+  "address": "Komplek Kemayoran Blok B-16 No.2, Jl. Tabing, Gunung Sahari Utara, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 10500000
+      },
+      "tuition": {
+        "amount": 1950000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Annual fee",
+            "en": "Annual fee"
+          },
+          "amount": 1700000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 1400000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Pusat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-pusat",
+        "published": "2023-10-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

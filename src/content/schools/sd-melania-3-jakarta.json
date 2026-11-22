@@ -1,0 +1,35 @@
+{
+  "name": "SD Melania III Jakarta",
+  "city": "Jakarta Pusat",
+  "district": "Cempaka Putih",
+  "address": "Jl. Percetakan Negara No.31, Cempaka Putih Barat, Jakarta Pusat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan biaya dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate fees from an article; academic year not stated."
+      },
+      "registrationFee": 150000,
+      "entryFee": {
+        "min": 4000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Pusat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-pusat",
+        "published": "2023-10-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
