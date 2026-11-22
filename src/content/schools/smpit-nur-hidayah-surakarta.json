@@ -1,0 +1,71 @@
+{
+  "name": "SMPIT Nur Hidayah Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Banjarsari",
+  "address": "Jl. Kahuripan Utara, Sumber, Banjarsari, Surakarta",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://smpitnurhidayahsolo.sch.id",
+  "phone": "(0271) 743416",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "entryFee": {
+        "min": 13500000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Wakaf pendidikan",
+            "en": "Education endowment"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1200000
+        },
+        {
+          "label": {
+            "id": "Kegiatan awal masuk",
+            "en": "Orientation activities"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 400000
+        }
+      ],
+      "notes": {
+        "id": "Total putra Rp17.750.000 / putri Rp17.950.000. Boarding sekitar Rp22,25 juta (putra) / Rp22,45 juta (putri).",
+        "en": "Total boys Rp17,750,000 / girls Rp17,950,000. Boarding about Rp22.25M (boys) / Rp22.45M (girls)."
+      },
+      "source": {
+        "title": "Daftar Biaya 3 Sekolah SMP Swasta di Solo Tahun Ajaran 2023-2024 (Nakita)",
+        "url": "https://nakita.grid.id/read/023694707/daftar-biaya-3-sekolah-smp-swasta-di-solo-tahun-ajaran-2023-2024?page=all"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

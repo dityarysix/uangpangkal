@@ -14,6 +14,23 @@
   "fees": [
     {
       "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 12500000
+      },
+      "notes": {
+        "id": "Total biaya masuk.",
+        "en": "Total entry cost."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
       "academicYear": "2027/2028",
       "registrationFee": 300000,
       "notes": {

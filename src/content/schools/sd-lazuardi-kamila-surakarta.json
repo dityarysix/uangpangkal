@@ -1,11 +1,34 @@
 {
   "name": "SD Lazuardi Kamila Surakarta",
   "city": "Surakarta (Solo)",
+  "district": "Banjarsari",
+  "address": "Jl. Monumen 45 No.11, Setabelan, Banjarsari, Surakarta",
   "levels": [
     "SD"
   ],
   "religion": "Islam",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 12450000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Gelombang 1 (hingga 31 Desember 2021), belum termasuk buku.",
+        "en": "Wave 1 (until 31 December 2021), excluding books."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2024/2025",

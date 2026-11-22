@@ -1,0 +1,30 @@
+{
+  "name": "Charis Institute Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Banjarsari",
+  "address": "Jl. Monginsidi No.28, Gilingan, Banjarsari, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 1600000,
+        "max": 2300000
+      },
+      "notes": {
+        "id": "Biaya masuk gelombang 1 Rp1.600.000; gelombang 2 Rp1.800.000; gelombang 3 Rp2.300.000; termasuk uang gedung, daftar ulang, seragam, dan buku tulis. SPP didiskusikan dengan sekolah.",
+        "en": "Entry fee wave 1 Rp1,600,000; wave 2 Rp1,800,000; wave 3 Rp2,300,000; includes building fee, re-registration, uniforms and exercise books. Tuition is discussed with the school."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

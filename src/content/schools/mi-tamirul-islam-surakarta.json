@@ -1,0 +1,57 @@
+{
+  "name": "MI Ta'mirul Islam Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Laweyan",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0271) 8000760",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1250000
+        },
+        {
+          "label": {
+            "id": "Snack per bulan",
+            "en": "Snacks per month"
+          },
+          "amount": 72000
+        }
+      ],
+      "notes": {
+        "id": "Madrasah Ibtidaiyah (setara SD). SPP minimal; infaq sukarela.",
+        "en": "Madrasah Ibtidaiyah (equivalent to SD). Minimum tuition; voluntary infaq."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -7,7 +7,53 @@
     "SD"
   ],
   "religion": "Islam",
+  "phone": "(0271) 732373",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 6600000
+      },
+      "tuition": {
+        "amount": 450000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 550000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 650000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan per semester",
+            "en": "Activities per semester"
+          },
+          "amount": 600000
+        }
+      ],
+      "notes": {
+        "id": "SPP minimal.",
+        "en": "Minimum tuition."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SD",
       "academicYear": "2025/2026",

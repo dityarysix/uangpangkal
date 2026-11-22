@@ -1,0 +1,71 @@
+{
+  "name": "SD Ta'mirul Islam Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Laweyan",
+  "address": "Jl. Dr. Wahidin No.36, Bumi, Laweyan, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0271) 724020",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam & buku putra",
+            "en": "Uniforms & books (boys)"
+          },
+          "amount": 1750000
+        },
+        {
+          "label": {
+            "id": "Seragam & buku putri",
+            "en": "Uniforms & books (girls)"
+          },
+          "amount": 2000000
+        },
+        {
+          "label": {
+            "id": "Biaya program per bulan",
+            "en": "Programme fee per month"
+          },
+          "amount": 50000
+        },
+        {
+          "label": {
+            "id": "Lab (kelas digital sains)",
+            "en": "Lab (digital science class)"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Snack per bulan",
+            "en": "Snacks per month"
+          },
+          "amount": 60000
+        }
+      ],
+      "notes": {
+        "id": "Kelas reguler SPP Rp400.000; tahfidz dan digital sains Rp500.000.",
+        "en": "Regular class tuition Rp400,000; tahfidz and digital science Rp500,000."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

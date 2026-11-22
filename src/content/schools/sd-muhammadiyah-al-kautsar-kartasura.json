@@ -1,0 +1,79 @@
+{
+  "name": "SD Muhammadiyah Al Kautsar Kartasura",
+  "city": "Sukoharjo",
+  "district": "Kartasura",
+  "address": "Jl. Cendana Raya No.3, Gumpang, Kartasura, Sukoharjo",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0271) 7652590",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 6000000
+      },
+      "tuition": {
+        "amount": 500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 900000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Makan per bulan",
+            "en": "Meals per month"
+          },
+          "amount": 110000
+        },
+        {
+          "label": {
+            "id": "Buku 1 tahun",
+            "en": "Books (1 year)"
+          },
+          "amount": 950000
+        },
+        {
+          "label": {
+            "id": "Ta'aruf siswa baru",
+            "en": "New-student orientation"
+          },
+          "amount": 250000
+        },
+        {
+          "label": {
+            "id": "Kegiatan 1 tahun",
+            "en": "Activities (1 year)"
+          },
+          "amount": 1900000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq minimal. SPP minimal.",
+        "en": "Entry fee = minimum infaq. Minimum tuition."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

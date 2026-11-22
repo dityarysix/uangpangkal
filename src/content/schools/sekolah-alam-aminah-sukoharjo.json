@@ -1,0 +1,61 @@
+{
+  "name": "Sekolah Alam Aminah Sukoharjo",
+  "city": "Sukoharjo",
+  "district": "Baki",
+  "address": "Jl. Raya Baki, Gawok, Sukoharjo",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Sekolah Alam"
+  ],
+  "religion": "Islam",
+  "phone": "0856-4091-8948",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "registrationFee": 100000,
+      "entryFee": {
+        "min": 2000000
+      },
+      "tuition": {
+        "amount": 400000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 600000
+        },
+        {
+          "label": {
+            "id": "Buku per semester",
+            "en": "Books per semester"
+          },
+          "amount": 550000
+        }
+      ],
+      "notes": {
+        "id": "SPP termasuk uang makan. Total Rp3.550.000 (putra) / Rp3.650.000 (putri).",
+        "en": "Tuition includes meals. Total Rp3,550,000 (boys) / Rp3,650,000 (girls)."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

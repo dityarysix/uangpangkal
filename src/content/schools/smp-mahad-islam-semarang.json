@@ -1,0 +1,82 @@
+{
+  "name": "SMP Mah'ad Islam Semarang",
+  "city": "Kota Semarang",
+  "address": "Jl. Citarum Selatan No.9, Bugangan, Kota Semarang",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "website": "https://smp.mahadislam.sch.id",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 50000,
+      "otherFees": [
+        {
+          "label": {
+            "id": "Paket seragam",
+            "en": "Uniform package"
+          },
+          "amount": 500000
+        }
+      ],
+      "notes": {
+        "id": "Besaran infaq pendidikan tidak tercantum di halaman. Potongan infaq 30% bila kakak masih bersekolah di SMP Ma'had Islam; 50% untuk lulusan SD Ma'had Islam.",
+        "en": "The education infaq amount is not shown on the page. 30% off the infaq if an older sibling attends; 50% off for SD Ma'had Islam graduates."
+      },
+      "source": {
+        "title": "PPDB SMP Mah'ad Islam Semarang TA 2025/2026 (situs resmi)",
+        "url": "https://smp.mahadislam.sch.id/ppdb-smp-mahad-islam-semarang-2024-2025/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "steps": [
+        {
+          "id": "Ambil dan isi formulir di panitia PPDB (Rp50.000).",
+          "en": "Get and fill in the form from the admissions committee (Rp50,000)."
+        },
+        {
+          "id": "Serahkan berkas pendaftaran.",
+          "en": "Hand in the registration documents."
+        },
+        {
+          "id": "Ikuti seleksi/wawancara.",
+          "en": "Attend the selection/interview."
+        },
+        {
+          "id": "Diterima bila syarat lengkap, uang paket dan infaq pendidikan lunas, dan lolos seleksi.",
+          "en": "Accepted once documents are complete, the package and infaq are paid, and the selection is passed."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Fotokopi ijazah SD/MI",
+          "en": "Copy of primary school certificate"
+        },
+        {
+          "id": "Pas foto 3x4 (2 lembar)",
+          "en": "3x4 photos (2)"
+        },
+        {
+          "id": "Fotokopi Kartu Keluarga",
+          "en": "Copy of family card"
+        },
+        {
+          "id": "Fotokopi piagam (bila ada)",
+          "en": "Copies of certificates (if any)"
+        }
+      ],
+      "source": {
+        "title": "PPDB SMP Mah'ad Islam Semarang TA 2025/2026 (situs resmi)",
+        "url": "https://smp.mahadislam.sch.id/ppdb-smp-mahad-islam-semarang-2024-2025/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

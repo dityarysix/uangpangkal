@@ -1,0 +1,72 @@
+{
+  "name": "SD Al Azhar Syifa Budi Solo",
+  "city": "Surakarta (Solo)",
+  "district": "Laweyan",
+  "address": "Jl. Haryo Panular No.64, Panularan, Laweyan, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0271) 725306",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 9000000
+      },
+      "tuition": {
+        "amount": 625000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Sumbangan pengembangan",
+            "en": "Development contribution"
+          },
+          "amount": 4500000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan 1 tahun",
+            "en": "Activities (1 year)"
+          },
+          "amount": 1420000
+        },
+        {
+          "label": {
+            "id": "Uang buku 1 tahun",
+            "en": "Books (1 year)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 750000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 890000
+        }
+      ],
+      "notes": {
+        "id": "Pendaftaran Rp300.000 untuk alumni TK ASBS. SPP Juli 2022. Total putra Rp17.795.000 / putri Rp17.935.000.",
+        "en": "Registration Rp300,000 for TK ASBS alumni. July 2022 tuition. Total boys Rp17,795,000 / girls Rp17,935,000."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

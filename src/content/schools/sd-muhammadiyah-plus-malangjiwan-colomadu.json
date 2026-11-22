@@ -1,0 +1,58 @@
+{
+  "name": "SD Muhammadiyah Plus Malangjiwan Colomadu",
+  "city": "Karanganyar",
+  "district": "Colomadu",
+  "address": "Ngerangan, Gawanan Barat, Colomadu, Karanganyar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "registrationFee": 125000,
+      "entryFee": {
+        "min": 2750000,
+        "max": 3250000
+      },
+      "tuition": {
+        "amount": 437000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Wakaf tunai pembangunan (min.)",
+            "en": "Building endowment (min.)"
+          },
+          "amount": 1500000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan 1 tahun (seragam, tas, alat tulis)",
+            "en": "Supplies for 1 year (uniforms, bag, stationery)"
+          },
+          "amount": 2750000
+        },
+        {
+          "label": {
+            "id": "Katering per bulan",
+            "en": "Catering per month"
+          },
+          "amount": 283000
+        }
+      ],
+      "notes": {
+        "id": "Pendaftaran Rp125.000 (inden) / Rp250.000. Dana pengembangan pilihan I–III: Rp2.750.000–Rp3.250.000; wakaf Rp1.500.000–Rp1.700.000. SPP = infaq pendidikan bulanan.",
+        "en": "Registration Rp125,000 (early) / Rp250,000. Development fund options I–III: Rp2,750,000–Rp3,250,000; endowment Rp1,500,000–Rp1,700,000. Tuition = monthly education infaq."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

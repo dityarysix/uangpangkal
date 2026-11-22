@@ -1,6 +1,8 @@
 {
   "name": "SD Islam Al Azhar 25 Semarang",
   "city": "Kota Semarang",
+  "district": "Semarang Barat",
+  "address": "Jl. WR. Supratman Kav. 31-32, Gisikdrono, Semarang Barat, Kota Semarang",
   "levels": [
     "SD"
   ],
@@ -25,6 +27,28 @@
         "title": "Cek Biaya Masuk SD Swasta yang Ada di Semarang Tahun 2022 (theAsianparent)",
         "url": "https://id.theasianparent.com/cek-biaya-masuk-sd-swasta-yang-ada-di-semarang-tahun-2022",
         "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sumber merangkum dari berbagai sumber tanpa tahun ajaran; sebagian angka di artikel yang sama berasal dari tahun lebih lama.",
+        "en": "The source compiles figures from various sources without academic years; some figures in the same article are older."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD Swasta Semarang, Tentukan Pilihan Terbaik untuk Anak! (Nakita)",
+        "url": "https://nakita.grid.id/read/024050247/biaya-masuk-sd-swasta-semarang-tentukan-pilihan-terbaik-untuk-anak?page=all",
+        "published": "2024-03-26"
       },
       "checked": "2026-11-22"
     }

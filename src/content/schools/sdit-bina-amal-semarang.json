@@ -1,0 +1,32 @@
+{
+  "name": "SDIT Bina Amal Semarang",
+  "city": "Kota Semarang",
+  "district": "Semarang Selatan",
+  "address": "Jl. Kyai Saleh, Mugassari, Semarang Selatan, Kota Semarang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 150000,
+      "tuition": {
+        "amount": 250000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sumber merangkum dari berbagai sumber tanpa tahun ajaran; sebagian angka di artikel yang sama berasal dari tahun lebih lama. Uang pangkal tidak dicantumkan.",
+        "en": "The source compiles figures from various sources without academic years; some figures in the same article are older. Entry fee not listed."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "Biaya Masuk SD Swasta Semarang, Tentukan Pilihan Terbaik untuk Anak! (Nakita)",
+        "url": "https://nakita.grid.id/read/024050247/biaya-masuk-sd-swasta-semarang-tentukan-pilihan-terbaik-untuk-anak?page=all",
+        "published": "2024-03-26"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

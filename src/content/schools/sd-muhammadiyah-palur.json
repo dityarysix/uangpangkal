@@ -1,0 +1,75 @@
+{
+  "name": "SD Muhammadiyah Program Khusus Palur",
+  "city": "Sukoharjo",
+  "district": "Mojolaban",
+  "address": "Jl. Raya Palur No.243, Kedung Aron, Palur, Mojolaban, Sukoharjo",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "(0271) 825937",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "tuition": {
+        "amount": 250000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan per bulan",
+            "en": "Activities per month"
+          },
+          "amount": 75000
+        },
+        {
+          "label": {
+            "id": "Makan per bulan",
+            "en": "Meals per month"
+          },
+          "amount": 110000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 900000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Paket buku",
+            "en": "Books"
+          },
+          "amount": 800000
+        },
+        {
+          "label": {
+            "id": "Tas & alat tulis",
+            "en": "Bag & stationery"
+          },
+          "amount": 200000
+        }
+      ],
+      "notes": {
+        "id": "Total masuk paket A: Rp6.850.000 (putra) / Rp6.950.000 (putri); paket B: Rp7.350.000 / Rp7.450.000 (komponen B Rp5.000.000).",
+        "en": "Total on entry, package A: Rp6,850,000 (boys) / Rp6,950,000 (girls); package B: Rp7,350,000 / Rp7,450,000 (B component Rp5,000,000)."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

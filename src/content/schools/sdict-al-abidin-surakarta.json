@@ -1,0 +1,51 @@
+{
+  "name": "SDICT Al Abidin Surakarta",
+  "city": "Surakarta (Solo)",
+  "district": "Banjarsari",
+  "address": "Jl. Bone Barat Utama, Banyuanyar, Banjarsari, Surakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "phone": "0857-3554-9969",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "entryFee": {
+        "min": 6500000,
+        "max": 12000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 850000
+        },
+        {
+          "label": {
+            "id": "Paket pembelajaran digital",
+            "en": "Digital learning package"
+          },
+          "amount": 800000
+        }
+      ],
+      "notes": {
+        "id": "Sekolah coding. BPI tahap 1: gelombang khusus Rp6.500.000–Rp7.000.000, reguler Rp12.000.000; lalu 3 tahap BPI @Rp2.000.000 (Juli 2023, 2024, 2025). Wakaf pendidikan pilihan Rp500 ribu–>Rp1,5 juta.",
+        "en": "Coding school. Entry stage 1: special waves Rp6,500,000–Rp7,000,000, regular Rp12,000,000; then 3 further payments of Rp2,000,000 (July 2023, 2024, 2025). Optional endowment Rp500k–>Rp1.5M."
+      },
+      "source": {
+        "title": "Info Biaya SD di Kota Solo dan Solo Raya dari Playdate Soloraya (blog Sapamama)",
+        "url": "https://www.sapamama.com/2021/11/info-biaya-sekolah-dasar-sd-di-kota.html",
+        "published": "2021-11-17"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
