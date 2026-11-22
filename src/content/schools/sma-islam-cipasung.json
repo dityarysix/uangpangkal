@@ -1,0 +1,39 @@
+{
+  "name": "SMA Islam Cipasung",
+  "city": "Kabupaten Tasikmalaya",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [],
+  "admission": [
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "period": {
+        "id": "SPMB Jabar 2026 (Juni 2026).",
+        "en": "SPMB Jabar 2026 (June 2026)."
+      },
+      "steps": [
+        {
+          "id": "Daftar melalui portal SPMB Jabar dan pilih sekolah berstatus SSK (sekolah swasta kerja sama)",
+          "en": "Register on the SPMB Jabar portal and choose a school with SSK (partner private school) status"
+        },
+        {
+          "id": "Kuota SSK per sekolah 1 rombel; siswa yang diterima mendapat bantuan Pemprov Jabar",
+          "en": "Each SSK school has a quota of one class; admitted students get Jabar province aid"
+        }
+      ],
+      "documents": [],
+      "notes": {
+        "id": "Sekolah swasta kerja sama (SSK) SPMB Jabar 2026. Siswa SSK mendapat bantuan Pemprov Jabar: beasiswa Rp100.000/bulan dan uang bangunan Rp1.500.000/tahun (total Rp2,7 juta). Biaya sekolah tidak dipublikasikan; tanyakan ke sekolah.",
+        "en": "SPMB Jabar 2026 partner private school (SSK). SSK students get Jabar province aid: Rp100,000/month scholarship and Rp1,500,000/year building fee (Rp2.7M total). School fees are not published; ask the school."
+      },
+      "source": {
+        "title": "Daftar SMA/SMK Swasta Kerja Sama di Kota dan Kabupaten Tasikmalaya, Alternatif SPMB Jabar 2026 (Tribun Jabar)",
+        "url": "https://jabar.tribunnews.com/jabar-istimewa/1176922/daftar-smasmk-swasta-kerja-sama-di-kota-dan-kabupaten-tasikmalaya-alternatif-spmb-jabar-2026"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
