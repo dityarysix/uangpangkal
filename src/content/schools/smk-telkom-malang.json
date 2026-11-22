@@ -1,0 +1,58 @@
+{
+  "name": "SMK Telkom Malang",
+  "city": "Kota Malang",
+  "district": "Kedungkandang",
+  "address": "Jl. Danau Ranau, Sawojajar, Kedungkandang, Kota Malang",
+  "levels": [
+    "SMK"
+  ],
+  "website": "https://smktelkom-mlg.sch.id",
+  "phone": "(0341) 712500",
+  "fees": [
+    {
+      "level": "SMK",
+      "academicYear": "2027/2028",
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 23525000,
+        "max": 28525000
+      },
+      "tuition": {
+        "amount": 650000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "DSP per jalur: prioritas rapor Rp23.525.000 (ditutup); jalur potensi akademik Rp24.000.000; jalur tes akademik Rp25.000.000; International Class Program Rp28.525.000. DP Rp12.000.000, sisanya 4 kali angsuran. DSP mencakup DPP, seragam 5 stel + jas almamater, asuransi, MPLS, bahan ajar, ujian, PKL, kunjungan industri, perpisahan, dan SPP Juli. SPP Rp650.000 (reguler) / Rp850.000 (ICP) mulai Agustus 2027.",
+        "en": "Development fee by track: report-card priority Rp23,525,000 (closed); academic potential Rp24,000,000; academic test Rp25,000,000; International Class Program Rp28,525,000. Rp12,000,000 down payment, rest in 4 instalments. Covers DPP, 5 uniform sets + blazer, insurance, orientation, materials, exams, internship, industry visits, graduation and July tuition. Tuition Rp650,000 (regular) / Rp850,000 (ICP) from August 2027."
+      },
+      "source": {
+        "title": "SPMB SMK Telkom Malang TA 2027/2028 (situs resmi)",
+        "url": "https://smktelkom-mlg.sch.id/spmb"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMK",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran 10 Agustus–30 Oktober 2026; tes 31 Oktober 2026. Pendaftaran dapat ditutup bila kuota terpenuhi.",
+        "en": "Registration 10 August–30 October 2026; test on 31 October 2026. May close early when full."
+      },
+      "test": {
+        "id": "Nilai rapor, psikotes, tes kesamaptaan/fisik, wawancara siswa dan orang tua (jalur tes: CBT & logika).",
+        "en": "Report grades, psychological test, fitness test, student and parent interview (test track: CBT & logic)."
+      },
+      "notes": {
+        "id": "Syarat: siswa kelas 9 SMP/MTs atau lulusan 1 tahun sebelumnya; tidak buta warna untuk RPL, TKJ, Animasi/Gim.",
+        "en": "Requirements: grade 9 students or graduates from the previous year; not colour-blind for software, networking and animation/game majors."
+      },
+      "source": {
+        "title": "SPMB SMK Telkom Malang TA 2027/2028 (situs resmi)",
+        "url": "https://smktelkom-mlg.sch.id/spmb"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

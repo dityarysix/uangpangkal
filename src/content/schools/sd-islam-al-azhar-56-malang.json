@@ -1,0 +1,31 @@
+{
+  "name": "SD Islam Al Azhar 56 Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 18500000
+      },
+      "tuition": {
+        "amount": 1700000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan/kisaran menurut sumber. Lokasi menurut sumber: Malang.",
+        "en": "Estimate/range according to the source. Location per source: Malang."
+      },
+      "source": {
+        "title": "Biaya Sekolah di Malang 2026: Masuk SD Islam Al Azhar 56 Malang (GetRadius)",
+        "url": "https://getradius.id/news/66045-biaya-sekolah-di-malang-2026-bikin-kaget-masuk-sd-islam-al-azhar-56-malang-bisa-habiskan-puluhan-juta-rupiah",
+        "published": "2026-05-21"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "name": "SDIT Insantama Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://insantamamalang.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 7500000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kain seragam",
+            "en": "Uniform fabric"
+          },
+          "amount": 1350000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 500000
+        },
+        {
+          "label": {
+            "id": "Parenting",
+            "en": "Parenting programme"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Kegiatan tahunan",
+            "en": "Annual activities"
+          },
+          "amount": 2500000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = infaq pengembangan. Full day school.",
+        "en": "Entry fee = development infaq. Full-day school."
+      },
+      "source": {
+        "title": "PPDB SDIT Insantama Malang TA 2027/2028 (situs resmi)",
+        "url": "https://insantamamalang.sch.id/ppdb-sdit/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "period": {
+        "id": "Pendaftaran 1 November–31 Desember 2026; observasi & wawancara 2 Januari 2027; pengumuman 11 Januari 2027; daftar ulang 12–14 Januari 2027.",
+        "en": "Registration 1 November–31 December 2026; observation & interview 2 January 2027; results 11 January 2027; re-registration 12–14 January 2027."
+      },
+      "steps": [
+        {
+          "id": "Daftar online di ppdb.insantama.sch.id dan bayar biaya pendaftaran.",
+          "en": "Register online at ppdb.insantama.sch.id and pay the registration fee."
+        },
+        {
+          "id": "Unggah berkas administrasi.",
+          "en": "Upload the documents."
+        },
+        {
+          "id": "Ikuti observasi dan wawancara.",
+          "en": "Attend the observation and interview."
+        },
+        {
+          "id": "Daftar ulang bila lulus seleksi.",
+          "en": "Re-register if accepted."
+        }
+      ],
+      "documents": [
+        {
+          "id": "Scan akta lahir",
+          "en": "Scan of birth certificate"
+        },
+        {
+          "id": "Scan KTP ayah & ibu",
+          "en": "Scans of both parents' ID cards"
+        },
+        {
+          "id": "Scan Kartu Keluarga",
+          "en": "Scan of family card"
+        },
+        {
+          "id": "Pas foto berwarna",
+          "en": "Colour photo"
+        }
+      ],
+      "test": {
+        "id": "Observasi potensi dan karakter calon siswa; wawancara.",
+        "en": "Observation of the child's potential and character; interview."
+      },
+      "notes": {
+        "id": "Usia minimal 6 tahun pada Juli tahun ajaran berjalan.",
+        "en": "Minimum age 6 in July of the school year."
+      },
+      "source": {
+        "title": "PPDB SDIT Insantama Malang TA 2027/2028 (situs resmi)",
+        "url": "https://insantamamalang.sch.id/ppdb-sdit/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

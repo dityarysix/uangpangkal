@@ -1,0 +1,32 @@
+{
+  "name": "SD Muhammadiyah 1 Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 8000000,
+        "max": 10000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan/kisaran menurut sumber. Lokasi menurut sumber: Malang. SPP Rp800 ribu–1,2 juta.",
+        "en": "Estimate/range according to the source. Location per source: Malang. Tuition Rp800k–1.2M."
+      },
+      "source": {
+        "title": "Biaya Sekolah di Malang 2026: Perbandingan Total SD hingga SMA Favorit (GetRadius)",
+        "url": "https://getradius.id/news/70257-biaya-sekolah-di-malang-2026-perbandingan-total-sd-hingga-sma-favorit-apa-yang-harus-dipersiapkan-orang-tua",
+        "published": "2026-05-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

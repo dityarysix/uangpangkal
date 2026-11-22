@@ -1,0 +1,35 @@
+{
+  "name": "SMP Laboratorium UM Malang",
+  "city": "Kota Malang",
+  "district": "Lowokwaru",
+  "address": "Jl. Simpang Bogor No.T-7, Sumbersari, Lowokwaru, Kota Malang",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2024/2025",
+      "otherFees": [
+        {
+          "label": {
+            "id": "Daftar ulang (reguler/inklusi)",
+            "en": "Re-registration (regular/inclusive)"
+          },
+          "amount": 7500000
+        }
+      ],
+      "notes": {
+        "id": "Biaya daftar ulang Rp7.500.000 (reguler/inklusi), Rp8.200.000 (ICP), Rp7.600.000 (tahfidz). Di bawah Yayasan Pendidikan Bhinneka Karya Unit Korpri IKIP Malang.",
+        "en": "Re-registration fee Rp7,500,000 (regular/inclusive), Rp8,200,000 (ICP), Rp7,600,000 (tahfidz). Run by the Bhinneka Karya foundation (IKIP Malang)."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "5 Sekolah Swasta Terbaik di Malang Jawa Timur (SD-SMA) (blog SMAN 3 Malang)",
+        "url": "https://sman3malang.sch.id/sekolah-swasta-terbaik-malang-sd-sma/",
+        "published": "2024-06-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

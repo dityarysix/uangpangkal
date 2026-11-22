@@ -1,0 +1,44 @@
+{
+  "name": "SD Unggulan Al-Ya'lu Malang",
+  "city": "Kota Malang",
+  "district": "Blimbing",
+  "address": "Jl. Teluk Mandar No.055, Arjosari, Blimbing, Kota Malang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2024/2025",
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 18500000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang buku tahunan",
+            "en": "Annual books"
+          },
+          "amount": 2000000
+        }
+      ],
+      "notes": {
+        "id": "Uang pangkal = DPP.",
+        "en": "Entry fee = DPP."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "5 Sekolah Swasta Terbaik di Malang Jawa Timur (SD-SMA) (blog SMAN 3 Malang)",
+        "url": "https://sman3malang.sch.id/sekolah-swasta-terbaik-malang-sd-sma/",
+        "published": "2024-06-06"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Sekolah Kristen Petra Malang",
+  "city": "Kota Malang",
+  "levels": [
+    "SD",
+    "SMA"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 12000000,
+        "max": 15000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan/kisaran menurut sumber. Lokasi menurut sumber: Malang. Program bilingual. SPP Rp1,2–1,8 juta.",
+        "en": "Estimate/range according to the source. Location per source: Malang. Bilingual programme. Tuition Rp1.2–1.8M."
+      },
+      "source": {
+        "title": "Biaya Sekolah di Malang 2026: Perbandingan Total SD hingga SMA Favorit (GetRadius)",
+        "url": "https://getradius.id/news/70257-biaya-sekolah-di-malang-2026-perbandingan-total-sd-hingga-sma-favorit-apa-yang-harus-dipersiapkan-orang-tua",
+        "published": "2026-05-23"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 18000000,
+        "max": 22000000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan/kisaran menurut sumber. Lokasi menurut sumber: Malang. SPP Rp1,8–2,5 juta.",
+        "en": "Estimate/range according to the source. Location per source: Malang. Tuition Rp1.8–2.5M."
+      },
+      "source": {
+        "title": "Biaya Sekolah di Malang 2026: Perbandingan Total SD hingga SMA Favorit (GetRadius)",
+        "url": "https://getradius.id/news/70257-biaya-sekolah-di-malang-2026-perbandingan-total-sd-hingga-sma-favorit-apa-yang-harus-dipersiapkan-orang-tua",
+        "published": "2026-05-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

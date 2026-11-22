@@ -1,0 +1,57 @@
+{
+  "name": "SMA Islam Sabilillah Malang",
+  "city": "Kota Malang",
+  "district": "Lowokwaru",
+  "address": "Jl. Terusan Piranha Atas No.135, Tunjungsekar, Lowokwaru, Kota Malang",
+  "levels": [
+    "SMA"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMA",
+      "academicYear": "2024/2025",
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 10000000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Angka 2024 ini jauh lebih rendah daripada perkiraan 2026 dari sumber lain.",
+        "en": "These 2024 figures are much lower than the 2026 estimate from another source."
+      },
+      "yearAssumed": true,
+      "source": {
+        "title": "5 Sekolah Swasta Terbaik di Malang Jawa Timur (SD-SMA) (blog SMAN 3 Malang)",
+        "url": "https://sman3malang.sch.id/sekolah-swasta-terbaik-malang-sd-sma/",
+        "published": "2024-06-06"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 20000000,
+        "max": 25000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Perkiraan/kisaran menurut sumber. Lokasi menurut sumber: Malang. Boarding. SPP Rp2–3 juta, belum termasuk kegiatan internasional.",
+        "en": "Estimate/range according to the source. Location per source: Malang. Boarding. Tuition Rp2–3M, excluding international activities."
+      },
+      "source": {
+        "title": "Biaya Sekolah di Malang 2026: Perbandingan Total SD hingga SMA Favorit (GetRadius)",
+        "url": "https://getradius.id/news/70257-biaya-sekolah-di-malang-2026-perbandingan-total-sd-hingga-sma-favorit-apa-yang-harus-dipersiapkan-orang-tua",
+        "published": "2026-05-23"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
