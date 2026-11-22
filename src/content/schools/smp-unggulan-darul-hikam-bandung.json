@@ -1,0 +1,56 @@
+{
+  "name": "SMP Unggulan Darul Hikam Bandung",
+  "city": "Kota Bandung",
+  "district": "Coblong",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 35000000
+      },
+      "tuition": {
+        "amount": 2050000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kesiswaan",
+            "en": "Student affairs"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Buku",
+            "en": "Books"
+          },
+          "amount": 2150000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1550000
+        }
+      ],
+      "notes": {
+        "id": "Rincian resmi 2026/2027 menurut artikel. Dana pengembangan Rp35.000.000; SPP Juli termasuk makan siang. Total awal Rp43.750.000. Program lain (Lower Secondary, pesantren) berbeda.",
+        "en": "Official 2026/2027 breakdown per the article. Development fee Rp35,000,000; July tuition includes lunch. Initial total Rp43,750,000. Other programmes (Lower Secondary, boarding) differ."
+      },
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

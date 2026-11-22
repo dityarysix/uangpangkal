@@ -1,0 +1,47 @@
+{
+  "name": "SMP Jalinan Adisiswa Cemerlang (JAC) Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya registrasi Rp25.000.000; kegiatan Rp2,6 juta per semester; seragam Rp750 ribu per set. Artikel menandai angka ini sebagai arsip (belum diverifikasi untuk 2026/2027).",
+        "en": "Registration Rp25,000,000; activities Rp2.6M per semester; uniforms Rp750k per set. The article marks these as archived figures (not verified for 2026/2027)."
+      },
+      "entryFee": {
+        "min": 25000000
+      },
+      "tuition": {
+        "amount": 2000000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Formulir",
+            "en": "Form"
+          },
+          "amount": 200000
+        },
+        {
+          "label": {
+            "id": "Biaya tahunan",
+            "en": "Annual fee"
+          },
+          "amount": 1000000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -45,6 +45,38 @@
         "published": "2023-10-05"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Alazka. Estimasi biaya awal sekitar Rp43,7 juta; seragam Rp1,8–2,3 juta. Tahun ajaran tidak disebut. Dihimpun CNBC Indonesia dari informasi biaya sekolah.",
+        "en": "Alazka. Estimated initial cost about Rp43.7M; uniforms Rp1.8–2.3M. Academic year not stated. Compiled by CNBC Indonesia from school fee information."
+      },
+      "registrationFee": 600000,
+      "entryFee": {
+        "min": 39000000
+      },
+      "tuition": {
+        "amount": 2300000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam (min.)",
+            "en": "Uniforms (min.)"
+          },
+          "amount": 1800000
+        }
+      ],
+      "source": {
+        "title": "7 Rekomendasi SD Unggulan Jabodetabek, SPP di Bawah Rp3 Juta (CNBC Indonesia)",
+        "url": "https://www.cnbcindonesia.com/lifestyle/20260915125442-33-768042/7-rekomendasi-sd-unggulan-jabodetabek-spp-di-bawah-rp3-juta",
+        "published": "2026-09-15"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }

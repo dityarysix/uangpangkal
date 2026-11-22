@@ -1,0 +1,35 @@
+{
+  "name": "School of Universe Parung",
+  "city": "Kabupaten Bogor",
+  "district": "Parung",
+  "address": "Jl. Raya Parung No.314 KM 43, Pemagar Sari, Parung, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Sekolah inklusi. Uang pangkal reguler Rp32.800.000 (termasuk kegiatan tahunan dan SPP Juli Rp1.250.000); ABK dengan pendamping Rp40.250.000 (SPP Rp4.450.000); ABK tanpa pendamping Rp37.000.000 (SPP Rp3.450.000). Artikel blog; menyebut angka tahun ajaran 2022-2023 dan belum diperbarui. Konfirmasi ke sekolah.",
+        "en": "Inclusive school. Regular entry Rp32,800,000 (incl. annual activities and July tuition Rp1,250,000); special-needs with aide Rp40,250,000 (tuition Rp4,450,000); without aide Rp37,000,000 (tuition Rp3,450,000). Blog article; cites 2022-2023 figures and has not been updated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 32800000,
+        "max": 40250000
+      },
+      "tuition": {
+        "amount": 1250000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta Bekasi Bogor. Ada Yang Uang Pangkalnya 5 Juta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-swasta-bekasi-bogor-ada-yang-uang-pangkalnya-5-juta/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

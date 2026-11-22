@@ -1,0 +1,35 @@
+{
+  "name": "SMPIT Al Qalam Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Jl. Pemuda No.41, Depok Lama",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya masuk Rp20.000.000 (putra) / Rp20.400.000 (putri). Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry Rp20,000,000 (boys) / Rp20,400,000 (girls). From an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 20000000,
+        "max": 20400000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar Biaya SMP Islam di Depok Lengkap dengan Pilihan Sekolah Terbaik (PresGo News)",
+        "url": "https://presgonews.com/pendidikan/sekolah/daftar-biaya-smp-islam-di-depok-lengkap-dengan-pilihan-sekolah-terbaik/",
+        "published": "2026-04-14"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

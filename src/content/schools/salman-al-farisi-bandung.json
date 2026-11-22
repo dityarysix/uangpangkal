@@ -4,7 +4,8 @@
   "district": "Coblong",
   "address": "Jl. Tubagus Ismail VIII Atas, Sekeloa, Coblong, Kota Bandung",
   "levels": [
-    "SD"
+    "SD",
+    "SMP"
   ],
   "religion": "Islam",
   "fees": [
@@ -44,6 +45,44 @@
         "title": "Biaya Masuk SD di Bandung [Update 2026] (blog Armita Fibri)",
         "url": "https://armitafibri.com/biaya-masuk-sd-di-bandung/",
         "published": "2026-02-15"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menandai angka ini sebagai arsip (belum diverifikasi untuk 2026/2027).",
+        "en": "The article marks these as archived figures (not verified for 2026/2027)."
+      },
+      "entryFee": {
+        "min": 29500000
+      },
+      "tuition": {
+        "amount": 1800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1600000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 4947000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
       },
       "checked": "2026-11-22"
     }

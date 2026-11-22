@@ -1,0 +1,35 @@
+{
+  "name": "SDIT Anugerah Insani Cibinong",
+  "city": "Kabupaten Bogor",
+  "district": "Cibinong",
+  "address": "Jl. Raya Pemda, Bojong Depok Baru III, Karadenan, Cibinong, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal gelombang I Rp14.180.000, gelombang II Rp15.890.000, termasuk SPP Juli Rp600.000 dan kegiatan Rp1.350.000. Artikel blog; menyebut angka tahun ajaran 2022-2023 dan belum diperbarui. Konfirmasi ke sekolah.",
+        "en": "Entry wave I Rp14,180,000, wave II Rp15,890,000, incl. July tuition Rp600,000 and activities Rp1,350,000. Blog article; cites 2022-2023 figures and has not been updated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 14180000,
+        "max": 15890000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta Bekasi Bogor. Ada Yang Uang Pangkalnya 5 Juta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-swasta-bekasi-bogor-ada-yang-uang-pangkalnya-5-juta/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

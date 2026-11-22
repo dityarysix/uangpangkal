@@ -33,6 +33,37 @@
         "published": "2025-11-10"
       },
       "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "notes": {
+        "id": "Dari panduan penerimaan siswa baru TP 2027/2028. Uang pangkal siswa umum; confirmation deposit Rp5 juta bagian dari uang pangkal. Dihimpun CNBC Indonesia dari informasi biaya sekolah.",
+        "en": "From the 2027/2028 admission guide. Entry fee for general applicants; the Rp5M confirmation deposit is part of it. Compiled by CNBC Indonesia from school fee information."
+      },
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 49000000
+      },
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 3775000
+        }
+      ],
+      "source": {
+        "title": "7 Rekomendasi SD Unggulan Jabodetabek, SPP di Bawah Rp3 Juta (CNBC Indonesia)",
+        "url": "https://www.cnbcindonesia.com/lifestyle/20260915125442-33-768042/7-rekomendasi-sd-unggulan-jabodetabek-spp-di-bawah-rp3-juta",
+        "published": "2026-09-15"
+      },
+      "checked": "2026-11-22"
     }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "name": "Al Siddiq International School Bekasi",
+  "city": "Kota Bekasi",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "notes": {
+        "id": "Dari info pendaftaran TA 2025/2026 yang diunggah sekolah (SPP Juli 2025). Dihimpun CNBC Indonesia dari informasi biaya sekolah.",
+        "en": "From the school's posted 2025/2026 admission info (July 2025 tuition). Compiled by CNBC Indonesia from school fee information."
+      },
+      "registrationFee": 750000,
+      "tuition": {
+        "amount": 1650000,
+        "period": "month"
+      },
+      "source": {
+        "title": "7 Rekomendasi SD Unggulan Jabodetabek, SPP di Bawah Rp3 Juta (CNBC Indonesia)",
+        "url": "https://www.cnbcindonesia.com/lifestyle/20260915125442-33-768042/7-rekomendasi-sd-unggulan-jabodetabek-spp-di-bawah-rp3-juta",
+        "published": "2026-09-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Knowledge Link Intercultural School (KLIS) Sentul",
+  "city": "Kabupaten Bogor",
+  "district": "Babakan Madang",
+  "address": "Jl. Raya Sirkuit Sentul, Sentul, Babakan Madang, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal Rp40.000.000, promo diskon 20% menjadi Rp32.000.000. Artikel blog; menyebut angka tahun ajaran 2022-2023 dan belum diperbarui. Konfirmasi ke sekolah.",
+        "en": "Entry fee Rp40,000,000, 20% promo to Rp32,000,000. Blog article; cites 2022-2023 figures and has not been updated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 32000000,
+        "max": 40000000
+      },
+      "tuition": {
+        "amount": 3500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 9500000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 750000
+        },
+        {
+          "label": {
+            "id": "Buku per tahun",
+            "en": "Books per year"
+          },
+          "amount": 2000000
+        }
+      ],
+      "source": {
+        "title": "Biaya Masuk SD Swasta Bekasi Bogor. Ada Yang Uang Pangkalnya 5 Juta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-swasta-bekasi-bogor-ada-yang-uang-pangkalnya-5-juta/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

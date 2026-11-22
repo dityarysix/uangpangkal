@@ -1,0 +1,32 @@
+{
+  "name": "SMP Santa Clara Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Paket awal (gedung, pengembangan, kegiatan, seragam). Artikel menandai angka ini sebagai arsip (belum diverifikasi untuk 2026/2027).",
+        "en": "Initial package (building, development, activities, uniforms). The article marks these as archived figures (not verified for 2026/2027)."
+      },
+      "entryFee": {
+        "min": 20250000
+      },
+      "tuition": {
+        "amount": 1500000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

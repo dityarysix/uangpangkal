@@ -1,0 +1,33 @@
+{
+  "name": "SMP Santa Angela Bandung",
+  "city": "Kota Bandung",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "PPDB 2023/2024. Uang pangkal = DPP. Artikel menandai angka ini sebagai arsip (belum diverifikasi untuk 2026/2027).",
+        "en": "2023/2024 admission. Entry fee = DPP. The article marks these as archived figures (not verified for 2026/2027)."
+      },
+      "registrationFee": 200000,
+      "entryFee": {
+        "min": 16500000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

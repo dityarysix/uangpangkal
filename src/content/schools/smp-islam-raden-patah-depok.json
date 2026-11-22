@@ -1,6 +1,8 @@
 {
   "name": "SMP Islam Raden Patah Depok",
   "city": "Depok",
+  "district": "Cilodong",
+  "address": "Jl. Raya Bogor KM 37, Cilodong, Depok",
   "levels": [
     "SMP"
   ],
@@ -24,6 +26,30 @@
         "title": "20 Biaya Sekolah SMP Swasta Jabodetabek 2025 (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/20-biaya-sekolah-smp-swasta-jabodetabek-2025-00-58r8y-pymtjw",
         "published": "2024-12-08"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya masuk gelombang I Rp11 juta, II Rp12 juta, III Rp13 juta. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry wave I Rp11M, II Rp12M, III Rp13M. From an article; academic year not stated."
+      },
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 11000000,
+        "max": 13000000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar Biaya SMP Islam di Depok Lengkap dengan Pilihan Sekolah Terbaik (PresGo News)",
+        "url": "https://presgonews.com/pendidikan/sekolah/daftar-biaya-smp-islam-di-depok-lengkap-dengan-pilihan-sekolah-terbaik/",
+        "published": "2026-04-14"
       },
       "checked": "2026-11-22"
     }

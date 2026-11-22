@@ -1,0 +1,28 @@
+{
+  "name": "SMP Margie Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SMP"
+  ],
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Paket pendaftaran Rp19.000.000 (pengembangan, buku kelas VII, kegiatan). Artikel menandai angka ini sebagai arsip (belum diverifikasi untuk 2026/2027).",
+        "en": "Admission package Rp19,000,000 (development, grade 7 books, activities). The article marks these as archived figures (not verified for 2026/2027)."
+      },
+      "registrationFee": 310000,
+      "entryFee": {
+        "min": 19000000
+      },
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

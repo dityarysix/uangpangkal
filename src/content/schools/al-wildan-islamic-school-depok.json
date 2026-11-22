@@ -1,0 +1,33 @@
+{
+  "name": "Al Wildan Islamic School Depok",
+  "city": "Depok",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Cabang Depok; angka \"sekitar\", tahun tidak disebut. Dihimpun CNBC Indonesia dari informasi biaya sekolah.",
+        "en": "Depok branch; approximate figures, year not stated. Compiled by CNBC Indonesia from school fee information."
+      },
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 17500000
+      },
+      "tuition": {
+        "amount": 1000000,
+        "period": "month"
+      },
+      "source": {
+        "title": "7 Rekomendasi SD Unggulan Jabodetabek, SPP di Bawah Rp3 Juta (CNBC Indonesia)",
+        "url": "https://www.cnbcindonesia.com/lifestyle/20260915125442-33-768042/7-rekomendasi-sd-unggulan-jabodetabek-spp-di-bawah-rp3-juta",
+        "published": "2026-09-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SMP Tahfidz Quran Ummul Quro Depok",
+  "city": "Depok",
+  "district": "Beji",
+  "address": "Jl. M.H. Sanim, Kukusan, Beji, Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Formulir Rp250.000–Rp350.000; psikotes Rp500.000. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Form Rp250,000–Rp350,000; psychological test Rp500,000. From an article; academic year not stated."
+      },
+      "registrationFee": 250000,
+      "otherFees": [
+        {
+          "label": {
+            "id": "Psikotes",
+            "en": "Psychological test"
+          },
+          "amount": 500000
+        }
+      ],
+      "source": {
+        "title": "Daftar Biaya SMP Islam di Depok Lengkap dengan Pilihan Sekolah Terbaik (PresGo News)",
+        "url": "https://presgonews.com/pendidikan/sekolah/daftar-biaya-smp-islam-di-depok-lengkap-dengan-pilihan-sekolah-terbaik/",
+        "published": "2026-04-14"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "SD Islam Tugasku Jakarta Timur",
+  "city": "Jakarta Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "notes": {
+        "id": "Uang pangkal untuk siswa dari TK luar. Total awal Rp49,9 juta termasuk SPP Juli 2026. Dihimpun CNBC Indonesia dari informasi biaya sekolah.",
+        "en": "Entry fee for applicants from other kindergartens. Initial total Rp49.9M incl. July 2026 tuition. Compiled by CNBC Indonesia from school fee information."
+      },
+      "entryFee": {
+        "min": 39000000
+      },
+      "tuition": {
+        "amount": 2500000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 6500000
+        },
+        {
+          "label": {
+            "id": "Seragam",
+            "en": "Uniforms"
+          },
+          "amount": 1900000
+        }
+      ],
+      "source": {
+        "title": "7 Rekomendasi SD Unggulan Jabodetabek, SPP di Bawah Rp3 Juta (CNBC Indonesia)",
+        "url": "https://www.cnbcindonesia.com/lifestyle/20260915125442-33-768042/7-rekomendasi-sd-unggulan-jabodetabek-spp-di-bawah-rp3-juta",
+        "published": "2026-09-15"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "SMP Kristen Logos Surabaya",
+  "city": "Surabaya",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal dapat diangsur; buku dan worksheet 3 tahun termasuk. Artikel menandai angka ini sebagai arsip (belum diverifikasi untuk 2026/2027).",
+        "en": "Entry fee can be paid in instalments; 3 years of books and worksheets included. The article marks these as archived figures (not verified for 2026/2027)."
+      },
+      "entryFee": {
+        "min": 32000000
+      },
+      "tuition": {
+        "amount": 2100000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SMP Swasta Terbaik di Surabaya dan Bandung 2026/2027 (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-smp-swasta-terbaik-di-surabaya-dan-bandung/",
+        "published": "2026-10-09"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

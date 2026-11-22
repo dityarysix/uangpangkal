@@ -1,0 +1,35 @@
+{
+  "name": "SMPIT Darul Abidin Depok",
+  "city": "Depok",
+  "district": "Beji",
+  "address": "Jl. Karet Hijau No.23, Beji Timur, Beji, Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya masuk gelombang I Rp29.500.000, gelombang II Rp31.000.000. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry wave I Rp29,500,000, wave II Rp31,000,000. From an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 29500000,
+        "max": 31000000
+      },
+      "tuition": {
+        "amount": 1320000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar Biaya SMP Islam di Depok Lengkap dengan Pilihan Sekolah Terbaik (PresGo News)",
+        "url": "https://presgonews.com/pendidikan/sekolah/daftar-biaya-smp-islam-di-depok-lengkap-dengan-pilihan-sekolah-terbaik/",
+        "published": "2026-04-14"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

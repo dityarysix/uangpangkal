@@ -1,0 +1,35 @@
+{
+  "name": "SMP Az Zahra Bojongsari",
+  "city": "Depok",
+  "district": "Bojongsari",
+  "address": "Jl. Swadaya No.47, Pondok Petir, Bojongsari, Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Dari artikel; tahun ajaran tidak disebut.",
+        "en": "From an article; academic year not stated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 4800000
+      },
+      "tuition": {
+        "amount": 385000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar Biaya SMP Islam di Depok Lengkap dengan Pilihan Sekolah Terbaik (PresGo News)",
+        "url": "https://presgonews.com/pendidikan/sekolah/daftar-biaya-smp-islam-di-depok-lengkap-dengan-pilihan-sekolah-terbaik/",
+        "published": "2026-04-14"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SMP Prestasi Global Depok",
+  "city": "Depok",
+  "district": "Pancoran Mas",
+  "address": "Jl. Palem I No.1, Perumahan Mampang Indah II, Rangkapan Jaya, Pancoran Mas, Depok",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Total Rp16.500.000. Beasiswa Rp500.000 untuk siswa lanjutan dari Sekolah Prestasi Global. Dari artikel; tahun ajaran tidak disebut.",
+        "en": "Total Rp16,500,000. Rp500,000 scholarship for continuing Prestasi Global students. From an article; academic year not stated."
+      },
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 16500000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Daftar Biaya SMP Islam di Depok Lengkap dengan Pilihan Sekolah Terbaik (PresGo News)",
+        "url": "https://presgonews.com/pendidikan/sekolah/daftar-biaya-smp-islam-di-depok-lengkap-dengan-pilihan-sekolah-terbaik/",
+        "published": "2026-04-14"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

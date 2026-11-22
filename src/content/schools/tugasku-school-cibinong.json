@@ -1,0 +1,35 @@
+{
+  "name": "Tugasku School Cibinong",
+  "city": "Kabupaten Bogor",
+  "district": "Cibinong",
+  "address": "Jl. Pangrango 3 No.9, Sukahati, Cibinong, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal sudah termasuk SPP Juli. Artikel blog; menyebut angka tahun ajaran 2022-2023 dan belum diperbarui. Konfirmasi ke sekolah.",
+        "en": "Entry fee includes July tuition. Blog article; cites 2022-2023 figures and has not been updated. Confirm with the school."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 5000000
+      },
+      "tuition": {
+        "amount": 700000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta Bekasi Bogor. Ada Yang Uang Pangkalnya 5 Juta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-swasta-bekasi-bogor-ada-yang-uang-pangkalnya-5-juta/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

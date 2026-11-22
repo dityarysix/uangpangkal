@@ -1,0 +1,35 @@
+{
+  "name": "SD Al Imam Islamic School Cileungsi",
+  "city": "Kabupaten Bogor",
+  "district": "Cileungsi",
+  "address": "Limus Pratama Regency, Jl. Blitar Blok E.12/7B, Limus Nunggal, Cileungsi, Kabupaten Bogor",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Paket masuk gelombang I Rp14.700.000, gelombang II Rp18.000.000, sudah termasuk SPP Juli Rp800.000 dan uang kegiatan. Artikel blog; menyebut angka tahun ajaran 2022-2023 dan belum diperbarui. Konfirmasi ke sekolah.",
+        "en": "Entry package wave I Rp14,700,000, wave II Rp18,000,000, incl. July tuition Rp800,000 and activities. Blog article; cites 2022-2023 figures and has not been updated. Confirm with the school."
+      },
+      "entryFee": {
+        "min": 14700000,
+        "max": 18000000
+      },
+      "tuition": {
+        "amount": 800000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Biaya Masuk SD Swasta Bekasi Bogor. Ada Yang Uang Pangkalnya 5 Juta (Lembar Kerja Untuk Anak)",
+        "url": "https://lembarkerjauntukanak.com/biaya-masuk-sd-swasta-bekasi-bogor-ada-yang-uang-pangkalnya-5-juta/",
+        "published": "2026-09-16"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
