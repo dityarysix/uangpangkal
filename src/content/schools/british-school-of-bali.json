@@ -1,0 +1,59 @@
+{
+  "name": "The British School of Bali",
+  "city": "Gianyar",
+  "district": "Tegallalang",
+  "address": "Tegallalang, Gianyar",
+  "levels": [
+    "TK",
+    "SD"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 230000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Nursery, Reception. Jadwal 2026-27 masih \"draft\". Tarif tahunan sudah termasuk diskon 5% bayar di muka; termasuk perlengkapan. Aplikasi Rp4 juta, enrolment Rp30 juta per keluarga; makan siang Rp10 juta/term. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Nursery, Reception. 2026-27 schedule still marked \"draft\". Annual rate includes the 5% early-payment discount and supplies. Application Rp4M, enrolment Rp30M per family; lunch Rp10M/term. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 240000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Year 1–6. Jadwal 2026-27 masih \"draft\". Tarif tahunan sudah termasuk diskon 5% bayar di muka; termasuk perlengkapan. Aplikasi Rp4 juta, enrolment Rp30 juta per keluarga; makan siang Rp10 juta/term. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Years 1–6. 2026-27 schedule still marked \"draft\". Annual rate includes the 5% early-payment discount and supplies. Application Rp4M, enrolment Rp30M per family; lunch Rp10M/term. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Bali Island School (BIS)",
+  "city": "Kota Denpasar",
+  "district": "Denpasar Selatan",
+  "address": "Sanur, Denpasar",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "curriculum": [
+    "IB",
+    "Internasional"
+  ],
+  "website": "https://baliinternationalschool.com",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 22252000
+      },
+      "tuition": {
+        "amount": 131783000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Kindy. Preschool 3 (setengah hari) Rp54.598.000; Preschool 4 Rp70.723.000. Uang pangkal = Capital Levy Charge (per tahun ajaran masuk). Biaya aplikasi Rp2.500.000 (siswa baru). Capital Levy Charge dibayar bersama tagihan pertama. Cicilan 4x menambah 1,5%.",
+        "en": "Kindy. Preschool 3 (half day) Rp54,598,000; Preschool 4 Rp70,723,000. Entry = Capital Levy Charge. Application fee Rp2,500,000 (new students). Capital Levy Charge is paid with the first invoice. Paying in 4 instalments adds 1.5%."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fee Schedule & Terms School Year 2026-2027 — Bali Island School (PDF resmi)",
+        "url": "https://baliinternationalschool.com/wp-content/uploads/2026/04/Tuition-fees-SY-26-27-updated-16-april.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 25675000
+      },
+      "tuition": {
+        "amount": 208952000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Grade 1–2; Grade 3–5 Rp211.921.000; Grade 6 Rp232.578.000 (CLC Rp28.527.000). Uang pangkal = Capital Levy Charge (per tahun ajaran masuk). Biaya aplikasi Rp2.500.000 (siswa baru). Capital Levy Charge dibayar bersama tagihan pertama. Cicilan 4x menambah 1,5%.",
+        "en": "Grades 1–2; Grades 3–5 Rp211,921,000; Grade 6 Rp232,578,000 (CLC Rp28,527,000). Entry = Capital Levy Charge. Application fee Rp2,500,000 (new students). Capital Levy Charge is paid with the first invoice. Paying in 4 instalments adds 1.5%."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fee Schedule & Terms School Year 2026-2027 — Bali Island School (PDF resmi)",
+        "url": "https://baliinternationalschool.com/wp-content/uploads/2026/04/Tuition-fees-SY-26-27-updated-16-april.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 28527000
+      },
+      "tuition": {
+        "amount": 250979000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Grade 7–8; Grade 9 Rp252.672.000. Uang pangkal = Capital Levy Charge (per tahun ajaran masuk). Biaya aplikasi Rp2.500.000 (siswa baru). Capital Levy Charge dibayar bersama tagihan pertama. Cicilan 4x menambah 1,5%.",
+        "en": "Grades 7–8; Grade 9 Rp252,672,000. Entry = Capital Levy Charge. Application fee Rp2,500,000 (new students). Capital Levy Charge is paid with the first invoice. Paying in 4 instalments adds 1.5%."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fee Schedule & Terms School Year 2026-2027 — Bali Island School (PDF resmi)",
+        "url": "https://baliinternationalschool.com/wp-content/uploads/2026/04/Tuition-fees-SY-26-27-updated-16-april.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "entryFee": {
+        "min": 28527000
+      },
+      "tuition": {
+        "amount": 258805000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Grade 10; Grade 11–12 (IB DP) Rp301.738.000. Uang pangkal = Capital Levy Charge (per tahun ajaran masuk). Biaya aplikasi Rp2.500.000 (siswa baru). Capital Levy Charge dibayar bersama tagihan pertama. Cicilan 4x menambah 1,5%.",
+        "en": "Grade 10; Grades 11–12 (IB DP) Rp301,738,000. Entry = Capital Levy Charge. Application fee Rp2,500,000 (new students). Capital Levy Charge is paid with the first invoice. Paying in 4 instalments adds 1.5%."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fee Schedule & Terms School Year 2026-2027 — Bali Island School (PDF resmi)",
+        "url": "https://baliinternationalschool.com/wp-content/uploads/2026/04/Tuition-fees-SY-26-27-updated-16-april.pdf"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

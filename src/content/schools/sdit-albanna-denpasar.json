@@ -1,0 +1,43 @@
+{
+  "name": "SDIT Albanna Denpasar",
+  "city": "Kota Denpasar",
+  "district": "Denpasar Timur",
+  "address": "Jl. Tukad Yeh Ho III No.16, Dangin Puri Klod, Denpasar Timur",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menulis \"Rp12.000.0000\" (dibaca Rp12.000.000) untuk biaya pengembangan. Estimasi dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "The article writes \"Rp12.000.0000\" (read as Rp12,000,000) for the development fee. Estimate from a 2023 article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 12000000
+      },
+      "tuition": {
+        "amount": 900000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya operasional",
+            "en": "Operational fee"
+          },
+          "amount": 2650000
+        }
+      ],
+      "source": {
+        "title": "20 SD Negeri dan Swasta Denpasar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231030232934-61-319955/20-sd-negeri-dan-swasta-denpasar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

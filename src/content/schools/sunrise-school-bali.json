@@ -1,0 +1,53 @@
+{
+  "name": "Sunrise School Bali",
+  "city": "Badung",
+  "district": "Kuta Utara",
+  "address": "Kerobokan, Kuta Utara, Badung",
+  "levels": [
+    "TK",
+    "SMP"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 49000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Small World setengah hari (Rp12,25 juta/term). Tuition per term ×4. Resource Levy tahunan Rp6,5–21,25 juta; registrasi siswa baru Rp10 juta. Semua pembayaran tidak dapat dikembalikan. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Small World half day (Rp12.25M/term). Tuition per term ×4. Annual Resource Levy Rp6.5–21.25M; new-student registration Rp10M. All payments are non-refundable. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 10000000,
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 124000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Year 7–9 (Rp31 juta/term). Tuition per term ×4. Resource Levy tahunan Rp6,5–21,25 juta; registrasi siswa baru Rp10 juta. Semua pembayaran tidak dapat dikembalikan. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Years 7–9 (Rp31M/term). Tuition per term ×4. Annual Resource Levy Rp6.5–21.25M; new-student registration Rp10M. All payments are non-refundable. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 10000000,
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

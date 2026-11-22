@@ -1,0 +1,28 @@
+{
+  "name": "Sekolah Lentera Kasih Bali",
+  "city": "Badung",
+  "district": "Kuta Utara",
+  "address": "Jl. Gunung Salak No.88, Kerobokan, Kuta Utara, Badung",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Biaya formulir. Estimasi dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Form fee. Estimate from a 2023 article; academic year not stated."
+      },
+      "registrationFee": 200000,
+      "source": {
+        "title": "20 SD Negeri dan Swasta Denpasar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231030232934-61-319955/20-sd-negeri-dan-swasta-denpasar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

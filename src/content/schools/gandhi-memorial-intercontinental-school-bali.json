@@ -1,0 +1,35 @@
+{
+  "name": "Gandhi Memorial Intercontinental School (GMIS) Bali",
+  "city": "Kota Denpasar",
+  "district": "Denpasar Selatan",
+  "address": "Jl. Tukad Penet No.8A, Renon, Denpasar Selatan",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel hanya menyebut \"estimasi biaya Rp67.000.000\". Estimasi dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "The article only gives an \"estimated cost of Rp67,000,000\". Estimate from a 2023 article; academic year not stated."
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Estimasi biaya (tidak dirinci)",
+            "en": "Estimated cost (not itemised)"
+          },
+          "amount": 67000000
+        }
+      ],
+      "source": {
+        "title": "20 SD Negeri dan Swasta Denpasar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231030232934-61-319955/20-sd-negeri-dan-swasta-denpasar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

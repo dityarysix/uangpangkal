@@ -1,0 +1,60 @@
+{
+  "name": "ProEd Global School Umalas",
+  "city": "Badung",
+  "district": "Kuta Utara",
+  "address": "Umalas, Kuta Utara, Badung",
+  "levels": [
+    "TK",
+    "SMA"
+  ],
+  "curriculum": [
+    "Cambridge",
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 92400000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Nursery. Registrasi sekali Rp11.025.000; Development Levy Rp13,125 juta (s.d. Year 6)–Rp15,75 juta (Year 7+); Material Levy Rp15,225 juta; Wellbeing Levy Rp5,25 juta. Diskon: bayar setahun −5%, sibling −5%. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Nursery. One-time registration Rp11,025,000; Development Levy Rp13.125M (to Year 6)–Rp15.75M (Year 7+); Material Levy Rp15.225M; Wellbeing Levy Rp5.25M. Discounts: annual payment −5%, siblings −5%. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "entryFee": {
+        "min": 13125000
+      },
+      "registrationFee": 11025000,
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 202650000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Year 9–13. Kampus Nuanu s.d. Rp213.150.000 (Year 10–11). Registrasi sekali Rp11.025.000; Development Levy Rp13,125 juta (s.d. Year 6)–Rp15,75 juta (Year 7+); Material Levy Rp15,225 juta; Wellbeing Levy Rp5,25 juta. Diskon: bayar setahun −5%, sibling −5%. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Years 9–13. Nuanu campus up to Rp213,150,000 (Years 10–11). One-time registration Rp11,025,000; Development Levy Rp13.125M (to Year 6)–Rp15.75M (Year 7+); Material Levy Rp15.225M; Wellbeing Levy Rp5.25M. Discounts: annual payment −5%, siblings −5%. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "entryFee": {
+        "min": 15750000
+      },
+      "registrationFee": 11025000,
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

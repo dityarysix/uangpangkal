@@ -1,0 +1,138 @@
+{
+  "name": "Green School Bali",
+  "city": "Badung",
+  "district": "Abiansemal",
+  "address": "Jl. Raya Sibang Kaja, Br. Saren, Abiansemal, Badung",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "website": "https://bali.greenschool.org",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 219176020,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Deposit (dapat dikembalikan)",
+            "en": "Refundable deposit"
+          },
+          "amount": 30000000
+        }
+      ],
+      "notes": {
+        "id": "KG; Pre-K Rp185.445.400. Aplikasi Rp4.000.000 + registrasi sekali Rp36.000.000; deposit Rp30.000.000 (dapat dikembalikan). Tuition = pembayaran setahun penuh; bayar per semester +3%, per term +8%. Diskon sibling 5–15%.",
+        "en": "KG; Pre-K Rp185,445,400. Application Rp4,000,000 + one-time registration Rp36,000,000; refundable deposit Rp30,000,000. Tuition = full-year payment; semester payment +3%, termly +8%. Sibling discounts 5–15%."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 36000000
+      },
+      "source": {
+        "title": "Green School Bali Tuition & Fees Schedule 2026-2027 (PDF resmi)",
+        "url": "https://bali.greenschool.org/wp-content/uploads/sites/2/2026/02/26-27-GSB-Tuition-Fees-Schedule-.docx.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 249263690,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Deposit (dapat dikembalikan)",
+            "en": "Refundable deposit"
+          },
+          "amount": 30000000
+        }
+      ],
+      "notes": {
+        "id": "Grade 1–3; Grade 4–5 Rp254.894.600. Aplikasi Rp4.000.000 + registrasi sekali Rp36.000.000; deposit Rp30.000.000 (dapat dikembalikan). Tuition = pembayaran setahun penuh; bayar per semester +3%, per term +8%. Diskon sibling 5–15%.",
+        "en": "Grades 1–3; Grades 4–5 Rp254,894,600. Application Rp4,000,000 + one-time registration Rp36,000,000; refundable deposit Rp30,000,000. Tuition = full-year payment; semester payment +3%, termly +8%. Sibling discounts 5–15%."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 36000000
+      },
+      "source": {
+        "title": "Green School Bali Tuition & Fees Schedule 2026-2027 (PDF resmi)",
+        "url": "https://bali.greenschool.org/wp-content/uploads/sites/2/2026/02/26-27-GSB-Tuition-Fees-Schedule-.docx.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 287350080,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Deposit (dapat dikembalikan)",
+            "en": "Refundable deposit"
+          },
+          "amount": 30000000
+        }
+      ],
+      "notes": {
+        "id": "Grade 6–8. Aplikasi Rp4.000.000 + registrasi sekali Rp36.000.000; deposit Rp30.000.000 (dapat dikembalikan). Tuition = pembayaran setahun penuh; bayar per semester +3%, per term +8%. Diskon sibling 5–15%.",
+        "en": "Grades 6–8. Application Rp4,000,000 + one-time registration Rp36,000,000; refundable deposit Rp30,000,000. Tuition = full-year payment; semester payment +3%, termly +8%. Sibling discounts 5–15%."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 36000000
+      },
+      "source": {
+        "title": "Green School Bali Tuition & Fees Schedule 2026-2027 (PDF resmi)",
+        "url": "https://bali.greenschool.org/wp-content/uploads/sites/2/2026/02/26-27-GSB-Tuition-Fees-Schedule-.docx.pdf"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 304468000,
+        "period": "year"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Deposit (dapat dikembalikan)",
+            "en": "Refundable deposit"
+          },
+          "amount": 30000000
+        }
+      ],
+      "notes": {
+        "id": "Grade 9–10; Grade 11–12 Rp328.600.900; biaya service trip SMA Rp7.250.000. Aplikasi Rp4.000.000 + registrasi sekali Rp36.000.000; deposit Rp30.000.000 (dapat dikembalikan). Tuition = pembayaran setahun penuh; bayar per semester +3%, per term +8%. Diskon sibling 5–15%.",
+        "en": "Grades 9–10; Grades 11–12 Rp328,600,900; high-school service trips Rp7,250,000. Application Rp4,000,000 + one-time registration Rp36,000,000; refundable deposit Rp30,000,000. Tuition = full-year payment; semester payment +3%, termly +8%. Sibling discounts 5–15%."
+      },
+      "registrationFee": 4000000,
+      "entryFee": {
+        "min": 36000000
+      },
+      "source": {
+        "title": "Green School Bali Tuition & Fees Schedule 2026-2027 (PDF resmi)",
+        "url": "https://bali.greenschool.org/wp-content/uploads/sites/2/2026/02/26-27-GSB-Tuition-Fees-Schedule-.docx.pdf"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

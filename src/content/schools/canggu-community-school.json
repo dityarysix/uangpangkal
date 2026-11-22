@@ -1,0 +1,104 @@
+{
+  "name": "Canggu Community School (CCS)",
+  "city": "Badung",
+  "district": "Kuta Utara",
+  "address": "Tibubeneng, Canggu, Kuta Utara, Badung",
+  "levels": [
+    "TK",
+    "SD",
+    "SMP",
+    "SMA"
+  ],
+  "curriculum": [
+    "Cambridge",
+    "IB",
+    "Internasional"
+  ],
+  "website": "https://www.ccsbali.com",
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 117000000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Early Years (Preschool–Reception). Biaya aplikasi Rp2.500.000. Registrasi Rp17.000.000 (anak pertama) / Rp14.000.000 (anak berikutnya) untuk Year 1–13. Diskon 5% bayar setahun, 2% per semester; diskon sibling.",
+        "en": "Early Years (Preschool–Reception). Application Rp2,500,000. Registration Rp17,000,000 (first child) / Rp14,000,000 (each additional) for Years 1–13. 5% off annual payment, 2% per semester; sibling discount."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fees — Canggu Community School, Compulsory Fee Schedule 2026-2027 (situs resmi)",
+        "url": "https://www.ccsbali.com/admissions/fees"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SD",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 162000000,
+        "period": "year"
+      },
+      "entryFee": {
+        "min": 14000000,
+        "max": 17000000
+      },
+      "notes": {
+        "id": "Year 1–2; Year 3–6 Rp173.000.000. Biaya aplikasi Rp2.500.000. Registrasi Rp17.000.000 (anak pertama) / Rp14.000.000 (anak berikutnya) untuk Year 1–13. Diskon 5% bayar setahun, 2% per semester; diskon sibling.",
+        "en": "Years 1–2; Years 3–6 Rp173,000,000. Application Rp2,500,000. Registration Rp17,000,000 (first child) / Rp14,000,000 (each additional) for Years 1–13. 5% off annual payment, 2% per semester; sibling discount."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fees — Canggu Community School, Compulsory Fee Schedule 2026-2027 (situs resmi)",
+        "url": "https://www.ccsbali.com/admissions/fees"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 214000000,
+        "period": "year"
+      },
+      "entryFee": {
+        "min": 14000000,
+        "max": 17000000
+      },
+      "notes": {
+        "id": "Year 7–9. Biaya aplikasi Rp2.500.000. Registrasi Rp17.000.000 (anak pertama) / Rp14.000.000 (anak berikutnya) untuk Year 1–13. Diskon 5% bayar setahun, 2% per semester; diskon sibling.",
+        "en": "Years 7–9. Application Rp2,500,000. Registration Rp17,000,000 (first child) / Rp14,000,000 (each additional) for Years 1–13. 5% off annual payment, 2% per semester; sibling discount."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fees — Canggu Community School, Compulsory Fee Schedule 2026-2027 (situs resmi)",
+        "url": "https://www.ccsbali.com/admissions/fees"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 243000000,
+        "period": "year"
+      },
+      "entryFee": {
+        "min": 14000000,
+        "max": 17000000
+      },
+      "notes": {
+        "id": "Year 10; Year 11 Rp261.000.000; IB Diploma Year 12–13 Rp272.000.000. Biaya aplikasi Rp2.500.000. Registrasi Rp17.000.000 (anak pertama) / Rp14.000.000 (anak berikutnya) untuk Year 1–13. Diskon 5% bayar setahun, 2% per semester; diskon sibling.",
+        "en": "Year 10; Year 11 Rp261,000,000; IB Diploma Years 12–13 Rp272,000,000. Application Rp2,500,000. Registration Rp17,000,000 (first child) / Rp14,000,000 (each additional) for Years 1–13. 5% off annual payment, 2% per semester; sibling discount."
+      },
+      "registrationFee": 2500000,
+      "source": {
+        "title": "Fees — Canggu Community School, Compulsory Fee Schedule 2026-2027 (situs resmi)",
+        "url": "https://www.ccsbali.com/admissions/fees"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

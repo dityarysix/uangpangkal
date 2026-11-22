@@ -1,0 +1,50 @@
+{
+  "name": "SD Saraswati Sukawati",
+  "city": "Gianyar",
+  "district": "Sukawati",
+  "address": "Jl. Lettu Nengah Duaji, Sukawati, Gianyar",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Hindu",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang gedung dibayar sekali untuk 6 tahun. Estimasi dari artikel 2023; tahun ajaran tidak disebut.",
+        "en": "Building fee paid once for 6 years. Estimate from a 2023 article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 5000000
+      },
+      "tuition": {
+        "amount": 380000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Uang aktivitas per bulan",
+            "en": "Activities per month"
+          },
+          "amount": 170000
+        },
+        {
+          "label": {
+            "id": "Uang makan per bulan",
+            "en": "Meals per month"
+          },
+          "amount": 150000
+        }
+      ],
+      "source": {
+        "title": "20 SD Negeri dan Swasta Denpasar Akreditasi Terbaik Beserta Alamat & Estimasi Biaya (HaiBunda)",
+        "url": "https://www.haibunda.com/parenting/20231030232934-61-319955/20-sd-negeri-dan-swasta-denpasar-akreditasi-terbaik-beserta-alamat-estimasi-biaya",
+        "published": "2023-10-30"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

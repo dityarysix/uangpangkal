@@ -1,0 +1,59 @@
+{
+  "name": "Pelangi School Ubud",
+  "city": "Gianyar",
+  "district": "Ubud",
+  "address": "Mas, Ubud, Gianyar",
+  "levels": [
+    "TK",
+    "SMP"
+  ],
+  "curriculum": [
+    "Nasional"
+  ],
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 53250000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Tiny Tots setengah hari. Biaya tahunan all-inclusive (dana pengembangan, sumber belajar, tuition). Registrasi Rp500.000; enrolment siswa baru Rp15 juta; deposit Rp10 juta (dapat dikembalikan). Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Tiny Tots half day. All-inclusive annual fees (development fund, resources, tuition). Registration Rp500,000; new-student enrolment Rp15M; refundable deposit Rp10M. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 126900000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Middle Class 8. Biaya tahunan all-inclusive (dana pengembangan, sumber belajar, tuition). Registrasi Rp500.000; enrolment siswa baru Rp15 juta; deposit Rp10 juta (dapat dikembalikan). Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Middle Class 8. All-inclusive annual fees (development fund, resources, tuition). Registration Rp500,000; new-student enrolment Rp15M; refundable deposit Rp10M. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 15000000
+      },
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

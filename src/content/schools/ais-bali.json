@@ -1,0 +1,51 @@
+{
+  "name": "Australian Independent School (AIS) Bali",
+  "city": "Kota Denpasar",
+  "levels": [
+    "TK",
+    "SMA"
+  ],
+  "curriculum": [
+    "Internasional"
+  ],
+  "fees": [
+    {
+      "level": "TK",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 75930000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Early Years (full-time). Opsi 3 hari/minggu sekitar Rp45,6 juta. Jadwal tahun kalender 2026 (Jan–Des). Capital Levy Rp20 juta (Foundation)–Rp50 juta (Year 9–12) per tahun; Material & Resources Levy Rp6,4–12,8 juta; aplikasi Rp2 juta, registrasi Rp5 juta, deposit Rp5 juta. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Early Years (full-time). 3-days-a-week option about Rp45.6M. Calendar-year 2026 schedule (Jan–Dec). Annual Capital Levy Rp20M (Foundation)–Rp50M (Years 9–12); Material & Resources Levy Rp6.4–12.8M; application Rp2M, registration Rp5M, deposit Rp5M. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 5000000,
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2026/2027",
+      "tuition": {
+        "amount": 190720000,
+        "period": "year"
+      },
+      "notes": {
+        "id": "Year 11–12. Jadwal tahun kalender 2026 (Jan–Des). Capital Levy Rp20 juta (Foundation)–Rp50 juta (Year 9–12) per tahun; Material & Resources Levy Rp6,4–12,8 juta; aplikasi Rp2 juta, registrasi Rp5 juta, deposit Rp5 juta. Dihimpun Lokalfinds dari jadwal biaya resmi sekolah (Juli 2026).",
+        "en": "Years 11–12. Calendar-year 2026 schedule (Jan–Dec). Annual Capital Levy Rp20M (Foundation)–Rp50M (Years 9–12); Material & Resources Levy Rp6.4–12.8M; application Rp2M, registration Rp5M, deposit Rp5M. Compiled by Lokalfinds from the school's official fee schedule (July 2026)."
+      },
+      "registrationFee": 5000000,
+      "source": {
+        "title": "International Schools in Bali: Official 2026 Fees (Lokalfinds)",
+        "url": "https://lokalfinds.com/blog/international-schools-bali-2026",
+        "published": "2026-07-01"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

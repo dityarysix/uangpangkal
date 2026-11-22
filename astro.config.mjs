@@ -18,5 +18,7 @@ export default defineConfig({
     '/en/area/surabaya': '/en/area/surabaya-raya/',
     '/wilayah/yogyakarta': '/wilayah/yogyakarta-raya/',
     '/en/area/yogyakarta': '/en/area/yogyakarta-raya/',
+    '/wilayah/bandar-lampung-raya': '/wilayah/bali/',
+    '/en/area/bandar-lampung-raya': '/en/area/bali/',
   },
 });

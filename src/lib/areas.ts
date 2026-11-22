@@ -89,9 +89,9 @@ export const AREAS = [
     cities: ['Kota Palembang', 'Banyuasin', 'Ogan Ilir'],
   },
   {
-    slug: 'bandar-lampung-raya',
-    name: { id: 'Bandar Lampung Raya', en: 'Greater Bandar Lampung' },
-    cities: ['Kota Bandar Lampung', 'Lampung Selatan', 'Pesawaran', 'Kota Metro'],
+    slug: 'bali',
+    name: { id: 'Bali', en: 'Bali' },
+    cities: ['Kota Denpasar', 'Badung', 'Gianyar', 'Tabanan', 'Bangli', 'Klungkung', 'Karangasem', 'Buleleng', 'Jembrana'],
   },
   {
     slug: 'samarinda-raya',
