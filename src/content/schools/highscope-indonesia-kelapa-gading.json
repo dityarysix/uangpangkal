@@ -3,9 +3,53 @@
   "city": "Jakarta Utara",
   "address": "Jl. Pegangsaan Dua No.22, Jakarta Utara",
   "levels": [
+    "SD",
     "SMP"
   ],
+  "website": "https://highscope.or.id",
   "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 69000000
+      },
+      "tuition": {
+        "amount": 5600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Enrollment fee kelas 1–6. SPP Grade K–5 Rp5.600.000/bulan; Grade 6 Rp5.900.000/bulan. Biaya pendaftaran = formulir aplikasi; observasi kelas Rp500.000; deposit Rp5.000.000.",
+        "en": "Enrolment fee for grades 1–6. Tuition grades K–5 Rp5,600,000/month; grade 6 Rp5,900,000/month. Registration = application form; class observation Rp500,000; deposit Rp5,000,000."
+      },
+      "source": {
+        "title": "SHI Kelapa Gading — Admissions & Fee Structure 2025/2026 (situs resmi HighScope Indonesia)",
+        "url": "https://highscope.or.id/en/network-of-school/shi-kelapa-gading/5"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 62000000
+      },
+      "tuition": {
+        "amount": 5900000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Enrollment fee kelas 7–9. Observasi & tes Rp500.000; deposit Rp5.000.000.",
+        "en": "Enrolment fee for grades 7–9. Observation & test Rp500,000; deposit Rp5,000,000."
+      },
+      "source": {
+        "title": "SHI Kelapa Gading — Admissions & Fee Structure 2025/2026 (situs resmi HighScope Indonesia)",
+        "url": "https://highscope.or.id/en/network-of-school/shi-kelapa-gading/5"
+      },
+      "checked": "2026-11-22"
+    },
     {
       "level": "SMP",
       "academicYear": "2026/2027",
@@ -34,6 +78,86 @@
         "title": "Intip Biaya SMP di Jakarta Utara, Barat, dan Timur TA 2026/2027 (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/intip-biaya-smp-di-jakarta-utara-barat-dan-timur-ta-2026-2027-00-sdwkg-0j19nt",
         "published": "2025-12-22"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2025/2026",
+      "steps": [
+        {
+          "id": "Bagian admission (AAO) menjadwalkan observasi kelas (biaya Rp500.000).",
+          "en": "The admissions office (AAO) schedules a class observation (Rp500,000)."
+        },
+        {
+          "id": "AAO menginformasikan hasil observasi; siswa diterima mendapat surat penerimaan.",
+          "en": "AAO shares the observation result; accepted students receive an acceptance letter."
+        },
+        {
+          "id": "Bayar deposit Rp5.000.000 atau langsung lunas enrollment fee.",
+          "en": "Pay a Rp5,000,000 deposit or the full enrolment fee."
+        },
+        {
+          "id": "Beli formulir aplikasi Rp300.000 di AAO, lengkapi dan kembalikan.",
+          "en": "Buy the application form (Rp300,000) at AAO, complete and return it."
+        },
+        {
+          "id": "Lunasi enrollment fee dan serahkan bukti bayar ke bagian keuangan.",
+          "en": "Pay the enrolment fee and hand the payment slip to Finance."
+        }
+      ],
+      "test": {
+        "id": "Observasi kelas.",
+        "en": "Class observation."
+      },
+      "notes": {
+        "id": "Usia: kelas 1 minimal 6 tahun sebelum 1 November; kelas 2 minimal 7 tahun; kelas 3 ke atas minimal 8 tahun. Semua biaya tidak dapat dikembalikan bila orang tua membatalkan pendaftaran sendiri.",
+        "en": "Age: grade 1 at least 6 before 1 November; grade 2 at least 7; grade 3+ at least 8. All fees are non-refundable if parents cancel the enrolment themselves."
+      },
+      "source": {
+        "title": "SHI Kelapa Gading — Admissions & Fee Structure 2025/2026 (situs resmi HighScope Indonesia)",
+        "url": "https://highscope.or.id/en/network-of-school/shi-kelapa-gading/5"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "steps": [
+        {
+          "id": "AAO menjadwalkan observasi kelas, wawancara, psikotes, dan Basic Competency Test (biaya Rp500.000).",
+          "en": "AAO schedules class observation, interview, psychological test and Basic Competency Test (Rp500,000)."
+        },
+        {
+          "id": "AAO menginformasikan hasil; siswa diterima mendapat surat penerimaan.",
+          "en": "AAO shares the result; accepted students receive an acceptance letter."
+        },
+        {
+          "id": "Bayar deposit Rp5.000.000 atau langsung lunas enrollment fee.",
+          "en": "Pay a Rp5,000,000 deposit or the full enrolment fee."
+        },
+        {
+          "id": "Beli formulir aplikasi Rp300.000, lengkapi dan kembalikan ke AAO.",
+          "en": "Buy the application form (Rp300,000), complete and return it to AAO."
+        },
+        {
+          "id": "Serahkan bukti pelunasan enrollment fee ke bagian keuangan.",
+          "en": "Hand the enrolment fee payment slip to Finance."
+        }
+      ],
+      "test": {
+        "id": "Observasi kelas, wawancara, psikotes, dan Basic Competency Test.",
+        "en": "Class observation, interview, psychological test and Basic Competency Test."
+      },
+      "notes": {
+        "id": "Kelas 7: lulus SD/kelas 6. Kelas 8–9: lulus kelas 7/8 di sekolah sebelumnya. Semua biaya tidak dapat dikembalikan bila orang tua membatalkan pendaftaran sendiri.",
+        "en": "Grade 7: completed primary school. Grades 8–9: passed grade 7/8 at the previous school. All fees are non-refundable if parents cancel the enrolment themselves."
+      },
+      "source": {
+        "title": "SHI Kelapa Gading — Admissions & Fee Structure 2025/2026 (situs resmi HighScope Indonesia)",
+        "url": "https://highscope.or.id/en/network-of-school/shi-kelapa-gading/5"
       },
       "checked": "2026-11-22"
     }

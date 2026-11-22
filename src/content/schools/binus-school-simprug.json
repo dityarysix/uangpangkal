@@ -7,10 +7,11 @@
     "SMP"
   ],
   "curriculum": [
+    "IB",
     "Internasional"
   ],
   "website": "https://simprug.binus.sch.id",
-  "phone": "0811-9700-6969",
+  "phone": "Admissions +62 21 7243663",
   "fees": [
     {
       "level": "SMP",
@@ -26,6 +27,54 @@
         "title": "11 Daftar Biaya Masuk SMP di Jakarta Selatan Tahun Ajaran 2026/2027 (Popmama)",
         "url": "https://www.popmama.com/big-kid/10-12-years-old/daftar-biaya-masuk-smp-di-jakarta-selatan-tahun-ajaran-2026-2027-00-bbqjr-87t30t",
         "published": "2025-12-12"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Beli formulir pendaftaran dari bagian admission (transfer/debit).",
+          "en": "Buy the registration form from Admissions (transfer/debit)."
+        },
+        {
+          "id": "Kode voucher dikirim lewat email.",
+          "en": "A voucher code is sent by email."
+        },
+        {
+          "id": "Daftar dan verifikasi email di binus.edu/admissions, lalu lengkapi data registrasi.",
+          "en": "Sign up and verify your email at binus.edu/admissions, then complete the registration details."
+        },
+        {
+          "id": "Pilih jadwal tes masuk dan isi booking form dengan kode voucher.",
+          "en": "Choose an entrance test date and fill in the booking form with the voucher code."
+        },
+        {
+          "id": "Unggah semua dokumen yang diminta dan tunggu verifikasi.",
+          "en": "Upload all required documents and wait for verification."
+        },
+        {
+          "id": "Unduh kartu tes dan dokumen pendukung.",
+          "en": "Download the test card and supporting documents."
+        },
+        {
+          "id": "Ikuti tes masuk dan serahkan dokumen pendukung yang sudah diisi ke bagian admission.",
+          "en": "Attend the entrance test and hand in the completed supporting documents."
+        }
+      ],
+      "test": {
+        "id": "Tes masuk (entrance test).",
+        "en": "Entrance test."
+      },
+      "notes": {
+        "id": "Halaman tidak menyebut tahun ajaran; prosedur yang berlaku per November 2026. Kurikulum IB (PYP, MYP, DP) dan nasional. Kontak admission: +62 21 7243663.",
+        "en": "The page does not state the academic year; procedure as of November 2026. IB (PYP, MYP, DP) and national curriculum. Admissions: +62 21 7243663."
+      },
+      "source": {
+        "title": "BINUS SCHOOL Simprug — Admissions Process (OpenApply, dari simprug.binus.sch.id/how-to-apply)",
+        "url": "https://search.openapply.com/schools/1416"
       },
       "checked": "2026-11-22"
     }
