@@ -1,0 +1,32 @@
+{
+  "name": "SMP Al Hasan Balikpapan",
+  "city": "Balikpapan",
+  "address": "Jl. Telaga Sari RT.31 No.14, Balikpapan",
+  "levels": [
+    "SMP"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2025/2026",
+      "entryFee": {
+        "min": 1500000
+      },
+      "tuition": {
+        "amount": 150000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Sekolah mitra SPMB Pemkot Balikpapan 2025/2026: untuk siswa yang diterima lewat program ini, uang pangkal Rp1.500.000 dan SPP Rp150.000/bulan dibayar Pemkot (gratis bagi orang tua). Biaya untuk siswa di luar program bisa berbeda; tanyakan ke sekolah. Program berlanjut di 2026/2027 dengan 15 sekolah.",
+        "en": "Balikpapan city SPMB partner school 2025/2026: for students admitted through this programme, the city pays the Rp1,500,000 entry fee and Rp150,000/month tuition (free for parents). Fees outside the programme may differ; ask the school. The programme continued in 2026/2027 with 15 schools."
+      },
+      "source": {
+        "title": "Tak Lolos Sekolah Negeri? Ini Daftar 13 SMP Swasta di Balikpapan yang Dapat Subsidi SPP dan Uang Pangkal (Prokal)",
+        "url": "https://www.prokal.co/kalimantan-timur/1776140044/tak-lolos-sekolah-negeri-ini-daftar-13-smp-swasta-di-balikpapan-yang-dapat-subsidi-spp-dan-uang-pangkal",
+        "published": "2025-06-14"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

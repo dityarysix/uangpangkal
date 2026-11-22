@@ -1,0 +1,100 @@
+{
+  "name": "MIAS Tasikmalaya",
+  "city": "Kota Tasikmalaya",
+  "district": "Cihideung",
+  "address": "Jl. Terusan BCA No.11, Tuguraja, Cihideung, Tasikmalaya",
+  "levels": [
+    "SMP",
+    "SMA"
+  ],
+  "religion": "Islam",
+  "website": "https://psb.miastasikmalaya.com/",
+  "fees": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "notes": {
+        "id": "SMPIT-TQ. Biaya awal masuk Rp20.000.000 (eksternal) / Rp13.500.000 (lulusan MIAS). Halaman menulis alamat \"Kab. Tasikmalaya\"; Kec. Cihideung termasuk Kota Tasikmalaya.",
+        "en": "SMPIT-TQ. Initial entry Rp20,000,000 (external) / Rp13,500,000 (MIAS graduates). The page says \"Kab. Tasikmalaya\"; Cihideung district is in Kota Tasikmalaya."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 13500000,
+        "max": 20000000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Info PSB 2027/2028 — MIAS Tasikmalaya (situs resmi)",
+        "url": "https://psb.miastasikmalaya.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "notes": {
+        "id": "SMAIT-TQ. Biaya awal masuk Rp20.000.000 (eksternal) / Rp13.500.000 (lulusan MIAS). Halaman menulis alamat \"Kab. Tasikmalaya\"; Kec. Cihideung termasuk Kota Tasikmalaya.",
+        "en": "SMAIT-TQ. Initial entry Rp20,000,000 (external) / Rp13,500,000 (MIAS graduates). The page says \"Kab. Tasikmalaya\"; Cihideung district is in Kota Tasikmalaya."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 13500000,
+        "max": 20000000
+      },
+      "tuition": {
+        "amount": 1750000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Info PSB 2027/2028 — MIAS Tasikmalaya (situs resmi)",
+        "url": "https://psb.miastasikmalaya.com/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SMP",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Transfer uang pendaftaran Rp500.000 dan isi formulir (pilih jenjang; SMP: program Reguler/TQ)",
+          "en": "Transfer the Rp500,000 registration fee and fill in the form (choose level; SMP: Regular/TQ programme)"
+        },
+        {
+          "id": "Ikuti seleksi; pengumuman kelulusan 30 September 2026 dan 2 November 2026",
+          "en": "Take the selection; results on 30 September 2026 and 2 November 2026"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "Info PSB 2027/2028 — MIAS Tasikmalaya (situs resmi)",
+        "url": "https://psb.miastasikmalaya.com/"
+      },
+      "checked": "2026-11-22"
+    },
+    {
+      "level": "SMA",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Transfer uang pendaftaran Rp500.000 dan isi formulir (pilih jenjang; SMP: program Reguler/TQ)",
+          "en": "Transfer the Rp500,000 registration fee and fill in the form (choose level; SMP: Regular/TQ programme)"
+        },
+        {
+          "id": "Ikuti seleksi; pengumuman kelulusan 30 September 2026 dan 2 November 2026",
+          "en": "Take the selection; results on 30 September 2026 and 2 November 2026"
+        }
+      ],
+      "documents": [],
+      "source": {
+        "title": "Info PSB 2027/2028 — MIAS Tasikmalaya (situs resmi)",
+        "url": "https://psb.miastasikmalaya.com/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
