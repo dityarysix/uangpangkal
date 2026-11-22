@@ -1,0 +1,51 @@
+{
+  "name": "Ananda Islamic School",
+  "city": "Jakarta Barat",
+  "district": "Kalideres",
+  "address": "Jl. Tanjung Pura No.34, Pegadungan, Kalideres, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 650000,
+      "entryFee": {
+        "min": 24300000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan siswa per tahun",
+            "en": "Student activities per year"
+          },
+          "amount": 3000000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan sekolah",
+            "en": "School supplies"
+          },
+          "amount": 3000000
+        }
+      ],
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Barat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-barat",
+        "published": "2023-10-04"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

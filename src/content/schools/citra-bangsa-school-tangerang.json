@@ -1,0 +1,29 @@
+{
+  "name": "Citra Bangsa School Tangerang",
+  "city": "Kota Tangerang",
+  "address": "Jl. Raya Prabu Kiansantang, Kota Tangerang",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 250000,
+      "entryFee": {
+        "min": 9000000
+      },
+      "source": {
+        "title": "Daftar SD Swasta di Tangerang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-tangerang",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

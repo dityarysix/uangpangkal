@@ -1,0 +1,42 @@
+{
+  "name": "SD Islam Al Azhar BSD",
+  "city": "Tangerang Selatan",
+  "district": "Serpong",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 28800000
+      },
+      "tuition": {
+        "amount": 1600000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan siswa",
+            "en": "Student activities"
+          },
+          "amount": 2400000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Tangerang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-tangerang",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

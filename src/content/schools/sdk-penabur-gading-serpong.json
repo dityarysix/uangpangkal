@@ -1,0 +1,58 @@
+{
+  "name": "SDK BPK Penabur Gading Serpong",
+  "city": "Kabupaten Tangerang",
+  "district": "Kelapa Dua",
+  "address": "Jl. Kelapa Gading Barat Raya, Gading Serpong, Kabupaten Tangerang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Kristen",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 350000,
+      "entryFee": {
+        "min": 24900000
+      },
+      "tuition": {
+        "amount": 2800000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Psikotes",
+            "en": "Psychological test"
+          },
+          "amount": 270000
+        },
+        {
+          "label": {
+            "id": "Uang kegiatan",
+            "en": "Activity fee"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan",
+            "en": "Supplies"
+          },
+          "amount": 2500000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Tangerang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-tangerang",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

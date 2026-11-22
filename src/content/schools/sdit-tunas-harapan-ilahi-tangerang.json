@@ -1,0 +1,66 @@
+{
+  "name": "SDIT Tunas Harapan Ilahi Tangerang",
+  "city": "Kota Tangerang",
+  "district": "Cipondoh",
+  "address": "Jl. Tugu Karya II No.3, Cipondoh Makmur, Cipondoh, Kota Tangerang",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://www.sdit.thi.or.id/",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2022/2023",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal = dana pembangunan. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry fee = building fund. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 450000,
+      "entryFee": {
+        "min": 12500000
+      },
+      "tuition": {
+        "amount": 850000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Kegiatan siswa per bulan",
+            "en": "Student activities per month"
+          },
+          "amount": 175000
+        },
+        {
+          "label": {
+            "id": "Komite per bulan",
+            "en": "Committee per month"
+          },
+          "amount": 15000
+        },
+        {
+          "label": {
+            "id": "Buku paket",
+            "en": "Textbooks"
+          },
+          "amount": 1000000
+        },
+        {
+          "label": {
+            "id": "Perlengkapan (seragam dll.)",
+            "en": "Supplies (uniforms etc.)"
+          },
+          "amount": 1800000
+        }
+      ],
+      "source": {
+        "title": "Daftar SD Swasta di Tangerang dan Biayanya (theAsianparent)",
+        "url": "https://id.theasianparent.com/sd-swasta-di-tangerang",
+        "published": "2022-07-07"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

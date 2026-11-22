@@ -2,7 +2,7 @@
   "name": "Sekolah Islam Al Azhar Kembangan",
   "city": "Jakarta Barat",
   "district": "Kembangan",
-  "address": "Jl. H. Saaba Raya, Komp. Unilever, Meruya Selatan, Kembangan, Jakarta Barat",
+  "address": "Kompleks Unilever, Jl. H. Sa'aba, Meruya Selatan, Kembangan, Jakarta Barat",
   "levels": [
     "TK",
     "SD",
@@ -11,7 +11,31 @@
   ],
   "religion": "Islam",
   "website": "https://pmb.alazhar-kembangan.sch.id",
-  "fees": [],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "SDI Al Azhar 8 Kembangan. Biaya masuk sekitar Rp30 jutaan termasuk formulir Rp400.000. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "SDI Al Azhar 8 Kembangan. Entry cost around Rp30M including the Rp400,000 form. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 400000,
+      "entryFee": {
+        "min": 30000000
+      },
+      "tuition": {
+        "amount": 1200000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Barat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-barat",
+        "published": "2023-10-04"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
   "admission": [
     {
       "academicYear": "2027/2028",

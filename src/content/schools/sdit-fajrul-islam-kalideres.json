@@ -1,0 +1,34 @@
+{
+  "name": "SDIT Fajrul Islam Kalideres",
+  "city": "Jakarta Barat",
+  "district": "Kalideres",
+  "address": "Jl. Tanjung Pura 3 No.48, Pegadungan, Kalideres, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Artikel menyebut \"biaya pendaftaran Rp5,2 juta\"; dicatat sebagai biaya masuk. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "The article says \"registration fee Rp5.2M\"; recorded as the entry cost. Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 5200000
+      },
+      "tuition": {
+        "amount": 320000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Barat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-barat",
+        "published": "2023-10-04"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

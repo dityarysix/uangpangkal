@@ -1,0 +1,38 @@
+{
+  "name": "Tunas Muda School",
+  "city": "Jakarta Barat",
+  "district": "Kembangan",
+  "address": "Jl. Meruya Utara No.71, Meruya Utara, Kembangan, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "IB",
+    "Internasional"
+  ],
+  "religion": "Katolik",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Sekolah IB. SPP per 3 bulan. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "IB school. Tuition per 3 months. Approximate figures from an article; academic year not stated."
+      },
+      "entryFee": {
+        "min": 90000000
+      },
+      "tuition": {
+        "amount": 21700000,
+        "period": "quarter"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Barat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-barat",
+        "published": "2023-10-04"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

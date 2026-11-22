@@ -1,0 +1,34 @@
+{
+  "name": "Sekolah BISA Jakarta",
+  "city": "Jakarta Barat",
+  "district": "Kembangan",
+  "address": "Jl. H. Sa'aba No.25A, Joglo, Kembangan, Jakarta Barat",
+  "levels": [
+    "SD"
+  ],
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2023/2024",
+      "yearAssumed": true,
+      "notes": {
+        "id": "Uang pangkal sudah termasuk perlengkapan; SPP termasuk makan siang. Perkiraan dari artikel; tahun ajaran tidak disebut.",
+        "en": "Entry fee includes supplies; tuition includes lunch. Approximate figures from an article; academic year not stated."
+      },
+      "registrationFee": 500000,
+      "entryFee": {
+        "min": 20000000
+      },
+      "tuition": {
+        "amount": 1450000,
+        "period": "month"
+      },
+      "source": {
+        "title": "Rekomendasi SD Swasta di Jakarta Barat dan Biayanya (Orami)",
+        "url": "https://www.orami.co.id/magazine/sd-swasta-jakarta-barat",
+        "published": "2023-10-04"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
