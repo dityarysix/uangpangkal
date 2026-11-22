@@ -1,0 +1,62 @@
+{
+  "name": "SDIT Uswatun Hasanah Cimahi",
+  "city": "Cimahi",
+  "district": "Cimahi Tengah",
+  "address": "Jl. MK. Wiganda Sasmita No.19A, Cimahi Tengah, Kota Cimahi",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://www.sdituswahcimahi.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 300000,
+      "entryFee": {
+        "min": 11000000,
+        "max": 13000000
+      },
+      "tuition": {
+        "amount": 600000,
+        "period": "month"
+      },
+      "notes": {
+        "id": "Uang pangkal = infaq pendidikan Rp13.000.000; diskon Rp2.000.000 (gelombang 1) / Rp1.000.000 (gelombang 2). Pendaftaran = administrasi tes psikolog. Uang kegiatan tahunan ditetapkan awal pembelajaran.",
+        "en": "Entry fee = education donation Rp13,000,000; Rp2,000,000 off (wave 1) / Rp1,000,000 off (wave 2). Registration = psychological test fee. Annual activity fee set at the start of the year."
+      },
+      "source": {
+        "title": "PMB SDIT Uswatun Hasanah Cimahi — Biaya Masuk 2027/2028 (situs resmi)",
+        "url": "https://www.sdituswahcimahi.sch.id/pmb-sdituswahcimahi/"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Datang ke kantor Tata Usaha sekolah atau daftar online",
+          "en": "Visit the school office or register online"
+        },
+        {
+          "id": "Bayar Rp300.000 untuk tes psikolog",
+          "en": "Pay Rp300,000 for the psychological test"
+        }
+      ],
+      "documents": [
+        {
+          "id": "Akta kelahiran (usia minimal 6 tahun pada Juli)",
+          "en": "Birth certificate (minimum age 6 by July)"
+        }
+      ],
+      "source": {
+        "title": "PMB SDIT Uswatun Hasanah Cimahi — Biaya Masuk 2027/2028 (situs resmi)",
+        "url": "https://www.sdituswahcimahi.sch.id/pmb-sdituswahcimahi/"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

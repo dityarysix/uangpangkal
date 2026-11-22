@@ -1,0 +1,70 @@
+{
+  "name": "SD Muhammadiyah Sapen Yogyakarta",
+  "city": "Kota Yogyakarta",
+  "district": "Gondokusuman",
+  "address": "Jl. Bimokurdo No.33, Sapen, Demangan, Gondokusuman, Kota Yogyakarta",
+  "levels": [
+    "SD"
+  ],
+  "religion": "Islam",
+  "website": "https://www.sdmuhsapen-yog.sch.id",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "tuition": {
+        "amount": 1240000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Total biaya awal (putra)",
+            "en": "Initial total (boys)"
+          },
+          "amount": 23740000
+        },
+        {
+          "label": {
+            "id": "Total biaya awal (putri)",
+            "en": "Initial total (girls)"
+          },
+          "amount": 23890000
+        }
+      ],
+      "notes": {
+        "id": "Jalur reguler kampus utama. Rincian per komponen tidak dimuat di artikel; total biaya awal dari grafis SPMB resmi.",
+        "en": "Regular track, main campus. The article doesn't itemise the components; totals are from the official SPMB graphic."
+      },
+      "source": {
+        "title": "Biaya SD Muhammadiyah Sapen dan MSUS 2027/2028, Segini Bedanya! (IDN Times Jogja)",
+        "url": "https://jogja.idntimes.com/news/jogja/biaya-sd-muhammadiyah-sapen-dan-msus-2027-2028-segini-bedanya-00-yplq6-795z4h",
+        "published": "2026-08-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar/inden melalui aplikasi Super Sapen sesuai jadwal",
+          "en": "Register/pre-book through the Super Sapen app on schedule"
+        }
+      ],
+      "documents": [],
+      "notes": {
+        "id": "Peminat sangat tinggi; antrean inden disebut sudah sampai tahun ajaran 2033.",
+        "en": "Very high demand; the pre-booking queue reportedly reaches the 2033 intake."
+      },
+      "source": {
+        "title": "Biaya SD Muhammadiyah Sapen dan MSUS 2027/2028, Segini Bedanya! (IDN Times Jogja)",
+        "url": "https://jogja.idntimes.com/news/jogja/biaya-sd-muhammadiyah-sapen-dan-msus-2027-2028-segini-bedanya-00-yplq6-795z4h",
+        "published": "2026-08-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}

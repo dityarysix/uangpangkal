@@ -1,0 +1,84 @@
+{
+  "name": "Muhammadiyah Sapen Universal School (MSUS)",
+  "city": "Bantul",
+  "district": "Kasihan",
+  "address": "Jl. Brawijaya, Gatak, Tamantirto, Kasihan, Bantul",
+  "levels": [
+    "SD"
+  ],
+  "curriculum": [
+    "Cambridge",
+    "Nasional"
+  ],
+  "religion": "Islam",
+  "fees": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "registrationFee": 1000000,
+      "entryFee": {
+        "min": 18000000
+      },
+      "tuition": {
+        "amount": 1840000,
+        "period": "month"
+      },
+      "otherFees": [
+        {
+          "label": {
+            "id": "Biaya kegiatan per tahun",
+            "en": "Activities per year"
+          },
+          "amount": 9335000
+        },
+        {
+          "label": {
+            "id": "Seragam putra",
+            "en": "Uniforms (boys)"
+          },
+          "amount": 2165000
+        },
+        {
+          "label": {
+            "id": "Seragam putri",
+            "en": "Uniforms (girls)"
+          },
+          "amount": 2315000
+        }
+      ],
+      "notes": {
+        "id": "Pengembangan sekolah Rp18.000.000. Biaya bulanan termasuk snack dan makan siang. Total biaya awal Rp31.340.000 (putra) / Rp31.490.000 (putri). Dibuka Juli 2026; Kurikulum Nasional + pengayaan Cambridge dan pendekatan IB.",
+        "en": "School development fee Rp18,000,000. Monthly fee includes snacks and lunch. Initial total Rp31,340,000 (boys) / Rp31,490,000 (girls). Opened July 2026; national curriculum with Cambridge enrichment and an IB approach."
+      },
+      "source": {
+        "title": "Biaya SD Muhammadiyah Sapen dan MSUS 2027/2028, Segini Bedanya! (IDN Times Jogja)",
+        "url": "https://jogja.idntimes.com/news/jogja/biaya-sd-muhammadiyah-sapen-dan-msus-2027-2028-segini-bedanya-00-yplq6-795z4h",
+        "published": "2026-08-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ],
+  "admission": [
+    {
+      "level": "SD",
+      "academicYear": "2027/2028",
+      "steps": [
+        {
+          "id": "Daftar/inden melalui aplikasi Super Sapen sesuai jadwal",
+          "en": "Register/pre-book through the Super Sapen app on schedule"
+        }
+      ],
+      "documents": [],
+      "notes": {
+        "id": "Peminat sangat tinggi; antrean inden disebut sudah sampai tahun ajaran 2033.",
+        "en": "Very high demand; the pre-booking queue reportedly reaches the 2033 intake."
+      },
+      "source": {
+        "title": "Biaya SD Muhammadiyah Sapen dan MSUS 2027/2028, Segini Bedanya! (IDN Times Jogja)",
+        "url": "https://jogja.idntimes.com/news/jogja/biaya-sd-muhammadiyah-sapen-dan-msus-2027-2028-segini-bedanya-00-yplq6-795z4h",
+        "published": "2026-08-03"
+      },
+      "checked": "2026-11-22"
+    }
+  ]
+}
