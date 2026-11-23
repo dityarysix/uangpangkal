@@ -11,7 +11,7 @@ const { lang, title, description, altPath } = Astro.props;
 const other: Lang = lang === 'id' ? 'en' : 'id';
 const canonical = new URL(Astro.url.pathname, Astro.site);
 const alt = new URL(altPath, Astro.site);
-import { ADSENSE_CLIENT } from '../lib/config';
+import { ADSENSE_CLIENT, GA_MEASUREMENT_ID } from '../lib/config';
 ---
 <!doctype html>
 <html lang={lang}>
@@ -31,6 +31,17 @@ import { ADSENSE_CLIENT } from '../lib/config';
     <meta property="og:locale" content={lang === 'id' ? 'id_ID' : 'en_US'} />
     {ADSENSE_CLIENT && (
       <script is:inline async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`} crossorigin="anonymous"></script>
+    )}
+    {GA_MEASUREMENT_ID && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}></script>
+        <script is:inline define:vars={{ id: GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', id);
+        </script>
+      </>
     )}
     <slot name="head" />
   </head>

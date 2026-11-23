@@ -9,3 +9,5 @@ export const CORRECTION_ENDPOINT = 'https://formspree.io/f/mjywayed';
 export const CONTACT_EMAIL = 'info@uangpangkal.com';
 /** Google AdSense publisher ID (public). Ad units appear only where an AdSlot has a slot id. */
 export const ADSENSE_CLIENT = 'ca-pub-4160138577851742';
+/** Google Analytics 4 measurement ID (public). */
+export const GA_MEASUREMENT_ID = 'G-DMXW2LLD0M';
