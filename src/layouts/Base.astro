@@ -23,6 +23,7 @@ import { ADSENSE_CLIENT, GA_MEASUREMENT_ID } from '../lib/config';
     <link rel="canonical" href={canonical} />
     <link rel="alternate" hreflang={lang} href={canonical} />
     <link rel="alternate" hreflang={other} href={alt} />
+    <link rel="alternate" hreflang="x-default" href={lang === 'id' ? canonical : alt} />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
@@ -51,6 +52,7 @@ import { ADSENSE_CLIENT, GA_MEASUREMENT_ID } from '../lib/config';
         <a class="logo" href={paths.home(lang)}>uang<span>pangkal</span>.com</a>
         <nav>
           <a href={paths.correction(lang)}><span class="long">{t(lang, 'submitData')}</span><span class="short">{t(lang, 'submitDataShort')}</span></a>
+          <a href={paths.guide(lang)}>{lang === 'id' ? 'Panduan' : 'Guide'}</a>
           <a href={paths.about(lang)}>{t(lang, 'about')}</a>
           <a class="lang" href={altPath} hreflang={other} lang={other}>{other === 'en' ? 'English' : 'Bahasa Indonesia'}</a>
         </nav>
