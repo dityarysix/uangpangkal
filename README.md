@@ -16,9 +16,12 @@ npm run dev      # local dev server at http://localhost:4321
 npm run build    # static site into dist/
 ```
 
-## Ads
+## Ads and analytics
 
-Set `PUBLIC_ADSENSE_CLIENT=ca-pub-XXXXXXXX` at build time and pass a `slot` to `<AdSlot />` to show AdSense units. Until then, placeholders are shown.
+- AdSense publisher ID and the Google Analytics 4 ID are set in `src/lib/config.ts` (`ADSENSE_CLIENT`, `GA_MEASUREMENT_ID`); the scripts load from `src/layouts/Base.astro`. `public/ads.txt` must stay in place.
+- Manual ad units: pass a `slot` to `<AdSlot />`; without one it renders nothing (Auto ads still work).
+
+See `CLAUDE.md` for the full project hand-over (data rules, workflow, scheduled updates).
 
 ## URLs
 
@@ -42,7 +45,5 @@ DNS at Hostinger for `uangpangkal.com`:
 | A     | @     | 185.199.110.153         |
 | A     | @     | 185.199.111.153         |
 | CNAME | www   | dityarysix.github.io    |
-
-To show ads, set the repository variable `PUBLIC_ADSENSE_CLIENT` (Settings → Secrets and variables → Actions → Variables).
 
 `wrangler.jsonc` is kept so the site can also be deployed to Cloudflare if needed.
