@@ -5,6 +5,7 @@ import AdSlot from '../components/AdSlot.astro';
 import { AREAS, areaOfCity } from '../lib/areas';
 import { t, paths, type Lang } from '../lib/i18n';
 import { allSchools } from '../lib/schools';
+import { QUICK, PANEL } from '../lib/guide';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const schools = await allSchools();
@@ -13,13 +14,38 @@ const count = (a: string) => schools.filter((s) => areaOfCity(s.data.city).slug 
 const shown = AREAS.filter((a) => count(a.slug) > 0);
 const LEVELS = ['KB', 'TK', 'SD', 'SMP', 'SMA', 'SMK'];
 const caps = [5_000_000, 10_000_000, 25_000_000, 50_000_000, 100_000_000];
+const guideTitle = PANEL.title[lang];
+const guideLead = PANEL.lead[lang];
+const readMore = PANEL.more[lang];
+const jsonld = { '@context': 'https://schema.org', '@type': 'WebSite', name: 'uangpangkal.com', url: 'https://uangpangkal.com/', inLanguage: lang };
 const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'million'}`;
 ---
 <Base lang={lang} title={`uangpangkal.com — ${t(lang, 'siteTagline')}`} description={t(lang, 'heroLead')} altPath={paths.home(lang === 'id' ? 'en' : 'id')}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+  <div class="home">
+  <aside class="rail rail-l" aria-label={guideTitle}><div class="rail-in">
+    <a class="promo" href={paths.guide(lang)}>
+      <span class="badge-new">{lang === 'id' ? 'Terbaru' : 'New'}</span>
+      <strong>{guideTitle}</strong>
+      <span>{guideLead}</span>
+      <em>{readMore}</em>
+    </a>
+  </div></aside>
+  <aside class="rail rail-r" aria-label={PANEL.heading[lang]}><div class="rail-in">
+    <div class="facts">
+      <strong>{PANEL.heading[lang]}</strong>
+      <ul>{QUICK.map((q) => <li>{q.text[lang]}</li>)}</ul>
+      <a href={paths.guide(lang)}>{readMore}</a>
+    </div>
+  </div></aside>
   <section class="hero">
     <h1>{t(lang, 'heroTitle')}</h1>
     <p class="lead">{t(lang, 'heroLead')}</p>
   </section>
+
+  <a class="promo promo-inline" href={paths.guide(lang)}>
+    <span class="badge-new">{lang === 'id' ? 'Terbaru' : 'New'}</span> <strong>{guideTitle}</strong> — {guideLead} <em>{readMore}</em>
+  </a>
 
   <section class="areas" aria-label={t(lang, 'areas')}>
     {shown.map((a) => (
@@ -53,6 +79,7 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
     {schools.map((s) => <SchoolCard school={s} lang={lang} />)}
   </div>
   <p id="empty" class="muted" hidden>{t(lang, 'noResults')}</p>
+  </div>
 </Base>
 
 <script>
@@ -77,6 +104,26 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
 </script>
 
 <style>
+  .home { position: relative; }
+  .rail { display: none; }
+  .promo { display: flex; flex-direction: column; gap: 0.4rem; background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--yellow); border-radius: var(--radius); padding: 1rem; color: var(--ink); text-decoration: none; }
+  .promo .badge-new { align-self: flex-start; }
+  .promo strong { color: var(--navy); font-size: 1.05rem; }
+  .promo em { color: var(--teal-text); font-style: normal; font-weight: 600; }
+  .promo:hover { box-shadow: 0 4px 14px rgba(30,58,95,.1); }
+  .promo-inline { display: block; margin-top: 1rem; font-size: 0.95rem; }
+  .facts { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: var(--radius); padding: 1rem; font-size: 0.9rem; }
+  .facts strong { color: var(--navy); }
+  .facts ul { padding-left: 1.1rem; margin: 0.5rem 0; }
+  .facts li { margin-bottom: 0.5rem; }
+  /* Wide screens: use the empty space beside the main column. */
+  @media (min-width: 1680px) {
+    .promo-inline { display: none; }
+    .rail { display: block; position: absolute; top: 0; height: 100%; width: 270px; }
+    .rail-l { right: calc(100% + 1.5rem); }
+    .rail-r { left: calc(100% + 1.5rem); }
+    .rail-in { position: sticky; top: 1rem; }
+  }
   .hero { padding: 1.5rem 0 0.5rem; max-width: 720px; }
   .lead { font-size: 1.1rem; color: var(--muted); margin: 0; }
   .areas { display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.7rem; margin-top: 1.6rem; }

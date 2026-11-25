@@ -1,0 +1,118 @@
+---
+import Base from '../layouts/Base.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { paths, type Lang } from '../lib/i18n';
+import { SOURCES, QUICK, GUIDE_UPDATED } from '../lib/guide';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const id = lang === 'id';
+const src = (k: string) => SOURCES.find((s) => s.id === k)!;
+const fmtDate = (d: string) => new Date(d + 'T00:00:00Z').toLocaleDateString(id ? 'id-ID' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const title = id ? 'Sekolah Swasta Gratis 2027: Panduan Lengkap untuk Orang Tua' : 'Free Private Schools 2027: A Parent’s Guide';
+const description = id
+  ? 'Apa itu program sekolah swasta gratis 2027, anggaran Rp5 triliun, siapa yang berhak, dan program yang sudah berjalan di Banten dan DKI Jakarta. Disertai sumber dan tanggal.'
+  : 'What the 2027 free private school plan means: the Rp5 trillion budget, who qualifies, and programmes already running in Banten and DKI Jakarta. With sources and dates.';
+
+const faq = id ? [
+  ['Apakah semua sekolah swasta gratis mulai 2027?', 'Tidak. Pemerintah dan DPR menyiapkan sekitar Rp5 triliun, tetapi sekolah penerima harus melalui pendataan dan verifikasi. Daftar sasaran masih disusun Kemendikdasmen.'],
+  ['Apakah sekolah IB atau Cambridge ikut digratiskan?', 'Sekolah dengan kurikulum tambahan seperti IB dan Cambridge berpotensi tidak termasuk, karena karakteristik dan sistem pembiayaannya berbeda. Keputusan akhir menunggu daftar resmi.'],
+  ['Jenjang apa yang dicakup putusan MK?', 'Putusan MK No. 3/PUU-XXII/2024 menyangkut pendidikan dasar (SD dan SMP, termasuk yang swasta). Pelaksanaannya bertahap sesuai kemampuan fiskal.'],
+  ['Apakah ada sekolah swasta gratis yang sudah berjalan sekarang?', 'Ya, di tingkat daerah. DKI Jakarta menggratiskan 103 sekolah swasta pada tahun ajaran 2026/2027, dan Banten menjalankan program untuk SMA, SMK, dan SKh swasta (782 sekolah, 59.697 siswa).'],
+  ['Bagaimana cara tahu apakah sekolah anak saya masuk program?', 'Tanyakan langsung ke sekolah dan dinas pendidikan setempat. Di uangpangkal.com, sekolah yang gratis lewat program pemerintah ditandai "Gratis" beserta catatan bahwa itu hanya berlaku bagi siswa yang diterima lewat program tersebut.'],
+] : [
+  ['Will all private schools be free from 2027?', 'No. The government and parliament have set aside about Rp5 trillion, but recipient schools must go through data collection and verification. The ministry is still compiling the target list.'],
+  ['Are IB or Cambridge schools included?', 'Schools with extra curricula such as IB and Cambridge may be excluded because of how they are characterised and financed. The final decision awaits the official list.'],
+  ['Which levels does the Constitutional Court ruling cover?', 'Ruling No. 3/PUU-XXII/2024 concerns basic education (SD and SMP, including private ones). Implementation is gradual, depending on fiscal capacity.'],
+  ['Are there free private schools running today?', 'Yes, at regional level. DKI Jakarta funds 103 free private schools for 2026/2027, and Banten runs a programme for private SMA, SMK and SKh (782 schools, 59,697 students).'],
+  ['How do I know if my child’s school is in the programme?', 'Ask the school and your local education office. On uangpangkal.com, schools free through a government programme are shown as "Free" with a note that this applies only to students admitted through that programme.'],
+];
+
+const jsonld = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article',
+    headline: title, description, inLanguage: lang,
+    datePublished: GUIDE_UPDATED, dateModified: GUIDE_UPDATED,
+    mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).href,
+    author: { '@type': 'Organization', name: 'uangpangkal.com', url: 'https://uangpangkal.com/' },
+    publisher: { '@type': 'Organization', name: 'uangpangkal.com', url: 'https://uangpangkal.com/' },
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  },
+];
+const Cite = (k: string) => `${src(k).org}, ${fmtDate(src(k).date)}`;
+---
+<Base lang={lang} title={`${title} | uangpangkal.com`} description={description} altPath={paths.guide(id ? 'en' : 'id')}>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonld)} />
+  <p class="crumbs"><a href={paths.home(lang)}>{id ? 'Beranda' : 'Home'}</a> › {id ? 'Panduan' : 'Guide'}</p>
+  <article class="prose">
+    <h1>{title}</h1>
+    <p class="muted">{id ? 'Diperbarui' : 'Updated'} {fmtDate(GUIDE_UPDATED)} · {id ? 'Setiap pernyataan mencantumkan sumber dan tanggalnya.' : 'Every statement lists its source and date.'}</p>
+
+    <div class="summary">
+      <strong>{id ? 'Ringkasan' : 'In short'}</strong>
+      <ul>{QUICK.map((q) => <li>{q.text[lang]} <span class="muted">({Cite(q.src)})</span></li>)}</ul>
+    </div>
+
+    <h2>{id ? 'Dasar hukum: putusan Mahkamah Konstitusi' : 'Legal basis: the Constitutional Court ruling'}</h2>
+    <p>{id
+      ? `Mahkamah Konstitusi (MK) memutuskan bahwa pemerintah pusat dan daerah wajib memastikan pendidikan dasar dapat diakses tanpa pungutan biaya, baik di sekolah negeri maupun swasta (Putusan No. 3/PUU-XXII/2024, dibacakan 27 Mei 2025). Sumber: ${Cite('detik-mk')}; ${Cite('pojok')}.`
+      : `The Constitutional Court (MK) ruled that central and regional governments must ensure basic education can be accessed without fees, in both state and private schools (Ruling No. 3/PUU-XXII/2024, read on 27 May 2025). Sources: ${Cite('detik-mk')}; ${Cite('pojok')}.`}</p>
+    <p>{id
+      ? `Kemendikdasmen menyatakan pembebasan biaya SD dan SMP swasta akan dilakukan bertahap sesuai kemampuan fiskal negara (${Cite('detik-bertahap')}).`
+      : `The ministry (Kemendikdasmen) said fees at private SD and SMP will be waived gradually, according to the state’s fiscal capacity (${Cite('detik-bertahap')}).`}</p>
+
+    <h2>{id ? 'Anggaran 2027' : 'The 2027 budget'}</h2>
+    <p>{id
+      ? `Wakil Ketua Komisi X DPR RI, Lalu Hadrian Irfani, menyebut pemerintah bersama DPR telah menganggarkan kurang lebih Rp5 triliun untuk menggratiskan sekolah swasta pada 2027 (${Cite('pojok')}).`
+      : `Deputy chair of House Commission X, Lalu Hadrian Irfani, said the government and parliament have budgeted roughly Rp5 trillion to make private schools free in 2027 (${Cite('pojok')}).`}</p>
+    <p class="warn">{id
+      ? `Catatan: pemberitaan menggambarkan angka Rp5 triliun secara berbeda. Katadata melaporkan Banggar DPR menyebutnya sebagai pilot project pendidikan gratis SD–SMA dalam program afirmasi daerah 3T, dan Menteri Keuangan menyatakan tidak ada tambahan anggaran baru di luar anggaran pendidikan sekitar Rp824 triliun (${Cite('katadata')}). Cakupan akhir belum final.`
+      : `Note: reports describe the Rp5 trillion differently. Katadata reports the House Budget Committee called it a free-education pilot for SD–SMA within the affirmative programme for frontier, outermost and disadvantaged (3T) regions, and the Finance Minister said there is no new money beyond the roughly Rp824 trillion education budget (${Cite('katadata')}). The final scope is not settled.`}</p>
+
+    <h2>{id ? 'Siapa yang berhak? Tidak otomatis' : 'Who qualifies? Not automatically'}</h2>
+    <ul>
+      <li>{id ? 'Akan ada pendataan dan verifikasi untuk menentukan sekolah yang memenuhi ketentuan; tidak semua sekolah swasta otomatis digratiskan.' : 'There will be data collection and verification to decide which schools qualify; not every private school will automatically be free.'}</li>
+      <li>{id ? 'Kemendikdasmen sedang menyusun daftar sasaran berdasarkan kriteria, fasilitas, dan skema pembiayaan.' : 'The ministry is compiling the target list based on criteria, facilities and financing scheme.'}</li>
+      <li>{id ? 'Sekolah dengan kurikulum tambahan seperti International Baccalaureate (IB) dan Cambridge berpotensi tidak masuk.' : 'Schools with additional curricula such as International Baccalaureate (IB) and Cambridge may not be included.'}</li>
+    </ul>
+    <p class="muted">{id ? 'Sumber' : 'Source'}: {Cite('pojok')}.</p>
+
+    <AdSlot />
+
+    <h2>{id ? 'Yang sudah berjalan di daerah' : 'Already running in the regions'}</h2>
+    <h3>DKI Jakarta</h3>
+    <p>{id
+      ? `Tahun ajaran 2026/2027, Pemprov DKI menambah 63 sekolah sehingga 103 sekolah swasta digratiskan, dengan anggaran Rp253.625.139.600 (${Cite('dki')}). Lihat sekolah di `
+      : `For 2026/2027, the DKI government added 63 schools, bringing the total to 103 free private schools, with a budget of Rp253,625,139,600 (${Cite('dki')}). See schools in `}<a href={paths.area(lang, 'jakarta')}>{id ? 'wilayah Jakarta' : 'the Jakarta area'}</a>.</p>
+    <h3>Banten</h3>
+    <p>{id
+      ? `Tahun ajaran 2026/2027, program sekolah gratis Banten mencakup 782 SMA, SMK, dan SKh swasta dengan 59.697 siswa penerima, serta 10 ribu siswa madrasah aliyah. Cakupan sekolah dan siswa lebih rendah dibanding tahun ajaran sebelumnya (${Cite('banten')}). Lihat `
+      : `For 2026/2027, Banten’s free-school programme covers 782 private SMA, SMK and SKh with 59,697 beneficiary students, plus 10,000 madrasah aliyah students. Coverage is lower than the previous school year (${Cite('banten')}). See `}<a href={paths.area(lang, 'serang-raya')}>{id ? 'Serang Raya' : 'Serang Raya'}</a>.</p>
+
+    <h2>{id ? 'Apa artinya bagi orang tua?' : 'What it means for parents'}</h2>
+    <ul>
+      <li>{id ? 'Jangan berasumsi sekolah pilihan Anda gratis. Tanyakan ke sekolah dan dinas pendidikan setempat apakah masuk program dan syaratnya.' : 'Do not assume your chosen school will be free. Ask the school and the local education office whether it is in the programme and on what terms.'}</li>
+      <li>{id ? 'Tetap siapkan perbandingan biaya reguler: gratis lewat program biasanya hanya berlaku untuk siswa yang diterima lewat jalur program tersebut.' : 'Keep a regular-fee comparison ready: programme-free places usually apply only to students admitted through that route.'}</li>
+      <li>{id ? <>Bandingkan uang pangkal dan SPP sekolah swasta di <a href={paths.home(lang)}>halaman utama</a>.</> : <>Compare private school entry fees and tuition on the <a href={paths.home(lang)}>home page</a>.</>}</li>
+    </ul>
+
+    <h2>FAQ</h2>
+    {faq.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+
+    <h2>{id ? 'Sumber' : 'Sources'}</h2>
+    <ol class="sources">
+      {SOURCES.map((s) => <li><a href={s.url} rel="noopener nofollow">{s.title}</a> — {s.org}, {fmtDate(s.date)}</li>)}
+    </ol>
+    <p class="muted">{id ? 'Informasi ini ringkasan dari media dan bukan nasihat hukum. Kebijakan dapat berubah; periksa pengumuman resmi Kemendikdasmen dan dinas pendidikan daerah.' : 'This is a summary of media reports, not legal advice. Policy may change; check official announcements from Kemendikdasmen and your regional education office.'}</p>
+  </article>
+</Base>
+<style>
+  .prose { max-width: 720px; }
+  .summary { background: #fff; border: 1px solid var(--line); border-left: 4px solid var(--teal); border-radius: var(--radius); padding: 0.8rem 1rem; margin: 1rem 0; }
+  .summary ul { margin: 0.4rem 0 0; padding-left: 1.2rem; }
+  details { background: #fff; border: 1px solid var(--line); border-radius: 8px; padding: 0.6rem 0.9rem; margin: 0.5rem 0; }
+  summary { cursor: pointer; font-weight: 600; color: var(--navy); }
+  .sources li { margin: 0.3rem 0; font-size: 0.92rem; }
+</style>
