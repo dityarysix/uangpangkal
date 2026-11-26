@@ -1,0 +1,35 @@
+---
+import { BEASISWA, BEASISWA_UI } from '../lib/beasiswa';
+import type { Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+---
+<div class="beasiswa">
+  <strong class="bh">{BEASISWA_UI.heading[lang]}</strong>
+  <ul>
+    {BEASISWA.map((b) => (
+      <li>
+        <a class="bn" href={b.url} target="_blank" rel="noopener">{b.name}</a>
+        <span class="tag">{b.level[lang]}</span>
+        <p>{b.summary[lang]}</p>
+        <p class="st">{b.status[lang]}</p>
+        <a class="bo" href={b.url} target="_blank" rel="noopener">{BEASISWA_UI.official[lang]}</a>
+      </li>
+    ))}
+  </ul>
+  <p class="bnote">{BEASISWA_UI.note[lang]}</p>
+</div>
+<style>
+  .beasiswa { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--yellow); border-radius: var(--radius); padding: 1rem; font-size: 0.9rem; }
+  .bh { color: var(--navy); }
+  ul { list-style: none; margin: 0.6rem 0 0; padding: 0; }
+  li { padding: 0.7rem 0; border-top: 1px solid var(--line); }
+  li:first-child { border-top: 0; padding-top: 0; }
+  .bn { font-weight: 700; color: var(--navy); text-decoration: none; }
+  .bn:hover { text-decoration: underline; }
+  .tag { margin: 0.3rem 0 0 0.4rem; }
+  p { margin: 0.4rem 0 0; }
+  .st { color: var(--muted); font-size: 0.82rem; }
+  .bo { display: inline-block; margin-top: 0.3rem; font-weight: 600; }
+  .bnote { color: var(--muted); font-size: 0.78rem; border-top: 1px solid var(--line); padding-top: 0.6rem; }
+</style>
