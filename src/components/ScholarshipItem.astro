@@ -1,0 +1,26 @@
+---
+import { BEASISWA_UI, type Scholarship } from '../lib/beasiswa';
+import type { Lang } from '../lib/i18n';
+interface Props { b: Scholarship; lang: Lang }
+const { b, lang } = Astro.props;
+---
+<li>
+  <a class="bn" href={b.url} target="_blank" rel="noopener">{b.name}</a>
+  {b.state === 'open' && <span class="badge-new">{BEASISWA_UI.open[lang]}</span>}
+  {b.state === 'closed' && <span class="closed">{BEASISWA_UI.closed[lang]}</span>}
+  <br /><span class="tag lv">{b.level[lang]}</span>
+  <p>{b.summary[lang]}</p>
+  <p class="st">{b.status[lang]}</p>
+  <a class="bo" href={b.url} target="_blank" rel="noopener">{BEASISWA_UI.official[lang]}</a>
+</li>
+<style>
+  li { padding: 0.7rem 0; border-top: 1px solid var(--line); list-style: none; }
+  .bn { font-weight: 700; color: var(--navy); text-decoration: none; }
+  .bn:hover { text-decoration: underline; }
+  .lv { margin: 0.3rem 0 0; }
+  .closed { display: inline-block; font-size: 0.72rem; padding: 0.1rem 0.5rem; border-radius: 99px; background: #ececec; color: var(--muted); margin-left: 0.3rem; }
+  .badge-new { margin-left: 0.3rem; }
+  p { margin: 0.4rem 0 0; }
+  .st { color: var(--muted); font-size: 0.82rem; }
+  .bo { display: inline-block; margin-top: 0.3rem; font-weight: 600; }
+</style>

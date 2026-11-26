@@ -81,6 +81,7 @@ export const paths = {
   area: (l: Lang, slug: string) => (l === 'id' ? `/wilayah/${slug}/` : `/en/area/${slug}/`),
   school: (l: Lang, slug: string) => (l === 'id' ? `/sekolah/${slug}/` : `/en/school/${slug}/`),
   about: (l: Lang) => (l === 'id' ? '/tentang/' : '/en/about/'),
+  beasiswa: (l: Lang) => (l === 'id' ? '/beasiswa/' : '/en/scholarships/'),
   guide: (l: Lang) => (l === 'id' ? '/panduan/sekolah-swasta-gratis-2027/' : '/en/guide/free-private-schools-2027/'),
   privacy: (l: Lang) => (l === 'id' ? '/kebijakan-privasi/' : '/en/privacy/'),
   correction: (l: Lang, school?: string) =>

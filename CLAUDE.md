@@ -233,6 +233,21 @@ add 20–40 new schools (thin areas first), follow every rule in this file, writ
 `scripts/seed_monthly_YYYY_MM.py`, build, commit, push, and finish with a short summary (refreshed schools,
 new schools per area, new total, problems). Push notifications go to the owner's phone.
 
+### Scholarship info (added Nov 2026)
+- Home-page panel "Info Beasiswa" (left side rail on wide screens, collapsible block on small screens) + full pages
+  `/beasiswa/` and `/en/scholarships/`. Data: `src/lib/beasiswa.ts` (read its header comment first). Panel and
+  guide texts for the free-private-school plan: `src/lib/guide.ts` (guide pages `/panduan/sekolah-swasta-gratis-2027/`,
+  `/en/guide/free-private-schools-2027/`).
+- Rules (owner's): information ONLY from the scholarship provider's own official site/page (or an official
+  press release on the provider's domain); never copy figures from media/aggregators (indbeasiswa, dealls etc.);
+  focus SMA/SMK and university; every item has a link to the official site; summaries are drafted by a Haiku
+  subagent from the extracted official text and verified by you; nothing that is not on the page (no amounts,
+  dates, quotas). Sites that block automated access (Bank Indonesia, SatuBeasiswa, Djarum for bots) are not
+  bypassed; Djarum is included from a screenshot of its official page supplied by the owner.
+- A third scheduled task `trig_01H4Ph86VMpcUNMP8noRZQ3L` ("Update info beasiswa (akhir bulan)") fires on days
+  28-31 at 10:41 WIB; it only works on the LAST day of the month (first real run 30 Nov 2026): re-checks every
+  item, adds up to 5 new official providers, builds, opens a PR and merges it. Do not duplicate it.
+
 ## 11. Backlog / known gaps (Nov 2026)
 
 - Thin areas: Batam 6, Padang 9, Palembang 13, Bali 13, Makassar 13, Semarang 15, Medan 18, Samarinda 18.
