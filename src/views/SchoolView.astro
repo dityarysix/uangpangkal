@@ -3,12 +3,19 @@ import Base from '../layouts/Base.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { areaOfCity } from '../lib/areas';
 import { t, paths, rupiah, CURRENT_YEAR, type Lang } from '../lib/i18n';
-import { latestFees, type School } from '../lib/schools';
+import { allSchools, latestFees, latestByLevel, compareInArea, relatedSchools, type School } from '../lib/schools';
 interface Props { lang: Lang; school: School }
 const { lang, school } = Astro.props;
 const d = school.data;
 const area = areaOfCity(d.city);
 const fees = latestFees(school);
+const id = lang === 'id';
+const all = await allSchools();
+const other: Lang = id ? 'en' : 'id';
+const comparisons = [...latestByLevel(school).keys()]
+  .map((level) => ({ level, ...compareInArea(all, school, level) }))
+  .filter((c) => c.entry || c.tuition);
+const related = relatedSchools(all, school);
 const period = (p: 'month' | 'quarter' | 'semester' | 'year') => t(lang, `perPeriod_${p}`);
 const prevYearStart = Number(CURRENT_YEAR.slice(0, 4)) - 1;
 const isOld = (y: string) => Number(y.slice(0, 4)) < prevYearStart;
@@ -29,6 +36,7 @@ const jsonld = {
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonld)} />
   <p class="crumbs"><a href={paths.home(lang)}>{t(lang, 'home')}</a> › <a href={paths.area(lang, area.slug)}>{area.name[lang]}</a> › {d.name}</p>
   <h1>{d.name}</h1>
+  <p class="altlang"><a href={paths.school(other, school.id)} hreflang={other} lang={other}>{id ? 'Read this page in English' : 'Baca halaman ini dalam Bahasa Indonesia'}</a></p>
   <p class="muted">{d.address ?? `${d.district ? d.district + ', ' : ''}${d.city}`}</p>
   <p>
     {d.levels.map((l) => <span class="tag">{l}</span>)}
@@ -65,6 +73,26 @@ const jsonld = {
     </article>
   ))}
 
+  {comparisons.length > 0 && (
+    <section class="compare">
+      <h2>{id ? `Perbandingan dengan sekolah lain di ${area.name.id}` : `How it compares with other schools in ${area.name.en}`}</h2>
+      {comparisons.map((c) => (
+        <>
+          <h3>{c.level}</h3>
+          <ul>
+            {c.entry && <li>{id
+              ? `Uang pangkal ${rupiah(c.entry.mine)} (tahun ajaran ${c.entry.year}). Dari ${c.entry.n} sekolah ${c.level} di ${area.name.id} yang punya data uang pangkal, kisarannya ${rupiah(c.entry.min)} – ${rupiah(c.entry.max)}; ${c.entry.rank === 1 ? 'sekolah ini yang termurah.' : `sekolah ini urutan ke-${c.entry.rank} dari yang termurah.`}`
+              : `Entry fee ${rupiah(c.entry.mine)} (academic year ${c.entry.year}). Among ${c.entry.n} ${c.level} schools in ${area.name.en} with entry-fee data, the range is ${rupiah(c.entry.min)} – ${rupiah(c.entry.max)}; ${c.entry.rank === 1 ? 'this school is the lowest.' : `this school is number ${c.entry.rank} from the lowest.`}`}</li>}
+            {c.tuition && <li>{id
+              ? `SPP setara ${rupiah(c.tuition.mine)} per bulan (tahun ajaran ${c.tuition.year}). Dari ${c.tuition.n} sekolah ${c.level} di ${area.name.id} yang punya data SPP, kisarannya ${rupiah(Math.round(c.tuition.min))} – ${rupiah(Math.round(c.tuition.max))} per bulan; ${c.tuition.rank === 1 ? 'sekolah ini yang termurah.' : `sekolah ini urutan ke-${c.tuition.rank} dari yang termurah.`}`
+              : `Tuition equals ${rupiah(c.tuition.mine)} per month (academic year ${c.tuition.year}). Among ${c.tuition.n} ${c.level} schools in ${area.name.en} with tuition data, the range is ${rupiah(Math.round(c.tuition.min))} – ${rupiah(Math.round(c.tuition.max))} per month; ${c.tuition.rank === 1 ? 'this school is the lowest.' : `this school is number ${c.tuition.rank} from the lowest.`}`}</li>}
+          </ul>
+        </>
+      ))}
+      <p class="muted small">{id ? 'Memakai data terbaru tiap sekolah; tahun ajaran dan sumbernya dapat berbeda-beda. Ini perbandingan biaya, bukan penilaian kualitas.' : 'Uses each school’s newest data; academic years and sources may differ. This compares fees only and is not a quality rating.'}</p>
+    </section>
+  )}
+
   <AdSlot />
 
   <h2>{t(lang, 'admissionTitle')}</h2>
@@ -84,6 +112,16 @@ const jsonld = {
     ))
   )}
 
+  {related.length > 0 && (
+    <section class="related">
+      <h2>{id ? `Sekolah lain di ${area.name.id}` : `Other schools in ${area.name.en}`}</h2>
+      <ul>
+        {related.map((r) => <li><a href={paths.school(lang, r.id)}>{r.data.name}</a> <span class="muted small">{r.data.city} · {r.data.levels.join(', ')}</span></li>)}
+      </ul>
+      <p><a href={paths.area(lang, area.slug)}>{id ? `Lihat semua sekolah di ${area.name.id} →` : `See all schools in ${area.name.en} →`}</a></p>
+    </section>
+  )}
+
   <aside class="cta">
     <p>{t(lang, 'correctionCta')}</p>
     <a class="btn" href={paths.correction(lang, school.id)}>{t(lang, 'reportCorrection')}</a>
@@ -93,6 +131,11 @@ const jsonld = {
 </Base>
 <style>
   .contact { display: flex; gap: 1rem; }
+  .altlang { font-size: 0.85rem; margin: 0 0 0.4rem; }
+  .small { font-size: 0.85rem; }
+  .compare ul, .related ul { padding-left: 1.2rem; }
+  .compare h3 { font-size: 1rem; margin: 0.9rem 0 0.3rem; }
+  .related li { margin: 0.3rem 0; }
   .fee { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: var(--radius); padding: 1rem 1.1rem; margin-bottom: 1rem; }
   .fee header { margin-bottom: 0.6rem; }
   table { width: 100%; border-collapse: collapse; }
