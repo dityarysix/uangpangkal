@@ -2,10 +2,12 @@
 import Base from '../layouts/Base.astro';
 import SchoolCard from '../components/SchoolCard.astro';
 import AdSlot from '../components/AdSlot.astro';
+import ScholarshipPanel from '../components/ScholarshipPanel.astro';
 import { AREAS, areaOfCity } from '../lib/areas';
 import { t, paths, type Lang } from '../lib/i18n';
 import { allSchools } from '../lib/schools';
 import { QUICK, PANEL } from '../lib/guide';
+import { BEASISWA_UI } from '../lib/beasiswa';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const schools = await allSchools();
@@ -30,6 +32,7 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
       <span>{guideLead}</span>
       <em>{readMore}</em>
     </a>
+    <ScholarshipPanel lang={lang} />
   </div></aside>
   <aside class="rail rail-r" aria-label={PANEL.heading[lang]}><div class="rail-in">
     <div class="facts">
@@ -46,6 +49,11 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
   <a class="promo promo-inline" href={paths.guide(lang)}>
     <span class="badge-new">{lang === 'id' ? 'Terbaru' : 'New'}</span> <strong>{guideTitle}</strong> — {guideLead} <em>{readMore}</em>
   </a>
+
+  <details class="beasiswa-inline">
+    <summary>{BEASISWA_UI.heading[lang]}</summary>
+    <ScholarshipPanel lang={lang} />
+  </details>
 
   <section class="areas" aria-label={t(lang, 'areas')}>
     {shown.map((a) => (
@@ -112,17 +120,20 @@ const fmt = (n: number) => `≤ Rp${n / 1_000_000} ${lang === 'id' ? 'juta' : 'm
   .promo em { color: var(--teal-text); font-style: normal; font-weight: 600; }
   .promo:hover { box-shadow: 0 4px 14px rgba(30,58,95,.1); }
   .promo-inline { display: block; margin-top: 1rem; font-size: 0.95rem; }
+  .beasiswa-inline { margin-top: 0.6rem; }
+  .beasiswa-inline > summary { cursor: pointer; font-weight: 600; color: var(--navy); padding: 0.4rem 0; }
+  .rail-in > :global(* + *) { margin-top: 0.9rem; }
   .facts { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--teal); border-radius: var(--radius); padding: 1rem; font-size: 0.9rem; }
   .facts strong { color: var(--navy); }
   .facts ul { padding-left: 1.1rem; margin: 0.5rem 0; }
   .facts li { margin-bottom: 0.5rem; }
   /* Wide screens: use the empty space beside the main column. */
   @media (min-width: 1680px) {
-    .promo-inline { display: none; }
+    .promo-inline, .beasiswa-inline { display: none; }
     .rail { display: block; position: absolute; top: 0; height: 100%; width: 270px; }
     .rail-l { right: calc(100% + 1.5rem); }
     .rail-r { left: calc(100% + 1.5rem); }
-    .rail-in { position: sticky; top: 1rem; }
+    .rail-r .rail-in { position: sticky; top: 1rem; }
   }
   .hero { padding: 1.5rem 0 0.5rem; max-width: 720px; }
   .lead { font-size: 1.1rem; color: var(--muted); margin: 0; }

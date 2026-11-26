@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import ScholarshipItem from '../components/ScholarshipItem.astro';
+import { BEASISWA, BEASISWA_UI } from '../lib/beasiswa';
+import { paths, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const groups = [
+  { key: 'siswa', title: BEASISWA_UI.groupSiswa[lang] },
+  { key: 'mahasiswa', title: BEASISWA_UI.groupMahasiswa[lang] },
+] as const;
+---
+<Base lang={lang} title={`${BEASISWA_UI.pageTitle[lang]} | uangpangkal.com`} description={BEASISWA_UI.pageDesc[lang]} altPath={paths.beasiswa(lang === 'id' ? 'en' : 'id')}>
+  <p class="crumbs"><a href={paths.home(lang)}>{BEASISWA_UI.home[lang]}</a> › {BEASISWA_UI.heading[lang]}</p>
+  <article class="prose">
+    <h1>{BEASISWA_UI.pageTitle[lang]}</h1>
+    <p class="muted">{BEASISWA_UI.intro[lang]}</p>
+    {groups.map((g) => (
+      <section>
+        <h2>{g.title}</h2>
+        <ul class="list">{BEASISWA.filter((b) => b.group === g.key).map((b) => <ScholarshipItem b={b} lang={lang} />)}</ul>
+      </section>
+    ))}
+    <p class="muted">{BEASISWA_UI.note[lang]}</p>
+  </article>
+</Base>
+<style>
+  .prose { max-width: 720px; }
+  .list { padding: 0; margin: 0; }
+</style>

@@ -1,0 +1,21 @@
+---
+import { BEASISWA, BEASISWA_UI } from '../lib/beasiswa';
+import ScholarshipItem from './ScholarshipItem.astro';
+import { paths, type Lang } from '../lib/i18n';
+interface Props { lang: Lang; limit?: number }
+const { lang, limit = 4 } = Astro.props;
+---
+<div class="beasiswa">
+  <strong class="bh">{BEASISWA_UI.heading[lang]}</strong>
+  <ul>{BEASISWA.slice(0, limit).map((b) => <ScholarshipItem b={b} lang={lang} />)}</ul>
+  <a class="all" href={paths.beasiswa(lang)}>{BEASISWA_UI.seeAll[lang]} ({BEASISWA.length})</a>
+  <p class="bnote">{BEASISWA_UI.note[lang]}</p>
+</div>
+<style>
+  .beasiswa { background: #fff; border: 1px solid var(--line); border-top: 4px solid var(--yellow); border-radius: var(--radius); padding: 1rem; font-size: 0.9rem; }
+  .bh { color: var(--navy); }
+  ul { margin: 0.6rem 0 0; padding: 0; }
+  ul :global(li:first-child) { border-top: 0; padding-top: 0; }
+  .all { display: block; font-weight: 700; margin-top: 0.4rem; }
+  .bnote { color: var(--muted); font-size: 0.78rem; border-top: 1px solid var(--line); padding-top: 0.6rem; margin: 0.6rem 0 0; }
+</style>
